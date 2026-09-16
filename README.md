@@ -64,13 +64,15 @@ An entry looks like this:
   sha256: <64 hex characters>
   documents: 120
   parts: 480
-  built_with: ai-2 0.16.0
+  revision: 1          # a whole number; raise it for every published rebuild
+  built_with: ai-2 0.17.0
   contact: your GitHub handle
 ```
 
 What is checked before it is merged:
 
 - the file downloads, matches `size_bytes` and `sha256`, and installs on a clean AI-2
+- a rebuild of a pack already in the catalog raises its `revision`, because AI-2 orders packs by that number and refuses an older one (a `version` string is for people to read, not for code to compare)
 - the manifest inside the pack agrees with the catalog entry
 - the licence allows redistribution, and the attribution the licence requires is in the manifest
 - the pack is what it says it is (someone reads a few of its parts)
@@ -83,10 +85,16 @@ Only content that may be redistributed. Public domain and CC0 are simplest; CC B
 
 ## Official packs
 
-Built from the recipes here, so anyone can rebuild them and compare. Each recipe holds the query or the source list, the renderer, the validation rules and the manifest template.
+Three, published as the release [packs-2026-09-16](https://github.com/ProWoos-Devs/ai2-knowledge/releases/tag/packs-2026-09-16) and listed in `catalog/official.yml`, which the signed `ai-2` package carries a copy of, so `ai-2 knowledge install ai2-help` fetches one by name. An AI-2 installed from the ISO of 2026-09-16 or later already has all three, and the embedding model they need, on the machine.
 
-- `recipes/everyday` — countries and their capitals, currencies, official languages, country codes and calling codes, from [Wikidata](https://www.wikidata.org/wiki/Wikidata:Licensing) (CC0, no attribution required).
+| Pack | Recipe | What is in it | Size | Licence |
+|---|---|---|---|---|
+| `ai2-help` | `recipes/ai2-help` | AI-2's own documentation, wiki pages plus topics written for what the wiki says only in a command table | 337 KB | MIT |
+| `linux-essentials` | `recipes/linux-essentials` | Twenty everyday tasks on a Linux machine, written for AI-2 (runit, not systemd) | 125 KB | MIT |
+| `everyday` | `recipes/everyday` | 196 countries with their capitals, currencies, official languages, country codes and calling codes, from [Wikidata](https://www.wikidata.org/wiki/Wikidata:Licensing) (CC0, no attribution required) | 579 KB | CC0 |
 
-Wikidata is collaboratively edited, so a rebuild is never published without reading the diff. The renderer flags what a human should check: 28 of 196 country entries were flagged on the first run, among them several countries with more than one currency in circulation and one whose official languages in the data are those of its territories.
+Each recipe holds what built it (a query or a topic set), the renderer where there is one, the rules and the manifest, so anyone can rebuild a pack and compare it with what was published. Measured with question sets written by someone who had not read the packs, 20 questions each, right answer first: everyday 20/20, linux-essentials 19/20, ai2-help 18/20.
+
+Wikidata is collaboratively edited, so a rebuild of `everyday` is never published without reading the diff. Its renderer writes everything a person should check to `flags.txt`: 22 entries of 196 on the 2026-09-16 snapshot, all of them real (seven countries with several currencies in circulation, six with more than one capital, two labels Wikidata has no English word for, two part-qualified overrides, two entities that are not countries for this purpose, the United States with no federal official language, and the Kingdom of the Netherlands with no currency of its own in the data). The statement rules behind those numbers are in `recipes/everyday/README.md` and were settled in #1.
 
 Facts that change with the world (populations, prices, who holds an office, security advice) do not go in an official pack. They are wrong the moment they are stale, and a pack shipped on an ISO can sit on a machine for years.
