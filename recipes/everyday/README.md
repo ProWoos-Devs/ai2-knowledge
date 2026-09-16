@@ -42,6 +42,13 @@ Sanity rules that should hold on any rebuild:
 
 A change such as a country's capital moving is a reason to stop and look, not to publish.
 
+## Two open choices
+
+Both are visible in `flags.txt` on every rebuild, so they get looked at rather than forgotten.
+
+1. **Several capitals.** Where a country has no single capital and more than one city claims to be one, the entry names them all ("South Africa has more than one capital: Bloemfontein, Cape Town, Pretoria"). The alternative, decided in ai2-knowledge#1 and not taken, is to omit the sentence. Six countries on the 2026-09-16 snapshot: Bolivia, Eswatini, Palestine, South Africa, Sri Lanka and Yemen.
+2. **Kingdom of the Netherlands.** It is the sovereign state in Wikidata and carries no country-wide currency, so its entry says nothing about money; the euro sits on the constituent country, which is not typed as a sovereign state and so is outside the query. Leave it, rename the entry, or pull that one fact from the constituent.
+
 ## Measured
 
 196 entries, 9,733 words, a 580 KB pack. An outside question set of 20 (written by someone who had not read the entries) was answered 20 times out of 20 with the right entry first, 17 direct questions and 3 reverse ones. An earlier in-house set of 10 reverse questions scored 8 of 10 by meaning alone and 9 of 10 by keyword search, failing different ones, which is why a facts pack wants both.
