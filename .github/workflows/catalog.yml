@@ -14,6 +14,20 @@ jobs:
       - run: pip install pyyaml
       - name: Check the catalog entries
         run: python3 tools/validate-catalog.py
-      - name: Download the packs and check their hashes
+
+      # A pull request goes further: every pack it lists is downloaded, then
+      # installed by AI-2 itself and compared with what the entry claims. The
+      # hash alone only proves the bytes are the ones the entry described, not
+      # that the description is true, and a person deciding whether to install
+      # a pack reads the description.
+      #
+      # AI-2 is pinned to a tag. This is the code that will refuse or accept
+      # the same pack on a real machine, so CI must run the same version, and
+      # a moving target here would mean a pack that passed on Monday failing
+      # on Tuesday for reasons no contributor can see. Raise it deliberately.
+      - name: Install AI-2 itself
         if: github.event_name == 'pull_request'
-        run: python3 tools/validate-catalog.py --fetch
+        run: pip install "ai2 @ git+https://github.com/ProWoos-Devs/ai-2@v0.18.0"
+      - name: Download every pack and install it
+        if: github.event_name == 'pull_request'
+        run: python3 tools/validate-catalog.py --install

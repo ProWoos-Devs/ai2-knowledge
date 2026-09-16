@@ -69,15 +69,29 @@ An entry looks like this:
   contact: your GitHub handle
 ```
 
-What is checked before it is merged:
+Checked by CI on the pull request, with `tools/validate-catalog.py --install`:
 
-- the file downloads, matches `size_bytes` and `sha256`, and installs on a clean AI-2
+- the entry is complete, the licence is one this catalog carries, and the `id` is not already taken by any other pack in either catalog (ids are global, so a community pack can never be installed in place of an official one)
+- the file downloads over HTTPS and matches `size_bytes` and `sha256`, the download stopping the moment it outgrows the declared size
+- **AI-2 itself installs the downloaded file** on a clean machine, at the pinned version the workflow names, and then the manifest inside the installed pack is compared with the catalog entry, id, title, version, revision, licence, languages, embedder, document and part counts. The hash only proves the bytes are the ones the entry described; this is what proves the description true
+- the installed index really holds the number of parts the manifest claims
+- the attribution the licence requires is in the manifest, which is where AI-2 reads it from when it prints an answer
+
+Checked by a person:
+
 - a rebuild of a pack already in the catalog raises its `revision`, because AI-2 orders packs by that number and refuses an older one (a `version` string is for people to read, not for code to compare)
-- the manifest inside the pack agrees with the catalog entry
-- the licence allows redistribution, and the attribution the licence requires is in the manifest
 - the pack is what it says it is (someone reads a few of its parts)
 
 What is not checked: whether the contents are correct. A community pack carries no promise from this project beyond "the file is the one the entry describes". AI-2 says so where the pack is listed.
+
+### Where the trust boundary is
+
+Official and community packs are not treated the same by the tool, and the difference is deliberate.
+
+- `ai-2 knowledge install ID` resolves a name **only** against the official catalog, a copy of which travels inside the signed `ai-2` package, so the SHA-256 it checks against is covered by the repository key. A community pack is never fetched by name.
+- A community pack is installed from its file, which the person fetched themselves. AI-2 records where every installed pack came from and prints it in `ai-2 knowledge list`, so "this came from the official catalog" and "this came from a file" stay distinguishable on the machine long after the install.
+- Nothing updates itself. `ai-2 knowledge available` says when a newer revision exists; installing it is a decision a person makes.
+- Removing an entry from this catalog stops new installs. It does not reach onto anyone's machine: a pack already installed stays until its owner runs `ai-2 knowledge remove`. A distro that can delete a user's documents from a repository edit is not one we want to ship.
 
 ### Licences
 

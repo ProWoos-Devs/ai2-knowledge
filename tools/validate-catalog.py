@@ -1,13 +1,28 @@
 #!/usr/bin/env python3
-"""Check the catalog files: every entry complete, licences redistributable,
-ids unique, hashes the right shape. With --fetch it also downloads each pack
-and checks its size and SHA-256, which is what CI does on a pull request.
+"""Check the catalog files.
 
-  python3 tools/validate-catalog.py [--fetch] [catalog/community.yml ...]
+Three layers, each stricter than the last:
+
+  (none)     every entry complete, licences redistributable, ids unique across
+             both catalogs, hashes the right shape
+  --fetch    download each pack and check its size and SHA-256
+  --install  install the downloaded pack with AI-2 itself and compare the
+             manifest inside it against what the catalog entry claims
+
+The third layer is the one that matters for a contributed pack: the hash only
+proves the bytes are the ones the entry described, not that the entry
+describes them truthfully. It needs the `ai2` package importable:
+
+  pip install "git+https://github.com/ProWoos-Devs/ai-2@v0.18.0"
+
+  python3 tools/validate-catalog.py [--fetch] [--install] [catalog/*.yml]
 """
 import hashlib
+import os
 import re
+import sqlite3
 import sys
+import tempfile
 import urllib.request
 
 import yaml
@@ -24,7 +39,16 @@ SHA = re.compile(r"^[0-9a-f]{64}$")
 ATTRIBUTION_NEEDED = ("CC-BY", "GFDL", "PSF", "OGL", "MIT", "Apache")
 
 
-def check(path: str, fetch: bool) -> list[str]:
+# What the catalog entry and the pack's own manifest must agree on. Everything
+# here is what a person reads before deciding to install, so a catalog that
+# says one thing while the artifact says another is the failure this catches.
+# `attribution` is deliberately not here: the catalog may word it more briefly
+# than the pack does, and what matters (that the pack carries one at all) is
+# checked below.
+COMPARED = ("id", "title", "version", "license", "languages", "revision")
+
+
+def check(path: str, fetch: bool, install: bool = False, seen_ids: set | None = None) -> list[str]:
     problems = []
     data = yaml.safe_load(open(path, encoding="utf-8")) or {}
     if data.get("version") != 1:
@@ -44,6 +68,11 @@ def check(path: str, fetch: bool) -> list[str]:
         if p.get("id") in seen:
             problems.append(f"{where}: id appears twice")
         seen.add(p.get("id"))
+        if seen_ids is not None:
+            if p.get("id") in seen_ids:
+                problems.append(f"{where}: id is already used by another catalog; ids are global, so a "
+                                "community pack can never be mistaken for an official one")
+            seen_ids.add(p.get("id"))
         if p.get("license") not in LICENCES:
             problems.append(f"{where}: licence {p.get('license')!r} is not one this catalog carries "
                             f"({', '.join(sorted(LICENCES))})")
@@ -56,35 +85,107 @@ def check(path: str, fetch: bool) -> list[str]:
         if not isinstance(p.get("languages"), list):
             problems.append(f"{where}: languages is not a list")
         if fetch and not problems:
-            problems += fetch_check(where, p)
+            downloaded, trouble = fetch_check(where, p)
+            problems += trouble
+            if install and downloaded and not trouble:
+                problems += install_check(where, p, downloaded)
+            if downloaded:
+                os.remove(downloaded)
     return problems
 
 
-def fetch_check(where: str, p: dict) -> list[str]:
+def fetch_check(where: str, p: dict) -> tuple[str | None, list[str]]:
+    """Download the pack; returns the file (for the install check) and what is
+    wrong with it. The read stops once the response passes the size the entry
+    declares, so a wrong URL cannot pull a hundred gigabytes into CI."""
     print(f"  downloading {p['url']}", flush=True)
     h = hashlib.sha256()
     size = 0
+    limit = int(p["size_bytes"])
+    fd, path = tempfile.mkstemp(suffix=".ai2pack")
     try:
-        with urllib.request.urlopen(p["url"], timeout=300) as r:
+        with os.fdopen(fd, "wb") as out, urllib.request.urlopen(p["url"], timeout=300) as r:
             for block in iter(lambda: r.read(1 << 20), b""):
                 h.update(block)
                 size += len(block)
+                out.write(block)
+                if size > limit:
+                    return None, [f"{where}: the file is larger than the entry's {limit} bytes; stopped"]
     except OSError as exc:
-        return [f"{where}: cannot download ({exc})"]
-    out = []
-    if size != p["size_bytes"]:
-        out.append(f"{where}: {size} bytes, the entry says {p['size_bytes']}")
+        os.path.exists(path) and os.remove(path)
+        return None, [f"{where}: cannot download ({exc})"]
+    problems = []
+    if size != limit:
+        problems.append(f"{where}: {size} bytes, the entry says {limit}")
     if h.hexdigest() != p["sha256"]:
-        out.append(f"{where}: sha256 is {h.hexdigest()}, the entry says {p['sha256']}")
-    return out
+        problems.append(f"{where}: sha256 is {h.hexdigest()}, the entry says {p['sha256']}")
+    if problems:
+        os.remove(path)
+        return None, problems
+    return path, []
+
+
+def install_check(where: str, p: dict, path: str) -> list[str]:
+    """Install the downloaded pack with AI-2 itself and compare the manifest
+    inside it with the catalog entry. This is what a hash cannot do: the hash
+    says the bytes are the ones described, not that the description is true."""
+    try:
+        from ai2 import doc, pack
+    except ImportError:
+        return [f"{where}: --install needs the ai2 package "
+                "(pip install \"git+https://github.com/ProWoos-Devs/ai-2@v0.18.0\")"]
+    before = os.environ.get("XDG_DATA_HOME")
+    with tempfile.TemporaryDirectory() as home:
+        os.environ["XDG_DATA_HOME"] = home          # install into a machine of its own
+        try:
+            collection, manifest, _ = pack.install_pack(path)
+            index_file = doc.index_path(collection)     # while XDG_DATA_HOME still points here
+        except pack.PackError as exc:
+            return [f"{where}: AI-2 refuses this pack ({exc})"]
+        finally:
+            if before is None:
+                os.environ.pop("XDG_DATA_HOME", None)
+            else:
+                os.environ["XDG_DATA_HOME"] = before
+        problems = []
+        for field in COMPARED:
+            fallback = pack.DEFAULT_REVISION if field == "revision" else None
+            claimed, actual = p.get(field, fallback), manifest.get(field, fallback)
+            if claimed is not None and actual != claimed:
+                problems.append(f"{where}: the catalog says {field}={claimed!r}, the pack says {actual!r}")
+        # The manifest names the embedder as an id with the SHA-256 of the model
+        # file; the catalog entry carries only the id, which is what a person
+        # needs to know (a pack is only searchable by the model that built it).
+        built_with = (manifest.get("embedder") or {}).get("id")
+        if p.get("embedder") != built_with:
+            problems.append(f"{where}: the catalog says embedder={p.get('embedder')!r}, "
+                            f"the pack was built with {built_with!r}")
+        index = manifest.get("index") or {}
+        for field in ("documents", "parts"):
+            if p.get(field) is not None and index.get(field) != p[field]:
+                problems.append(f"{where}: the catalog says {field}={p[field]}, the pack says {index.get(field)}")
+        conn = sqlite3.connect(index_file)
+        rows = conn.execute("SELECT COUNT(*) FROM chunks").fetchone()[0]
+        conn.close()
+        if index.get("parts") is not None and rows != index["parts"]:
+            problems.append(f"{where}: the installed index holds {rows} parts, "
+                            f"the manifest says {index['parts']}")
+        if not str(manifest.get("attribution", "")).strip() and \
+                any(str(manifest.get("license", "")).startswith(k) for k in ATTRIBUTION_NEEDED):
+            problems.append(f"{where}: {manifest.get('license')} needs an attribution line in the manifest, "
+                            "which is where AI-2 reads it from when it prints an answer")
+        print(f"  installed as {collection}: {rows} parts, {manifest.get('license')}", flush=True)
+        return problems
 
 
 def main() -> int:
     args = [a for a in sys.argv[1:] if not a.startswith("-")]
-    fetch = "--fetch" in sys.argv
+    fetch = "--fetch" in sys.argv or "--install" in sys.argv
+    install = "--install" in sys.argv
     problems = []
+    seen_ids: set = set()
     for path in args or ["catalog/official.yml", "catalog/community.yml"]:
-        problems += check(path, fetch)
+        problems += check(path, fetch, install, seen_ids)
     for line in problems:
         print("error:", line)
     print(f"{len(problems)} problem(s)")
