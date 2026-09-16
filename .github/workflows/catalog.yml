@@ -1,0 +1,19 @@
+name: catalog
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - name: Check the catalog entries
+        run: python3 tools/validate-catalog.py
+      - name: Download the packs and check their hashes
+        if: github.event_name == 'pull_request'
+        run: python3 tools/validate-catalog.py --fetch
