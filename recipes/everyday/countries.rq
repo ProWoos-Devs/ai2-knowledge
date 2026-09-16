@@ -1,0 +1,12 @@
+SELECT ?c ?cLabel ?capLabel ?curLabel ?curCode ?langLabel ?iso2 ?iso3 ?contLabel ?callCode WHERE {
+  ?c wdt:P31 wd:Q3624078 .
+  FILTER NOT EXISTS { ?c wdt:P576 ?dissolved }
+  OPTIONAL { ?c p:P36 ?capSt . ?capSt ps:P36 ?cap . FILTER NOT EXISTS { ?capSt pq:P582 ?e1 } FILTER NOT EXISTS { ?capSt wikibase:rank wikibase:DeprecatedRank } }
+  OPTIONAL { ?c p:P38 ?curSt . ?curSt ps:P38 ?cur . FILTER NOT EXISTS { ?curSt pq:P582 ?e2 } FILTER NOT EXISTS { ?curSt wikibase:rank wikibase:DeprecatedRank } OPTIONAL { ?cur wdt:P498 ?curCode } }
+  OPTIONAL { ?c p:P37 ?langSt . ?langSt ps:P37 ?lang . FILTER NOT EXISTS { ?langSt pq:P582 ?e3 } FILTER NOT EXISTS { ?langSt wikibase:rank wikibase:DeprecatedRank } }
+  OPTIONAL { ?c wdt:P297 ?iso2 }
+  OPTIONAL { ?c wdt:P298 ?iso3 }
+  OPTIONAL { ?c wdt:P30 ?cont }
+  OPTIONAL { ?c wdt:P474 ?callCode }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" . ?cap rdfs:label ?capLabel . ?cur rdfs:label ?curLabel . ?lang rdfs:label ?langLabel . ?cont rdfs:label ?contLabel . ?c rdfs:label ?cLabel }
+}

@@ -1,0 +1,6 @@
+# Knowledge packs built from the recipes in this repository and published by
+# the AI-2 project. AI-2 ships a copy of this list inside the signed ai-2
+# package, so the SHA-256 of every official pack is covered by the repository
+# key. Fields are the same as catalog/community.yml.
+version: 1
+packs: []

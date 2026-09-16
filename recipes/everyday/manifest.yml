@@ -1,0 +1,12 @@
+id: everyday
+title: Everyday Reference
+version: "2026-09-16"
+languages: [en]
+license: CC0-1.0
+attribution: "Facts from Wikidata (https://www.wikidata.org), which places its structured data in the public domain under CC0. No attribution is required; this line is here because the pack says where its facts come from."
+modified: "Structured facts rendered as short entries, one per country, then cut into parts and embedded for search by AI-2."
+sources:
+  - file: countries
+    title: "Wikidata sovereign states (P31 Q3624078), snapshot 2026-09-16"
+    url: https://query.wikidata.org/
+    retrieved: 2026-09-16

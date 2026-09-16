@@ -1,0 +1,21 @@
+# Knowledge packs contributed by other people. The file is hosted by whoever
+# made it; this list says where it is and what it should be. Every entry has
+# been downloaded, checked against its sha256 and installed once before being
+# merged. Nobody has checked whether the contents are correct, and AI-2 says
+# so where these are listed.
+version: 1
+packs: []
+#  - id: example-pack
+#    title: What it is, in a few words
+#    version: "2026-09-16"
+#    languages: [en]
+#    license: CC0-1.0
+#    attribution: ""
+#    embedder: nomic-embed-text-v1.5
+#    url: https://example.org/example-pack.ai2pack
+#    size_bytes: 1234567
+#    sha256: 0000000000000000000000000000000000000000000000000000000000000000
+#    documents: 120
+#    parts: 480
+#    built_with: ai-2 0.16.0
+#    contact: github-handle
