@@ -1,0 +1,11 @@
+Making a script executable
+
+A file you can read is not a file you can run. When you type ./script.sh and the shell answers "permission denied", the file is simply not marked executable yet.
+
+Mark it with chmod +x script.sh. Then ./script.sh runs it. The +x is the executable bit, and it is what separates a script from an ordinary text file as far as the system is concerned.
+
+To check, run ls -l script.sh. An executable file shows x characters in the permissions column, as in -rwxr-xr-x; a plain file shows -rw-r--r--.
+
+Scripts downloaded from the internet or copied from a USB stick formatted on Windows arrive without the executable bit, which is why a script that worked on another computer refuses to start here.
+
+You can also run a script without marking it, by handing it to its interpreter: bash script.sh or python3 script.py. That works once, while chmod +x makes it permanent.

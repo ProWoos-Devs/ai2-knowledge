@@ -1,0 +1,13 @@
+Reading the logs when something failed
+
+Logs on AI-2 are plain files under /var/log, because runit does not keep a binary journal.
+
+The general system log is /var/log/messages. Read the end of it with sudo tail -n 50 /var/log/messages, which is where an error that just happened will be.
+
+To watch it as things happen, run sudo tail -f /var/log/messages and reproduce the problem in another window. Press Ctrl+C to stop watching.
+
+To search for a word, use sudo grep -i wifi /var/log/messages.
+
+For the boot messages from the kernel, including disks and drivers, run dmesg | less, or sudo dmesg -T to get readable timestamps.
+
+A service that fails to start usually writes why in its own folder under /var/log, or into the system log within a second or two of the attempt.

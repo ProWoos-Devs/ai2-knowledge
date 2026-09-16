@@ -1,0 +1,11 @@
+Keeping AI-2 up to date
+
+Run ai-2 update. It checks first, tells you what will change, and then runs the system update for you. It also handles the one case that bites Artix machines, a Broadcom wireless driver that has to be dealt with before the kernel changes, which a plain update would break.
+
+The graphical way is Software Updates in the menu, which lists what is pending and installs it with one button.
+
+Underneath, both run pacman -Syu, which updates everything on the machine at once. Linux does not update programs one at a time the way phones do.
+
+Never interrupt an update once packages are being installed. If the machine loses power in the middle, boot it again and run the same command; pacman will finish what it started.
+
+After a kernel update, restart the computer. Until you do, the running kernel and the installed modules do not match, and things like WiFi can stop working.

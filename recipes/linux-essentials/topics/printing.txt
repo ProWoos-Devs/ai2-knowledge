@@ -1,0 +1,11 @@
+Printing
+
+Printing is handled by CUPS. Install it with sudo pacman -S cups, then enable it with sudo artix-service enable cups and start it now with sudo sv up cupsd.
+
+Add the printer at http://localhost:631 in a browser, under Administration, Add Printer. A printer on the network is usually found by itself; a USB printer appears once it is plugged in and switched on.
+
+Many printers need a driver package: gutenprint covers a wide range, hplip covers HP, and a few makes need a driver from the maker.
+
+To print from a terminal, lp file.pdf sends it to the default printer, and lpstat -p lists the printers the system knows.
+
+If a job sits in the queue and nothing happens, check that cupsd is running with sudo sv status cupsd, and look at the printer's own screen for a paper or ink message.

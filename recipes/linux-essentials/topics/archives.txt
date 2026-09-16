@@ -1,0 +1,13 @@
+Packing and unpacking archives
+
+A .tar.gz file (sometimes .tgz) is the usual bundle on Linux, and a .zip is what most people send from Windows.
+
+To unpack one, run tar xf archive.tar.gz. The x is extract and the f names the file; tar works out the compression by itself. It unpacks into the current folder, so make a folder first if you are not sure what is inside.
+
+To look inside without unpacking, run tar tf archive.tar.gz.
+
+To make one, run tar czf backup.tar.gz foldername. The c is create, the z means compress it, and the f names the file to write.
+
+For a .zip, use unzip archive.zip and zip -r archive.zip foldername.
+
+A .tar.gz keeps Linux permissions and ownership; a .zip does not, which matters when you are moving programs or scripts rather than documents.

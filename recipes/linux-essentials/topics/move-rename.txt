@@ -1,0 +1,11 @@
+Moving and renaming files and folders
+
+One command does both: mv. Renaming is moving a file to a new name in the same place.
+
+To rename, run mv oldname.txt newname.txt. To move, run mv report.pdf ~/Documents/, with the destination folder last. To do both at once, mv report.pdf ~/Documents/report-2026.pdf.
+
+Moving a folder works the same way and takes everything inside it: mv ~/Downloads/photos ~/Pictures/.
+
+Two things to know. mv overwrites the destination without asking, so use mv -i to be asked first, and mv -n to refuse rather than overwrite. And a move within the same disk is instant however large the folder is, while a move to another disk or a USB stick copies every byte and then deletes the original, which takes as long as a copy.
+
+To copy instead of move, use cp -r for a folder and cp for a single file. To be sure a long copy to another disk really finished, run it again with rsync -a, which copies only what is missing and prints nothing when everything is already there.

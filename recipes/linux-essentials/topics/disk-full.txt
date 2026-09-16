@@ -1,0 +1,11 @@
+The disk is full, or nearly full
+
+Every computer eventually runs out of room, and the first thing to do is find out what is taking the space rather than deleting at random.
+
+To see how much room is left on each disk, run df -h. The line for / is the main disk. The Use% column is the one that matters; above 90% is where problems start, and at 100% programs begin to fail in confusing ways.
+
+To find out what is filling the disk, run du -h --max-depth=1 /home/yourname | sort -h. That prints the size of each folder in your home directory, largest last. Repeat it inside the biggest folder to walk down to whatever is really responsible. The usual culprits are downloads, videos, old backups, and the cache directories under ~/.cache.
+
+Old package files also take room on AI-2. Clearing them is safe: sudo paccache -rk1 keeps only the most recent version of each installed package.
+
+Deleting a file in the file manager moves it to the Trash, which is still on the disk. Empty the Trash afterwards or the space does not come back.

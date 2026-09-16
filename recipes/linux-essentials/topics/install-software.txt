@@ -1,0 +1,13 @@
+Installing a program
+
+Search for it first: pacman -Ss the name prints every matching package with a one-line description.
+
+Install with sudo pacman -S name, and remove with sudo pacman -Rns name, which takes its unused dependencies with it.
+
+To see what you already have, pacman -Q lists everything installed, and pacman -Qs word searches that list.
+
+The graphical way is Add/Remove Software in the menu, which does the same thing with a search box.
+
+Programs come from AI-2's own repository and from Artix and Arch, so most Linux software is one command away. Downloading an installer from a website is almost never the right way here, and .deb files from Debian or Ubuntu pages do not work on this system.
+
+On a small machine, prefer the light programs: mousepad rather than a full office suite for a quick note, and a light browser when the laptop has 2 GB of memory.

@@ -1,0 +1,17 @@
+Using a stronger computer on your network
+
+An old laptop can ask a stronger computer to do the thinking. The strong machine runs the AI, the old one sends the question and prints the answer, and nothing else changes: you still type ai-2 chat.
+
+On the strong computer, share its AI on the network:
+
+ai-2 serve --host 0.0.0.0 --api-key choose-a-password
+
+It prints the address it is listening on, usually port 8080. Leave that command running; it is not a background service.
+
+On the old computer, save that address once:
+
+ai-2 remote set http://192.168.1.50:8080 --api-key choose-a-password
+
+Then ai-2 chat --remote talks to it, and ai-2 remote default on makes plain ai-2 chat use it as well. ai-2 remote test says whether it can be reached and which models it offers, ai-2 remote show says what is configured, and ai-2 remote clear forgets it.
+
+AI-2 always says when a question leaves this computer, because with a remote AI it does. The other computer does not have to run AI-2: anything that speaks the OpenAI-compatible protocol works.

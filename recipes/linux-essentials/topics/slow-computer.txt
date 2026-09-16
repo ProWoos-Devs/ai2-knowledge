@@ -1,0 +1,13 @@
+The computer has become slow
+
+Slowness is almost always one of three things: the processor is busy, the memory is full, or the disk is thrashing.
+
+Run top to see what is using the processor. The list is sorted with the busiest program first, and the %CPU column is the one to read. Press q to leave.
+
+Run free -m to see memory. The number to read is the available column, not free. When available is close to zero the computer starts swapping, which makes everything feel slow even when the processor is idle.
+
+On AI-2 a swap file in compressed memory (zram) is set up for you, which helps on machines with little RAM, but no amount of swap makes a 2 GB machine feel like an 8 GB one.
+
+A browser with many tabs open is the most common cause on old machines. Each tab holds memory even when you are not looking at it.
+
+If the disk light is on constantly and everything is slow, the machine is probably short of memory rather than short of processor.

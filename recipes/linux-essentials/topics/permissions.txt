@@ -1,0 +1,13 @@
+Permission denied, and making a file runnable
+
+"Permission denied" means the file's owner or its permissions do not allow what you asked.
+
+Run ls -l to see them. The first column looks like -rw-r--r--, which is read and write for the owner and read for everyone else. The third column is the owner's name.
+
+To let a script run, mark it executable with chmod +x script.sh. Without that, the shell refuses even if the file is a perfectly good script.
+
+To change what others may do, chmod 644 file gives the owner read and write and everyone else read; chmod 600 file keeps it to the owner alone, which is right for anything private such as keys or passwords.
+
+To change the owner, use sudo chown yourname file. This comes up after copying files from another disk or from a USB stick formatted on another computer.
+
+If a command needs to touch a system folder such as /etc or /usr, it needs sudo. Do not make system files writable by everyone to avoid typing sudo.

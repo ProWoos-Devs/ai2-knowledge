@@ -1,0 +1,13 @@
+The internet is not working
+
+Work outwards from the computer, one step at a time.
+
+First check that the computer has an address: ip a shows each network device. A wired device is usually enp or eth, a wireless one wlan or wlp. Look for an inet line with an address such as 192.168.1.42. If there is no inet line, the computer is not on the network at all, and the problem is the cable, the WiFi password, or the router.
+
+Then check that the router answers: ping -c3 192.168.1.1, using the address shown after "default via" in the output of ip route.
+
+Then check that the wider internet answers: ping -c3 1.1.1.1. If the router answers and this does not, the connection beyond the router is down.
+
+Then check that names resolve: ping -c3 example.com. If addresses work but names do not, it is the DNS setting, not the connection.
+
+On AI-2 the network is managed by NetworkManager, and the icon in the panel is the usual way to pick a WiFi network or forget a wrong password.

@@ -1,0 +1,11 @@
+Copying a folder to another disk or another computer
+
+To copy a folder to a second disk, rsync is better than cp because it can be stopped and resumed and it copies only what changed.
+
+Run rsync -a /home/yourname/Documents/ /run/media/yourname/BACKUP/Documents/. The -a keeps permissions and dates. The trailing slashes matter: with them you are copying the contents of the folder into the target.
+
+Add --delete only if you want the copy to become identical to the original, removing files there that you deleted here. Without it, nothing is ever removed at the far end.
+
+To copy to another computer over the network, run rsync -a Documents/ yourname@192.168.1.50:Documents/, or for a single file scp file.txt yourname@192.168.1.50:.
+
+Run it a second time to check: the second run should copy almost nothing, and that is how you know the first one finished.

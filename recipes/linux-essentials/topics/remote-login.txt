@@ -1,0 +1,11 @@
+Using another computer over the network
+
+To reach another Linux machine, run ssh yourname@192.168.1.50. You get its terminal in your window; type exit to come back.
+
+For this to work the other machine must run an SSH server. On AI-2, enable it there with sudo artix-service enable sshd and sudo sv up sshd.
+
+To avoid typing the password every time, make a key once with ssh-keygen and copy it over with ssh-copy-id yourname@192.168.1.50.
+
+To copy files, scp file.txt yourname@192.168.1.50: sends a file, and scp yourname@192.168.1.50:file.txt . fetches one.
+
+To run a program on the far machine and see its windows on yours, add -X: ssh -X yourname@192.168.1.50, then start the program. It is slow over WiFi but useful for one window.

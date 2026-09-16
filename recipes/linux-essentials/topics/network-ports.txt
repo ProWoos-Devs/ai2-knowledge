@@ -1,0 +1,13 @@
+Finding which program is using a network port
+
+When a program complains that a port is already in use, or you want to know what is listening on this computer, ask the system which process holds the port.
+
+Run sudo ss -tulpn. That lists every program listening for connections: t is TCP, u is UDP, l is listening, p shows the program name and its process number, and n prints port numbers instead of service names. Without sudo you see the ports but not which program owns them.
+
+To look for one port, pipe it through grep: sudo ss -tulpn | grep :8080.
+
+To see established connections rather than listening ports, drop the l: sudo ss -tupn.
+
+Once you know the process number, stop that program with kill, or leave it alone and use another port for whatever you were starting.
+
+On AI-2 the local AI listens on port 8080 and the document index server on 8081, so those two are expected; ai-2 stop ends both.

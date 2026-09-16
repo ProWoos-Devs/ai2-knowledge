@@ -1,0 +1,13 @@
+Starting and stopping background services on AI-2
+
+AI-2 is built on Artix with runit, not systemd, so the systemctl commands written in most Linux articles do not exist here.
+
+To see what is running, look in /run/runit/service, where each running service has a folder.
+
+To start a service now, run sudo sv up sshd, and to stop it, sudo sv down sshd. To ask how it is doing, sudo sv status sshd.
+
+To make a service start at every boot, run sudo artix-service enable sshd, and to undo that, sudo artix-service disable sshd. Enabling does not start it immediately, so do both the first time.
+
+The names are the folder names under /etc/runit/sv, for example sshd, NetworkManager, cronie.
+
+Nothing here needs systemctl, journalctl or a unit file. If a guide tells you to write a .service file, the runit equivalent is a folder with a small run script.

@@ -1,0 +1,11 @@
+Editing a text file
+
+For a quick edit with a window, open Text Editor (mousepad) from the menu, or run mousepad file.txt.
+
+In a terminal, nano file.txt is the editor to use when you are not sure. The commands are listed along the bottom of the screen: Ctrl+O writes the file, Ctrl+X leaves. The ^ in ^O means the Control key.
+
+To edit a system file you need sudo, for example sudo nano /etc/pacman.conf. Without it the editor opens but refuses to save.
+
+If you land in vi or vim by accident and cannot get out, press Escape, then type :q! and Enter to leave without saving.
+
+Configuration files on Linux are plain text, so a mistake is always reversible: copy the file first with cp file file.bak and you can put it back.

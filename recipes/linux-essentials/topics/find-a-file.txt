@@ -1,0 +1,13 @@
+Finding a file when you cannot remember where you put it
+
+If you know part of the name, search from your home directory with find ~ -iname "*part of the name*". The -iname option ignores capital letters, and the stars mean "anything can come before or after".
+
+To search the whole computer instead, use find / -iname "*name*" 2>/dev/null. The last part hides the permission errors that come from folders your user cannot read.
+
+To find files by when they changed, add -mtime -7 for files changed in the last seven days.
+
+To find big files rather than a name, use find ~ -size +100M, which lists everything larger than 100 megabytes.
+
+If you remember something that is written inside the file rather than its name, search the contents instead with grep -ri "the words you remember" ~/Documents. That reads every file under that folder, so give it the smallest folder you can.
+
+The file manager also has a search box, which is easier for a quick look but slower on a large disk.

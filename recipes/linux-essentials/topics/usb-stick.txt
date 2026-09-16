@@ -1,0 +1,9 @@
+Copying files to a USB stick
+
+Plug the stick in and the file manager usually shows it in the sidebar. Copying files there works like any other folder.
+
+From a terminal, run lsblk to list the disks. A USB stick usually appears as sdb or sdc with a partition such as sdb1 under it, and its size tells you which one it is.
+
+If it did not mount by itself, mount it with udisksctl mount -b /dev/sdb1, which puts it under /run/media/yourname/.
+
+The important part is the end: before pulling the stick out, run udisksctl unmount -b /dev/sdb1, or use the eject button in the file manager. Copying a file finishes in the file manager long before the data has actually reached the stick, and pulling it out early is how files end up half written.

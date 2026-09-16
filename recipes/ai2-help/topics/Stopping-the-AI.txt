@@ -1,0 +1,9 @@
+Stopping the AI and getting the memory back
+
+The local AI holds its model in memory while it runs, which on a small machine is most of the memory. To get it back, run ai-2 stop. That ends the chat server and the document index server, and the memory is free immediately.
+
+You do not have to stop it after every question. On small machines the server exits by itself after a few minutes without use; on machines with more memory it stays loaded so the next question answers straight away, and ai-2 stop is how you end it early.
+
+To see whether anything is running, free -m shows the memory in use, and ai-2 doctor reports the state of the engine and the model.
+
+Starting it again costs only the time to read the model from disk, which is seconds on an SSD and up to a minute on an old hard disk. Nothing is lost by stopping it: the models stay on disk and your indexed documents are untouched.

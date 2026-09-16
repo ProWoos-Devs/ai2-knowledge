@@ -1,0 +1,11 @@
+Stopping a program that has frozen or will not close
+
+First find out what is running. The command ps -ef lists every program with its process number in the second column. To look for one by name, use ps -ef | grep firefox.
+
+To stop a program politely, run kill 1234, replacing 1234 with its process number. That asks the program to shut down and save what it was doing, and it is what the window's close button does.
+
+If nothing happens after a few seconds, run kill -9 1234. That ends it immediately without asking, so anything unsaved is lost. Use it only when the polite way has failed.
+
+You can also stop a program by name with pkill firefox, which stops every program of that name at once.
+
+If the whole desktop has stopped responding, press Ctrl+Alt+F2 to reach a text screen, log in there, stop the program that is stuck, and press Ctrl+Alt+F1 to go back.

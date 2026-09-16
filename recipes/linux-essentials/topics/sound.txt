@@ -1,0 +1,11 @@
+There is no sound
+
+Check the obvious first: the speaker icon in the panel, the volume in the program itself, and whether headphones are plugged in, which silences the speakers.
+
+Run alsamixer in a terminal. Anything shown as MM at the bottom is muted; move to it with the arrow keys and press m to unmute, then raise it with the up arrow. Press Escape to leave.
+
+If the machine has more than one sound device, for example speakers and an HDMI output, the system may be sending sound to the wrong one. Press F6 in alsamixer to pick the card, and set the output in the audio settings of the desktop.
+
+To save the settings so they survive a restart, run sudo alsactl store.
+
+If a program has no sound while others work, the program is probably set to a different output device in its own preferences.
