@@ -1,12 +1,61 @@
-SELECT ?c ?cLabel ?capLabel ?curLabel ?curCode ?langLabel ?iso2 ?iso3 ?contLabel ?callCode WHERE {
+#  Sovereign states and the facts about them that do not move from year to year.
+#
+#  Statement rules, decided in ai2-knowledge#1:
+#   - no end date (P582): nothing that has stopped being true
+#   - not deprecated
+#   - "applies to part" (P518) travels with the row rather than being filtered
+#     out here, so the renderer can drop region-specific values (Spain's
+#     Galician, Basque and Catalan; the United States' territory languages)
+#     while keeping them available for the countries where every value is
+#     part-qualified and the parts together are the country (Belgium)
+#   - the rank travels with the row, so the renderer can keep only the
+#     preferred values when a country has any
+#   - currencies carry their type, so a value that is not a currency (an index
+#     such as Unidad de Fomento, a unit of account) can be dropped
+#   - ?capOf is the inverse property (P1376), used only when P36 is missing
+SELECT ?c ?cLabel ?capLabel ?capOfLabel ?curLabel ?curCode ?curTypeLabel ?curRank ?langLabel ?langRank
+       ?iso2 ?iso3 ?contLabel ?callCode ?cur ?lang ?cap ?capOf ?curPart ?langPart WHERE {
   ?c wdt:P31 wd:Q3624078 .
   FILTER NOT EXISTS { ?c wdt:P576 ?dissolved }
-  OPTIONAL { ?c p:P36 ?capSt . ?capSt ps:P36 ?cap . FILTER NOT EXISTS { ?capSt pq:P582 ?e1 } FILTER NOT EXISTS { ?capSt wikibase:rank wikibase:DeprecatedRank } }
-  OPTIONAL { ?c p:P38 ?curSt . ?curSt ps:P38 ?cur . FILTER NOT EXISTS { ?curSt pq:P582 ?e2 } FILTER NOT EXISTS { ?curSt wikibase:rank wikibase:DeprecatedRank } OPTIONAL { ?cur wdt:P498 ?curCode } }
-  OPTIONAL { ?c p:P37 ?langSt . ?langSt ps:P37 ?lang . FILTER NOT EXISTS { ?langSt pq:P582 ?e3 } FILTER NOT EXISTS { ?langSt wikibase:rank wikibase:DeprecatedRank } }
+
+  OPTIONAL {
+    ?c p:P36 ?capSt . ?capSt ps:P36 ?cap .
+    FILTER NOT EXISTS { ?capSt pq:P582 ?capEnd }
+    FILTER NOT EXISTS { ?capSt pq:P518 ?capPart }
+    FILTER NOT EXISTS { ?capSt wikibase:rank wikibase:DeprecatedRank }
+  }
+  OPTIONAL {
+    ?capOf p:P1376 ?capOfSt . ?capOfSt ps:P1376 ?c .
+    FILTER NOT EXISTS { ?capOfSt pq:P582 ?capOfEnd }
+    FILTER NOT EXISTS { ?capOfSt wikibase:rank wikibase:DeprecatedRank }
+  }
+  OPTIONAL {
+    ?c p:P38 ?curSt . ?curSt ps:P38 ?cur . ?curSt wikibase:rank ?curRank .
+    FILTER NOT EXISTS { ?curSt pq:P582 ?curEnd }
+    OPTIONAL { ?curSt pq:P518 ?curPart }
+    FILTER NOT EXISTS { ?curSt wikibase:rank wikibase:DeprecatedRank }
+    OPTIONAL { ?cur wdt:P498 ?curCode }
+    OPTIONAL { ?cur wdt:P31 ?curType }
+  }
+  OPTIONAL {
+    ?c p:P37 ?langSt . ?langSt ps:P37 ?lang . ?langSt wikibase:rank ?langRank .
+    FILTER NOT EXISTS { ?langSt pq:P582 ?langEnd }
+    OPTIONAL { ?langSt pq:P518 ?langPart }
+    FILTER NOT EXISTS { ?langSt wikibase:rank wikibase:DeprecatedRank }
+  }
   OPTIONAL { ?c wdt:P297 ?iso2 }
   OPTIONAL { ?c wdt:P298 ?iso3 }
   OPTIONAL { ?c wdt:P30 ?cont }
   OPTIONAL { ?c wdt:P474 ?callCode }
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" . ?cap rdfs:label ?capLabel . ?cur rdfs:label ?curLabel . ?lang rdfs:label ?langLabel . ?cont rdfs:label ?contLabel . ?c rdfs:label ?cLabel }
+
+  # The label service resolves most labels in one pass. Explicit rdfs:label
+  # lookups for all of these variables time out at the service's 60 s limit,
+  # so the ids travel with the row and render.py resolves the handful the
+  # service leaves unresolved.
+  SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "en" .
+    ?c rdfs:label ?cLabel . ?cap rdfs:label ?capLabel . ?capOf rdfs:label ?capOfLabel .
+    ?cur rdfs:label ?curLabel . ?curType rdfs:label ?curTypeLabel .
+    ?lang rdfs:label ?langLabel . ?cont rdfs:label ?contLabel .
+  }
 }

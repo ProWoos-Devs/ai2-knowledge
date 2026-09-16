@@ -1,0 +1,22 @@
+Q36262: written as "Saint John's" because the English label of Antigua and Barbuda's capital is missing from Wikidata (116 other languages have one, its English description reads "capital and largest city of Antigua and Barbuda"), checked 2026-09-16 - recheck
+Q4916: written as 'euro' because the euro's English label is missing from Wikidata (207 other languages have one), checked 2026-09-16 - recheck
+Q31 Belgium: every value is qualified by part, kept because Belgium's three official languages are modelled per language community, and the communities together are the country - recheck
+Q750 Bolivia: no single capital; 2 cities claim to be one (La Paz, Sucre), written as several - check
+Q792 El Salvador: 2 currencies in circulation (Bitcoin, United States dollar) - check
+Q1050 Eswatini: no single capital; 2 cities claim to be one (Lobamba, Mbabane), written as several - check
+Q756617 Kingdom of Denmark: no name or no ISO 3166-1 code, left out
+Q29999 Kingdom of the Netherlands: no country-wide currency in the data, the entry says nothing about money - check
+Q710 Kiribati: 2 currencies in circulation (Australian dollar, Kiribati dollar) - check
+Q1013 Lesotho: 2 currencies in circulation (loti, rand) - check
+Q709 Marshall Islands: 2 currencies in circulation (SOV, United States dollar) - check
+Q1030 Namibia: 2 currencies in circulation (Namibian dollar, rand) - check
+Q219060 Palestine: no single capital; 2 cities claim to be one (East Jerusalem, Jerusalem), written as several - check
+Q804 Panama: 2 currencies in circulation (Panamanian balboa, United States dollar) - check
+Q141191391 Q141191391: no name or no ISO 3166-1 code, left out
+Q258 South Africa: no single capital; 3 cities claim to be one (Bloemfontein, Cape Town, Pretoria), written as several - check
+Q854 Sri Lanka: no single capital; 2 cities claim to be one (Colombo, Sri Jayawardenepura Kotte), written as several - check
+Q865 Taiwan: every value is qualified by part, kept because Taiwan's currency statement is qualified by part, and it is the only one - recheck
+Q672 Tuvalu: 2 currencies in circulation (Australian dollar, Tuvaluan dollar) - check
+Q30 United States: every official language in the data is region-specific, the entry says nothing about language - check
+Q805 Yemen: no single capital; 2 cities claim to be one (Aden, Sanaa), written as several - check
+Q954 Zimbabwe: 10 currencies in circulation (Australian dollar, Indian rupee, United States dollar, Zimbabwe ZiG, Zimbabwean dollar, euro, pound sterling, rand, renminbi, yen) - check
