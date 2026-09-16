@@ -57,6 +57,7 @@ for qid, f in sorted(by.items(), key=lambda kv: sorted(kv[1].get("cLabel", {"?"}
     open(os.path.join(out, fn + ".txt"), "w", encoding="utf-8").write("\n".join(lines) + "\n")
     written += 1
 print(f"{written} entries written,", sum(len(open(f'{out}/{f}').read().split()) for f in os.listdir(out)), "words")
-print(f"{len(flags)} flagged for review:")
-for f in flags[:12]:
+open("flags.txt", "w", encoding="utf-8").write("\n".join(flags) + "\n")
+print(f"{len(flags)} flagged for review, written to flags.txt:")
+for f in flags:
     print("  ", f)
