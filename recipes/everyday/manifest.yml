@@ -1,6 +1,7 @@
 id: everyday
 title: Everyday Reference
 version: "2026-09-16"
+revision: 1       # raise this for every rebuild you publish, and mirror it in the catalog entry
 languages: [en]
 license: CC0-1.0
 attribution: "Facts from Wikidata (https://www.wikidata.org), which places its structured data in the public domain under CC0. No attribution is required; this line is here because the pack says where its facts come from."
