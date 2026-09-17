@@ -28,7 +28,11 @@ You need AI-2 (or the `ai-2` tool from its repository) and enough patience for t
    ```
    ai-2 doc index --in mypack /path/to/*.txt
    ```
-   **Check which embedding model this used**, with `ai-2 doc list`. AI-2 picks it from the RAM of the machine doing the indexing, and a machine with enough memory picks the multilingual `nomic-embed-text-v2-moe`. A pack can only ever be searched with the model that built it, so a pack built that way makes everyone who installs it download 345 MB, while `nomic-embed-text-v1.5` is 85 MB and is already on every machine installed from an AI-2 ISO. For an English pack, build it with v1.5. Until `ai-2 doc index` takes the model as an option, the way to get v1.5 is to index on a machine whose RAM puts it in the Tiny or Light tier, a virtual machine with 2 GB is enough.
+   **Check which embedding model this used**, with `ai-2 doc list`. AI-2 picks it from the RAM of the machine doing the indexing, and a machine with enough memory picks the multilingual `nomic-embed-text-v2-moe`. A pack can only ever be searched with the model that built it, so a pack built that way makes everyone who installs it download 345 MB, while `nomic-embed-text-v1.5` is 85 MB and is already on every machine installed from an AI-2 ISO. For an English pack, build it with v1.5, which `ai-2` 0.18.1 and later take as an option:
+   ```
+   ai-2 doc index --in mypack --embedder nomic-embed-text-v1.5 /path/to/*.txt
+   ```
+   A collection keeps the model it was built with, so this is decided once, when the collection is new. On an older `ai-2`, index on a machine whose RAM puts it in the Tiny or Light tier instead; a virtual machine with 2 GB is enough.
 3. **Write a manifest** with the descriptive fields (see `recipes/everyday/manifest.yml` for a complete one). It carries `revision`, a whole number, and **that is the one the code reads**: the catalog entry only repeats it. Leave it at 1 for a first release and raise it in the manifest, then in the catalog entry, for every rebuild you publish. CI compares the two and fails if they disagree.
 4. **Export the pack.**
    ```
