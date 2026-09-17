@@ -11,9 +11,17 @@ Three layers, each stricter than the last:
 
 The third layer is the one that matters for a contributed pack: the hash only
 proves the bytes are the ones the entry described, not that the entry
-describes them truthfully. It needs the `ai2` package importable:
+describes them truthfully. It needs the `ai2` package importable.
 
-  pip install "git+https://github.com/ProWoos-Devs/ai-2@v0.18.0"
+CI installs **v0.18.0 on purpose**, which is the oldest released ai-2 that
+understands a pack's `revision`, so the check answers "does this artifact
+install on the oldest AI-2 that knows about packs as they are now", not merely
+"does it install here". Contributors build with a newer one (0.18.1 added
+`ai-2 doc index --embedder`); that difference is the point, not an oversight.
+Raise this baseline only when a pack-format change makes an older AI-2 unable
+to install a current pack at all.
+
+  pip install "ai2 @ git+https://github.com/ProWoos-Devs/ai-2@v0.18.0"
 
   python3 tools/validate-catalog.py [--fetch] [--install] [catalog/*.yml]
 """
@@ -27,8 +35,12 @@ import urllib.request
 
 import yaml
 
-REQUIRED = ("id", "title", "version", "languages", "license", "embedder", "url",
+REQUIRED = ("id", "title", "version", "revision", "languages", "license", "embedder", "url",
             "size_bytes", "sha256", "documents", "parts")
+# `revision` is required even though a missing one would be read as 1: it is the
+# field AI-2 orders by, and a contributor who never wrote it down is a
+# contributor who will forget to raise it on the next rebuild.
+
 # Redistribution allowed, and any attribution the licence wants goes in the
 # manifest, where AI-2 prints it with every answer. Non-commercial and
 # no-derivatives licences are not here on purpose.
@@ -37,6 +49,13 @@ LICENCES = {"CC0-1.0", "CC-BY-4.0", "CC-BY-SA-4.0", "CC-BY-SA-3.0", "CC-BY-SA-2.
 ID = re.compile(r"^[a-z0-9][a-z0-9._-]{0,63}$")
 SHA = re.compile(r"^[0-9a-f]{64}$")
 ATTRIBUTION_NEEDED = ("CC-BY", "GFDL", "PSF", "OGL", "MIT", "Apache")
+# These two require the recipient to RECEIVE the licence (Apache-2.0 §4a, and
+# GFDL's requirement to include a copy), which no attribution line can do. The
+# pack is the distribution, so the licence text has to travel inside it as one
+# of its documents. Being on this list does not make a pack compliant; it makes
+# the one obligation we can check mechanically checkable.
+LICENCE_TEXT_NEEDED = ("Apache-2.0", "GFDL")
+LICENCE_DOC = re.compile(r"(licen[cs]e|notice|copying)", re.I)
 
 
 # What the catalog entry and the pack's own manifest must agree on. Everything
@@ -94,6 +113,18 @@ def check(path: str, fetch: bool, install: bool = False, seen_ids: set | None = 
     return problems
 
 
+class HttpsOnlyRedirect(urllib.request.HTTPRedirectHandler):
+    """A redirect may not leave HTTPS. The same rule as `ai2.pack`, which is
+    the source of truth; it is repeated here so the plain `--fetch` layer needs
+    nothing but PyYAML, and so CI cannot be gentler than the machine it speaks
+    for."""
+
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        if not str(newurl).lower().startswith("https://"):
+            raise OSError(f"the download was redirected to {str(newurl).split(':')[0]}, which is not https")
+        return super().redirect_request(req, fp, code, msg, headers, newurl)
+
+
 def fetch_check(where: str, p: dict) -> tuple[str | None, list[str]]:
     """Download the pack; returns the file (for the install check) and what is
     wrong with it. The read stops once the response passes the size the entry
@@ -104,7 +135,8 @@ def fetch_check(where: str, p: dict) -> tuple[str | None, list[str]]:
     limit = int(p["size_bytes"])
     fd, path = tempfile.mkstemp(suffix=".ai2pack")
     try:
-        with os.fdopen(fd, "wb") as out, urllib.request.urlopen(p["url"], timeout=300) as r:
+        opener = urllib.request.build_opener(HttpsOnlyRedirect)
+        with os.fdopen(fd, "wb") as out, opener.open(p["url"], timeout=300) as r:
             for block in iter(lambda: r.read(1 << 20), b""):
                 h.update(block)
                 size += len(block)
@@ -166,14 +198,21 @@ def install_check(where: str, p: dict, path: str) -> list[str]:
                 problems.append(f"{where}: the catalog says {field}={p[field]}, the pack says {index.get(field)}")
         conn = sqlite3.connect(index_file)
         rows = conn.execute("SELECT COUNT(*) FROM chunks").fetchone()[0]
-        conn.close()
         if index.get("parts") is not None and rows != index["parts"]:
             problems.append(f"{where}: the installed index holds {rows} parts, "
                             f"the manifest says {index['parts']}")
+        licence = str(manifest.get("license", ""))
+        if any(licence.startswith(k) for k in LICENCE_TEXT_NEEDED):
+            names = [r[0] for r in conn.execute("SELECT name FROM docs")]
+            if not any(LICENCE_DOC.search(n or "") for n in names):
+                problems.append(f"{where}: {licence} requires the recipient to receive the licence, so the pack "
+                                "must carry its text as one of its documents (a file named LICENSE, NOTICE or "
+                                "COPYING). None of these is in it: " + ", ".join(names[:8]))
         if not str(manifest.get("attribution", "")).strip() and \
-                any(str(manifest.get("license", "")).startswith(k) for k in ATTRIBUTION_NEEDED):
+                any(licence.startswith(k) for k in ATTRIBUTION_NEEDED):
             problems.append(f"{where}: {manifest.get('license')} needs an attribution line in the manifest, "
                             "which is where AI-2 reads it from when it prints an answer")
+        conn.close()
         print(f"  installed as {collection}: {rows} parts, {manifest.get('license')}", flush=True)
         return problems
 

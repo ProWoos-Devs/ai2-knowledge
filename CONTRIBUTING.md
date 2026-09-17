@@ -10,32 +10,51 @@ The short version for people who have done it before is in the [README](README.m
 
 **On an AI-2 machine:** nothing. `ai-2` and the engine are already there.
 
-**On any other Linux machine**, three things:
+**On any other Linux machine**, Python 3.11 or newer, git, and a virtual environment. Do not install into the system Python: most current distributions refuse it (PEP 668, "externally managed environment"), and you do not want project tooling in there anyway.
 
 ```bash
 python3 --version                     # 3.11 or newer
-pip install "ai2 @ git+https://github.com/ProWoos-Devs/ai-2@v0.18.3"
+python3 -m venv ~/ai2-build
+source ~/ai2-build/bin/activate
+python -m pip install "ai2 @ git+https://github.com/ProWoos-Devs/ai-2@v0.18.3"
+ai-2 --version                        # 0.18.3 or newer: 0.18.1 added --embedder
 ```
 
-and a build of [llama.cpp](https://github.com/ggml-org/llama.cpp), which does the embedding. AI-2 looks for `llama-bench` and `llama-server` in `$AI2_RUNTIME_DIR`, then `/usr/lib/ai2/runtimes/llama.cpp`, then `/opt/ai2/llama`, then `~/llama`. Unpack an upstream release into `~/llama` and you are done:
+You also need [llama.cpp](https://github.com/ggml-org/llama.cpp), which is what actually computes the embeddings. **Build or download tag `b10398`**, the same one AI-2 pins.
 
 ```bash
+mkdir -p ~/llama && cd ~/llama        # unpack b10398 here
 ls ~/llama/llama-server ~/llama/llama-bench     # both must be there
 ```
 
-The embedding model is downloaded for you the first time, with its checksum verified.
+AI-2 looks for those two programs in `$AI2_RUNTIME_DIR`, then `/usr/lib/ai2/runtimes/llama.cpp`, then `/opt/ai2/llama`, then `~/llama`, and takes the first directory that has them.
+
+**Why a pinned version and not "whatever is current".** A pack stores vectors your llama.cpp produced; the question someone types later is turned into a vector by *their* AI-2's llama.cpp, and the two are compared. The manifest pins the embedding model's file by SHA-256, but nothing pins the implementation that runs it, and tokenisation or pooling changes between llama.cpp releases would degrade every answer quietly rather than failing loudly. Whether other versions are equivalent has not been measured. Until it has, build with AI-2's own runtime or with b10398, and if you deliberately use something else, say so in the manifest's `modified` line so a reviewer can weigh it.
+
+The embedding model itself is downloaded for you the first time, with its checksum verified.
 
 ## 1. Pick content you are allowed to redistribute
 
-This is the step that gets packs rejected, so settle it first. The catalog carries public domain, CC0, CC BY, CC BY-SA, MIT, Apache-2.0, GFDL, PSF and OGL. It cannot carry non-commercial or no-derivatives licences, and it cannot carry anything you do not have the right to redistribute, however freely it is available to read.
+This is the step that gets packs rejected, so settle it first, and read the next two paragraphs as one thought: **a licence being allowed here is not the same as its obligations being met.**
 
-Indexing counts as modification, so your manifest says so. If the licence asks for attribution, it goes in the manifest, which is where AI-2 reads it from when it prints an answer.
+**Allowed by the catalog:** public domain, CC0, CC BY, CC BY-SA, MIT, Apache-2.0, GFDL, PSF and OGL. Not allowed: non-commercial and no-derivatives licences, and anything you do not have the right to redistribute, however freely it can be read.
+
+**Obligations are yours, and the checks do not establish them.** CI verifies that the licence is on the list above and that an attribution line exists where one is needed. That is all it can do. Real licences ask for more, and the pack is a distribution, so the asks land on you:
+
+- **A one-line attribution satisfies CC BY and CC BY-SA** for a pack, together with saying what was changed, which the `modified` field does.
+- **Apache-2.0 and GFDL require the recipient to receive the licence itself**, which no attribution line can do. So the pack must carry the licence text as one of its documents, named `LICENSE`, `NOTICE` or `COPYING`, and CI now refuses these two licences without it. For Apache-2.0, any NOTICE material from the original has to travel too.
+- **GFDL asks for more still** (invariant sections, the history, a transparent copy). A GFDL pack is reviewed by a person before it is merged, and may be asked for changes the tooling cannot describe. If the content is available under any other licence on the list, use that instead.
+- **MIT, PSF and OGL** require their notice to be preserved. If the content is not yours, carry it in the pack the same way.
+
+Indexing counts as modification, so your manifest says so. Attribution goes in the manifest, which is where AI-2 reads it from when it prints an answer, and it is shown with every result from your pack.
 
 Official packs also avoid anything that goes stale: no prices, no populations, no security advice, no "who currently holds this office". A pack can sit on a machine for two years. Community packs are not held to that, but the same logic applies to your readers.
 
 ## 2. Write or collect the text
 
 One plain text file or PDF per document. What they say matters far more than how many there are; the three official packs are between 40 and 196 parts.
+
+**A scanned PDF will not do.** AI-2 reads a PDF's text layer, and a page image has none, so the file is skipped with `no text found (a scanned PDF needs OCR: ai-2 workflow info documents)`. Run OCR first and index the text it produces.
 
 Five things are measured, not preferences, and they are the difference between a pack that answers and one that does not. They are in the [README](README.md#what-makes-a-pack-answer-well-measured); the shortest form is **write for the question, not for the reference shelf**. Topics phrased as tasks answered 15 of 15 questions asked in everyday words, while reference documentation answered 6 of 14.
 
@@ -45,7 +64,7 @@ Five things are measured, not preferences, and they are the difference between a
 ai-2 doc index --in mypack --embedder nomic-embed-text-v1.5 /path/to/*.txt
 ```
 
-`--embedder` matters more than it looks. A pack can only ever be searched with the model that built it, and without the flag AI-2 picks from your machine's RAM, which on a good computer means the 345 MB multilingual model. Everyone who installs your pack would then have to download it. `nomic-embed-text-v1.5` is 85 MB and is already on every machine installed from an AI-2 ISO. Use it for anything in English. (The flag needs `ai-2` 0.18.1 or newer.)
+`--embedder` matters more than it looks. A pack can only ever be searched with the model that built it, and without the flag AI-2 picks from your machine's RAM, which on a good computer means the 345 MB multilingual model. Everyone who installs your pack would then have to download it. `nomic-embed-text-v1.5` is 85 MB and is already on machines installed from the ISO of 2026-09-16 or later; an older AI-2 brought up to date still downloads it once, which is a great deal better than 345 MB. Use it for anything in English. (The flag needs `ai-2` 0.18.1 or newer.)
 
 Check what was recorded:
 
@@ -69,11 +88,13 @@ license: CC-BY-4.0
 attribution: "Text from ..., by ..., used under CC BY 4.0."
 modified: "Split into parts of about 110 words and embedded for search by AI-2."
 sources:
-  - file: chapter-one       # the document name as ai-2 doc list shows it
+  - file: chapter-one.txt   # EXACTLY as ai-2 doc list shows it, extension included
     title: "Where this document came from"
     url: https://example.org/chapter-one
     retrieved: 2026-09-17
 ```
+
+`file` is matched against the document name character for character, and the document name is the file's base name with its extension (`/home/you/text/chapter-one.txt` becomes `chapter-one.txt`). Write `chapter-one` and the source URL silently attaches to nothing: answers from that document will name the pack but never its source. Check your names with `ai-2 doc list` and copy them.
 
 `revision` is the field people get wrong. It is the number AI-2 orders by, a `version` string cannot be compared reliably, and **the copy that counts is the one in this file**. The catalog entry repeats it, and CI fails if the two disagree.
 
@@ -92,8 +113,10 @@ Your file paths are not in the pack. The documents' text and the search index ar
 On another machine, or in a throwaway home directory on this one:
 
 ```bash
-XDG_DATA_HOME=$(mktemp -d) ai-2 knowledge install my-pack.ai2pack
-XDG_DATA_HOME=... ai-2 doc search "the question you most expect"
+tmp=$(mktemp -d)
+trap 'rm -rf "$tmp"' EXIT
+XDG_DATA_HOME="$tmp" ai-2 knowledge install my-pack.ai2pack
+XDG_DATA_HOME="$tmp" ai-2 doc search --in my-pack "the question you most expect"
 ```
 
 Ask it the ten questions you expect people to ask. If the answers are poor, the fix is almost always the text, not the settings, and step 2 says how.
@@ -147,12 +170,14 @@ Check it before you push, which takes seconds and saves a round trip:
 
 ```bash
 python3 tools/validate-catalog.py                       # the entry itself
-python3 tools/validate-catalog.py --install             # what CI will do, if you have ai2 installed
+python3 tools/validate-catalog.py --install             # the full check, if you have ai2 installed
 ```
+
+**On versions, because the two numbers differ on purpose.** You build with 0.18.3 or newer, since 0.18.1 is what added `--embedder`. CI installs your pack with **v0.18.0**, the oldest released AI-2 that understands a pack's `revision`, so the pull request answers "does this artifact install on the oldest AI-2 that knows about packs as they are now", which is a stronger question than "does it install on the newest". If you run `--install` locally with a newer `ai2`, you are running the same checks against a newer baseline; a pass there and a fail in CI would mean your pack needs something an older AI-2 does not have, and that is worth knowing before people hit it.
 
 ## 10. Open the pull request
 
-CI then does the whole thing for real: downloads your file, checks its size and SHA-256, **installs it with AI-2 itself**, and compares the manifest inside the installed pack against your entry, id, title, version, revision, licence, languages, embedder, and the document and part counts. It also counts the rows in the installed index and requires the attribution your licence asks for.
+CI then does the whole thing for real: downloads your file, checks its size and SHA-256, **installs it with AI-2 itself**, and compares the manifest inside the installed pack against your entry, id, title, version, revision, licence, languages, embedder, and the document and part counts. It also counts the rows in the installed index, requires the attribution your licence asks for, and for Apache-2.0 and GFDL requires the licence text to be inside the pack as a document.
 
 If it fails, the message names the field and both values. The two common ones:
 
@@ -172,7 +197,7 @@ AI-2 installs a pack whose revision is the same or higher and refuses an older o
 
 ## What this project does and does not promise
 
-We verify that your file is the one your entry describes, that it installs, that its licence allows redistribution and that its attribution is present. **We do not check whether its contents are correct**, and AI-2 says so where community packs are listed.
+We verify that your file is the one your entry describes, that it installs, that its licence is one the catalog carries, and that the attribution and (for Apache-2.0 and GFDL) the licence text are present. **We do not check whether its contents are correct, and we do not certify that you have met your licence's obligations**, which remain yours. AI-2 says as much where community packs are listed.
 
 Your pack is never fetched by name: `ai-2 knowledge install ID` resolves only against the official catalog that travels inside the signed `ai-2` package. People install yours from its file, and AI-2 records on their machine that it came from a file rather than from us.
 

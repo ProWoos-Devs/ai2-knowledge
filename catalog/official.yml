@@ -7,6 +7,7 @@ packs:
 - id: ai2-help
   title: AI-2 Help
   version: '2026-09-16'
+  revision: 1
   languages:
   - en
   license: MIT
@@ -21,11 +22,12 @@ packs:
 - id: everyday
   title: Everyday Reference
   version: '2026-09-16'
+  revision: 1
   languages:
   - en
   license: CC0-1.0
-  attribution: Facts from Wikidata (https://www.wikidata.org), CC0. No attribution is required; this line
-    records where the facts come from.
+  attribution: Facts from Wikidata (https://www.wikidata.org), CC0. No attribution is required; this line records where the
+    facts come from.
   embedder: nomic-embed-text-v1.5
   url: https://github.com/ProWoos-Devs/ai2-knowledge/releases/download/packs-2026-09-16/everyday.ai2pack
   size_bytes: 593733
@@ -36,6 +38,7 @@ packs:
 - id: linux-essentials
   title: Linux Essentials
   version: '2026-09-16'
+  revision: 1
   languages:
   - en
   license: MIT

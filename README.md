@@ -72,7 +72,7 @@ An entry looks like this:
   sha256: <64 hex characters>
   documents: 120
   parts: 480
-  revision: 1          # a whole number; raise it for every published rebuild
+  revision: 1          # required; the number the code orders by, and the manifest's copy is the one that counts
   built_with: ai-2 0.17.0
   contact: your GitHub handle
 ```
@@ -83,14 +83,15 @@ Checked by CI on the pull request, with `tools/validate-catalog.py --install`:
 - the file downloads over HTTPS and matches `size_bytes` and `sha256`, the download stopping the moment it outgrows the declared size
 - **AI-2 itself installs the downloaded file** on a clean machine, at the pinned version the workflow names, and then the manifest inside the installed pack is compared with the catalog entry, id, title, version, revision, licence, languages, embedder, document and part counts. The hash only proves the bytes are the ones the entry described; this is what proves the description true
 - the installed index really holds the number of parts the manifest claims
-- the attribution the licence requires is in the manifest, which is where AI-2 reads it from when it prints an answer
+- the attribution the licence requires is in the manifest, which is where AI-2 reads it from when it prints an answer, and for Apache-2.0 and GFDL the licence text is inside the pack as a document, because those two require the recipient to receive the licence itself
 
 Checked by a person:
 
 - a rebuild of a pack already in the catalog raises its `revision`, because AI-2 orders packs by that number and refuses an older one (a `version` string is for people to read, not for code to compare)
 - the pack is what it says it is (someone reads a few of its parts)
+- a GFDL pack is read for the obligations the tooling cannot describe (invariant sections, history, a transparent copy); if the content is available under another licence on the list, that is the easier road
 
-What is not checked: whether the contents are correct. A community pack carries no promise from this project beyond "the file is the one the entry describes". AI-2 says so where the pack is listed.
+What is not checked: whether the contents are correct, and whether you have met your licence's obligations, which remain yours. A community pack carries no promise from this project beyond "the file is the one the entry describes". AI-2 says so where the pack is listed.
 
 ### Where the trust boundary is
 
@@ -103,7 +104,7 @@ Official and community packs are not treated the same by the tool, and the diffe
 
 ### Licences
 
-Only content that may be redistributed. Public domain and CC0 are simplest; CC BY and CC BY-SA work if the attribution is in the manifest, where AI-2 shows it with every answer. Content under a non-commercial or no-derivatives licence cannot go in the catalog, and neither can anything you do not have the right to redistribute. Chunking and indexing count as modification, so a pack says so in its manifest.
+Only content that may be redistributed, and **a licence being on the list is not the same as its obligations being met**. Public domain and CC0 are simplest; CC BY and CC BY-SA work with the attribution in the manifest, where AI-2 shows it with every answer. Apache-2.0 and GFDL require the recipient to receive the licence itself, so those packs carry its text as a document, and a GFDL pack is read by a person for the rest. MIT, PSF and OGL require their notice to be preserved, which for content that is not yours means carrying it in the pack. Non-commercial and no-derivatives licences cannot go in the catalog, and neither can anything you do not have the right to redistribute. Chunking and indexing count as modification, so a pack says so in its manifest. The per-licence detail is in [CONTRIBUTING.md](CONTRIBUTING.md#1-pick-content-you-are-allowed-to-redistribute).
 
 ## Official packs
 
