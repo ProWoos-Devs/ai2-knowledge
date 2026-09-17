@@ -8,7 +8,7 @@ ai-2 knowledge install FILE.ai2pack      add one
 ai-2 doc search "how do I find a big file?"   ask, and get passages with their source
 ```
 
-This repository holds three things: the recipes that build the official packs, the catalog of packs that AI-2 can install by name, and the rules for contributing one of your own.
+This repository holds three things: the recipes that build the official packs, the catalog of packs that AI-2 can install by name, and the rules for contributing one of your own. To contribute a pack, follow [CONTRIBUTING.md](CONTRIBUTING.md) step by step.
 
 ## What is inside a pack
 
@@ -52,6 +52,8 @@ These are not style preferences. They come from measurements recorded in the AI-
 - **Do not prefix parts with their section headings.** It was tried and it made retrieval worse, because the heading takes over the match.
 
 ## Contributing a pack
+
+**First time? [CONTRIBUTING.md](CONTRIBUTING.md) walks the whole way**, from a folder of text to a merged entry, including how to host the file yourself and what to do when CI complains. The rest of this section is the summary.
 
 Open a pull request that adds one entry to `catalog/community.yml`. **You host the file** (a GitHub release of your own, a Hugging Face dataset, any stable HTTPS URL); this repository holds the catalog, not the bytes.
 
