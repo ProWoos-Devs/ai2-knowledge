@@ -1,7 +1,7 @@
 id: ai2-help
 title: AI-2 Help
-version: "2026-09-16"
-revision: 1       # raise this for every rebuild you publish, and mirror it in the catalog entry
+version: "2026-09-18"
+revision: 2       # raise this for every rebuild you publish, and mirror it in the catalog entry
 languages: [en]
 license: MIT
 attribution: "AI-2's own documentation, by Rafael Minuesa. MIT licensed, like the rest of the project."

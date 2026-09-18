@@ -108,7 +108,7 @@ Only content that may be redistributed, and **a licence being on the list is not
 
 ## Official packs
 
-Three, published as the release [packs-2026-09-16](https://github.com/ProWoos-Devs/ai2-knowledge/releases/tag/packs-2026-09-16) and listed in `catalog/official.yml`, which the signed `ai-2` package carries a copy of, so `ai-2 knowledge install ai2-help` fetches one by name. An AI-2 installed from the ISO of 2026-09-16 or later already has all three, and the embedding model they need, on the machine.
+Three, at revision 2, published as the release [packs-2026-09-18](https://github.com/ProWoos-Devs/ai2-knowledge/releases/tag/packs-2026-09-18) and listed in `catalog/official.yml`, which the signed `ai-2` package carries a copy of, so `ai-2 knowledge install ai2-help` fetches one by name. An AI-2 installed from the ISO of 2026-09-16 or later already has all three, and the embedding model they need, on the machine.
 
 | Pack | Recipe | What is in it | Size | Licence |
 |---|---|---|---|---|
@@ -119,5 +119,7 @@ Three, published as the release [packs-2026-09-16](https://github.com/ProWoos-De
 Each recipe holds what built it (a query or a topic set), the renderer where there is one, the rules and the manifest, so anyone can rebuild a pack and compare it with what was published. Measured with question sets written by someone who had not read the packs, 20 questions each, right answer first: everyday 20/20, linux-essentials 19/20, ai2-help 18/20.
 
 Wikidata is collaboratively edited, so a rebuild of `everyday` is never published without reading the diff. Its renderer writes everything a person should check to `flags.txt`: 22 entries of 196 on the 2026-09-16 snapshot, all of them real (seven countries with several currencies in circulation, six with more than one capital, two labels Wikidata has no English word for, two part-qualified overrides, two entities that are not countries for this purpose, the United States with no federal official language, and the Kingdom of the Netherlands with no currency of its own in the data). The statement rules behind those numbers are in `recipes/everyday/README.md` and were settled in #1.
+
+Revision 2 gave the packs their paragraphs back without re-embedding anything: `tools/restore-paragraphs.py` re-cut each source, required it to match the stored text part for part, and replaced only the text, so every vector, and with it every score above, is unchanged. The same tool brings any pack built before ai-2 0.18.6 up to date from its sources.
 
 Facts that change with the world (populations, prices, who holds an office, security advice) do not go in an official pack. They are wrong the moment they are stale, and a pack shipped on an ISO can sit on a machine for years.
