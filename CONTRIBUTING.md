@@ -35,24 +35,24 @@ The embedding model itself is downloaded for you the first time, with its checks
 
 ## 1. Pick content you are allowed to redistribute
 
-This is the step that gets packs rejected, so settle it first, and read the next two paragraphs as one thought: **a licence being allowed here is not the same as its obligations being met.**
+This is the step that gets packs rejected, so settle it first, and read the next two paragraphs as one thought: **a license being allowed here is not the same as its obligations being met.**
 
-**Allowed by the catalog:** public domain, CC0, CC BY, CC BY-SA, MIT, Apache-2.0, GFDL, PSF and OGL. Not allowed: non-commercial and no-derivatives licences, and anything you do not have the right to redistribute, however freely it can be read.
+**Allowed by the catalog:** public domain, CC0, CC BY, CC BY-SA, MIT, Apache-2.0, GFDL, PSF and OGL. Not allowed: non-commercial and no-derivatives licenses, and anything you do not have the right to redistribute, however freely it can be read.
 
-**Obligations are yours, and the checks do not establish them.** CI verifies that the licence is on the list above and that an attribution line exists where one is needed. That is all it can do. Real licences ask for more, and the pack is a distribution, so the asks land on you:
+**Obligations are yours, and the checks do not establish them.** CI verifies that the license is on the list above and that an attribution line exists where one is needed. That is all it can do. Real licenses ask for more, and the pack is a distribution, so the asks land on you:
 
 - **A one-line attribution satisfies CC BY and CC BY-SA** for a pack, together with saying what was changed, which the `modified` field does.
-- **Apache-2.0 and GFDL require the recipient to receive the licence itself**, which no attribution line can do. So the pack must carry the licence text as one of its documents, named `LICENSE`, `NOTICE` or `COPYING`, and CI now refuses these two licences without it. For Apache-2.0, any NOTICE material from the original has to travel too.
-- **GFDL asks for more still** (invariant sections, the history, a transparent copy). A GFDL pack is reviewed by a person before it is merged, and may be asked for changes the tooling cannot describe. If the content is available under any other licence on the list, use that instead.
+- **Apache-2.0 and GFDL require the recipient to receive the license itself**, which no attribution line can do. So the pack must carry the license text as one of its documents, named `LICENSE`, `NOTICE` or `COPYING`, and CI now refuses these two licenses without it. For Apache-2.0, any NOTICE material from the original has to travel too.
+- **GFDL asks for more still** (invariant sections, the history, a transparent copy). A GFDL pack is reviewed by a person before it is merged, and may be asked for changes the tooling cannot describe. If the content is available under any other license on the list, use that instead.
 - **MIT, PSF and OGL** require their notice to be preserved. If the content is not yours, carry it in the pack the same way.
 
 Indexing counts as modification, so your manifest says so. Attribution goes in the manifest, which is where AI-2 reads it from when it prints an answer, and it is shown with every result from your pack.
 
-Official packs also avoid anything that goes stale: no prices, no populations, no security advice, no "who currently holds this office". A pack can sit on a machine for two years. Community packs are not held to that, but the same logic applies to your readers.
+The AI-2 project's own packs avoid anything that goes stale: no prices, no populations, no security advice, no "who currently holds this office". A pack can sit on a machine for two years. Nobody holds your pack to that, but the same logic applies to your readers.
 
 ## 2. Write or collect the text
 
-One plain text file or PDF per document. What they say matters far more than how many there are; the three official packs are between 40 and 196 parts.
+One plain text file or PDF per document. What they say matters far more than how many there are; the three packs the AI-2 project made are between 40 and 196 parts.
 
 **A scanned PDF will not do.** AI-2 reads a PDF's text layer, and a page image has none, so the file is skipped with `no text found (a scanned PDF needs OCR: ai-2 workflow info documents)`. Run OCR first and index the text it produces.
 
@@ -104,7 +104,7 @@ sources:
 ai-2 knowledge export mypack --manifest manifest.yml -o my-pack.ai2pack
 ```
 
-The line it prints names the documents, the parts, the licence and the embedder it recorded. Read it. If the embedder is not the one you meant, go back to step 3; it cannot be changed afterwards.
+The line it prints names the documents, the parts, the license and the embedder it recorded. Read it. If the embedder is not the one you meant, go back to step 3; it cannot be changed afterwards.
 
 Your file paths are not in the pack. The documents' text and the search index are.
 
@@ -146,11 +146,12 @@ Both go in the entry, and both are checked on every download, on your pull reque
 
 ## 9. Add your entry
 
-Fork this repository, branch, and add one entry to `catalog/community.yml`:
+Fork this repository, branch, and add one entry to `catalog/community.yml`. It is the one catalog, for packs made by anyone, and the AI-2 project's own packs are in it too:
 
 ```yaml
 - id: my-pack
   title: What it is, in a few words
+  description: One sentence for the list of packs on the front page (optional)
   version: "2026-09-17"
   revision: 1
   languages: [en]
@@ -163,7 +164,7 @@ Fork this repository, branch, and add one entry to `catalog/community.yml`:
   documents: 120
   parts: 480
   built_with: ai-2 0.18.3
-  contact: your GitHub handle
+  contact: your GitHub handle     # required: who made the pack and answers for it
 ```
 
 Check it before you push, which takes seconds and saves a round trip:
@@ -171,13 +172,16 @@ Check it before you push, which takes seconds and saves a round trip:
 ```bash
 python3 tools/validate-catalog.py                       # the entry itself
 python3 tools/validate-catalog.py --install             # the full check, if you have ai2 installed
+python3 tools/render-catalog.py                         # puts your pack in the table on the front page
 ```
+
+Commit the README change that last command makes together with your entry. CI fails if the table and the catalog disagree.
 
 **On versions, because the two numbers differ on purpose.** You build with 0.18.3 or newer, since 0.18.1 is what added `--embedder`. CI installs your pack with **v0.18.0**, the oldest released AI-2 that understands a pack's `revision`, so the pull request answers "does this artifact install on the oldest AI-2 that knows about packs as they are now", which is a stronger question than "does it install on the newest". If you run `--install` locally with a newer `ai2`, you are running the same checks against a newer baseline; a pass there and a fail in CI would mean your pack needs something an older AI-2 does not have, and that is worth knowing before people hit it.
 
 ## 10. Open the pull request
 
-CI then does the whole thing for real: downloads your file, checks its size and SHA-256, **installs it with AI-2 itself**, and compares the manifest inside the installed pack against your entry, id, title, version, revision, licence, languages, embedder, and the document and part counts. It also counts the rows in the installed index, requires the attribution your licence asks for, and for Apache-2.0 and GFDL requires the licence text to be inside the pack as a document.
+CI then does the whole thing for real: downloads your file, checks its size and SHA-256, **installs it with AI-2 itself**, and compares the manifest inside the installed pack against your entry, id, title, version, revision, license, languages, embedder, and the document and part counts. It also counts the rows in the installed index, requires the attribution your license asks for, and for Apache-2.0 and GFDL requires the license text to be inside the pack as a document.
 
 If it fails, the message names the field and both values. The two common ones:
 
@@ -197,8 +201,8 @@ AI-2 installs a pack whose revision is the same or higher and refuses an older o
 
 ## What this project does and does not promise
 
-We verify that your file is the one your entry describes, that it installs, that its licence is one the catalog carries, and that the attribution and (for Apache-2.0 and GFDL) the licence text are present. **We do not check whether its contents are correct, and we do not certify that you have met your licence's obligations**, which remain yours. AI-2 says as much where community packs are listed.
+We verify that your file is the one your entry describes, that it installs, that its license is one the catalog carries, and that the attribution and (for Apache-2.0 and GFDL) the license text are present. **We do not check whether its contents are correct, and we do not certify that you have met your license's obligations**, which remain yours. That is the same for every pack in the catalog, the project's own included. Who made a pack is in its entry, and that is what a person goes by.
 
-Your pack is never fetched by name: `ai-2 knowledge install ID` resolves only against the official catalog that travels inside the signed `ai-2` package. People install yours from its file, and AI-2 records on their machine that it came from a file rather than from us.
+Once merged, your pack is on the front page of this repository with its download link, and people install it from the file. Each `ai-2` release carries a copy of the catalog inside the signed package, and `ai-2 knowledge install ID` resolves a name only against that copy, so your pack is listed by `ai-2 knowledge available` and installs by name from the next `ai-2` release on. AI-2 records on every machine where an installed pack came from.
 
 If we remove your entry, nothing reaches anyone's machine. A pack already installed stays until its owner removes it.

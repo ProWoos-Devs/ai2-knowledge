@@ -1,13 +1,81 @@
-# Knowledge packs contributed by other people. The file is hosted by whoever
-# made it; this list says where it is and what it should be. Every entry has
-# been downloaded, checked against its sha256 and installed once before being
-# merged. Nobody has checked whether the contents are correct, and AI-2 says
-# so where these are listed.
+# The AI-2 community catalog: every Knowledge Pack that can be listed and
+# installed, whoever made it. The AI-2 project's own packs are here with
+# everyone else's, because the project is part of the community.
+#
+# `contact` says who made a pack and answers for it. What this repository
+# checks is the same for every entry: the file is the one the entry describes,
+# AI-2 installs it, and its license is one the catalog carries. Nobody checks
+# whether a pack's contents are correct; its maker answers for that.
+#
+# Each ai-2 release carries a copy of this file inside the signed package, and
+# `ai-2 knowledge install ID` resolves a name against that copy, so the SHA-256
+# it checks a download against is covered by the repository key. A pack merged
+# after the ai-2 you run was released is installed from its file until the
+# next release lists it.
+#
+# The file is hosted by whoever made the pack. To add yours, follow
+# CONTRIBUTING.md.
 version: 1
-packs: []
+packs:
+- id: ai2-help
+  title: AI-2 Help
+  description: AI-2's own documentation, the wiki pages plus topics written for the questions people ask
+  version: '2026-09-18'
+  revision: 2
+  languages:
+  - en
+  license: MIT
+  attribution: AI-2's own documentation, by Rafael Minuesa. MIT licensed, like the rest of the project.
+  embedder: nomic-embed-text-v1.5
+  url: https://github.com/ProWoos-Devs/ai2-knowledge/releases/download/packs-2026-09-18/ai2-help.ai2pack
+  size_bytes: 346022
+  sha256: b32036ce6b41587afe54fa24402d11fb9c3c30491c77a29c5de98b571fca71df
+  documents: 16
+  parts: 107
+  built_with: ai-2 0.16.0
+  contact: ProWoos-Devs
+- id: everyday
+  title: Everyday Reference
+  description: 196 countries with their capitals, currencies, official languages, country codes and calling codes, from Wikidata
+  version: '2026-09-18'
+  revision: 2
+  languages:
+  - en
+  license: CC0-1.0
+  attribution: Facts from Wikidata (https://www.wikidata.org), CC0. No attribution is required; this line records where the
+    facts come from.
+  embedder: nomic-embed-text-v1.5
+  url: https://github.com/ProWoos-Devs/ai2-knowledge/releases/download/packs-2026-09-18/everyday.ai2pack
+  size_bytes: 593743
+  sha256: 27de9338dbc7dca4b7e7de581704d9386d6fa8742a26af839f435bcd15d50337
+  documents: 196
+  parts: 196
+  built_with: ai-2 0.16.0
+  contact: ProWoos-Devs
+- id: linux-essentials
+  title: Linux Essentials
+  description: Twenty everyday tasks on a Linux machine, written for AI-2 (runit, not systemd)
+  version: '2026-09-18'
+  revision: 2
+  languages:
+  - en
+  license: MIT
+  attribution: Written for AI-2 by Rafael Minuesa. MIT licensed, like the rest of the project.
+  embedder: nomic-embed-text-v1.5
+  url: https://github.com/ProWoos-Devs/ai2-knowledge/releases/download/packs-2026-09-18/linux-essentials.ai2pack
+  size_bytes: 128531
+  sha256: dd0ad1e1957c5fa3eb47aba3829a9078e84478d65f6b7bff2ed5d987defd232e
+  documents: 20
+  parts: 40
+  built_with: ai-2 0.16.0
+  contact: ProWoos-Devs
+#
+# An entry, field by field:
 #  - id: example-pack
 #    title: What it is, in a few words
+#    description: One sentence for the list of packs (optional)
 #    version: "2026-09-16"
+#    revision: 1
 #    languages: [en]
 #    license: CC0-1.0
 #    attribution: ""
@@ -17,5 +85,5 @@ packs: []
 #    sha256: 0000000000000000000000000000000000000000000000000000000000000000
 #    documents: 120
 #    parts: 480
-#    built_with: ai-2 0.16.0
+#    built_with: ai-2 0.18.3
 #    contact: github-handle

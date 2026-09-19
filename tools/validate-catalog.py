@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-"""Check the catalog files.
+"""Check the community catalog, which lists every pack, the AI-2 project's own
+included.
 
 Three layers, each stricter than the last:
 
-  (none)     every entry complete, licences redistributable, ids unique across
-             both catalogs, hashes the right shape
+  (none)     every entry complete, licences redistributable, ids unique,
+             hashes the right shape, the maker named
   --fetch    download each pack and check its size and SHA-256
   --install  install the downloaded pack with AI-2 itself and compare the
              manifest inside it against what the catalog entry claims
@@ -36,10 +37,12 @@ import urllib.request
 import yaml
 
 REQUIRED = ("id", "title", "version", "revision", "languages", "license", "embedder", "url",
-            "size_bytes", "sha256", "documents", "parts")
+            "size_bytes", "sha256", "documents", "parts", "contact")
 # `revision` is required even though a missing one would be read as 1: it is the
 # field AI-2 orders by, and a contributor who never wrote it down is a
-# contributor who will forget to raise it on the next rebuild.
+# contributor who will forget to raise it on the next rebuild. `contact` is
+# required because one catalog holds everybody's packs, the project's included,
+# and who made a pack is what a person goes by when deciding to trust it.
 
 # Redistribution allowed, and any attribution the licence wants goes in the
 # manifest, where AI-2 prints it with every answer. Non-commercial and
@@ -89,8 +92,8 @@ def check(path: str, fetch: bool, install: bool = False, seen_ids: set | None = 
         seen.add(p.get("id"))
         if seen_ids is not None:
             if p.get("id") in seen_ids:
-                problems.append(f"{where}: id is already used by another catalog; ids are global, so a "
-                                "community pack can never be mistaken for an official one")
+                problems.append(f"{where}: id is already used in another catalog file; ids are global, "
+                                "so one pack can never be installed in place of another")
             seen_ids.add(p.get("id"))
         if p.get("license") not in LICENCES:
             problems.append(f"{where}: licence {p.get('license')!r} is not one this catalog carries "
@@ -223,7 +226,7 @@ def main() -> int:
     install = "--install" in sys.argv
     problems = []
     seen_ids: set = set()
-    for path in args or ["catalog/official.yml", "catalog/community.yml"]:
+    for path in args or ["catalog/community.yml"]:
         problems += check(path, fetch, install, seen_ids)
     for line in problems:
         print("error:", line)

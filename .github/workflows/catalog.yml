@@ -14,6 +14,8 @@ jobs:
       - run: pip install pyyaml
       - name: Check the catalog entries
         run: python3 tools/validate-catalog.py
+      - name: The list of packs on the front page is the catalog
+        run: python3 tools/render-catalog.py --check
 
       # A pull request goes further: every pack it lists is downloaded, then
       # installed by AI-2 itself and compared with what the entry claims. The

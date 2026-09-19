@@ -1,21 +1,42 @@
-# AI-2 knowledge packs
+# AI-2 Knowledge Packs
 
-A knowledge pack is a set of documents that an [AI-2](https://github.com/ProWoos-Devs/ai-2) machine can search and answer from, offline, with the source of every answer named. One file holds the documents and the search index, so the slow part, indexing, happens on a fast computer and an old laptop only has to read the result.
+A Knowledge Pack is a set of documents that an [AI-2](https://github.com/ProWoos-Devs/ai-2) machine can search and answer from, offline, with the source of every answer named. One file holds the documents and the search index, so the slow part, indexing, happens on a fast computer and an old laptop only has to read the result.
+
+**This repository is the community catalog.** It is where packs are listed, where you get them, and where you share one you made. Anyone can add a pack. The AI-2 project's own packs are listed here next to everyone else's.
+
+## Get a pack
+
+<!-- catalog:start -->
+| Pack | What is in it | Made by | Language | Size | License | File |
+|---|---|---|---|---|---|---|
+| `ai2-help` | AI-2's own documentation, the wiki pages plus topics written for the questions people ask | [ProWoos-Devs](https://github.com/ProWoos-Devs) | en | 337 KB | MIT | [download](https://github.com/ProWoos-Devs/ai2-knowledge/releases/download/packs-2026-09-18/ai2-help.ai2pack) |
+| `everyday` | 196 countries with their capitals, currencies, official languages, country codes and calling codes, from Wikidata | [ProWoos-Devs](https://github.com/ProWoos-Devs) | en | 579 KB | CC0-1.0 | [download](https://github.com/ProWoos-Devs/ai2-knowledge/releases/download/packs-2026-09-18/everyday.ai2pack) |
+| `linux-essentials` | Twenty everyday tasks on a Linux machine, written for AI-2 (runit, not systemd) | [ProWoos-Devs](https://github.com/ProWoos-Devs) | en | 125 KB | MIT | [download](https://github.com/ProWoos-Devs/ai2-knowledge/releases/download/packs-2026-09-18/linux-essentials.ai2pack) |
+<!-- catalog:end -->
+
+On an AI-2 machine there is nothing to download by hand:
 
 ```
-ai-2 knowledge list                      what is installed here
-ai-2 knowledge install FILE.ai2pack      add one
+ai-2 knowledge available                 the packs your AI-2 can install by name
+ai-2 knowledge install ID                fetch one and check it against the catalog
+ai-2 knowledge install FILE.ai2pack      install a file you downloaded from the table above
 ai-2 doc search "how do I find a big file?"   ask, and get passages with their source
 ```
 
-This repository holds three things: the recipes that build the official packs, the catalog of packs that AI-2 can install by name, and the rules for contributing one of your own. To contribute a pack, follow [CONTRIBUTING.md](CONTRIBUTING.md) step by step.
+`ai-2 knowledge available` reads the copy of this catalog that your `ai-2` release carries, so a pack added here after that release is listed by name from the next `ai-2` release on, and installs from its file until then. An AI-2 installed from the ISO of 2026-09-16 or later already has `ai2-help`, `linux-essentials` and `everyday` on it, with the embedding model they need. Applications > AI-2 > Search Knowledge asks them.
+
+## Share a pack
+
+Made one from your own documents, a manual, a body of public text? **[CONTRIBUTING.md](CONTRIBUTING.md) walks the whole way**, from a folder of text to a merged entry: building it, hosting the file yourself, the entry to add to [`catalog/community.yml`](catalog/community.yml), and what to do when CI complains. The summary is under [Contributing a pack](#contributing-a-pack) below.
+
+Besides the catalog, this repository holds the recipes that build the project's own packs (`recipes/`) and the tools that check every entry (`tools/`).
 
 ## What is inside a pack
 
 A `.ai2pack` file is a zip with exactly two members.
 
 - `index.sqlite`, the documents cut into parts of about 110 words, each part stored with its text, its page or position, and the vector that makes it findable.
-- `manifest.yml`, which says what the pack is: id, version, title, languages, licence, attribution, what was changed from the original, the sources with their URLs, the embedding model with the SHA-256 of its file, and the SHA-256 of the index.
+- `manifest.yml`, which says what the pack is: id, version, title, languages, license, attribution, what was changed from the original, the sources with their URLs, the embedding model with the SHA-256 of its file, and the SHA-256 of the index.
 
 The embedding model matters. Vectors only compare with vectors made by the same model, so a pack names the model it was built with, and AI-2 refuses a pack built with anything it does not have in its catalog.
 
@@ -62,6 +83,7 @@ An entry looks like this:
 ```yaml
 - id: my-pack
   title: What it is, in a few words
+  description: One sentence for the table above (optional)
   version: "2026-09-16"
   languages: [en]
   license: CC-BY-4.0
@@ -74,47 +96,49 @@ An entry looks like this:
   parts: 480
   revision: 1          # required; the number the code orders by, and the manifest's copy is the one that counts
   built_with: ai-2 0.17.0
-  contact: your GitHub handle
+  contact: your GitHub handle   # required; who made the pack and answers for it
 ```
 
 Checked by CI on the pull request, with `tools/validate-catalog.py --install`:
 
-- the entry is complete, the licence is one this catalog carries, and the `id` is not already taken by any other pack in either catalog (ids are global, so a community pack can never be installed in place of an official one)
+- the entry is complete and names who made the pack, the license is one this catalog carries, and the `id` is not already taken (ids are global, so one pack can never be installed in place of another)
+- the table at the top of this page is the catalog (`tools/render-catalog.py` writes it; run it after adding your entry)
 - the file downloads over HTTPS and matches `size_bytes` and `sha256`, the download stopping the moment it outgrows the declared size
-- **AI-2 itself installs the downloaded file** on a clean machine, at the pinned version the workflow names, and then the manifest inside the installed pack is compared with the catalog entry, id, title, version, revision, licence, languages, embedder, document and part counts. The hash only proves the bytes are the ones the entry described; this is what proves the description true
+- **AI-2 itself installs the downloaded file** on a clean machine, at the pinned version the workflow names, and then the manifest inside the installed pack is compared with the catalog entry, id, title, version, revision, license, languages, embedder, document and part counts. The hash only proves the bytes are the ones the entry described; this is what proves the description true
 - the installed index really holds the number of parts the manifest claims
-- the attribution the licence requires is in the manifest, which is where AI-2 reads it from when it prints an answer, and for Apache-2.0 and GFDL the licence text is inside the pack as a document, because those two require the recipient to receive the licence itself
+- the attribution the license requires is in the manifest, which is where AI-2 reads it from when it prints an answer, and for Apache-2.0 and GFDL the license text is inside the pack as a document, because those two require the recipient to receive the license itself
 
 Checked by a person:
 
 - a rebuild of a pack already in the catalog raises its `revision`, because AI-2 orders packs by that number and refuses an older one (a `version` string is for people to read, not for code to compare)
 - the pack is what it says it is (someone reads a few of its parts)
-- a GFDL pack is read for the obligations the tooling cannot describe (invariant sections, history, a transparent copy); if the content is available under another licence on the list, that is the easier road
+- a GFDL pack is read for the obligations the tooling cannot describe (invariant sections, history, a transparent copy); if the content is available under another license on the list, that is the easier road
 
-What is not checked: whether the contents are correct, and whether you have met your licence's obligations, which remain yours. A community pack carries no promise from this project beyond "the file is the one the entry describes". AI-2 says so where the pack is listed.
+What is not checked: whether the contents are correct, and whether you have met your license's obligations, which remain yours. That is the same for every entry, the project's own included: what the catalog promises is "the file is the one the entry describes, and AI-2 installs it". Who made a pack is in its entry, and that is what a person goes by.
 
-### Where the trust boundary is
+### How trust works
 
-Official and community packs are not treated the same by the tool, and the difference is deliberate.
+One catalog, and every entry is treated the same by the tool.
 
-- `ai-2 knowledge install ID` resolves a name **only** against the official catalog, a copy of which travels inside the signed `ai-2` package, so the SHA-256 it checks against is covered by the repository key. A community pack is never fetched by name.
-- A community pack is installed from its file, which the person fetched themselves. AI-2 records where every installed pack came from and prints it in `ai-2 knowledge list`, so "this came from the official catalog" and "this came from a file" stay distinguishable on the machine long after the install.
+- Each `ai-2` release carries a copy of this catalog inside the signed package. `ai-2 knowledge install ID` resolves a name **only** against that copy, so the SHA-256 it checks the download against is covered by the repository key. Nothing is fetched by name from a list that arrived over the network.
+- A pack that is not in the copy your `ai-2` carries (merged here since, or never submitted) is installed from its file, which the person fetched themselves.
+- AI-2 records where every installed pack came from and prints it in `ai-2 knowledge list`, so "from the catalog", "from the AI-2 installation image" and "from a file" stay distinguishable on the machine long after the install.
 - Nothing updates itself. `ai-2 knowledge available` says when a newer revision exists; installing it is a decision a person makes.
 - Removing an entry from this catalog stops new installs. It does not reach onto anyone's machine: a pack already installed stays until its owner runs `ai-2 knowledge remove`. A distro that can delete a user's documents from a repository edit is not one we want to ship.
 
-### Licences
+### Licenses
 
-Only content that may be redistributed, and **a licence being on the list is not the same as its obligations being met**. Public domain and CC0 are simplest; CC BY and CC BY-SA work with the attribution in the manifest, where AI-2 shows it with every answer. Apache-2.0 and GFDL require the recipient to receive the licence itself, so those packs carry its text as a document, and a GFDL pack is read by a person for the rest. MIT, PSF and OGL require their notice to be preserved, which for content that is not yours means carrying it in the pack. Non-commercial and no-derivatives licences cannot go in the catalog, and neither can anything you do not have the right to redistribute. Chunking and indexing count as modification, so a pack says so in its manifest. The per-licence detail is in [CONTRIBUTING.md](CONTRIBUTING.md#1-pick-content-you-are-allowed-to-redistribute).
+Only content that may be redistributed, and **a license being on the list is not the same as its obligations being met**. Public domain and CC0 are simplest; CC BY and CC BY-SA work with the attribution in the manifest, where AI-2 shows it with every answer. Apache-2.0 and GFDL require the recipient to receive the license itself, so those packs carry its text as a document, and a GFDL pack is read by a person for the rest. MIT, PSF and OGL require their notice to be preserved, which for content that is not yours means carrying it in the pack. Non-commercial and no-derivatives licenses cannot go in the catalog, and neither can anything you do not have the right to redistribute. Chunking and indexing count as modification, so a pack says so in its manifest. The per-license detail is in [CONTRIBUTING.md](CONTRIBUTING.md#1-pick-content-you-are-allowed-to-redistribute).
 
-## Official packs
+## The packs made by the AI-2 project
 
-Three, at revision 2, published as the release [packs-2026-09-18](https://github.com/ProWoos-Devs/ai2-knowledge/releases/tag/packs-2026-09-18) and listed in `catalog/official.yml`, which the signed `ai-2` package carries a copy of, so `ai-2 knowledge install ai2-help` fetches one by name. An AI-2 installed from the ISO of 2026-09-16 or later already has all three, and the embedding model they need, on the machine.
+Three, at revision 2, published as the release [packs-2026-09-18](https://github.com/ProWoos-Devs/ai2-knowledge/releases/tag/packs-2026-09-18) and listed in the catalog like any other pack. They are the ones an AI-2 ISO comes with.
 
-| Pack | Recipe | What is in it | Size | Licence |
-|---|---|---|---|---|
-| `ai2-help` | `recipes/ai2-help` | AI-2's own documentation, wiki pages plus topics written for what the wiki says only in a command table | 337 KB | MIT |
-| `linux-essentials` | `recipes/linux-essentials` | Twenty everyday tasks on a Linux machine, written for AI-2 (runit, not systemd) | 125 KB | MIT |
-| `everyday` | `recipes/everyday` | 196 countries with their capitals, currencies, official languages, country codes and calling codes, from [Wikidata](https://www.wikidata.org/wiki/Wikidata:Licensing) (CC0, no attribution required) | 579 KB | CC0 |
+| Pack | Recipe | License |
+|---|---|---|
+| `ai2-help` | `recipes/ai2-help` | MIT |
+| `linux-essentials` | `recipes/linux-essentials` | MIT |
+| `everyday` | `recipes/everyday` | CC0, facts from [Wikidata](https://www.wikidata.org/wiki/Wikidata:Licensing) |
 
 Each recipe holds what built it (a query or a topic set), the renderer where there is one, the rules and the manifest, so anyone can rebuild a pack and compare it with what was published. Measured with question sets written by someone who had not read the packs, 20 questions each, right answer first: everyday 20/20, linux-essentials 19/20, ai2-help 18/20.
 
@@ -122,4 +146,4 @@ Wikidata is collaboratively edited, so a rebuild of `everyday` is never publishe
 
 Revision 2 gave the packs their paragraphs back without re-embedding anything: `tools/restore-paragraphs.py` re-cut each source, required it to match the stored text part for part, and replaced only the text, so every vector, and with it every score above, is unchanged. The same tool brings any pack built before ai-2 0.18.6 up to date from its sources.
 
-Facts that change with the world (populations, prices, who holds an office, security advice) do not go in an official pack. They are wrong the moment they are stale, and a pack shipped on an ISO can sit on a machine for years.
+Facts that change with the world (populations, prices, who holds an office, security advice) do not go in the project's own packs. They are wrong the moment they are stale, and a pack shipped on an ISO can sit on a machine for years.
