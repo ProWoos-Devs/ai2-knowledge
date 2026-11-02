@@ -2,17 +2,15 @@ Severe bleeding
 
 Search terms: bleeding heavily, severe bleeding, blood spurting, deep cut, no bandages, tourniquet, stabbing.
 
-DRAFT, NOT FOR EMERGENCY USE
-
 Written from IFRC 2025. Not reviewed by a clinician.
 
 For: Anyone. IFRC's steps for severe bleeding are not divided by age and do not describe a baby separately.
 
 Age: Not age-specific in IFRC. For children it names a manufactured tourniquet only.
 
-Not for: Bleeding inside the body. No card covers it yet.
+Not for: Bleeding inside the body. No topic covers it yet.
 
-USE THIS CARD WHEN
+USE THIS TOPIC WHEN
 
 - Blood flowing or spurting from a wound on the outside of the body
 
@@ -54,7 +52,7 @@ IF THINGS CHANGE
 
 - If bleeding continues, press harder. If it is an arm or leg, consider a tourniquet. [p. 257]
 
-- If the person stops responding, once the bleeding is stopped, open the airway and check breathing, then use the matching card. [p. 258]
+- If the person stops responding, once the bleeding is stopped, open the airway and check breathing, then use the matching topic. [p. 258]
 
 - In a disaster, attack or conflict, your safety and the person's safety come before treatment. [p. 258]
 
@@ -82,7 +80,7 @@ IF HELP IS DELAYED OR CANNOT BE REACHED
 
 - Leave a tourniquet on until emergency services arrive. IFRC says this generally, and says for disasters and conflict that release is for a medical professional to guide. WHO says never to loosen one without consulting a health professional. [pp. 257, 258, WHO CFAR pocket guide p. 4]
 
-- No guidance was found in the sources checked on what to do with a tourniquet if no medical professional will ever be reachable. [none-found]
+- No guidance was found in the sources checked on what to do with a tourniquet if no medical professional will ever be reachable.
 
 - Get the person to hospital as fast as you can. Show and tell the staff where any tourniquet is and when it went on. [WHO CFAR pocket guide p. 4]
 
@@ -94,22 +92,18 @@ WHAT HAS NO EFFECTIVE SUBSTITUTE
 
 WHERE SOURCES DIFFER OR ARE SILENT
 
-- Other public guidance limits tourniquet advice to a commercial device used by a trained person. IFRC allows an improvised one if it is all that is available. This card follows IFRC.
+- Other public guidance limits tourniquet advice to a commercial device used by a trained person. IFRC allows an improvised one if it is all that is available. This topic follows IFRC.
 
 - Gap: what to do with a tourniquet if a medical professional can never be reached.
 
-- WHO's guide includes packing, raising the limb and a wrapped pressure dressing. IFRC does not include them in its steps. This card follows IFRC.
+- WHO's guide includes packing, raising the limb and a wrapped pressure dressing. IFRC does not include them in its steps. This topic follows IFRC.
 
-LEFT OFF THIS CARD
+LEFT OFF THIS TOPIC
 
 - Hemostatic dressings. IFRC includes them but says training is required.
 
 - Wound packing, raising the limb and wrapped pressure dressing. In the WHO guide (printed pp. 1, 3) but not in IFRC's steps, and IFRC prefers direct pressure to a wrapped dressing on a severe bleed. IFRC is the base.
 
-- Care of a severed body part. Needs its own card. IFRC covers it in Amputation.
+- Care of a severed body part. Needs its own topic. IFRC covers it in Amputation.
 
-Source: IFRC International First Aid, Resuscitation and Education Guidelines 2025; WHO Community First Aid Response Pocket Guide, printed p. 4, version to be pinned. Page numbers in square brackets are pages of that source.
-
-Checked on: no date yet.
-
-Next review due: no date yet.
+Source: IFRC International First Aid, Resuscitation and Education Guidelines 2025; WHO Community First Aid Response Pocket Guide. Page numbers in square brackets are pages of that source.

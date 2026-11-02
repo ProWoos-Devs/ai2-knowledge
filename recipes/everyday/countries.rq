@@ -14,7 +14,7 @@
 #     such as Unidad de Fomento, a unit of account) can be dropped
 #   - ?capOf is the inverse property (P1376), used only when P36 is missing
 SELECT ?c ?cLabel ?capLabel ?capOfLabel ?curLabel ?curCode ?curTypeLabel ?curRank ?langLabel ?langRank
-       ?iso2 ?iso3 ?contLabel ?callCode ?cur ?lang ?cap ?capOf ?curPart ?langPart WHERE {
+       ?iso2 ?iso3 ?contLabel ?cur ?lang ?cap ?capOf ?curPart ?langPart WHERE {
   ?c wdt:P31 wd:Q3624078 .
   FILTER NOT EXISTS { ?c wdt:P576 ?dissolved }
 
@@ -46,7 +46,6 @@ SELECT ?c ?cLabel ?capLabel ?capOfLabel ?curLabel ?curCode ?curTypeLabel ?curRan
   OPTIONAL { ?c wdt:P297 ?iso2 }
   OPTIONAL { ?c wdt:P298 ?iso3 }
   OPTIONAL { ?c wdt:P30 ?cont }
-  OPTIONAL { ?c wdt:P474 ?callCode }
 
   # The label service resolves most labels in one pass. Explicit rdfs:label
   # lookups for all of these variables time out at the service's 60 s limit,

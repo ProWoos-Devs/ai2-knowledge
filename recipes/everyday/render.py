@@ -91,7 +91,7 @@ def group(rows: list[dict]) -> dict:
     """Per country: the plain fields, and per value its ranks and extras."""
     out = collections.defaultdict(lambda: {
         "name": None, "caps": set(), "capOf": set(), "iso2": set(), "iso3": set(),
-        "cont": set(), "call": set(),
+        "cont": set(),
         "langs": collections.defaultdict(lambda: {"label": None, "ranks": set()}),
         "curs": collections.defaultdict(lambda: {"label": None, "ranks": set(), "codes": set(), "types": set()}),
     })
@@ -100,7 +100,7 @@ def group(rows: list[dict]) -> dict:
         c = out[r["c"]["value"].rsplit("/", 1)[1]]
         c["name"] = c["name"] or val("cLabel")
         for key, field in (("capLabel", "caps"), ("capOfLabel", "capOf"), ("iso2", "iso2"),
-                           ("iso3", "iso3"), ("contLabel", "cont"), ("callCode", "call")):
+                           ("iso3", "iso3"), ("contLabel", "cont")):
             if val(key):
                 c[field].add(val(key))
         if val("lang"):
@@ -225,8 +225,6 @@ def main() -> int:
             lines.append(stop(f"{The(name)} lies in more than one part of the world: " + ", ".join(conts)))
         lines.append(f"Its country code is {iso2[0]} (two letters) or {iso3[0]} (three letters)."
                      if iso3 else f"Its country code is {iso2[0]}.")
-        if c["call"]:
-            lines.append(f"To telephone {the(name)} from abroad, dial {sorted(c['call'])[0]}.")
 
         fn = re.sub(r"[^A-Za-z0-9]+", "-", name).strip("-").lower()
         open(os.path.join("entries", fn + ".txt"), "w", encoding="utf-8").write("\n".join(lines) + "\n")

@@ -1,6 +1,8 @@
 # everyday
 
-Countries and the facts about them that do not change from one year to the next: capital, currency, official languages, country codes, calling code, and which part of the world they are in.
+Countries and the facts about them that do not change from one year to the next: capital, currency, official languages, country codes, and which part of the world they are in.
+
+There are no telephone numbers or calling codes, here or in any Knowledge Pack (Rafael, 2026-11-02). Numbers change, and a Knowledge Pack cannot correct itself offline. Revision 2 said Turkey's code was +36, the code it also gave Hungary.
 
 ## Rebuilding
 
@@ -51,4 +53,4 @@ Both are visible in `flags.txt` on every rebuild, so they get looked at rather t
 
 ## Measured
 
-196 entries, 9,733 words, a 580 KB pack. An outside question set of 20 (written by someone who had not read the entries) was answered 20 times out of 20 with the right entry first, 17 direct questions and 3 reverse ones. An earlier in-house set of 10 reverse questions scored 8 of 10 by meaning alone and 9 of 10 by keyword search, failing different ones, which is why a facts pack wants both.
+196 entries, 9,733 words, a 580 KB pack. An outside question set of 20 (written by someone who had not read the entries) was answered 20 times out of 20 with the right entry first on revision 2, 17 direct questions and 3 reverse ones. On revision 3, the 18 questions that do not ask for a calling code still find the right entry first. An earlier in-house set of 10 reverse questions scored 8 of 10 by meaning alone and 9 of 10 by keyword search, failing different ones, which is why a facts pack wants both.

@@ -2,17 +2,15 @@ Choking, adult or child
 
 Search terms: choking, cannot breathe after eating, food stuck in throat, Heimlich, abdominal thrusts, back blows, my child is choking.
 
-DRAFT, NOT FOR EMERGENCY USE
-
 Written from IFRC 2025. Not reviewed by a clinician.
 
 For: Adult or child. IFRC gives these one set of steps.
 
-Age: A child is one year or older. Under one year, use the baby choking card.
+Age: A child is one year or older. Under one year, use the baby choking topic.
 
-Not for: Baby under one year. Use the baby choking card.
+Not for: Baby under one year. Use the baby choking topic.
 
-USE THIS CARD WHEN
+USE THIS TOPIC WHEN
 
 - Something is blocking the throat and the person still responds
 
@@ -44,15 +42,15 @@ DO NOT
 
 IF THINGS CHANGE
 
-- If the person stops responding, start CPR using the card for their age. Give breaths as well as compressions if you possibly can, as these may dislodge the object. [pp. 238, 240, 242]
+- If the person stops responding, start CPR using the topic for their age. Give breaths as well as compressions if you possibly can, as these may dislodge the object. [pp. 238, 240, 242]
 
 WITH NO MEDICAL SUPPLIES
 
-- Every step on this card is done with your hands. No equipment is needed. [p. 240]
+- Every step on this topic is done with your hands. No equipment is needed. [p. 240]
 
 ALTERNATIVES USING WHAT IS AVAILABLE
 
-None known in the sources used for this card.
+None known in the sources used for this topic.
 
 IF HELP IS DELAYED OR CANNOT BE REACHED
 
@@ -68,18 +66,14 @@ WHAT HAS NO EFFECTIVE SUBSTITUTE
 
 WHERE SOURCES DIFFER OR ARE SILENT
 
-- Gap: this card has no adapted thrust for a pregnant or obese person, because IFRC's main text does not give one.
+- Gap: this topic has no adapted thrust for a pregnant or obese person, because IFRC's main text does not give one.
 
-- IFRC is not consistent on a weak cough. Its guidelines treat a weakened or ineffective cough as a complete blockage needing back blows (p. 238), while its list of signs puts weak coughing under partial blockage (p. 239). This card follows the guideline, so a weak cough gets back blows.
+- IFRC is not consistent on a weak cough. Its guidelines treat a weakened or ineffective cough as a complete blockage needing back blows (p. 238), while its list of signs puts weak coughing under partial blockage (p. 239). This topic follows the guideline, so a weak cough gets back blows.
 
-- Chest thrusts: IFRC's good practice points say they work as well as back blows or abdominal thrusts in a responsive adult or child (p. 238). Its evidence review supports starting with back blows and using chest thrusts mainly in unconscious people (pp. 243-244), and its steps do not describe them. This card follows the steps and does not teach them.
+- Chest thrusts: IFRC's good practice points say they work as well as back blows or abdominal thrusts in a responsive adult or child (p. 238). Its evidence review supports starting with back blows and using chest thrusts mainly in unconscious people (pp. 243-244), and its steps do not describe them. This topic follows the steps and does not teach them.
 
-LEFT OFF THIS CARD
+LEFT OFF THIS TOPIC
 
 - Thrust adaptation for pregnant or obese people. IFRC refers to a separate training resource that was not read. No guidance is given here for these people beyond the steps above.
 
 Source: IFRC International First Aid, Resuscitation and Education Guidelines 2025. Page numbers in square brackets are pages of that source.
-
-Checked on: no date yet.
-
-Next review due: no date yet.

@@ -2,17 +2,15 @@ Start here in any emergency
 
 Search terms: emergency, what do I do, someone is hurt, accident, help, first aid, nobody is coming, no phone.
 
-DRAFT, NOT FOR EMERGENCY USE
-
 Written from IFRC 2025. Not reviewed by a clinician.
 
 For: Anyone, any age
 
-Age: Not age-specific. Life-threatening problems lead to separate cards by age.
+Age: Not age-specific. Life-threatening problems lead to separate topics by age.
 
-Not for: This card does not treat any condition. It sends you to the card that does.
+Not for: This topic does not treat any condition. It sends you to the topic that does.
 
-USE THIS CARD WHEN
+USE THIS TOPIC WHEN
 
 - First moments of any emergency, before you know what is wrong
 
@@ -36,7 +34,7 @@ WHAT TO DO
 
 7. If several people are hurt, it may help to call emergency services first to warn them, and call again with details. Then go first to those with the most dangerous breathing or circulation problems. [pp. 116, 120]
 
-8. Go to the card that matches: not responding and breathing normally; not responding and not breathing normally (adult, child or baby); choking; severe bleeding; burn; severe allergic reaction; drowning. [p. 117, card index]
+8. Go to the topic that matches: not responding and breathing normally; not responding and not breathing normally (adult, child or baby); choking; severe bleeding; burn; severe allergic reaction; drowning. [p. 117]
 
 DO NOT
 
@@ -72,14 +70,10 @@ IF HELP IS DELAYED OR CANNOT BE REACHED
 
 WHAT HAS NO EFFECTIVE SUBSTITUTE
 
-Does not apply to this card.
+Does not apply to this topic.
 
-LEFT OFF THIS CARD
+LEFT OFF THIS TOPIC
 
-- Multiple casualty training and psychological first aid skills. Taught skills that need their own card.
+- Multiple casualty training and psychological first aid skills. Taught skills that need their own topic.
 
 Source: IFRC International First Aid, Resuscitation and Education Guidelines 2025. Page numbers in square brackets are pages of that source.
-
-Checked on: no date yet.
-
-Next review due: no date yet.

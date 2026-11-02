@@ -2,17 +2,15 @@ Choking, baby
 
 Search terms: baby choking, infant choking, baby cannot breathe, baby swallowed something.
 
-DRAFT, NOT FOR EMERGENCY USE
-
 Written from IFRC 2025. Not reviewed by a clinician.
 
 For: Baby
 
 Age: Less than one year old.
 
-Not for: One year or older. Use the adult or child choking card.
+Not for: One year or older. Use the adult or child choking topic.
 
-USE THIS CARD WHEN
+USE THIS TOPIC WHEN
 
 - Something is blocking the throat and the baby still responds
 
@@ -44,11 +42,11 @@ DO NOT
 
 IF THINGS CHANGE
 
-- If the baby stops responding, start CPR at once using the baby card. Give breaths as well as compressions if you possibly can. [pp. 239, 241]
+- If the baby stops responding, start CPR at once using the baby topic. Give breaths as well as compressions if you possibly can. [pp. 239, 241]
 
 WITH NO MEDICAL SUPPLIES
 
-- Every step on this card is done with your hands. No equipment is needed. [p. 240]
+- Every step on this topic is done with your hands. No equipment is needed. [p. 240]
 
 ALTERNATIVES USING WHAT IS AVAILABLE
 
@@ -68,16 +66,12 @@ WHAT HAS NO EFFECTIVE SUBSTITUTE
 
 WHERE SOURCES DIFFER OR ARE SILENT
 
-- IFRC notes that recommendations vary by region on the chest thrust technique and on what to do first once a baby is unconscious (p. 241). This card follows IFRC's numbered steps.
+- IFRC notes that recommendations vary by region on the chest thrust technique and on what to do first once a baby is unconscious (p. 241). This topic follows IFRC's numbered steps.
 
-- Weak cough in a baby: IFRC's baby steps say to wait if the baby is coughing or crying (p. 240). Its general point about any choking person treats a weakened cough as a complete blockage (p. 238), and its list of signs puts weak coughing under partial blockage (p. 239). IFRC does not settle this for babies specifically. This card applies the p. 238 point, so a weak cough that is not working gets the full-blockage steps.
+- Weak cough in a baby: IFRC's baby steps say to wait if the baby is coughing or crying (p. 240). Its general point about any choking person treats a weakened cough as a complete blockage (p. 238), and its list of signs puts weak coughing under partial blockage (p. 239). IFRC does not settle this for babies specifically. This topic applies the p. 238 point, so a weak cough that is not working gets the full-blockage steps.
 
-LEFT OFF THIS CARD
+LEFT OFF THIS TOPIC
 
 - Holding the baby's head lower than the body. Appears only as a teaching tip, not in IFRC's numbered steps, and the same page warns against hanging a baby upside down.
 
 Source: IFRC International First Aid, Resuscitation and Education Guidelines 2025. Page numbers in square brackets are pages of that source.
-
-Checked on: no date yet.
-
-Next review due: no date yet.

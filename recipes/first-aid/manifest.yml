@@ -1,46 +1,13 @@
 id: first-aid
 title: First Aid
-version: 2026-11-02-draft
-revision: 1
-languages:
-- en
+version: "2026-11-02"
+revision: 2       # raise this for every rebuild you publish, and mirror it in the catalog entry
+languages: [en]
 license: MIT
-attribution: Written for AI-2 by Rafael Minuesa, in its own wording, from the IFRC International First Aid, Resuscitation and Education Guidelines 2025. IFRC did not write or endorse it. Not reviewed by a clinician. Draft, not for emergency use. MIT licensed, like the rest of the project.
-modified: Written for AI-2 in its own wording, cut into parts and embedded for search
-  by AI-2.
+attribution: "Written for AI-2 by Rafael Minuesa, in its own wording, from the IFRC International First Aid, Resuscitation and Education Guidelines 2025. IFRC did not write or endorse it. MIT licensed, like the rest of the project."
+modified: "Written as topics, cut into parts and embedded for search by AI-2."
 sources:
-- file: about-this-pack.txt
-  title: About the First-Aid Knowledge Pack
-- file: anaphylaxis.txt
-  title: Severe allergic reaction (anaphylaxis)
-  url: https://www.ifrc.org/sites/default/files/2026-03/IFRC%20International%20First%20Aid%2C%20Resuscitation%20and%20Education%20Guidelines%202025.pdf
-- file: choking-adult-child.txt
-  title: Choking, adult or child
-  url: https://www.ifrc.org/sites/default/files/2026-03/IFRC%20International%20First%20Aid%2C%20Resuscitation%20and%20Education%20Guidelines%202025.pdf
-- file: choking-baby.txt
-  title: Choking, baby
-  url: https://www.ifrc.org/sites/default/files/2026-03/IFRC%20International%20First%20Aid%2C%20Resuscitation%20and%20Education%20Guidelines%202025.pdf
-- file: drowning.txt
-  title: Drowning
-  url: https://www.ifrc.org/sites/default/files/2026-03/IFRC%20International%20First%20Aid%2C%20Resuscitation%20and%20Education%20Guidelines%202025.pdf
-- file: severe-bleeding.txt
-  title: Severe bleeding
-  url: https://www.ifrc.org/sites/default/files/2026-03/IFRC%20International%20First%20Aid%2C%20Resuscitation%20and%20Education%20Guidelines%202025.pdf
-- file: start-here.txt
-  title: Start here in any emergency
-  url: https://www.ifrc.org/sites/default/files/2026-03/IFRC%20International%20First%20Aid%2C%20Resuscitation%20and%20Education%20Guidelines%202025.pdf
-- file: thermal-burn.txt
-  title: Burn or scald from heat
-  url: https://www.ifrc.org/sites/default/files/2026-03/IFRC%20International%20First%20Aid%2C%20Resuscitation%20and%20Education%20Guidelines%202025.pdf
-- file: unresponsive-abnormal-breathing-adult.txt
-  title: Not responding and not breathing normally, adult or teenager
-  url: https://www.ifrc.org/sites/default/files/2026-03/IFRC%20International%20First%20Aid%2C%20Resuscitation%20and%20Education%20Guidelines%202025.pdf
-- file: unresponsive-abnormal-breathing-baby.txt
-  title: Not responding and not breathing normally, baby
-  url: https://www.ifrc.org/sites/default/files/2026-03/IFRC%20International%20First%20Aid%2C%20Resuscitation%20and%20Education%20Guidelines%202025.pdf
-- file: unresponsive-abnormal-breathing-child.txt
-  title: Not responding and not breathing normally, child
-  url: https://www.ifrc.org/sites/default/files/2026-03/IFRC%20International%20First%20Aid%2C%20Resuscitation%20and%20Education%20Guidelines%202025.pdf
-- file: unresponsive-breathing-normally.txt
-  title: Not responding, but breathing normally
-  url: https://www.ifrc.org/sites/default/files/2026-03/IFRC%20International%20First%20Aid%2C%20Resuscitation%20and%20Education%20Guidelines%202025.pdf
+  - file: first-aid
+    title: "IFRC International First Aid, Resuscitation and Education Guidelines 2025"
+    url: https://www.ifrc.org/sites/default/files/2026-03/IFRC%20International%20First%20Aid%2C%20Resuscitation%20and%20Education%20Guidelines%202025.pdf
+    retrieved: 2026-11-02

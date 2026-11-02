@@ -2,15 +2,13 @@ Drowning
 
 Search terms: drowning, pulled from water, near drowning, not breathing after swimming.
 
-DRAFT, NOT FOR EMERGENCY USE
-
 Written from IFRC 2025. Not reviewed by a clinician.
 
-For: Adult, child and baby, with CPR on the card for their age
+For: Adult, child and baby, with CPR on the topic for their age
 
-Age: Go by how the person looks. See the CPR card for their age.
+Age: Go by how the person looks. See the CPR topic for their age.
 
-USE THIS CARD WHEN
+USE THIS TOPIC WHEN
 
 - A person in trouble in water, or just taken out of it. Drowning is often quiet, and they may not wave or call. Signs include a head low or under water, gasping, face down, upright and bobbing, trying to swim with no progress, or not answering when asked if they are OK.
 
@@ -26,9 +24,9 @@ WHAT TO DO
 
 3. Check for a response, then open the airway: gently tilt the head back and lift the chin, or a neutral head position for a baby. Check breathing. Irregular, noisy or absent breathing is not normal. If you have any doubt, treat it as not normal. [pp. 161, 187, 219, 220]
 
-4. NOT RESPONDING AND NOT BREATHING NORMALLY: get help and start CPR following the card for their age. Give the breaths as well if you possibly can, because they matter most after drowning. Do not delay them because of water in the airway. If you cannot or will not give breaths, give compressions alone. Expect vomiting, and roll them onto their side to clear it. [pp. 215, 216, 220, 222]
+4. NOT RESPONDING AND NOT BREATHING NORMALLY: get help and start CPR following the topic for their age. Give the breaths as well if you possibly can, because they matter most after drowning. Do not delay them because of water in the airway. If you cannot or will not give breaths, give compressions alone. Expect vomiting, and roll them onto their side to clear it. [pp. 215, 216, 220, 222]
 
-5. NOT RESPONDING BUT BREATHING NORMALLY: if a spine injury is possible, such as a dive into shallow water, move them as little as you can and follow the spine step on the card for not responding and breathing normally. But keeping the airway clear comes first: if vomit or fluid is blocking breathing, position them so it can drain, limiting spine movement as far as you can. If no spine injury is possible, roll them onto their side so fluids can drain, or use a neutral head position for a baby. A baby can be held this way in your arms. Get medical care. Keep them warm and watch closely, because they can worsen fast or vomit. [pp. 153, 216, 219, 220, 227, 308]
+5. NOT RESPONDING BUT BREATHING NORMALLY: if a spine injury is possible, such as a dive into shallow water, move them as little as you can and follow the spine step on the topic for not responding and breathing normally. But keeping the airway clear comes first: if vomit or fluid is blocking breathing, position them so it can drain, limiting spine movement as far as you can. If no spine injury is possible, roll them onto their side so fluids can drain, or use a neutral head position for a baby. A baby can be held this way in your arms. Get medical care. Keep them warm and watch closely, because they can worsen fast or vomit. [pp. 153, 216, 219, 220, 227, 308]
 
 6. RESPONDING AND BREATHING: help them rest sitting or lying on their side. Keep them warm and watch their breathing. [p. 219]
 
@@ -68,7 +66,7 @@ ALTERNATIVES USING WHAT IS AVAILABLE
 
 IF HELP IS DELAYED OR CANNOT BE REACHED
 
-- Keep doing CPR. A person who has drowned may still respond even with no defibrillator. The 20-minute stopping note on the child and baby cards does not apply after drowning. [pp. 162, 188]
+- Keep doing CPR. A person who has drowned may still respond even with no defibrillator. The 20-minute stopping note on the child and baby topics does not apply after drowning. [pp. 162, 188]
 
 - Keep clearing vomit from the airway by rolling them onto their side, then continue. [p. 220]
 
@@ -80,18 +78,14 @@ WHAT HAS NO EFFECTIVE SUBSTITUTE
 
 WHERE SOURCES DIFFER OR ARE SILENT
 
-- Order of CPR after drowning: IFRC's good practice points say lay people start with compressions while also prioritizing early breaths (p. 216). Its first aid steps say to open the airway and give two to five breaths first (p. 220), and its background says breaths are the most important first treatment (p. 222). This card sends lay readers to the CPR card for their age, which starts with compressions.
+- Order of CPR after drowning: IFRC's good practice points say lay people start with compressions while also prioritizing early breaths (p. 216). Its first aid steps say to open the airway and give two to five breaths first (p. 220), and its background says breaths are the most important first treatment (p. 222). This topic sends lay readers to the CPR topic for their age, which starts with compressions.
 
-- Alone with a child or baby: IFRC's drowning steps say to call on speaker or leave to get help (p. 220). Its child and baby CPR section says that if you cannot call while doing CPR, do one minute of CPR first (p. 188). This card sends readers to the CPR card for their age.
+- Alone with a child or baby: IFRC's drowning steps say to call on speaker or leave to get help (p. 220). Its child and baby CPR section says that if you cannot call while doing CPR, do one minute of CPR first (p. 188). This topic sends readers to the CPR topic for their age.
 
-LEFT OFF THIS CARD
+LEFT OFF THIS TOPIC
 
 - Oxygen. For trained providers with equipment.
 
 - Rescue breaths in the water. IFRC recommends them only for specially trained rescuers.
 
 Source: IFRC International First Aid, Resuscitation and Education Guidelines 2025. Page numbers in square brackets are pages of that source.
-
-Checked on: no date yet.
-
-Next review due: no date yet.

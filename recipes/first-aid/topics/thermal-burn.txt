@@ -2,17 +2,15 @@ Burn or scald from heat
 
 Search terms: burn, scald, boiling water, hot oil, fire burn.
 
-DRAFT, NOT FOR EMERGENCY USE
-
 Written from IFRC 2025. Not reviewed by a clinician.
 
 For: Adult, child and baby, with differences marked
 
 Age: Not age-specific in IFRC. Burns can be more harmful to babies and children, and to older people.
 
-Not for: Sunburn needs its own card. None exists yet. CHEMICAL on skin or in the eyes: avoid touching the chemical yourself. Rinse with running water until the pain eases, using clean water for eyes, and take care the runoff does not reach you, healthy skin or the other eye. Get emergency help. If it was swallowed, do not try to dilute it, do not make the person vomit, and contact a poison center or emergency services. If they vomit while lying down, turn them on their side. ELECTRICAL: check for danger first, and get emergency help.
+Not for: Sunburn needs its own topic. None exists yet. CHEMICAL on skin or in the eyes: avoid touching the chemical yourself. Rinse with running water until the pain eases, using clean water for eyes, and take care the runoff does not reach you, healthy skin or the other eye. Get emergency help. If it was swallowed, do not try to dilute it unless a poison center or other healthcare provider tells you to, do not make the person vomit, and contact a poison center or emergency services. If they are awake, have them rinse with water and spit out what is left. Lay them on their left side if possible. If they vomit while lying down, turn them on their side. If they stop responding and are not breathing normally, give CPR with compressions only, no breaths. [pp. 288, 289, 291, 346, 347, 348] ELECTRICAL: check for danger first, and get emergency help.
 
-USE THIS CARD WHEN
+USE THIS TOPIC WHEN
 
 - Burn from heat, flame, steam or hot liquid
 
@@ -82,20 +80,16 @@ WHAT HAS NO EFFECTIVE SUBSTITUTE
 
 WHERE SOURCES DIFFER OR ARE SILENT
 
-- Cooling time: IFRC says at least 10 minutes, ideally 20. Other health authorities say 20 minutes. This card follows IFRC.
+- Cooling time: IFRC says at least 10 minutes, ideally 20. Other health authorities say 20 minutes. This topic follows IFRC.
 
-- After cooling: IFRC says vaseline or honey may help, and that honey, aloe vera or banana leaves can be used for aftercare. Other health authorities advise against putting creams, oils, lotions, ointments or powders on a burn. This card reports IFRC and this difference.
+- After cooling: IFRC says vaseline or honey may help, and that honey, aloe vera or banana leaves can be used for aftercare. Other health authorities advise against putting creams, oils, lotions, ointments or powders on a burn. This topic reports IFRC and this difference.
 
-LEFT OFF THIS CARD
+LEFT OFF THIS TOPIC
 
-- Sunburn. IFRC has separate steps. It needs its own card.
+- Sunburn. IFRC has separate steps. It needs its own topic.
 
 - Silver sulfadiazine. A medicine IFRC says should not be used, not something a bystander would reach for.
 
-- Full chemical burn and eye steps, and neutralizing solutions. Needs its own card. The first actions are under Not for, at the top.
+- Full chemical burn and eye steps, and neutralizing solutions. Needs its own topic. The first actions are under Not for, at the top.
 
 Source: IFRC International First Aid, Resuscitation and Education Guidelines 2025. Page numbers in square brackets are pages of that source.
-
-Checked on: no date yet.
-
-Next review due: no date yet.

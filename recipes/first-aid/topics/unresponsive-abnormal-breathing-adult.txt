@@ -2,17 +2,15 @@ Not responding and not breathing normally, adult or teenager
 
 Search terms: CPR, heart stopped, cardiac arrest, collapsed, only gasping, not breathing, no defibrillator, no AED.
 
-DRAFT, NOT FOR EMERGENCY USE
-
 Written from IFRC 2025. Not reviewed by a clinician.
 
 For: Adult or adolescent
 
-Age: Someone you think has gone through puberty. If they look like a child or baby, use that card.
+Age: Someone you think has gone through puberty. If they look like a child or baby, use that topic.
 
-Not for: Child or baby. Use the card for their age.
+Not for: Child or baby. Use the topic for their age.
 
-USE THIS CARD WHEN
+USE THIS TOPIC WHEN
 
 - Does not respond, and breathing is absent, gasping, noisy or irregular. If you are unsure whether breathing is normal, treat it as not normal.
 
@@ -42,6 +40,8 @@ WHAT TO DO
 
 DO NOT
 
+- Do not give breaths if you suspect a harmful substance in or around the mouth, or poisoning by a toxin such as cyanide, hydrogen sulfide, corrosives or organophosphates. Give compressions only, to avoid contact. [pp. 346, 348]
+
 - Do not rely on feeling for a pulse to decide. When unsure whether the heart has stopped, begin CPR. [p. 159]
 
 - Do not lean on the chest between compressions. [p. 160]
@@ -56,13 +56,13 @@ IF THINGS CHANGE
 
 WITH NO MEDICAL SUPPLIES
 
-- The steps on this card use only your hands and mouth. Do not wait for equipment before starting. [p. 162]
+- The steps on this topic use only your hands and mouth. Do not wait for equipment before starting. [p. 162]
 
 - Use a firm surface if possible, but do not lose time moving the person. [p. 160]
 
 ALTERNATIVES USING WHAT IS AVAILABLE
 
-Does not apply to this card.
+Does not apply to this topic.
 
 IF HELP IS DELAYED OR CANNOT BE REACHED
 
@@ -80,14 +80,16 @@ WHAT HAS NO EFFECTIVE SUBSTITUTE
 
 - A defibrillator and advanced medical care. IFRC says a person in this state is unlikely to recover with CPR alone, and nothing is described that replaces a shock. IFRC also says survival depends on immediate and effective CPR, so do not delay it. [p. 163]
 
-LEFT OFF THIS CARD
+WHERE SOURCES DIFFER OR ARE SILENT
+
+- Getting help or starting first: IFRC's CPR steps put getting help before compressions (p. 162). Its section on using a defibrillator lists beginning CPR first and calls contacting emergency services a priority after beginning (p. 198). This topic follows the steps on p. 162.
+
+LEFT OFF THIS TOPIC
+
+- How to give naloxone. For a suspected opioid overdose, IFRC says to use it when giving CPR, if available and legally permitted, and says first aid providers may consider it if they have appropriate training and local regulations allow (p. 208).
 
 - Pulse checks. Reserved by IFRC for professional responders.
 
 - Defibrillator pad placement detail. The device's voice prompts lead the rescuer.
 
 Source: IFRC International First Aid, Resuscitation and Education Guidelines 2025. Page numbers in square brackets are pages of that source.
-
-Checked on: no date yet.
-
-Next review due: no date yet.

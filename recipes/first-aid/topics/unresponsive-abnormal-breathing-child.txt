@@ -2,17 +2,15 @@ Not responding and not breathing normally, child
 
 Search terms: child CPR, child not breathing, kid collapsed, child unconscious gasping.
 
-DRAFT, NOT FOR EMERGENCY USE
-
 Written from IFRC 2025. Not reviewed by a clinician.
 
 For: Child
 
-Age: Looks like a child: about one year or older, and not yet through puberty. If they look under about one year, use the baby card.
+Age: Looks like a child: about one year or older, and not yet through puberty. If they look under about one year, use the baby topic.
 
-Not for: Baby under about one year or a teenager or adult. Use the card for their age.
+Not for: Baby under about one year or a teenager or adult. Use the topic for their age.
 
-USE THIS CARD WHEN
+USE THIS TOPIC WHEN
 
 - Does not respond, and breathing is absent, gasping, noisy or irregular. If you are unsure whether breathing is normal, treat it as not normal.
 
@@ -44,6 +42,8 @@ WHAT TO DO
 
 DO NOT
 
+- Do not give breaths if you suspect a harmful substance in or around the mouth, or poisoning by a toxin such as cyanide, hydrogen sulfide, corrosives or organophosphates. Give compressions only, to avoid contact. [pp. 346, 348]
+
 - Do not spend time feeling for a pulse. It is not needed. [p. 186]
 
 - Do not give more or stronger breaths than needed, as the air goes into the stomach. [p. 190]
@@ -52,17 +52,17 @@ IF THINGS CHANGE
 
 - While giving breaths, watch for movement or coughing. [p. 188]
 
-- If the child does not respond but breathes normally, keep the airway open. Use the card for not responding and breathing normally. [p. 188]
+- If the child does not respond but breathes normally, keep the airway open. Use the topic for not responding and breathing normally. [p. 188]
 
 - If the child recovers, keep watching closely until help takes over, because breathing can stop again. [p. 189]
 
 WITH NO MEDICAL SUPPLIES
 
-- The steps on this card use only your hands and mouth. Use a firm surface when possible. [pp. 187, 188]
+- The steps on this topic use only your hands and mouth. Use a firm surface when possible. [pp. 187, 188]
 
 ALTERNATIVES USING WHAT IS AVAILABLE
 
-Does not apply to this card.
+Does not apply to this topic.
 
 IF HELP IS DELAYED OR CANNOT BE REACHED
 
@@ -78,20 +78,16 @@ WHAT HAS NO EFFECTIVE SUBSTITUTE
 
 WHERE SOURCES DIFFER OR ARE SILENT
 
-- IFRC notes that other guidance allows different ratios and orders, and either compressions or breaths first (pp. 188-189). This card follows IFRC's numbered steps.
+- IFRC notes that other guidance allows different ratios and orders, and either compressions or breaths first (pp. 188-189). This topic follows IFRC's numbered steps.
 
-- IFRC's numbered steps say that with no phone nearby you leave to get help as quickly as possible (p. 188). Another point on the same page says to do CPR for one minute first if you cannot call while doing it. This card combines them in that order.
+- IFRC's numbered steps say that with no phone nearby you leave to get help as quickly as possible (p. 188). Another point on the same page says to do CPR for one minute first if you cannot call while doing it. This topic combines them in that order.
 
-LEFT OFF THIS CARD
+LEFT OFF THIS TOPIC
 
 - 15 compressions to 2 breaths. IFRC offers this ratio to trained responders. Untrained rescuers use 30 to 2.
 
-- Starting with breaths. IFRC prefers breaths first in good practice but accepts compressions first, and its numbered steps start with compressions. The card follows the numbered steps.
+- Starting with breaths. IFRC prefers breaths first in good practice but accepts compressions first, and its numbered steps start with compressions. The topic follows the numbered steps.
 
 - Pad placement on a child or baby. The device's prompts lead the rescuer.
 
 Source: IFRC International First Aid, Resuscitation and Education Guidelines 2025. Page numbers in square brackets are pages of that source.
-
-Checked on: no date yet.
-
-Next review due: no date yet.
