@@ -11,6 +11,7 @@ A Knowledge Pack is a set of documents that an [AI-2](https://github.com/ProWoos
 |---|---|---|---|---|---|---|
 | `ai2-help` | AI-2's own documentation, the wiki pages plus topics written for the questions people ask | [ProWoos-Devs](https://github.com/ProWoos-Devs) | en | 337 KB | MIT | [download](https://github.com/ProWoos-Devs/ai2-knowledge/releases/download/packs-2026-09-18/ai2-help.ai2pack) |
 | `everyday` | 196 countries with their capitals, currencies, official languages, country codes and calling codes, from Wikidata | [ProWoos-Devs](https://github.com/ProWoos-Devs) | en | 579 KB | CC0-1.0 | [download](https://github.com/ProWoos-Devs/ai2-knowledge/releases/download/packs-2026-09-18/everyday.ai2pack) |
+| `first-aid` | Eleven first-aid cards for people with no training, written from IFRC 2025. Draft, not reviewed by a clinician | [ProWoos-Devs](https://github.com/ProWoos-Devs) | en | 381 KB | MIT | [download](https://github.com/ProWoos-Devs/ai2-knowledge/releases/download/packs-2026-11-02/first-aid.ai2pack) |
 | `linux-essentials` | Twenty everyday tasks on a Linux machine, written for AI-2 (runit, not systemd) | [ProWoos-Devs](https://github.com/ProWoos-Devs) | en | 125 KB | MIT | [download](https://github.com/ProWoos-Devs/ai2-knowledge/releases/download/packs-2026-09-18/linux-essentials.ai2pack) |
 <!-- catalog:end -->
 

@@ -1,0 +1,92 @@
+schema_version: 1
+status: draft-check-5-applied
+id: choking-baby
+language: en
+title: Choking, baby
+audience: untrained-bystander
+population: Baby
+age_definition: Less than one year old.
+age_groups: [baby]
+family: choking
+jurisdiction: Global (IFRC). Emergency numbers are not on this card.
+protocol_family: ifrc-2025
+emergency_number_profile: pending-regional-profile
+source_ids:
+- ifrc-2025
+source_editions:
+- IFRC International First Aid, Resuscitation and Education Guidelines 2025
+query_aliases:
+- baby choking
+- infant choking
+- my 6-month-old baby is choking
+- baby cannot breathe
+- baby swallowed something
+applicability:
+- Something is blocking the throat and the baby still responds
+exclusions:
+- One year or older. Use the adult or child choking card.
+display:
+  urgent_help: Always get emergency help if the baby could not cough, cry or breathe, even if the object comes out.
+  immediate_actions:
+  - text: 'PARTLY BLOCKED, the baby is crying or has a working cough and can breathe: wait to see if the baby clears it. Stay and watch, because it can become a full blockage.'
+    src: pp. 238, 240
+  - text: FULLY BLOCKED, the baby cannot cry, cough or breathe, or has only a weak cough and is struggling to breathe. The baby may have blue lips, ears, fingers or toes. Sit or kneel, support the baby on your lap, and hit firmly between the shoulder blades, up to 5 times.
+    src: pp. 238, 239, 240, 242
+  - text: If that fails, turn the baby over and lay them on your knees. Put two thumbs on the breastbone with your hands around the chest, and give up to 5 thrusts, sharper than CPR compressions.
+    src: p. 240
+  - text: If that fails, get emergency help immediately.
+    src: p. 240
+  - text: Keep switching between 5 hits and 5 chest thrusts until the object comes out or the baby stops responding.
+    src: p. 240
+  without_medical_supplies:
+    state: supported
+    items:
+    - text: Every step on this card is done with your hands. No equipment is needed.
+      src: p. 240
+  supported_alternatives:
+    state: supported
+    items:
+    - text: IFRC says two fingers or the palm of one hand work as well as two thumbs for the chest thrusts.
+      limits: For a baby only.
+      src: p. 239
+  if_help_is_delayed_or_unreachable:
+    state: supported
+    items:
+    - text: Do not stop. Keep alternating blows and chest thrusts.
+      src: p. 240
+    - text: After a full blockage clears, medical care is still needed. No guidance was found in the sources checked on what to do if care cannot be reached.
+      src: p. 241
+    - text: After a partial blockage, get medical care if the coughing continues, the baby has trouble swallowing, or the object may still be stuck.
+      src: p. 241
+  no_effective_substitute_for:
+    state: none-known
+    items:
+    - text: IFRC's steps name no other way to clear a full blockage when these actions fail, apart from CPR once the baby stops responding.
+      src: pp. 240, 241
+  do_not:
+  - text: Do not give a baby abdominal thrusts. Their organs can be damaged.
+    src: p. 242
+  - text: Do not sweep the mouth blindly with your fingers. Remove something only if you can see it.
+    src: pp. 239, 241
+  - text: Do not hang the baby upside down.
+    src: p. 242
+  - text: Do not give a drink to clear the blockage.
+    src: p. 242
+  reassess_and_change_actions:
+  - text: If the baby stops responding, start CPR at once using the baby card. Give breaths as well as compressions if you possibly can.
+    src: pp. 239, 241
+untrained_scope:
+  left_out:
+  - what: Holding the baby's head lower than the body
+    why: Appears only as a teaching tip, not in IFRC's numbered steps, and the same page warns against hanging a baby upside down.
+    src: p. 242
+source_differences:
+- IFRC notes that recommendations vary by region on the chest thrust technique and on what to do first once a baby is unconscious (p. 241). This card follows IFRC's numbered steps.
+- 'Weak cough in a baby: IFRC''s baby steps say to wait if the baby is coughing or crying (p. 240). Its general point about any choking person treats a weakened cough as a complete blockage (p. 238), and its list of signs puts weak coughing under partial blockage (p. 239). IFRC does not settle this for babies specifically. This card applies the p. 238 point, so a weak cough that is not working gets the full-blockage steps.'
+review:
+  label: Written from IFRC 2025. Not reviewed by a clinician.
+  traceability: drafted
+  independent_check: five rounds run and applied. Round 5 fixes not yet rechecked.
+  checked_on: null
+  next_review_due: null
+  clinician_reader: null

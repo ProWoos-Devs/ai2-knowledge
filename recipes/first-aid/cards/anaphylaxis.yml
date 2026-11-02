@@ -1,0 +1,99 @@
+schema_version: 1
+status: draft-check-5-applied
+id: anaphylaxis
+language: en
+title: Severe allergic reaction (anaphylaxis)
+audience: untrained-bystander
+population: Adult, child or baby with their own prescribed epinephrine. IFRC's steps are not divided by age and do not describe a baby separately.
+age_definition: Not age-specific in IFRC's steps.
+age_groups: [adult, child, baby]
+jurisdiction: Global (IFRC). Laws on giving medicine vary by place. Emergency numbers are not on this card.
+protocol_family: ifrc-2025
+emergency_number_profile: pending-regional-profile
+source_ids:
+- ifrc-2025
+source_editions:
+- IFRC International First Aid, Resuscitation and Education Guidelines 2025
+query_aliases:
+- anaphylaxis
+- severe allergy
+- throat swelling
+- her throat is swelling and there is no epinephrine
+- EpiPen
+- adrenaline
+- epinephrine
+- allergic reaction
+- bee sting allergy
+- nut allergy
+applicability:
+- Signs of a severe reaction can include trouble breathing or wheezing; swelling of the tongue or throat, hoarse or noisy breathing, or trouble swallowing, which is often the first sign; and confusion, agitation, pale skin or collapse. There may have been contact with something like food, a sting, medicine or latex. Ask about known allergies and medicine.
+exclusions:
+- Mild reaction with none of these signs. No card covers it yet. Watch closely because it can become severe within minutes.
+display:
+  urgent_help: Get emergency help the moment you recognize a severe reaction.
+  immediate_actions:
+  - text: Get emergency help.
+    src: p. 378
+  - text: If appropriate, stop further contact with what caused it, by removing it or moving the person away.
+    src: p. 376
+  - text: Help the person lie down. If breathing is difficult, help them sit instead.
+    src: p. 378
+  - text: If they have prescribed epinephrine, help them use it straight away, where local law permits. Delay is linked to worse outcomes. An autoinjector goes into the middle of the outer thigh, through clothing if it is not thick, held pressed for about three seconds. Prescribed nasal epinephrine is also used. Afterward, keep them from sitting or standing upright, on their back. Raise their legs if this makes them feel better and they have no injury. If breathing is difficult or lying back is uncomfortable, let them take the position that suits them, such as sitting.
+    src: pp. 376, 377, 378, 381, 387, 388, 389
+  - text: If there is no improvement after 5 to 10 minutes and help has not arrived, a second dose may be considered.
+    src: pp. 376, 379
+  - text: Keep checking regularly whether they respond and how they breathe. Tell emergency services if epinephrine was given.
+    src: pp. 379, 380
+  without_medical_supplies:
+    state: supported
+    items:
+    - text: Getting help, removing the cause, positioning and watching their breathing all need no medicine.
+      src: pp. 376, 378, 379
+  supported_alternatives:
+    state: supported
+    items:
+    - text: 'No epinephrine: get emergency help immediately. While you wait, antihistamines or corticosteroids can be used, but only after medical advice.'
+      limits: IFRC does not say these replace epinephrine. No dose is given on this card.
+      src: p. 379
+  if_help_is_delayed_or_unreachable:
+    state: supported
+    items:
+    - text: Keep watching their breathing and response regularly. Stay with them.
+      src: p. 379
+    - text: Symptoms can return after full recovery, between 1 and 78 hours after the reaction began, more often after a more severe reaction or more than one dose. IFRC advises monitoring for three days after a reaction.
+      src: pp. 377, 380
+    - text: No guidance was found in the sources checked for treating anaphylaxis when there is no epinephrine and medical advice cannot be reached.
+      src: none-found
+  no_effective_substitute_for:
+    state: supported
+    items:
+    - text: Epinephrine. IFRC treats anaphylaxis with it. The sources checked describe no household replacement, and none is offered here. The steps above support the person but do not treat the reaction the way epinephrine does.
+      src: pp. 376, 379
+  do_not:
+  - text: Do not give the injection yourself unless it was prescribed for this person, they cannot use it themselves, and local law permits it. A wrong diagnosis, dose or route can cause harm.
+    src: p. 377
+  reassess_and_change_actions:
+  - text: If they stop responding and are not breathing normally, start CPR using the card for their age.
+    src: pp. 159, 378
+  - text: After epinephrine, a fast heartbeat, shakiness, anxiety, nausea, headache, dizziness, paleness or sweating can occur. Some of these can also come from the reaction itself.
+    src: p. 379
+untrained_scope:
+  left_out:
+  - what: Epinephrine dose figures by weight
+    why: IFRC's figures apply unless a prescription differs, and this card only covers the person's own prescribed medicine.
+    src: p. 377
+  - what: Formal diagnostic criteria for anaphylaxis
+    why: Written for assessment by trained people. The card lists IFRC's recognition signs instead.
+    src: pp. 378, 386, 387
+source_differences:
+- 'Order: IFRC''s key action puts stopping contact with the allergen first (p. 376), while its numbered steps do not place it (pp. 378-379). This card puts it right after calling for help.'
+- 'Position: IFRC''s numbered steps say lie down, or sit if breathing is difficult (p. 378). A review IFRC cites suggests that after epinephrine people should not be upright and should lie on their back with legs raised (p. 387). IFRC''s Shock section gives the conditions for raising legs and the choice of position when breathing is difficult (pp. 388-389). This card combines them. Other public guidance adds lying on the left side if pregnant, and never standing or walking.'
+- 'Gap: anaphylaxis with no epinephrine and no way to reach medical advice.'
+- 'Second dose: IFRC''s guideline says after five to ten minutes without response (p. 376), while its background section says a dose can be repeated every five to 15 minutes (p. 383). This card follows the guideline.'
+review:
+  label: Written from IFRC 2025. Not reviewed by a clinician.
+  traceability: drafted
+  independent_check: five rounds run and applied. Round 5 fixes not yet rechecked.
+  checked_on: null
+  next_review_due: null
+  clinician_reader: null

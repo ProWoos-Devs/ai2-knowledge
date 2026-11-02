@@ -1,0 +1,99 @@
+schema_version: 1
+status: draft-check-5-applied
+id: start-here
+language: en
+title: Start here in any emergency
+audience: untrained-bystander
+population: Anyone, any age
+age_definition: Not age-specific. Life-threatening problems lead to separate cards by age.
+age_groups: [adult, child, baby]
+jurisdiction: Global (IFRC). Emergency numbers are not on this card.
+protocol_family: ifrc-2025
+emergency_number_profile: pending-regional-profile
+source_ids:
+- ifrc-2025
+source_editions:
+- IFRC International First Aid, Resuscitation and Education Guidelines 2025
+query_aliases:
+- emergency
+- what do I do
+- someone is hurt
+- accident
+- help
+- first aid
+- nobody is coming
+- no phone
+applicability:
+- First moments of any emergency, before you know what is wrong
+exclusions:
+- This card does not treat any condition. It sends you to the card that does.
+display:
+  urgent_help: Get help as soon as you think it is needed. If you have a phone, put it on speaker so you can keep helping while you talk.
+  immediate_actions:
+  - text: 'Look for danger to you, the person and anyone else: fire, exposed wires, deep water or ice, gas, a closed space with bad air, violence.'
+    src: p. 117
+  - text: If you cannot make it safe, do not go in. Stay away and tell the fire service or police. If you can talk to the person from a safe distance, tell them how to help themselves.
+    src: pp. 117, 124
+  - text: Call out to anyone nearby and ask them to help.
+    src: p. 117
+  - text: 'Check four things: Do they respond? Is the airway open and clear? Are they breathing normally? Are they bleeding severely? Someone who can talk or cry has an open airway and is breathing well enough for now.'
+    src: pp. 115, 117
+  - text: Deal with those four things first. Then look for anything else.
+    src: pp. 115, 117
+  - text: Leave the person in whatever position is most comfortable, usually how you found them. Move them if there is danger, if they must travel to care, or if their position stops you checking or helping them, weighing the risk of moving them against the risk of not moving them. Moving someone to do CPR counts. If a spine injury is possible, do not move them unless you must. Two people are best, one keeping the head in line with the spine.
+    src: pp. 115, 124, 125, 161, 309
+  - text: If several people are hurt, it may help to call emergency services first to warn them, and call again with details. Then go first to those with the most dangerous breathing or circulation problems.
+    src: pp. 116, 120
+  - text: 'Go to the card that matches: not responding and breathing normally; not responding and not breathing normally (adult, child or baby); choking; severe bleeding; burn; severe allergic reaction; drowning.'
+    src: p. 117, card index
+  without_medical_supplies:
+    state: supported
+    items:
+    - text: Having no first aid equipment is not a reason to do nothing. Use whatever is around you.
+      src: p. 116
+  supported_alternatives:
+    state: supported
+    items:
+    - text: People nearby can go to a phone, bring equipment, keep a crowd back, and make shade or block wind and rain with a sheet.
+      limits: None stated.
+      src: p. 125
+    - text: Ask whether the person needs water, shelter, clothes or a blanket, and find these fast. For a child, reaching their caregivers is a priority.
+      limits: Life-threatening problems come first.
+      src: pp. 116, 118
+  if_help_is_delayed_or_unreachable:
+    state: supported
+    items:
+    - text: 'Think about who and what you can use: people nearby and any transport that lets care continue on the way.'
+      src: p. 121
+    - text: If you send a message from a remote place, include full details so the right help can be sent.
+      src: p. 121
+    - text: 'The further you are from a hospital, the more the care falls to the people there. Expected waits: town, minutes; rural, hours; remote, up to a day; very remote, up to a week; isolated, more than a week.'
+      src: p. 39
+  no_effective_substitute_for:
+    state: not-applicable
+    items: []
+  do_not:
+  - text: Do not enter a scene that is not safe.
+    src: p. 117
+  - text: Do not film the emergency.
+    src: p. 116
+  - text: Do not force help on someone who does not want it.
+    src: p. 118
+  reassess_and_change_actions:
+  - text: Keep watching for danger and keep watching the person for any change.
+    src: pp. 117, 118
+  - text: Keep helping until medical care takes over or the person and those around them can manage.
+    src: p. 118
+untrained_scope:
+  left_out:
+  - what: Multiple casualty training and psychological first aid skills
+    why: Taught skills that need their own card.
+    src: pp. 114-116
+source_differences: []
+review:
+  label: Written from IFRC 2025. Not reviewed by a clinician.
+  traceability: drafted
+  independent_check: five rounds run and applied. Round 5 fixes not yet rechecked.
+  checked_on: null
+  next_review_due: null
+  clinician_reader: null

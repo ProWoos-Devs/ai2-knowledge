@@ -1,0 +1,119 @@
+schema_version: 1
+status: draft-check-5-applied
+id: thermal-burn
+language: en
+title: Burn or scald from heat
+audience: untrained-bystander
+population: Adult, child and baby, with differences marked
+age_definition: Not age-specific in IFRC. Burns can be more harmful to babies and children, and to older people.
+age_groups: [adult, child, baby]
+jurisdiction: Global (IFRC). Emergency numbers are not on this card.
+protocol_family: ifrc-2025
+emergency_number_profile: pending-regional-profile
+source_ids:
+- ifrc-2025
+source_editions:
+- IFRC International First Aid, Resuscitation and Education Guidelines 2025
+query_aliases:
+- burn
+- scald
+- boiling water
+- hot oil
+- fire burn
+- no tap water to cool a burn
+- should I put ice or butter on a burn
+applicability:
+- Burn from heat, flame, steam or hot liquid
+exclusions:
+- Sunburn needs its own card. None exists yet.
+- 'CHEMICAL on skin or in the eyes: avoid touching the chemical yourself. Rinse with running water until the pain eases, using clean water for eyes, and take care the runoff does not reach you, healthy skin or the other eye. Get emergency help. If it was swallowed, do not try to dilute it, do not make the person vomit, and contact a poison center or emergency services. If they vomit while lying down, turn them on their side.'
+- 'ELECTRICAL: check for danger first, and get emergency help.'
+display:
+  urgent_help: Get emergency help or the nearest medical care if the burn is large or deep, is near the face, mouth, throat or genitals, or came from flames, electricity or chemicals. Get medical advice for any burn on a baby or a vulnerable person such as an older adult or someone with diabetes, even if it looks small.
+  immediate_actions:
+  - text: If it is safe, deal with the source of danger first, such as covering a pot of hot oil.
+    src: p. 288
+  - text: As soon as you can, run clean water over the burn for 10 minutes at the very least, and 20 if possible. It may be more comfortable if the water flows over the burn rather than hitting it directly. For a baby, child or older adult, cool only the burned area, so the body does not get too cold.
+    src: pp. 288, 290, 292
+  - text: Get help if the burn is one of the kinds listed above.
+    src: pp. 290, 291
+  - text: Take off clothing and jewelry on or near the burn, unless stuck to the skin. Jewelry gets harder to remove as swelling starts.
+    src: p. 290
+  - text: After cooling, cover it. A moist, flexible, non-stick dressing such as hydrogel is best if you have one. Otherwise see the alternatives below.
+    src: pp. 288, 290
+  - text: Stay with the person and reassure them. Watch whether they respond, how they breathe and their temperature, especially a child or a vulnerable person.
+    src: p. 290
+  - text: For a large burn, watch for shock. Help them lie down and keep them warm. Keep the burn off the ground if you can.
+    src: p. 290
+  without_medical_supplies:
+    state: supported
+    items:
+    - text: Water and time are the treatment. No dressing or medicine is needed to start cooling.
+      src: p. 288
+  supported_alternatives:
+    state: supported
+    items:
+    - text: 'No running water: any cold liquid can cool a burn, such as juice or milk.'
+      limits: None stated beyond not being ice-cold.
+      src: pp. 289, 290
+    - text: 'Short of liquid: catch it in a container held below the burn as you pour, and pour the same liquid again. IFRC says this cools better than soaking the burn in a bowl.'
+      limits: None stated.
+      src: p. 290
+    - text: 'No dressing: a clean wet cloth or plastic cling wrap can protect the burn on the way to care. Lay it on the burn, and do not wrap it around a limb, which may swell.'
+      limits: None stated.
+      src: p. 289
+    - text: 'No dressing at all: IFRC''s local adaptation names aloe vera, honey or banana leaves to dress the burn.'
+      limits: See the difference between sources below.
+      src: p. 290
+    - text: 'Burned fingers: put a clean, moist cloth between them so they do not stick together.'
+      limits: None stated.
+      src: p. 290
+  if_help_is_delayed_or_unreachable:
+    state: supported
+    items:
+    - text: IFRC accepts that clean running water may be unrealistic in remote places, and that safe alternatives for cooling may be needed. It says cool as early as possible.
+      src: p. 297
+    - text: Fever, or warmth or pain developing around the burn, means infection. Get medical advice immediately.
+      src: p. 289
+    - text: IFRC says the evidence for traditional remedies varies and they may not be the best option, but people should know about them where advanced treatment is not available.
+      src: p. 297
+  no_effective_substitute_for:
+    state: supported
+    items:
+    - text: Cooling. IFRC calls it the key action, and the sources checked name nothing that replaces it.
+      src: p. 288
+    - text: Medical care for a large or deep burn.
+      src: p. 290
+  do_not:
+  - text: Do not apply ice, which may make the injury worse. Do not use ice-cold water, which may cause hypothermia, especially in children or with large burns.
+    src: p. 290
+  - text: Do not put butter or cooking oil on a burn. IFRC lists this as a misconception to correct.
+    src: p. 292
+  - text: Do not break or drain blisters. Leave them intact and get medical advice.
+    src: pp. 288, 290
+  - text: Do not pull off anything stuck to the skin.
+    src: p. 289
+  reassess_and_change_actions:
+  - text: While cooling a young child, watch for signs the body is getting too cold.
+    src: p. 289
+untrained_scope:
+  left_out:
+  - what: Sunburn
+    why: IFRC has separate steps. It needs its own card.
+    src: p. 291
+  - what: Silver sulfadiazine
+    why: A medicine IFRC says should not be used, not something a bystander would reach for.
+    src: p. 288
+  - what: Full chemical burn and eye steps, and neutralizing solutions
+    why: Needs its own card. The first actions are under Not for, at the top.
+    src: pp. 288, 289, 291
+source_differences:
+- 'Cooling time: IFRC says at least 10 minutes, ideally 20. Other health authorities say 20 minutes. This card follows IFRC.'
+- 'After cooling: IFRC says vaseline or honey may help, and that honey, aloe vera or banana leaves can be used for aftercare. Other health authorities advise against putting creams, oils, lotions, ointments or powders on a burn. This card reports IFRC and this difference.'
+review:
+  label: Written from IFRC 2025. Not reviewed by a clinician.
+  traceability: drafted
+  independent_check: five rounds run and applied. Round 5 fixes not yet rechecked.
+  checked_on: null
+  next_review_due: null
+  clinician_reader: null

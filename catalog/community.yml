@@ -52,6 +52,23 @@ packs:
   parts: 196
   built_with: ai-2 0.16.0
   contact: ProWoos-Devs
+- id: first-aid
+  title: First Aid
+  description: Eleven first-aid cards for people with no training, written from IFRC 2025. Draft, not reviewed by a clinician
+  version: '2026-11-02-draft'
+  revision: 1
+  languages:
+  - en
+  license: MIT
+  attribution: Written for AI-2 by Rafael Minuesa, in its own wording, from the IFRC International First Aid, Resuscitation and Education Guidelines 2025. IFRC did not write or endorse it. Not reviewed by a clinician. Draft, not for emergency use. MIT licensed, like the rest of the project.
+  embedder: nomic-embed-text-v1.5
+  url: https://github.com/ProWoos-Devs/ai2-knowledge/releases/download/packs-2026-11-02/first-aid.ai2pack
+  size_bytes: 390720
+  sha256: c7d96a94c574c553e6b92f2a1e70d2dbd0414c970a9efded93c20ff26ff08680
+  documents: 12
+  parts: 122
+  built_with: ai-2 0.21.0
+  contact: ProWoos-Devs
 - id: linux-essentials
   title: Linux Essentials
   description: Twenty everyday tasks on a Linux machine, written for AI-2 (runit, not systemd)
