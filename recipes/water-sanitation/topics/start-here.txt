@@ -28,15 +28,15 @@ WHAT TO DO
 
 6. Keep feces away from water and food. Do not let anyone go to the toilet on the banks of a river, stream or pond used for water, or in fields of crops about to be eaten. Any well should be uphill and upstream of where people go. See Digging and siting a latrine. [TN 14.1, SAN p. 179]
 
-7. Wash hands with soap after using the toilet, before preparing food, before eating or feeding a child, and after cleaning a child's feces. See Handwashing and hygiene. [TN 5.4, TN 10.1]
+7. Wash hands with soap after using the toilet, before preparing food, before eating, breastfeeding or feeding children, and after cleaning a child's feces. See Handwashing and hygiene. [TN 5.4, TN 10.1]
 
 8. Cover water pots and keep down flies, which carry disease from feces to food. [TN 10.1]
 
 DO NOT
 
-- Do not assume clear water is safe. Settled or filtered water still needs a proven method. [TN 5.1]
+- Do not assume clear water is safe. Settled or strained water still needs a proven method. [TN 5.1]
 
-- Do not rely on boiling, sunlight or chlorine to remove chemicals, fuel or salt. They do not. See What treatment cannot remove. [TN 5.1, SODIS p. 51]
+- Do not rely on boiling, sunlight or chlorine to remove chemical pollution. They do not. See What treatment cannot remove. [TN 5.1, SODIS p. 51]
 
 IF THINGS CHANGE
 
@@ -72,4 +72,4 @@ LEFT OFF THIS TOPIC
 
 - Disposal of dead bodies and of rubbish. In the WHO notes, not yet a topic.
 
-Source: WHO/WEDC Technical Notes on Drinking-water, Sanitation and Hygiene in Emergencies, 2nd edition, 2013 (TN, note and page); SODIS Manual, Eawag 2016 (PDF page).
+Source: WHO/WEDC Technical Notes on Drinking-water, Sanitation and Hygiene in Emergencies, 2nd edition, 2013 (TN, note and page); WHO Guidelines on Sanitation and Health, 2018 (SAN, PDF page); SODIS Manual, Eawag 2016 (PDF page).

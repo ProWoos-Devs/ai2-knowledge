@@ -14,7 +14,9 @@ USE THIS TOPIC WHEN
 
 WHAT TO DO
 
-1. Do not let anyone use the well while it is being cleaned. [TN 1.4]
+1. Do not let anyone use the well while it is being cleaned. Its water will have a strong concentration of chlorine that tastes and smells bad and could be dangerous. [TN 1.4]
+
+If the well was flooded by the sea, follow AFTER SEAWATER FLOODING below instead of steps 5, 8, 11 and 12, which pump the well out more than once. [TN 15.1, TN 15.3]
 
 2. If it smells of oil or petrol, or has a greasy film or shine on the water, do not use it at all. [TN 15.1]
 
@@ -28,15 +30,15 @@ WHAT TO DO
 
 7. Put a 15 cm layer of gravel on the bottom. Seal the top of the well with clay. Build a drainage apron and a wall around the top to keep out surface water, insects and rodents, and cover the well. [TN 1.2]
 
-8. Let the water rise back to its normal level. WHO chlorinates a well only when its water is very clear, under 5 turbidity units measured with equipment. The coin test (see Clearing cloudy water) can show only whether water is under about 10 units, so it cannot confirm this. If the coin disappears before the water is 50 cm deep, remove all the water again and let it refill. Do not chlorinate cloudy water. [TN 1.2, TN 1.3]
+8. Let the water rise back to its normal level. WHO chlorinates a well only when its water is very clear, under 5 turbidity units measured with equipment. If the coin in the coin test (see Clearing cloudy water) disappears before the water is 50 cm deep, the water is too cloudy: remove all the water again and let it refill. If the coin is still visible at 50 cm, the water is under about 10 units, but the sources give no way to tell 5 from 10 without equipment. [TN 1.2, TN 1.3]
 
-9. Disinfect: in a 20-liter bucket of clear well water, dissolve about 300 g of strong chlorine powder (high-strength calcium hypochlorite). For each cubic meter of water in the well, add 10 liters (half the bucket) of this solution. Stir the well with a long pole and leave it for at least 30 minutes. [TN 1.2, TN 1.4]
+9. Disinfect: in the open air, never inside the well, because the powder gives off chlorine gas, dissolve in a 20-liter bucket of clear well water about 300 g of strong chlorine powder (high-strength calcium hypochlorite). For each cubic meter of water in the well, add 10 liters (half the bucket) of this solution. Stir the well with a long pole and leave it for at least 30 minutes. [TN 1.2, TN 1.4]
 
 10. Volume of water in a round well, in cubic meters: 3.142 x diameter x diameter x depth of water, divided by 4, all in meters. [TN 1.2]
 
-11. After that, empty the well. Do not let this water flow into streams or wetlands. Near the coast, empty it slowly, so seawater is not drawn in. [TN 1.4]
+11. After that, empty the well. Do not let this water flow into streams or wetlands. Near the coast, avoid drawing seawater in. [TN 1.4]
 
-12. When it has refilled, wait another 30 minutes. WHO then measures the chlorine left in the water. Above 0.5 mg per liter, it empties the well again and repeats. Water with that much chlorine tastes and smells strongly and could be dangerous. [TN 1.4]
+12. When it has refilled, wait another 30 minutes. WHO then measures the chlorine left in the water. Above 0.5 mg per liter, it empties the well again and repeats. Without a test kit, the sources give no other way to check this. [TN 1.4]
 
 13. Even after this, keep drinking water from the well safe at home: collect, handle and store it carefully, and treat it at home if you can. Disinfecting the well leaves no lasting protection. [TN 1.3]
 
@@ -44,13 +46,15 @@ AFTER SEAWATER FLOODING
 
 - Salt is not a health risk at levels people find acceptable to drink. Slightly salty but disinfected well water can be better than fresh water from an unprotected source. [TN 15.2, TN 15.3]
 
-- Do not pump the well out again and again to lower the salt. Pumping can draw more seawater in. Empty it once, slowly, without letting it run dry. Send the water to the sea or a river, downstream of other wells. [TN 15.1, TN 15.2]
+- Do not pump the well out again and again to lower the salt. Pumping more than the well holds slows the natural cleaning, and hard pumping can make the well salty. Empty it once, slowly, without letting it run dry. Send the water to the sea or a river, downstream of other wells. [TN 15.1, TN 15.2, TN 15.3]
 
 - After that, the water may be cloudy for up to a day. It can then be used for washing and cleaning, but not for drinking. [TN 15.2]
 
 - Leave the well to clean itself naturally. This can take one to two years, depending on rain and ground. Find other water for drinking meanwhile. [TN 15.2]
 
-- When the community judges the water no longer too salty to drink, disinfect it as above. [TN 15.2]
+- When the community judges the water no longer too salty to drink, disinfect it with the dose in step 9: stir with a long pole and leave it for at least 30 minutes. WHO's seawater note gives no emptying step after this. [TN 15.2]
+
+- Rain helps. Channel rainwater into hollows nearby so it soaks into the ground. [TN 15.3]
 
 DO NOT
 
@@ -72,15 +76,15 @@ ALTERNATIVES USING WHAT IS AVAILABLE
 
 IF HELP IS DELAYED OR CANNOT BE REACHED
 
-- Without a chlorine test kit, you cannot check the chlorine left in the well water the way WHO describes. Treat drinking water from the well at home. [TN 1.3, TN 1.4]
+- Without a chlorine test kit, you cannot check the chlorine left in the well water the way WHO describes, and no source gives another method. [TN 1.4]
 
 WHAT HAS NO EFFECTIVE SUBSTITUTE
 
-- Time, for a salty well. Only rain and time bring it back. [TN 15.2, TN 15.3]
+- Time, for a salty well. WHO calls natural flushing by rain and fresh water soaking into the ground the best and quickest remedy. [TN 15.2, TN 15.3]
 
 WHERE SOURCES DIFFER OR ARE SILENT
 
-- WHO's well cleaning is meant to bring the well back to its condition before the disaster, not to make its water safe. [TN 1.1]
+- WHO's well cleaning is meant to bring the well back to its condition before the disaster. A low chlorine reading afterwards does not mean the water is safe to drink. [TN 1.1, TN 1.4]
 
 - WHO checks the well with a chlorine test after cleaning, and its clearness limit needs equipment to measure. No method without equipment was found for either.
 

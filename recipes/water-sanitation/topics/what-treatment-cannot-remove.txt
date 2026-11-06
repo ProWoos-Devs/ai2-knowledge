@@ -1,6 +1,6 @@
 What treatment cannot remove: chemicals, fuel and salt
 
-Search terms: chemicals in water, oil in water, petrol in water, salty water, seawater, drink sea water, arsenic, fluoride, polluted water, does boiling remove chemicals.
+Search terms: chemicals in water, oil in water, petrol in water, gasoline in water, diesel, fuel smell, water smells of fuel, will boiling remove it, salty water, seawater, drink sea water, arsenic, fluoride, polluted water, does boiling remove chemicals.
 
 Written from WHO sources and the SODIS manual. Not reviewed by a water or health specialist.
 
@@ -20,7 +20,7 @@ WHAT TO DO
 
 2. Solar disinfection does not remove chemicals such as arsenic or fluoride. [SODIS p. 51]
 
-3. Boiling does not remove them either. Boiling for a long time concentrates nitrate in the water. [TN 5.1, DWQ p. 240]
+3. Boiling does not remove them either. Boiling for longer than needed can concentrate nitrate in the water. [TN 5.1, DWQ p. 240]
 
 4. If water smells of oil or petrol, or has a greasy film or shine, do not use it. [TN 15.1]
 

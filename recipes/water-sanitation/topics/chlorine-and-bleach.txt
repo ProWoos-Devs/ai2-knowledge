@@ -18,11 +18,11 @@ WHAT TO DO
 
 2. Use bleach that has been kept at room temperature for less than a year. Bleach loses strength with time and exposure to air. [EPA, TN 1.3]
 
-3. If the water is cloudy, let it settle and strain it through a clean cloth first. See Clearing cloudy water. [EPA, TN 1.2]
+3. If the water is cloudy, let it settle and strain it through a clean cloth first. See Clearing cloudy water. [EPA, TN 5.1, TN 5.3]
 
 4. Add bleach with a clean dropper: 2 drops per liter, for 6% or 8.25% bleach. For a US gallon (about 3.8 liters): 8 drops of 6% bleach, or 6 drops of 8.25% bleach. [EPA]
 
-5. Double the amount if the water is colored or very cold. The EPA also says to double it for cloudy water, but WHO says not to chlorinate cloudy water at all. See below. [EPA, TN 1.2]
+5. Double the amount if the water is still cloudy after straining, colored or very cold. WHO's own tablet instructions likewise double the dose for dirty water after straining it. [EPA, TN 5.3]
 
 6. Stir, cover and wait 30 minutes. [EPA, TN 5.3]
 
@@ -68,7 +68,7 @@ WHAT HAS NO EFFECTIVE SUBSTITUTE
 
 WHERE SOURCES DIFFER OR ARE SILENT
 
-- Cloudy water: WHO says never to chlorinate cloudy water, because particles protect germs, and to disinfect only clear water. The EPA says to double the dose for cloudy water. This topic follows WHO: clear the water first, and if it stays cloudy, boil it instead. [TN 1.2, DWQ p. 142, EPA, Boil]
+- Cloudy water: particles can protect germs from chlorine, and WHO recommends chlorine for clear water. For a household, both WHO's tablet instructions and the EPA say to strain cloudy water first and then double the dose. For a whole well, WHO says never to chlorinate cloudy water. If the water stays very cloudy, boiling still works. [TN 1.2, DWQ p. 142, TN 5.3, EPA, Boil]
 
 - Chlorine kills most bacteria and viruses, but some protozoa, notably Cryptosporidium, resist it. Boiling kills them. [TN 5.2, Boil]
 
@@ -82,4 +82,4 @@ LEFT OFF THIS TOPIC
 
 - Measuring chlorine left in water with a test kit. Needs equipment.
 
-Source: US EPA, Emergency Disinfection of Drinking Water, updated 2026-02-24 (EPA); WHO/WEDC Technical Notes on Drinking-water, Sanitation and Hygiene in Emergencies, 2nd edition, 2013 (TN, note and page); WHO Boil Water technical brief, 2015 (Boil).
+Source: US EPA, Emergency Disinfection of Drinking Water, updated 2026-02-24 (EPA); WHO Guidelines for Drinking-water Quality, 4th edition with the first and second addenda, 2022 (DWQ, PDF page); WHO/WEDC Technical Notes on Drinking-water, Sanitation and Hygiene in Emergencies, 2nd edition, 2013 (TN, note and page); WHO Boil Water technical brief, 2015 (Boil).

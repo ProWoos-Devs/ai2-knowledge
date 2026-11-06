@@ -29,7 +29,7 @@ DO NOT
 
 - Do not drink water just because it now looks clear. [TN 5.1]
 
-- Do not use chlorine on cloudy water. Particles can shelter germs from it. [TN 1.2]
+- Do not rely on chlorine in water that is still cloudy. Particles can shelter germs from it. Strain it first, and see Disinfecting with bleach or chlorine for the dose. [TN 1.2, TN 5.3]
 
 IF THINGS CHANGE
 
@@ -43,7 +43,7 @@ ALTERNATIVES USING WHAT IS AVAILABLE
 
 - Sand filter: a clay, metal or plastic container filled with layers of sand and gravel, with pipes that make the water flow up or down through them. WHO's note shows a simple upward-flow filter with coarse sand over rocks on a perforated plate. Limits: The note gives no step-by-step build or how long the water must flow. Treat the water afterwards. [TN 5.1, TN 5.2]
 
-- Ceramic or candle filter: water passes slowly through the ceramic, which holds back particles. Some are made with silver, which kills bacteria. Brush off what collects on the surface under running water from time to time. Limits: These are made by potters or factories. Follow the maker's instructions. [TN 5.1, TN 5.2]
+- Ceramic or candle filter: water passes slowly through the ceramic, which holds back particles. Some are made with silver, which kills bacteria. Brush off what collects on the surface under running water from time to time. Limits: These are made locally or mass-produced. Follow the maker's instructions. [TN 5.1, TN 5.2]
 
 - Membrane filters can remove even very small germs such as viruses. Limits: A manufactured product. Follow the maker's instructions, which often include regular cleaning. [TN 5.1]
 
@@ -51,7 +51,7 @@ HOW CLOUDY IS IT
 
 - Newspaper test, for solar disinfection: fill a clear bottle and look down through the mouth at a newspaper headline. If you can still read it, the water is clear enough for solar disinfection. [SODIS p. 22]
 
-- Coin test: put a dull copper or brass coin about 2.5 cm across in the bottom of a dark container at least 50 cm deep. Add water slowly. If the coin disappears before the water is 32 cm deep, the water is very cloudy. If it is still visible at 50 cm, the water is fairly clear. [TN 1.3]
+- Coin test: put a dull copper or brass coin about 2.5 cm across in the bottom of a dark container at least 50 cm deep. Add water slowly. If the coin disappears before the water is 32 cm deep, the water is very cloudy. If it is still visible at 50 cm, the water is under about 10 turbidity units. WHO's limit for chlorinating a well is 5, which this test cannot show. [TN 1.2, TN 1.3]
 
 IF HELP IS DELAYED OR CANNOT BE REACHED
 
