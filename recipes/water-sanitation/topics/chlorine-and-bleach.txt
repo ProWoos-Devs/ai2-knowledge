@@ -14,7 +14,7 @@ USE THIS TOPIC WHEN
 
 WHAT TO DO
 
-1. Use only plain, unscented bleach meant for disinfecting, of 6% or 8.25% sodium hypochlorite, as written on the label. Do not use scented or color-safe bleach, or bleach with added cleaners. [EPA]
+1. Use plain, unscented bleach meant for disinfecting. The doses below are the EPA's for bleach labeled 6% or 8.25% sodium hypochlorite. Do not use scented or color-safe bleach, or bleach with added cleaners. [EPA]
 
 2. Use bleach that has been kept at room temperature for less than a year. Bleach loses strength with time and exposure to air. [EPA, TN 1.3]
 
@@ -22,7 +22,7 @@ WHAT TO DO
 
 4. Add bleach with a clean dropper: 2 drops per liter, for 6% or 8.25% bleach. For a US gallon (about 3.8 liters): 8 drops of 6% bleach, or 6 drops of 8.25% bleach. [EPA]
 
-5. Double the amount if the water is still cloudy after straining, colored or very cold. WHO's own tablet instructions likewise double the dose for dirty water after straining it. [EPA, TN 5.3]
+5. Double the amount if the water was cloudy (strain it first), colored or very cold. WHO's tablet instructions also use twice the dose for dirty water, after straining it through cloth. [EPA, TN 5.3]
 
 6. Stir, cover and wait 30 minutes. [EPA, TN 5.3]
 
@@ -54,7 +54,7 @@ ALTERNATIVES USING WHAT IS AVAILABLE
 
 - Boiling or solar disinfection. See those topics. [TN 5.2]
 
-- Iodine: household tincture of iodine at 2%, 5 drops per liter, or 10 drops if the water is colored. Stir and wait at least 30 minutes. Limits: The EPA gives no warnings or time limit for iodine. This was not checked against another source. [EPA]
+- Iodine: household tincture of iodine at 2%, 5 drops per liter, or 10 drops if the water is cloudy or colored. Stir and wait at least 30 minutes. Limits: The EPA gives no warnings or time limit for iodine. This was not checked against another source. [EPA]
 
 - Strong chlorine powder (high-test calcium hypochlorite): in a place with fresh air and with eye protection, dissolve one heaping teaspoon in about 7.5 liters (2 US gallons) of water to make a stock solution. Add 1 part of this solution to 100 parts of water to treat. Limits: A very strong chemical. Follow the label for handling and storage. [EPA]
 
@@ -72,7 +72,7 @@ WHERE SOURCES DIFFER OR ARE SILENT
 
 - Chlorine kills most bacteria and viruses, but some protozoa, notably Cryptosporidium, resist it. Boiling kills them. [TN 5.2, Boil]
 
-- One advantage of chlorine is that some stays in the water and goes on protecting it. Boiling leaves no such protection. [TN 15.2, Boil]
+- One advantage of chlorine is that some stays in the water and goes on protecting it. Boiling leaves no such protection. A whole well that is disinfected and then emptied keeps no such protection either. [TN 15.2, Boil, TN 1.3]
 
 - The doses here are from the US EPA for household bleach. The WHO notes give no household bleach dose and tell you to follow the maker's instructions.
 

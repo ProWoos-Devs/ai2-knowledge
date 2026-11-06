@@ -39,7 +39,7 @@ Reuse: the WHO/WEDC notes and the Boil Water brief are "all rights reserved", th
 
 Two outside question sets, each written by a separate reader who had seen only the list of topic titles, searched with `ai-2 doc search` on the built Knowledge Pack (2026-11-06):
 
-- Set 2, 22 questions, untouched: top-1 17/22, top-3 21/22. The one miss ("how to keep clean when theres hardly any water, tippy tap") has no answer in the sources read.
+- Set 2, 22 questions, untouched: top-1 17/22, top-3 21/22, the same after the round 3 corrections. The one miss ("how to keep clean when theres hardly any water, tippy tap") has no answer in the sources read.
 - Set 1, 20 questions: top-1 17/20 and top-3 20/20 on the first build. After the second round of corrections it was 17/20 and 18/20, and three search lines were then given everyday words its misses used (gasoline, use the sun, which bucket). It is no longer an outside measure: 19/20 and 19/20.
 
-Two independent checks of every topic against its sources: round 1 found 0 high, 11 medium and 14 low; round 2, on the corrected text, 0 high, 7 medium and 19 low. All were corrected; the round 2 corrections have not been checked again.
+Independent checks of every topic against its sources: round 1 found 0 high, 11 medium and 14 low; round 2, on the corrected text, 0 high, 7 medium and 19 low; round 3, 1 high (a round 2 fix had dropped the emptying of a seawater-flooded well after its chlorine dose), 5 medium and 21 low. All were corrected, and the well steps were rewritten whole.

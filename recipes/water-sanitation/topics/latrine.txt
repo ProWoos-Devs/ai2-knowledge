@@ -16,7 +16,7 @@ WHAT TO DO
 
 1. Choose the place first. Keep it away from water and food: never on the banks of a river, stream or pond used for water, and never in fields of crops about to be eaten. [TN 14.1]
 
-2. Put it downhill of any well or spring used for drinking, and at least 30 meters away from it. Sphere gives 30 meters where the soil cannot be tested, more in cracked rock and limestone, less in fine soils. If there is no room for 30 meters, WHO's rule of thumb is at least 15 meters. [SAN p. 17, SAN p. 179, Sphere p. 140]
+2. Put it downhill of any well or spring used for drinking, and at least 30 meters away from it, more in cracked rock or limestone. Sphere gives 30 meters where the soil cannot be tested, more in cracked rock and limestone, less in fine soils. WHO's sanitation guidelines give at least 15 meters as a general rule of thumb. [SAN p. 17, SAN p. 179, Sphere p. 140]
 
 3. Keep the bottom of the pit at least 1.5 meters above the groundwater, where groundwater is used for drinking. [SAN p. 17, SAN p. 179, Sphere p. 140]
 
@@ -71,6 +71,8 @@ WHAT HAS NO EFFECTIVE SUBSTITUTE
 WHERE SOURCES DIFFER OR ARE SILENT
 
 - Distance from a water source: WHO's sanitation guidelines give at least 15 meters as a rule of thumb. The Sphere standards give at least 30 meters when the soil cannot be tested. This topic gives 30 meters where there is room and 15 meters as WHO's minimum. [SAN p. 17, Sphere p. 140]
+
+- Shallow trench depth: the WHO note's text gives 1.5 meters deep, but the drawing it refers to is labeled about 0.15 meters. This topic gives the text's figure. A trench that deep and narrow is a danger to small children. [TN 14.2]
 
 - No source read gives a way to find how deep the groundwater is without a well nearby.
 

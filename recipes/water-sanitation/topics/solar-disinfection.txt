@@ -54,7 +54,7 @@ WITH NO SUPPLIES
 
 ALTERNATIVES USING WHAT IS AVAILABLE
 
-- Glass drink bottles: every commercial glass drink bottle Eawag has tested let through as much of the needed sunlight as PET, and worked as well. Limits: Eawag says some glass bottles in other countries differ and recommends testing local ones, which needs equipment. Glass also breaks, and often has no reusable cap. [SODIS p. 20]
+- Glass drink bottles, only if no PET bottles can be found. Eawag generally does not recommend containers other than PET unless approved for SODIS. The commercial glass drink bottles it tested let through sunlight comparable to PET, and studies found them as effective. Limits: some glass, such as window glass, blocks the sunlight needed, and local bottles may differ, which only testing with equipment shows. Glass also breaks and often has no reusable cap. [SODIS p. 20]
 
 IF HELP IS DELAYED OR CANNOT BE REACHED
 

@@ -44,7 +44,7 @@ WITH NO SUPPLIES
 
 ALTERNATIVES USING WHAT IS AVAILABLE
 
-- Wash and do laundry at the water source, if it is safe to do so, to avoid carrying water home. [TN 9.2]
+- Places for washing and laundry near the water point save carrying water home. [TN 9.2]
 
 IF HELP IS DELAYED OR CANNOT BE REACHED
 

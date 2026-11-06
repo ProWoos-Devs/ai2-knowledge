@@ -36,7 +36,7 @@ DO NOT
 
 IF THINGS CHANGE
 
-- If boiled water later gets touched by hands, cups or dirt, it is no longer safe. Boiling leaves no protection behind in the water. [Boil]
+- If boiled water later gets touched by hands, cups or dirt, it may no longer be safe. Boiling leaves no protection behind in the water. [Boil]
 
 WITH NO SUPPLIES
 
