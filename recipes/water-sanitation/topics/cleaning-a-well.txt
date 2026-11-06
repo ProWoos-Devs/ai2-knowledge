@@ -30,7 +30,7 @@ ORDINARY PATH
 
 6. Remove floating debris with a sieve or bucket. Remove polluted water, sludge and debris with buckets or a pump. [TN 1.2, TN 15.1]
 
-7. Clean the well lining from outside the well with a long-handled brush and chlorine solution made with twice the powder given in step 12. Chlorine gives off a dangerous gas: do not climb in. [TN 1.2]
+7. Without chlorine powder, skip to step 8 and then from step 9 go straight to step 16. Otherwise: clean the well lining from outside the well with a long-handled brush and chlorine solution made with twice the powder given in step 12. Chlorine gives off a dangerous gas: do not climb in. [TN 1.2]
 
 8. Put a 15 cm layer of gravel on the bottom. Seal the top of the well with clay. Build a drainage apron and a wall around the top to keep out surface water, insects and rodents, and cover the well. [TN 1.2]
 
@@ -42,7 +42,7 @@ ORDINARY PATH
 
 12. Disinfect from outside the well: dissolve about 300 g of strong chlorine powder (high-strength calcium hypochlorite) in a 20-liter bucket of clear well water. For each cubic meter of water in the well, add 10 liters (half the bucket) of this solution. Stir the well with a long pole and leave it for at least 30 minutes. [TN 1.2, TN 1.4]
 
-13. Then remove all the water from the well. Do not let this water flow into streams or wetlands. [TN 1.4]
+13. Then remove all the water from the well. Do not let this water flow into streams or wetlands. The source gives no other place for it. [TN 1.4]
 
 14. When it has refilled, wait another 30 minutes. WHO then measures the chlorine left with a test kit. Above 0.5 mg per liter, it removes all the water again and repeats this. Below 0.5 mg per liter, the well is likely back to its condition before the disaster, which does not mean its water is safe to drink. [TN 1.4]
 
@@ -52,7 +52,7 @@ ORDINARY PATH
 
 SEAWATER PATH
 
-17. Do steps 5 and 6. Leave steps 7 and 8 for later. [TN 15.1]
+17. Do step 5, and from step 6 only the floating debris and the sludge at the bottom. Do not pump out the water yet; that is step 18. Leave steps 7 and 8 for later. [TN 15.1, TN 1.2]
 
 18. Remove the water once, slowly, taking care not to pump so fast that the well empties. Send the water to the sea or a river, downstream of other wells. Do not pump it out again and again to lower the salt: pumping more than the well holds slows the natural cleaning, and hard pumping can make the well salty. [TN 15.1, TN 15.2, TN 15.3]
 
@@ -60,11 +60,11 @@ SEAWATER PATH
 
 20. Leave the well to clean itself naturally. This can take as long as one to two years, depending on rain and ground. Find drinking water from neighboring wells that are clear, or another source. [TN 15.2, TN 15.3]
 
-21. Rain helps. Do not drain standing water nearby to remove the salt. Instead, channel rainwater into hollows so it soaks into the ground. Some malaria mosquitoes prefer to breed in salty standing water. [TN 15.3]
+21. Rain helps. Do not drain standing water nearby to remove the salt, unless it has an oil film, in which case WHO says to drain it to the sea. Instead, channel rainwater into hollows so it soaks into the ground. Some malaria mosquitoes prefer to breed in salty standing water. [TN 15.3]
 
 22. Salt is not a health risk at levels people find acceptable to drink. Slightly salty but disinfected well water can be better than fresh water from an unprotected source. The community decides when the taste is acceptable. [TN 15.2, TN 15.3]
 
-23. When it is, do steps 7 and 8, then disinfect once with steps 9 to 16, pumping slowly every time you remove water, not so fast that the well runs dry. [TN 15.1, TN 15.2, TN 1.4]
+23. When it is, do steps 7 and 8, then disinfect once with steps 9 to 16. Every time those steps say to remove all the water, pump slowly, and stop if the well is about to run dry. [TN 15.1, TN 15.2, TN 1.4]
 
 DO NOT
 
@@ -72,7 +72,7 @@ DO NOT
 
 - Do not deepen a salty well, and do not dig new deep wells near the coast, to reach fresh water below. [TN 15.3]
 
-- Avoid chlorinating a well repeatedly. It can pollute the groundwater and cause skin rashes in people who bathe in it. Step 14's repeat is of the emptying and measuring after one dose. [TN 15.2, TN 1.4]
+- Avoid chlorinating a well repeatedly. It can pollute the groundwater and cause skin rashes in people who bathe in it. WHO's general note says to "repeat the process" when too much chlorine remains; this topic reads that as repeating the emptying and measuring after one dose, not a new dose. [TN 15.2, TN 1.4]
 
 IF THINGS CHANGE
 
@@ -86,7 +86,7 @@ WITH NO SUPPLIES
 
 ALTERNATIVES USING WHAT IS AVAILABLE
 
-- Without strong chlorine powder, WHO also names liquid bleach and bleaching powder, but gives the dose only for strong chlorine powder. [TN 1.3]
+- WHO says liquid bleach and bleaching powder are also used, but their usable chlorine varies with how long and how they were stored, and it gives a well dose only for strong chlorine powder. [TN 1.3]
 
 IF HELP IS DELAYED OR CANNOT BE REACHED
 
