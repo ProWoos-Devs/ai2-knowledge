@@ -31,7 +31,7 @@ The same as First Aid.
 | SAN p. 17 | WHO, Guidelines on Sanitation and Health, 2018, https://www.who.int/publications/i/item/9789241514705 | PDF page |
 | SODIS p. 8 | Eawag, SODIS Manual: Guidance on Solar Water Disinfection, 2016, https://www.eawag.ch/fileadmin/Domain1/Abteilungen/sandec/publikationen/SWP/SODIS_manual_2016.pdf | PDF page |
 | EPA | US EPA, Emergency Disinfection of Drinking Water, updated 2026-02-24, https://www.epa.gov/ground-water-and-drinking-water/emergency-disinfection-drinking-water | one web page |
-| Sphere | The Sphere Handbook, 4th edition, 2018, https://spherestandards.org/handbook/ | page not yet cited |
+| Sphere | The Sphere Handbook, 4th edition, 2018, https://spherestandards.org/handbook/ | PDF page |
 
 Reuse: the WHO/WEDC notes and the Boil Water brief are "all rights reserved", the two WHO guidelines are CC BY-NC-SA 3.0 IGO, and Sphere allows free reproduction for education but not adaptation without permission. So the topics are in our own words, as with First Aid. The SODIS manual allows copying and adapting with acknowledgement.
 

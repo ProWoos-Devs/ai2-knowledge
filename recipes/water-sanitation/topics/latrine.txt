@@ -16,9 +16,9 @@ WHAT TO DO
 
 1. Choose the place first. Keep it away from water and food: never on the banks of a river, stream or pond used for water, and never in fields of crops about to be eaten. [TN 14.1]
 
-2. Put it downhill of any well or spring used for drinking, and at least 15 meters away from it, more if you have room. Sphere's standard is at least 30 meters. [SAN p. 17, SAN p. 179, Sphere]
+2. Put it downhill of any well or spring used for drinking, and at least 15 meters away from it, more if you have room. Sphere says at least 30 meters where the soil cannot be tested, more in cracked rock and limestone, less in fine soils. [SAN p. 17, SAN p. 179, Sphere p. 140]
 
-3. Keep the bottom of the pit at least 1.5 meters above the groundwater, where groundwater is used for drinking. [SAN p. 17, SAN p. 179]
+3. Keep the bottom of the pit at least 1.5 meters above the groundwater, where groundwater is used for drinking. [SAN p. 17, SAN p. 179, Sphere p. 140]
 
 4. Put it at least 6 meters from where people live, and less than 50 meters' walk away. [TN 13.3]
 
@@ -70,7 +70,7 @@ WHAT HAS NO EFFECTIVE SUBSTITUTE
 
 WHERE SOURCES DIFFER OR ARE SILENT
 
-- Distance from a water source: WHO's sanitation guidelines give at least 15 meters as a rule of thumb. The Sphere standards give at least 30 meters. This topic gives 30 meters where there is room and 15 meters as WHO's minimum. [SAN p. 17, Sphere]
+- Distance from a water source: WHO's sanitation guidelines give at least 15 meters as a rule of thumb. The Sphere standards give at least 30 meters when the soil cannot be tested. This topic gives 30 meters where there is room and 15 meters as WHO's minimum. [SAN p. 17, Sphere p. 140]
 
 - No source read gives a way to find how deep the groundwater is without a well nearby.
 
@@ -80,4 +80,4 @@ LEFT OFF THIS TOPIC
 
 - Emptying full pits and using their contents. Covered in the WHO sanitation guidelines, not yet a topic.
 
-Source: WHO Guidelines on Sanitation and Health, 2018 (SAN, PDF page); WHO/WEDC Technical Notes on Drinking-water, Sanitation and Hygiene in Emergencies, 2nd edition, 2013 (TN, note and page); The Sphere Handbook, 4th edition, 2018 (Sphere).
+Source: WHO Guidelines on Sanitation and Health, 2018 (SAN, PDF page); WHO/WEDC Technical Notes on Drinking-water, Sanitation and Hygiene in Emergencies, 2nd edition, 2013 (TN, note and page); The Sphere Handbook, 4th edition, 2018 (Sphere, PDF page).
