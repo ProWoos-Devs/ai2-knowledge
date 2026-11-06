@@ -165,7 +165,14 @@ Fork this repository, branch, and add one entry to `catalog/community.yml`. It i
   parts: 480
   built_with: ai-2 0.18.3
   contact: your GitHub handle     # required: who made the pack and answers for it
+  categories: ['11.01']           # required: one or more codes from catalog/categories.yml, in quotes
+  audience: children              # general (the default) or children
+  ages: [school-age, preteen]     # required for children, not allowed otherwise
 ```
+
+**Categories.** Pick codes from [`catalog/categories.yml`](catalog/categories.yml). The first is where your pack is listed, and any others make it findable from elsewhere. Write them in quotes, because YAML reads 11.10 unquoted as the number 11.1. If no branch fits, add one to `categories.yml` in the same pull request, under the class it belongs to, with a number not used before. Codes are permanent, so a person will check the new branch before merging.
+
+**Audience and ages.** A pack written for children says `audience: children` and names one or more age ranges: `infant` (under 1), `toddler` (1 to 2), `preschool` (3 to 5), `school-age` (6 to 9) or `preteen` (10 to 12). From 13 up a pack is `general`. A pack about caring for children, written for the parent, is `general` too.
 
 Check it before you push, which takes seconds and saves a round trip:
 
@@ -187,6 +194,7 @@ If it fails, the message names the field and both values. The two common ones:
 
 - *"the catalog says revision=2, the pack says 1"*, you raised it in the entry but not in the manifest, so rebuild the pack from step 4.
 - *"the catalog says embedder=... the pack was built with ..."*, step 3, and the pack has to be rebuilt.
+- *"category 11.1 is not in quotes"*, write the code as `'11.10'`, in quotes.
 
 A person then reads a few of your parts and merges it.
 

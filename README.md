@@ -98,11 +98,13 @@ An entry looks like this:
   revision: 1          # required; the number the code orders by, and the manifest's copy is the one that counts
   built_with: ai-2 0.17.0
   contact: your GitHub handle   # required; who made the pack and answers for it
+  categories: ['01.04.04']      # required; codes from catalog/categories.yml, the first is where it is listed
+  audience: general             # or children, which then names its ages
 ```
 
 Checked by CI on the pull request, with `tools/validate-catalog.py --install`:
 
-- the entry is complete and names who made the pack, the license is one this catalog carries, and the `id` is not already taken (ids are global, so one pack can never be installed in place of another)
+- the entry is complete and names who made the pack, its categories, audience and ages are ones [`catalog/categories.yml`](catalog/categories.yml) lists, the license is one this catalog carries, and the `id` is not already taken (ids are global, so one pack can never be installed in place of another)
 - the table at the top of this page is the catalog (`tools/render-catalog.py` writes it; run it after adding your entry)
 - the file downloads over HTTPS and matches `size_bytes` and `sha256`, the download stopping the moment it outgrows the declared size
 - **AI-2 itself installs the downloaded file** on a clean machine, at the pinned version the workflow names, and then the manifest inside the installed pack is compared with the catalog entry, id, title, version, revision, license, languages, embedder, document and part counts. The hash only proves the bytes are the ones the entry described; this is what proves the description true

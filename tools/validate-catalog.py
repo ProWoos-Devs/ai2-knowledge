@@ -5,7 +5,8 @@ included.
 Three layers, each stricter than the last:
 
   (none)     every entry complete, licences redistributable, ids unique,
-             hashes the right shape, the maker named
+             hashes the right shape, the maker named, categories, audience
+             and ages taken from catalog/categories.yml
   --fetch    download each pack and check its size and SHA-256
   --install  install the downloaded pack with AI-2 itself and compare the
              manifest inside it against what the catalog entry claims
@@ -37,7 +38,7 @@ import urllib.request
 import yaml
 
 REQUIRED = ("id", "title", "version", "revision", "languages", "license", "embedder", "url",
-            "size_bytes", "sha256", "documents", "parts", "contact")
+            "size_bytes", "sha256", "documents", "parts", "contact", "categories")
 # `revision` is required even though a missing one would be read as 1: it is the
 # field AI-2 orders by, and a contributor who never wrote it down is a
 # contributor who will forget to raise it on the next rebuild. `contact` is
@@ -69,9 +70,91 @@ LICENCE_DOC = re.compile(r"(licen[cs]e|notice|copying)", re.I)
 # checked below.
 COMPARED = ("id", "title", "version", "license", "languages", "revision")
 
+# Categories, audiences and age ranges live in one file beside the catalog.
+# They are catalog fields only: a pack's manifest does not carry them, so a
+# pack can be moved to a better branch without being rebuilt.
+TAXONOMY = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "catalog", "categories.yml")
+CODE = re.compile(r"^[0-9]{2}(\.[0-9]{2})*$")
 
-def check(path: str, fetch: bool, install: bool = False, seen_ids: set | None = None) -> list[str]:
+
+def load_taxonomy(path: str = TAXONOMY) -> tuple[dict, list[str]]:
+    """Read categories.yml and check it is a tree: every code well formed and
+    quoted, none twice, every branch under a class that exists, every name
+    present. Returns the known codes, audiences and ages, and what is wrong."""
     problems = []
+    data = yaml.safe_load(open(path, encoding="utf-8")) or {}
+    if data.get("version") != 1:
+        problems.append(f"{path}: version {data.get('version')!r}, expected 1")
+    known = {"categories": {}, "audiences": set(), "ages": set()}
+    for i, c in enumerate(data.get("categories") or []):
+        code = c.get("code") if isinstance(c, dict) else None
+        where = f"{path} categories[{i}]"
+        if not isinstance(code, str) or not CODE.match(code):
+            problems.append(f"{where}: code {code!r} is not two digits per level in quotes, like '11.01'")
+            continue
+        if code in known["categories"]:
+            problems.append(f"{where}: code {code} appears twice")
+        if "." in code and code.rsplit(".", 1)[0] not in known["categories"]:
+            problems.append(f"{where}: {code} is listed before its parent {code.rsplit('.', 1)[0]}, "
+                            "or the parent does not exist")
+        if not str(c.get("en", "")).strip():
+            problems.append(f"{where}: {code} has no English name")
+        known["categories"][code] = str(c.get("en", ""))
+    for field in ("audiences", "ages"):
+        for i, a in enumerate(data.get(field) or []):
+            ident = a.get("id") if isinstance(a, dict) else None
+            if not ident or not str(a.get("en", "")).strip():
+                problems.append(f"{path} {field}[{i}]: needs an id and an English name")
+            elif ident in known[field]:
+                problems.append(f"{path} {field}[{i}]: {ident} appears twice")
+            known[field].add(ident)
+    if "general" not in known["audiences"] or "children" not in known["audiences"]:
+        problems.append(f"{path}: audiences must include general and children")
+    return known, problems
+
+
+def check_classification(where: str, p: dict, known: dict) -> list[str]:
+    """The entry's categories, audience and ages, against categories.yml."""
+    problems = []
+    cats = p.get("categories")
+    if cats in (None, "", []):
+        return problems                                 # reported as missing already
+    if not isinstance(cats, list):
+        return [f"{where}: categories is not a list"]
+    for c in cats:
+        if not isinstance(c, str):
+            problems.append(f"{where}: category {c!r} is not in quotes; write codes as strings, "
+                            "like '11.10', because YAML turns 11.10 unquoted into the number 11.1")
+        elif c not in known["categories"]:
+            problems.append(f"{where}: category {c} is not in catalog/categories.yml; "
+                            "propose a new branch in the same pull request if none fits")
+    if len(set(map(str, cats))) != len(cats):
+        problems.append(f"{where}: a category is listed twice")
+    audience = p.get("audience", "general")
+    if audience not in known["audiences"]:
+        problems.append(f"{where}: audience {audience!r} is not one of {', '.join(sorted(known['audiences']))}")
+    ages = p.get("ages")
+    if audience == "children":
+        if not isinstance(ages, list) or not ages:
+            problems.append(f"{where}: a pack for children names its ages, one or more of "
+                            f"{', '.join(sorted(known['ages']))}")
+        else:
+            for a in ages:
+                if a not in known["ages"]:
+                    problems.append(f"{where}: age range {a!r} is not one of {', '.join(sorted(known['ages']))}")
+            if len(set(map(str, ages))) != len(ages):
+                problems.append(f"{where}: an age range is listed twice")
+    elif ages is not None:
+        problems.append(f"{where}: ages is only for a pack whose audience is children")
+    return problems
+
+
+def check(path: str, fetch: bool, install: bool = False, seen_ids: set | None = None,
+          known: dict | None = None) -> list[str]:
+    problems = []
+    if known is None:
+        known, trouble = load_taxonomy()
+        problems += trouble
     data = yaml.safe_load(open(path, encoding="utf-8")) or {}
     if data.get("version") != 1:
         problems.append(f"{path}: catalog version {data.get('version')!r}, expected 1")
@@ -106,6 +189,7 @@ def check(path: str, fetch: bool, install: bool = False, seen_ids: set | None = 
             problems.append(f"{where}: url is not https")
         if not isinstance(p.get("languages"), list):
             problems.append(f"{where}: languages is not a list")
+        problems += check_classification(where, p, known)
         if fetch and not problems:
             downloaded, trouble = fetch_check(where, p)
             problems += trouble
@@ -224,10 +308,10 @@ def main() -> int:
     args = [a for a in sys.argv[1:] if not a.startswith("-")]
     fetch = "--fetch" in sys.argv or "--install" in sys.argv
     install = "--install" in sys.argv
-    problems = []
+    known, problems = load_taxonomy()
     seen_ids: set = set()
     for path in args or ["catalog/community.yml"]:
-        problems += check(path, fetch, install, seen_ids)
+        problems += check(path, fetch, install, seen_ids, known)
     for line in problems:
         print("error:", line)
     print(f"{len(problems)} problem(s)")
