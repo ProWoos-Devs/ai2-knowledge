@@ -7,12 +7,12 @@ A Knowledge Pack is a set of documents that an [AI-2](https://github.com/ProWoos
 ## Get a pack
 
 <!-- catalog:start -->
-| Pack | What is in it | Made by | Language | Size | License | File |
-|---|---|---|---|---|---|---|
-| `ai2-help` | AI-2's own documentation, the wiki pages plus topics written for the questions people ask | [ProWoos-Devs](https://github.com/ProWoos-Devs) | en | 337 KB | MIT | [download](https://github.com/ProWoos-Devs/ai2-knowledge/releases/download/packs-2026-09-18/ai2-help.ai2pack) |
-| `everyday` | 196 countries with their capitals, currencies, official languages and country codes, from Wikidata | [ProWoos-Devs](https://github.com/ProWoos-Devs) | en | 578 KB | MIT | [download](https://github.com/ProWoos-Devs/ai2-knowledge/releases/download/packs-2026-11-02-2/everyday.ai2pack) |
-| `first-aid` | What to do in eleven medical emergencies with no training and possibly no help coming, written from IFRC 2025, not reviewed by a clinician | [ProWoos-Devs](https://github.com/ProWoos-Devs) | en | 383 KB | MIT | [download](https://github.com/ProWoos-Devs/ai2-knowledge/releases/download/packs-2026-11-02-2/first-aid.ai2pack) |
-| `linux-essentials` | Twenty everyday tasks on a Linux machine, written for AI-2 (runit, not systemd) | [ProWoos-Devs](https://github.com/ProWoos-Devs) | en | 125 KB | MIT | [download](https://github.com/ProWoos-Devs/ai2-knowledge/releases/download/packs-2026-09-18/linux-essentials.ai2pack) |
+| Pack | Subject | What is in it | Made by | Language | Size | License | File |
+|---|---|---|---|---|---|---|---|
+| `ai2-help` | Operating systems | AI-2's own documentation, the wiki pages plus topics written for the questions people ask | [ProWoos-Devs](https://github.com/ProWoos-Devs) | en | 337 KB | MIT | [download](https://github.com/ProWoos-Devs/ai2-knowledge/releases/download/packs-2026-09-18/ai2-help.ai2pack) |
+| `linux-essentials` | Operating systems | Twenty everyday tasks on a Linux machine, written for AI-2 (runit, not systemd) | [ProWoos-Devs](https://github.com/ProWoos-Devs) | en | 125 KB | MIT | [download](https://github.com/ProWoos-Devs/ai2-knowledge/releases/download/packs-2026-09-18/linux-essentials.ai2pack) |
+| `first-aid` | First aid and emergency care | What to do in eleven medical emergencies with no training and possibly no help coming, written from IFRC 2025, not reviewed by a clinician | [ProWoos-Devs](https://github.com/ProWoos-Devs) | en | 383 KB | MIT | [download](https://github.com/ProWoos-Devs/ai2-knowledge/releases/download/packs-2026-11-02-2/first-aid.ai2pack) |
+| `everyday` | Countries and territories | 196 countries with their capitals, currencies, official languages and country codes, from Wikidata | [ProWoos-Devs](https://github.com/ProWoos-Devs) | en | 578 KB | MIT | [download](https://github.com/ProWoos-Devs/ai2-knowledge/releases/download/packs-2026-11-02-2/everyday.ai2pack) |
 <!-- catalog:end -->
 
 On an AI-2 machine there is nothing to download by hand:
