@@ -1,0 +1,63 @@
+What treatment cannot remove: chemicals, fuel and salt
+
+Search terms: chemicals in water, oil in water, petrol in water, salty water, seawater, drink sea water, arsenic, fluoride, polluted water, does boiling remove chemicals.
+
+Written from WHO sources and the SODIS manual. Not reviewed by a water or health specialist.
+
+For: Water that may be polluted by something other than germs
+
+Not for: Germs. Boiling, solar disinfection and chlorine deal with those.
+
+USE THIS TOPIC WHEN
+
+- Water smells or looks of fuel, oil or chemicals
+- Water may be salty, after seawater flooding or near the coast
+- You wonder whether boiling or other treatment will make polluted water safe
+
+WHAT TO DO
+
+1. Know the limit: the home methods in this Knowledge Pack remove dirt and germs, not chemical pollution. [TN 5.1]
+
+2. Solar disinfection does not remove chemicals such as arsenic or fluoride. [SODIS p. 51]
+
+3. Boiling does not remove them either. Boiling for a long time concentrates nitrate in the water. [TN 5.1, DWQ p. 240]
+
+4. If water smells of oil or petrol, or has a greasy film or shine, do not use it. [TN 15.1]
+
+5. Salt is different. It is not a health risk at levels people find acceptable to drink. A well flooded by the sea can stay too salty to drink for one to two years. Meanwhile use it for washing and cleaning. Slightly salty but disinfected well water can be better than fresh water from an unprotected source. See Cleaning a well. [TN 15.2, TN 15.3]
+
+6. Look for another source. Water from different places can be used for different purposes, and drinking water can come from a separate, better source. [TN 9.2, TN 15.2]
+
+DO NOT
+
+- Do not boil, chlorinate or sun-treat water you suspect of chemical pollution and then drink it as safe. [TN 5.1, SODIS p. 51]
+
+IF THINGS CHANGE
+
+- Does not apply to this topic.
+
+WITH NO SUPPLIES
+
+- Does not apply. No home method without supplies removes chemicals. [TN 5.1]
+
+ALTERNATIVES USING WHAT IS AVAILABLE
+
+- Salty well water can be used for washing and cleaning. Water with fuel or oil in it should not be used at all. [TN 15.1, TN 15.2]
+
+IF HELP IS DELAYED OR CANNOT BE REACHED
+
+- No source read says how to make seawater drinkable at home.
+
+WHAT HAS NO EFFECTIVE SUBSTITUTE
+
+- A clean source. [TN 5.1]
+
+WHERE SOURCES DIFFER OR ARE SILENT
+
+- Gap: none of the sources read covers making seawater drinkable, or testing water for chemicals without equipment.
+
+LEFT OFF THIS TOPIC
+
+- Chemical limits in drinking water. In the WHO drinking-water guidelines, but they need laboratory testing.
+
+Source: WHO/WEDC Technical Notes on Drinking-water, Sanitation and Hygiene in Emergencies, 2nd edition, 2013 (TN, note and page); SODIS Manual, Eawag 2016 (PDF page); WHO Guidelines for Drinking-water Quality, 4th edition with the first and second addenda, 2022 (DWQ, PDF page).

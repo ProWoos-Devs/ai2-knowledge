@@ -1,0 +1,85 @@
+Disinfecting water with bleach or chlorine
+
+Search terms: bleach, chlorine, how many drops of bleach, chlorine tablets, disinfect water, household bleach, purify water, water treatment tablets.
+
+Written from WHO sources and the US EPA. Not reviewed by a water or health specialist.
+
+For: Making clear water safe from most germs with household bleach or chlorine tablets
+
+Not for: Cloudy water before clearing, or chemicals in water. See the limits below.
+
+USE THIS TOPIC WHEN
+
+- You have plain household bleach or chlorine tablets
+
+WHAT TO DO
+
+1. Use only plain, unscented bleach meant for disinfecting, of 6% or 8.25% sodium hypochlorite, as written on the label. Do not use scented or color-safe bleach, or bleach with added cleaners. [EPA]
+
+2. Use bleach that has been kept at room temperature for less than a year. Bleach loses strength with time and exposure to air. [EPA, TN 1.3]
+
+3. If the water is cloudy, let it settle and strain it through a clean cloth first. See Clearing cloudy water. [EPA, TN 1.2]
+
+4. Add bleach with a clean dropper: 2 drops per liter, for 6% or 8.25% bleach. For a US gallon (about 3.8 liters): 8 drops of 6% bleach, or 6 drops of 8.25% bleach. [EPA]
+
+5. Double the amount if the water is colored or very cold. The EPA also says to double it for cloudy water, but WHO says not to chlorinate cloudy water at all. See below. [EPA, TN 1.2]
+
+6. Stir, cover and wait 30 minutes. [EPA, TN 5.3]
+
+7. The water should then smell slightly of chlorine. If it does not, add the same dose again and wait another 15 minutes. [EPA]
+
+8. If the taste is too strong, pour the water back and forth between two clean containers and let it stand for a few hours. [EPA]
+
+CHLORINE TABLETS
+
+- Tablets differ in size and strength. Follow the instructions on the packet. [TN 5.2, TN 5.3]
+
+- WHO's example picture: for clear water, one tablet in the container, close it, wait 30 minutes. For dirty water, strain it through cloth, use two tablets, close it, wait 30 minutes. Limits: The number of tablets depends on the container size and the tablet's strength. [TN 5.3]
+
+DO NOT
+
+- Do not hand out chlorine products outside the maker's container. Nobody can tell from looking how strong they are or how to use them. [TN 5.2]
+
+- Do not go down into a well being cleaned with chlorine. Bleach and chlorine powder give off chlorine gas, a serious danger. [TN 1.2]
+
+IF THINGS CHANGE
+
+- The EPA gives no further step if there is still no chlorine smell after the second dose. Boiling and solar disinfection do not depend on the bleach's strength. [EPA, TN 5.2]
+
+WITH NO SUPPLIES
+
+- Does not apply. This method needs bleach or tablets. Without them, boil or use solar disinfection. [TN 5.2]
+
+ALTERNATIVES USING WHAT IS AVAILABLE
+
+- Boiling or solar disinfection. See those topics. [TN 5.2]
+
+- Iodine: household tincture of iodine at 2%, 5 drops per liter, or 10 drops if the water is colored. Stir and wait at least 30 minutes. Limits: The EPA gives no warnings or time limit for iodine. This was not checked against another source. [EPA]
+
+- Strong chlorine powder (high-test calcium hypochlorite): in a place with fresh air and with eye protection, dissolve one heaping teaspoon in about 7.5 liters (2 US gallons) of water to make a stock solution. Add 1 part of this solution to 100 parts of water to treat. Limits: A very strong chemical. Follow the label for handling and storage. [EPA]
+
+IF HELP IS DELAYED OR CANNOT BE REACHED
+
+- No source read says what to do when bleach, tablets, iodine and chlorine powder run out for good, or how fast bleach weakens over months. Boiling and solar disinfection need none of them. [TN 1.3, TN 5.2]
+
+WHAT HAS NO EFFECTIVE SUBSTITUTE
+
+- Does not apply. Boiling and solar disinfection are alternatives.
+
+WHERE SOURCES DIFFER OR ARE SILENT
+
+- Cloudy water: WHO says never to chlorinate cloudy water, because particles protect germs, and to disinfect only clear water. The EPA says to double the dose for cloudy water. This topic follows WHO: clear the water first, and if it stays cloudy, boil it instead. [TN 1.2, DWQ p. 142, EPA, Boil]
+
+- Chlorine kills most bacteria and viruses, but some protozoa, notably Cryptosporidium, resist it. Boiling kills them. [TN 5.2, Boil]
+
+- One advantage of chlorine is that some stays in the water and goes on protecting it. Boiling leaves no such protection. [TN 15.2, Boil]
+
+- The doses here are from the US EPA for household bleach. The WHO notes give no household bleach dose and tell you to follow the maker's instructions.
+
+LEFT OFF THIS TOPIC
+
+- Strong chlorine powder (calcium hypochlorite) for wells and tanks. See Cleaning a well.
+
+- Measuring chlorine left in water with a test kit. Needs equipment.
+
+Source: US EPA, Emergency Disinfection of Drinking Water, updated 2026-02-24 (EPA); WHO/WEDC Technical Notes on Drinking-water, Sanitation and Hygiene in Emergencies, 2nd edition, 2013 (TN, note and page); WHO Boil Water technical brief, 2015 (Boil).
