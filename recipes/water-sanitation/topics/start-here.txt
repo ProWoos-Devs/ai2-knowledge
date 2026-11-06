@@ -56,7 +56,7 @@ ALTERNATIVES USING WHAT IS AVAILABLE
 
 IF HELP IS DELAYED OR CANNOT BE REACHED
 
-- Solar disinfection needs no fuel or chemicals, only PET bottles and sun. Boiling needs fuel, and chlorine needs bleach or tablets, which will run out. [TN 5.2, SODIS p. 8]
+- Solar disinfection needs no fuel or chemicals, only PET bottles, clear water and dry sunny weather. It is weaker than boiling against some viruses and protozoa. Boiling needs fuel, and chlorine needs bleach or tablets, which will run out. [TN 5.2, SODIS p. 8]
 
 WHAT HAS NO EFFECTIVE SUBSTITUTE
 

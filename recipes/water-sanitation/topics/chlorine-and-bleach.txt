@@ -24,7 +24,7 @@ WHAT TO DO
 
 5. Double the amount if the water was cloudy (strain it first), colored or very cold. WHO's tablet instructions also use twice the dose for dirty water, after straining it through cloth. [EPA, TN 5.3]
 
-6. Stir, cover and wait at least 30 minutes. Cold water needs longer: WHO doubles the wait for every 10 °C below 25 °C, so about an hour at 15 °C. [EPA, TN 5.3, DWQ p. 144]
+6. Stir, cover and wait. WHO's 30 minutes is for water at 25 °C, and it doubles the wait for every 10 °C below that: about an hour at 15 °C, about two hours at 5 °C. [EPA, TN 5.3, DWQ p. 144]
 
 7. The water should then smell slightly of chlorine. If it does not, add the same dose again and wait another 15 minutes. [EPA]
 
@@ -54,7 +54,7 @@ ALTERNATIVES USING WHAT IS AVAILABLE
 
 - Boiling or solar disinfection. See those topics. [TN 5.2]
 
-- Iodine: household tincture of iodine at 2%, 5 drops per liter, or 10 drops if the water is cloudy or colored. Stir and wait at least 30 minutes, longer in cold water. Limits: WHO says iodine is not recommended for long-term use by infants, pregnant women, people with thyroid disease or people sensitive to iodine, and not for more than a few months by anyone. Daily use for more than 3 to 4 weeks is for a doctor to approve, so treat it as a short-term method only. It does not kill Cryptosporidium. [EPA, DWQ p. 143, DWQ p. 145]
+- Iodine: household tincture of iodine at 2%, 5 drops per liter, or 10 drops if the water is cloudy or colored. Stir and wait at least 30 minutes, longer in cold water. Limits: WHO's table says iodine is not recommended for pregnant women, for people with thyroid problems, or for more than a few months. Its text adds infants and people sensitive to iodine for long-term use. Daily use for more than 3 to 4 weeks is for a doctor to approve, so treat it as a short-term method only. It does not kill Cryptosporidium. [EPA, DWQ p. 143, DWQ p. 145]
 
 - Strong chlorine powder (high-test calcium hypochlorite): in a place with fresh air and with eye protection, dissolve one heaping teaspoon in about 7.5 liters (2 US gallons) of water to make a stock solution. Add 1 part of this solution to 100 parts of water to treat. Limits: A very strong chemical. Follow the label for handling and storage. [EPA]
 
@@ -74,7 +74,7 @@ WHERE SOURCES DIFFER OR ARE SILENT
 
 - One advantage of chlorine is that some stays in the water and goes on protecting it. Boiling leaves no such protection. A whole well that is disinfected and then emptied keeps no such protection either. [TN 15.2, Boil, TN 1.3]
 
-- Bleach dose: WHO's drinking-water guidelines give 4 drops per liter of 5% bleach. The US EPA gives 2 drops per liter of 6% or 8.25% bleach, which is about 60% as much chlorine. This topic gives both, by strength, and does not choose between them. WHO's emergency notes give no household dose and say to follow the maker's instructions. [DWQ p. 144, EPA, TN 5.2]
+- Bleach dose: WHO's drinking-water guidelines give 4 drops per liter of 5% bleach. The US EPA gives 2 drops per liter of 6% or 8.25% bleach, which is about 60% as much chlorine for 6% bleach and about 80% for 8.25%. This topic gives both, by strength, and does not choose between them. WHO's emergency notes give no household dose and say to follow the maker's instructions. [DWQ p. 144, EPA, TN 5.2]
 
 - Cold water: the EPA doubles the dose, WHO lengthens the wait. This topic gives both. [EPA, DWQ p. 144]
 
