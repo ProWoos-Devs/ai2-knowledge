@@ -70,9 +70,9 @@ WHAT HAS NO EFFECTIVE SUBSTITUTE
 
 WHERE SOURCES DIFFER OR ARE SILENT
 
-- Distance from a water source: WHO's sanitation guidelines give at least 15 meters as a rule of thumb. The Sphere standards give at least 30 meters when the soil cannot be tested. This topic gives 30 meters where there is room and 15 meters as WHO's minimum. [SAN p. 17, Sphere p. 140]
+- Distance from a water source: WHO's sanitation guidelines give at least 15 meters as a rule of thumb. The Sphere standards give at least 30 meters when the soil cannot be tested. This topic gives Sphere's 30 meters, because the soil cannot be tested at home. [SAN p. 17, Sphere p. 140]
 
-- Shallow trench depth: the WHO note's text gives 1.5 meters deep, but the drawing it refers to is labeled about 0.15 meters. This topic gives the text's figure. A trench that deep and narrow is a danger to small children. [TN 14.2]
+- Shallow trench depth: the WHO note's text gives 1.5 meters deep, but the drawing it refers to is labeled about 0.15 meters. The drawing is captioned as trenches in a defecation field, so the two may describe different things. This topic gives the text's figure. The note says to dig some trenches narrower for small children and the elderly. [TN 14.2]
 
 - No source read gives a way to find how deep the groundwater is without a well nearby.
 
