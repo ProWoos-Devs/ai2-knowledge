@@ -198,6 +198,16 @@ If it fails, the message names the field and both values. The two common ones:
 
 A person then reads a few of your parts and merges it.
 
+## Improving an existing pack
+
+Every change to a pack goes through this repository, the project's own changes included, so each one has an issue or a pull request on record.
+
+- **To report a problem**, open an issue at https://github.com/ProWoos-Devs/ai2-knowledge/issues . Name the pack, the topic and the step, and say what is wrong. For a pack written from sources, give the source and page that support the change.
+- **To fix it yourself**, fork this repository, edit the topic under `recipes/<pack>/topics/` and open a pull request. Change the text only; you do not need to rebuild the pack, raise its revision or touch the catalog entry.
+- **For a pack whose recipe is not in this repository**, the text lives with its maker. Open an issue here naming the pack, and we pass it to the maker named in its `contact`.
+
+A merged change does not reach anyone's machine by itself. The pack's maker rebuilds it, raises its `revision` and publishes it as described below, usually with several fixes at once.
+
 ## Publishing a new version later
 
 1. Raise `revision` in the manifest (and `version`, for people to read).

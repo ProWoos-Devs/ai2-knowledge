@@ -19,3 +19,7 @@ When sources give different advice, the topic says so and names which one it fol
 Check the date
 
 This Knowledge Pack works offline and cannot update itself. Each topic names the edition of its sources. Guidance may have changed since then.
+
+Found a mistake, or something missing?
+
+Tell us at https://github.com/ProWoos-Devs/ai2-knowledge/issues , or change the topic yourself and open a pull request; the topics are plain text files in the folder recipes/water-sanitation/topics/ of the same repository. Say which topic and which step, and which source supports the change. A correction reaches this Knowledge Pack in its next revision.
