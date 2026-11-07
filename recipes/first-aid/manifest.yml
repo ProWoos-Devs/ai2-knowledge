@@ -1,7 +1,7 @@
 id: first-aid
 title: First Aid
-version: "2026-11-02"
-revision: 2       # raise this for every rebuild you publish, and mirror it in the catalog entry
+version: "2026-11-07"
+revision: 3       # raise this for every rebuild you publish, and mirror it in the catalog entry
 languages: [en]
 license: MIT
 attribution: "Written for AI-2 by Rafael Minuesa, in its own wording, from the IFRC International First Aid, Resuscitation and Education Guidelines 2025. IFRC did not write or endorse it. MIT licensed, like the rest of the project."
