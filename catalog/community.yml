@@ -78,6 +78,26 @@ packs:
   categories:
   - '13.12'
   audience: general
+- id: water-sanitation
+  title: Water and Sanitation
+  description: Safe water and sanitation with no services and possibly no help coming, from boiling and bleach to cleaning a flooded well and building a latrine, written from WHO sources, not reviewed by a specialist
+  version: '2026-11-06'
+  revision: 1
+  languages:
+  - en
+  license: MIT
+  attribution: Written for AI-2 by Rafael Minuesa, in its own wording, from the WHO/WEDC Technical Notes on Drinking-water, Sanitation and Hygiene in Emergencies (2013), WHO's Boil Water brief (2015), Guidelines for Drinking-water Quality (2022) and Guidelines on Sanitation and Health (2018), the Eawag SODIS manual (2016), the US EPA's Emergency Disinfection of Drinking Water (2026) and the Sphere Handbook (2018). None of them wrote or endorsed it. MIT licensed, like the rest of the project.
+  embedder: nomic-embed-text-v1.5
+  url: https://github.com/ProWoos-Devs/ai2-knowledge/releases/download/packs-2026-11-07/water-sanitation.ai2pack
+  size_bytes: 328636
+  sha256: cb8b4de7d9f1ce0129f6ccc47e5ac8d8de204b97c229c27bd7b37660c185a331
+  documents: 12
+  parts: 103
+  built_with: ai-2 0.26.0
+  contact: ProWoos-Devs
+  categories:
+  - '13.13'
+  audience: general
 - id: linux-essentials
   title: Linux Essentials
   description: Twenty everyday tasks on a Linux machine, written for AI-2 (runit, not systemd)
