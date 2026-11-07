@@ -1,0 +1,87 @@
+Disinfecting water with bleach or chlorine
+
+Search terms: bleach, chlorine, how many drops of bleach, chlorine tablets, disinfect water, household bleach, purify water, water treatment tablets.
+
+Written from WHO sources and the US EPA. Not reviewed by a water or health specialist.
+
+For: Making clear water safe from most germs with household bleach or chlorine tablets
+
+Not for: Cloudy water before clearing, or chemicals in water. See the limits below.
+
+USE THIS TOPIC WHEN
+
+- You have plain household bleach or chlorine tablets
+
+WHAT TO DO
+
+1. Use plain, unscented household bleach meant for disinfecting, and check the strength on the label. Do not use scented or color-safe bleach, or bleach with added cleaners. [EPA, DWQ p. 144]
+
+2. Use bleach that has been kept at room temperature for less than a year. Bleach loses strength with time and exposure to air. [EPA, TN 1.3]
+
+3. If the water is cloudy, let it settle and strain it through a clean cloth first. See Clearing cloudy water. [EPA, TN 5.1, TN 5.3]
+
+4. Add bleach with a clean dropper. WHO: 4 drops per liter of 5% bleach. EPA: 2 drops per liter of 6% or 8.25% bleach, or per US gallon (about 3.8 liters) 8 drops of 6% or 6 drops of 8.25%. The two doses differ; see below. [DWQ p. 144, EPA]
+
+5. Double the amount if the water was cloudy (strain it first), colored or very cold. WHO's tablet instructions also use twice the dose for dirty water, after straining it through cloth. [EPA, TN 5.3]
+
+6. Stir, cover and wait. WHO's 30 minutes is for water at 25 °C, and it doubles the wait for every 10 °C below that: about an hour at 15 °C, about two hours at 5 °C. [EPA, TN 5.3, DWQ p. 144]
+
+7. The water should then smell slightly of chlorine. If it does not, add the same dose again and wait another 15 minutes. [EPA]
+
+8. If the taste is too strong, pour the water back and forth between two clean containers and let it stand for a few hours. [EPA]
+
+CHLORINE TABLETS
+
+- Tablets differ in size and strength. Follow the instructions on the packet. [TN 5.2, TN 5.3]
+
+- WHO's example picture: for clear water, one tablet in the container, close it, wait 30 minutes. For dirty water, strain it through cloth, use two tablets, close it, wait 30 minutes. Limits: The number of tablets depends on the container size and the tablet's strength. [TN 5.3]
+
+DO NOT
+
+- Do not hand out chlorine products outside the maker's container. Nobody can tell from looking how strong they are or how to use them. [TN 5.2]
+
+- Do not go down into a well being cleaned with chlorine. Bleach and chlorine powder give off chlorine gas, a serious danger. [TN 1.2]
+
+IF THINGS CHANGE
+
+- The EPA gives no further step if there is still no chlorine smell after the second dose. Boiling and solar disinfection do not depend on the bleach's strength. [EPA, TN 5.2]
+
+WITH NO SUPPLIES
+
+- Does not apply. This method needs bleach or tablets. Without them, boil or use solar disinfection. [TN 5.2]
+
+ALTERNATIVES USING WHAT IS AVAILABLE
+
+- Boiling or solar disinfection. See those topics. [TN 5.2]
+
+- Iodine: household tincture of iodine at 2%, 5 drops per liter, or 10 drops if the water is cloudy or colored. Stir and wait at least 30 minutes, longer in cold water. Limits: WHO's table says iodine is not recommended for pregnant women, for people with thyroid problems, or for more than a few months. Its text adds infants and people sensitive to iodine for long-term use. Daily use for more than 3 to 4 weeks is for a doctor to approve, so treat it as a short-term method only. It does not kill Cryptosporidium. [EPA, DWQ p. 143, DWQ p. 145]
+
+- Strong chlorine powder (high-test calcium hypochlorite): in a place with fresh air and with eye protection, dissolve one heaping teaspoon in about 7.5 liters (2 US gallons) of water to make a stock solution. Add 1 part of this solution to 100 parts of water to treat. Limits: A very strong chemical. Follow the label for handling and storage. [EPA]
+
+IF HELP IS DELAYED OR CANNOT BE REACHED
+
+- No source read says what to do when bleach, tablets, iodine and chlorine powder run out for good, or how fast bleach weakens over months. Boiling and solar disinfection need none of them. [TN 1.3, TN 5.2]
+
+WHAT HAS NO EFFECTIVE SUBSTITUTE
+
+- Does not apply. Boiling and solar disinfection are alternatives.
+
+WHERE SOURCES DIFFER OR ARE SILENT
+
+- Cloudy water: particles can protect germs from chlorine, and WHO recommends chlorine for clear water. For a household, both WHO's tablet instructions and the EPA say to strain cloudy water first and then double the dose. For a whole well, WHO says never to chlorinate cloudy water. If the water stays very cloudy, boiling still works. [TN 1.2, DWQ p. 142, TN 5.3, EPA, Boil]
+
+- Chlorine kills most bacteria and viruses, but some protozoa, notably Cryptosporidium, resist it. Boiling kills them. [TN 5.2, Boil]
+
+- One advantage of chlorine is that some stays in the water and goes on protecting it. Boiling leaves no such protection. A whole well that is disinfected and then emptied keeps no such protection either. [TN 15.2, Boil, TN 1.3]
+
+- Bleach dose: WHO's drinking-water guidelines give 4 drops per liter of 5% bleach. The US EPA gives 2 drops per liter of 6% or 8.25% bleach, which is about 60% as much chlorine for 6% bleach and about 80% for 8.25%. This topic gives both, by strength, and does not choose between them. WHO's emergency notes give no household dose and say to follow the maker's instructions. [DWQ p. 144, EPA, TN 5.2]
+
+- Cold water: the EPA doubles the dose, WHO lengthens the wait. This topic gives both. [EPA, DWQ p. 144]
+
+LEFT OFF THIS TOPIC
+
+- Strong chlorine powder (calcium hypochlorite) for wells and tanks. See Cleaning a well.
+
+- Measuring chlorine left in water with a test kit. Needs equipment.
+
+Source: US EPA, Emergency Disinfection of Drinking Water, updated 2026-02-24 (EPA); WHO Guidelines for Drinking-water Quality, 4th edition with the first and second addenda, 2022 (DWQ, PDF page); WHO/WEDC Technical Notes on Drinking-water, Sanitation and Hygiene in Emergencies, 2nd edition, 2013 (TN, note and page); WHO Boil Water technical brief, 2015 (Boil).

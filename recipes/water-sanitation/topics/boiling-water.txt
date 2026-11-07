@@ -1,0 +1,65 @@
+Boiling water
+
+Search terms: boil water, how long to boil, boiling, kill germs in water, make water safe, high altitude, mountains, fire, stove.
+
+Written from WHO sources. Not reviewed by a water or health specialist.
+
+For: Making water safe from germs when you have fuel
+
+Not for: Chemicals, fuel, salt or metals in water. Boiling does not remove them. See What treatment cannot remove.
+
+USE THIS TOPIC WHEN
+
+- You have a pot and fuel, and water may carry germs
+
+WHAT TO DO
+
+1. If the water is cloudy, you can clear it first so it looks and tastes better. See Clearing cloudy water. Boiling kills germs even if it is still cloudy. [Boil, DWQ p. 142]
+
+2. Heat the water until it reaches a rolling boil. [Boil, TN 5.2]
+
+3. A rolling boil is enough to kill bacteria, viruses and protozoa, at any altitude. [Boil, DWQ p. 192]
+
+4. Take it off the heat as soon as it reaches a rolling boil. Boiling for longer wastes fuel, and it can concentrate nitrate in the water. [DWQ p. 240]
+
+5. Let it cool on its own. Do not add ice. [Boil, DWQ p. 192]
+
+6. Protect it from getting dirty again while you store it. See Storing water safely. [Boil, TN 5.3]
+
+7. Boiled water can taste flat. Once it has cooled, shake it hard in a closed container to improve the taste. [TN 5.2]
+
+DO NOT
+
+- Do not add ice to cool boiled water. [Boil]
+
+- Do not keep it boiling longer than needed. [DWQ p. 240]
+
+IF THINGS CHANGE
+
+- If boiled water later gets touched by hands, cups or dirt, it may no longer be safe. Boiling leaves no protection behind in the water. [Boil]
+
+WITH NO SUPPLIES
+
+- Boiling needs only a pot and fuel. [TN 5.2]
+
+ALTERNATIVES USING WHAT IS AVAILABLE
+
+- If fuel is short, use solar disinfection or chlorine on clear water instead. [TN 5.2]
+
+IF HELP IS DELAYED OR CANNOT BE REACHED
+
+- Fuel will run short. Keep boiling for drinking and food water, which is about 5 liters per person per day, and use other water for washing. [TN 5.1, TN 9.2]
+
+WHAT HAS NO EFFECTIVE SUBSTITUTE
+
+- Does not apply to this topic. Solar disinfection and chlorine are alternatives.
+
+WHERE SOURCES DIFFER OR ARE SILENT
+
+- WHO says a rolling boil is enough, at any altitude. The US EPA says to boil for at least 1 minute, and 3 minutes above 1,000 meters. This topic follows WHO, because fuel is likely to be short. [Boil, DWQ p. 192, EPA]
+
+LEFT OFF THIS TOPIC
+
+- Pasteurization below boiling point. WHO's table shows germs die below 100 °C, but none of the sources gives a household method without a thermometer.
+
+Source: WHO Boil Water technical brief, 2015 (Boil); WHO Guidelines for Drinking-water Quality, 4th edition with the first and second addenda, 2022 (DWQ, PDF page); WHO/WEDC Technical Notes on Drinking-water, Sanitation and Hygiene in Emergencies, 2nd edition, 2013 (TN, note and page); US EPA, Emergency Disinfection of Drinking Water, updated 2026-02-24 (EPA).

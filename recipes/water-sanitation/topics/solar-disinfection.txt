@@ -1,0 +1,81 @@
+Solar disinfection with plastic bottles (SODIS)
+
+Search terms: solar disinfection, SODIS, sun bottle, sunlight water, use the sun to clean water, no gas, no wood, plastic bottle in the sun, no fuel, no fire, no chlorine, PET bottle.
+
+Written from the SODIS manual and WHO sources. Not reviewed by a water or health specialist.
+
+For: Making clear water safer from germs with sunlight and plastic bottles, no fuel or chemicals
+
+Not for: Cloudy water, rainy days, or chemicals in water. See the limits below.
+
+USE THIS TOPIC WHEN
+
+- You have clear plastic bottles and sun, but little fuel and no chlorine
+
+WHAT TO DO
+
+1. Find bottles: clear, colorless PET plastic, 2 liters or smaller, with all labels removed. Water and soft-drink bottles are almost always PET, often marked with the recycling number 1. Wash them with soap before first use. [SODIS p. 8, SODIS p. 20, SODIS p. 51]
+
+2. Check the water is clear enough: fill a bottle and look down through its mouth at a newspaper headline. If you can read it, go on. If not, clear the water first. See Clearing cloudy water. [SODIS p. 22]
+
+3. Fill the bottles with the water and close them. [SODIS p. 8]
+
+4. Lay the bottles flat in direct sun, where no shade will fall on them all day. A reflective surface underneath, such as a metal sheet, helps a little. [SODIS p. 20, SODIS p. 36]
+
+5. Leave them for one full day, at least 6 hours including the middle of the day, when the sky is mostly clear. When more than half the sky is cloudy, leave them for 2 days in a row. [SODIS p. 8]
+
+6. Keep the water in the same bottles until you drink it, so it does not get dirty again. [SODIS p. 8]
+
+7. Use two sets of bottles: one in the sun, one being drunk. [SODIS p. 51]
+
+DO NOT
+
+- Do not use SODIS on days of continuous rain. [SODIS p. 8]
+
+- Do not use it for water too cloudy to pass the newspaper test. [SODIS p. 22]
+
+- Do not use colored bottles or bottles with labels. [SODIS p. 8]
+
+- Do not use plastic bottles that are not PET. Never use polycarbonate (recycling number 7, the hard plastic of some baby bottles), which can release a harmful chemical. [SODIS p. 20]
+
+- Do not use window glass. It blocks the part of sunlight that does the work. [SODIS p. 20]
+
+IF THINGS CHANGE
+
+- If clouds come in, leave the bottles out for a second day. [SODIS p. 8]
+
+- If it rains all day, boil or use chlorine instead. [SODIS p. 8, TN 5.2]
+
+- Replace bottles when their surface turns milky from scratches or sunlight, usually after a few months. [SODIS p. 51]
+
+WITH NO SUPPLIES
+
+- SODIS needs only bottles and sun. Used PET drink bottles work. [SODIS p. 8, SODIS p. 20]
+
+ALTERNATIVES USING WHAT IS AVAILABLE
+
+- Glass drink bottles, colorless and 2 liters or smaller, only if no PET bottles can be found. Eawag generally does not recommend containers other than PET unless approved for SODIS. The commercial glass drink bottles it tested let through sunlight comparable to PET, and studies found them as effective. Limits: some glass, such as window glass, blocks the sunlight needed, and local bottles may differ, which only testing with equipment shows. Glass also breaks and often has no reusable cap. [SODIS p. 20]
+
+IF HELP IS DELAYED OR CANNOT BE REACHED
+
+- SODIS does not depend on fuel, chemicals or supplies, only on bottles and sunlight, so it can go on for as long as bottles last. [SODIS p. 8]
+
+WHAT HAS NO EFFECTIVE SUBSTITUTE
+
+- Sunlight. Without it the method does not work. [SODIS p. 8]
+
+WHERE SOURCES DIFFER OR ARE SILENT
+
+- SODIS works well against bacteria but less well against some viruses and protozoa. Boiling kills all three. [SODIS p. 8, Boil]
+
+- Times differ. The SODIS manual says one day of at least 6 hours in sun, or 2 days when cloudy. A WHO note says that near the equator 24 hours of a sunny day is likely enough, or 48 hours when cloudy. This topic follows the SODIS manual, the more detailed source. [SODIS p. 8, TN 5.2]
+
+- The WHO note says to cool the water and shake it before drinking. The SODIS manual says an older advice to shake bottles before putting them in the sun is no longer upheld, and says nothing about shaking afterwards. [TN 5.2, SODIS p. 22]
+
+- SODIS does not remove chemicals such as arsenic or fluoride. [SODIS p. 51]
+
+LEFT OFF THIS TOPIC
+
+- Indicator devices that show when the water has been hot enough. Manufactured products.
+
+Source: SODIS Manual, Guidance on Solar Water Disinfection, Eawag 2016 (PDF page); WHO/WEDC Technical Notes on Drinking-water, Sanitation and Hygiene in Emergencies, 2nd edition, 2013 (TN, note and page); WHO Boil Water technical brief, 2015 (Boil).

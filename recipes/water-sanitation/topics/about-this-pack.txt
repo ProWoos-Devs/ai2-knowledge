@@ -1,0 +1,21 @@
+About the Water and Sanitation Knowledge Pack
+
+Written from WHO sources. Not reviewed by a water or health specialist.
+
+Where the topics come from
+
+The topics are based on the Technical Notes on Drinking-water, Sanitation and Hygiene in Emergencies, written for the World Health Organization (WHO) by WEDC at Loughborough University. Other sources were used for particular points: WHO's Boil Water technical brief, the WHO Guidelines for Drinking-water Quality, the WHO Guidelines on Sanitation and Health, the SODIS manual from Eawag on solar disinfection, the US Environmental Protection Agency's page on emergency disinfection, and the Sphere standards for disaster relief. The wording is our own. None of these organizations wrote these topics or endorsed them.
+
+No water engineer or health worker has reviewed them. Instead, every instruction was traced to a page of its source, and the topics were compared against the sources in a separate check.
+
+These sources were written for a different reader
+
+Most of the sources are written for relief workers, engineers and agencies serving camps and towns, and they assume that supplies and services still exist. These topics are for households and small groups with none of that. We chose the steps a person can do at home, so a step you may know from relief work can be missing here.
+
+The sources do not always agree, and they do not cover everything
+
+When sources give different advice, the topic says so and names which one it follows. Some questions have no answer in the sources we read, for example what to do when bleach runs out for good, or how to make seawater drinkable. When that happens, the topic says so. We do not fill the gap with advice of our own.
+
+Check the date
+
+This Knowledge Pack works offline and cannot update itself. Each topic names the edition of its sources. Guidance may have changed since then.

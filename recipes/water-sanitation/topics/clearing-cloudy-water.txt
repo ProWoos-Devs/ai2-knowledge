@@ -1,0 +1,72 @@
+Clearing cloudy water
+
+Search terms: cloudy water, muddy water, dirty water, brown water, turbid, filter water, strain water, settle water, sand filter, river water.
+
+Written from WHO sources. Not reviewed by a water or health specialist.
+
+For: Water that looks cloudy, muddy or has bits in it, before you make it safe
+
+Not for: Making water safe to drink. Clearing is only the first step. Then use boiling, solar disinfection or chlorine.
+
+USE THIS TOPIC WHEN
+
+- Water from a river, pond or damaged well looks cloudy
+- You want to use solar disinfection or chlorine, which need clear water
+
+WHAT TO DO
+
+1. Let it stand and settle. Leave the water in a container so the larger particles sink to the bottom, then pour off the clearer water from the top. Some of the germs settle with the particles. [TN 5.1, SODIS p. 22]
+
+2. Storing water for two days reduces contamination further. [TN 5.1]
+
+3. Strain it through cloth. Pour the water through a clean cloth into a clean container. A paper towel or coffee filter also works. [TN 5.3, EPA]
+
+4. To improve taste and remove smells, shake a container part-full of water hard for about five minutes, then let it stand for 30 minutes so particles settle. [TN 5.1]
+
+5. Then make the water safe with a proven method. Even after settling, water must still be treated. [TN 5.1]
+
+DO NOT
+
+- Do not drink water just because it now looks clear. [TN 5.1]
+
+- Do not put chlorine in cloudy water without straining it first. Particles can shelter germs from it. For strained water that was cloudy, use the doubled dose in Disinfecting with bleach or chlorine. [TN 1.2, TN 5.3, EPA]
+
+IF THINGS CHANGE
+
+- If the water stays cloudy after settling and straining, boiling still works. Boiling kills germs even in cloudy water. [Boil]
+
+WITH NO SUPPLIES
+
+- Settling needs only a container and time. Straining needs only a cloth. [TN 5.1, TN 5.3]
+
+ALTERNATIVES USING WHAT IS AVAILABLE
+
+- Sand filter: a clay, metal or plastic container filled with layers of sand and gravel, with pipes that make the water flow up or down through them. WHO's note shows a simple upward-flow filter with coarse sand over rocks on a perforated plate. Limits: The note gives no step-by-step build or how long the water must flow. Treat the water afterwards. [TN 5.1, TN 5.2]
+
+- Ceramic or candle filter: water passes slowly through the ceramic, which holds back particles. Some are made with silver, which kills bacteria. Brush off what collects on the surface under running water from time to time. Limits: These are made locally or mass-produced. Follow the maker's instructions. [TN 5.1, TN 5.2]
+
+- Membrane filters can remove even very small germs such as viruses. Limits: A manufactured product. Follow the maker's instructions, which often include regular cleaning. [TN 5.1]
+
+HOW CLOUDY IS IT
+
+- Newspaper test, for solar disinfection: fill a clear bottle and look down through the mouth at a newspaper headline. If you can still read it, the water is clear enough for solar disinfection. [SODIS p. 22]
+
+- Coin test: put a dull copper or brass coin about 2.5 cm across in the bottom of a dark container at least 50 cm deep. Add water slowly, a little at a time, letting the surface calm before each look. If the coin disappears before the water is 32 cm deep, the water is very cloudy. If it is still visible at 50 cm, the water is under about 10 turbidity units. WHO's limit for chlorinating a well is 5, which this test cannot show. [TN 1.3, TN 1.2]
+
+IF HELP IS DELAYED OR CANNOT BE REACHED
+
+- Settling, straining and boiling all work with no outside supplies. [TN 5.1, Boil]
+
+WHAT HAS NO EFFECTIVE SUBSTITUTE
+
+- Treatment after clearing. Clearing is never enough on its own. [TN 5.1]
+
+WHERE SOURCES DIFFER OR ARE SILENT
+
+- No source read gives a full method for building a household sand filter or says how well one works.
+
+LEFT OFF THIS TOPIC
+
+- Chemical products that settle particles and disinfect in one step. Made by companies, not available without supplies.
+
+Source: WHO/WEDC Technical Notes on Drinking-water, Sanitation and Hygiene in Emergencies, 2nd edition, 2013 (TN, note and page); WHO Boil Water technical brief, 2015 (Boil); SODIS Manual, Eawag 2016 (PDF page); US EPA, Emergency Disinfection of Drinking Water, updated 2026-02-24 (EPA).

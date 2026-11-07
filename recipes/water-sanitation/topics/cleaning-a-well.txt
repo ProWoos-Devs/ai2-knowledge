@@ -1,0 +1,115 @@
+Cleaning a well, including after seawater flooding
+
+Search terms: clean a well, flooded well, dirty well, well after flood, well after tsunami, salty well, seawater in well, disinfect a well, chlorinate a well.
+
+Written from WHO sources. Not reviewed by a water or health specialist.
+
+For: A hand-dug, open well that was damaged, flooded or polluted
+
+Not for: Boreholes with pumps, or piped systems. In the WHO notes, not covered here.
+
+USE THIS TOPIC WHEN
+
+- A well was flooded, filled with debris, or may be polluted
+
+WHAT TO DO
+
+FIRST, CHECK THE WELL
+
+1. If it smells of oil or petrol, or has a greasy film or shine on the water, stop here. Do not use the well at all. [TN 15.1]
+
+2. If the walls or apron around it are cracked or undermined, stop here. The well should be abandoned, replaced or rebuilt. [TN 15.1]
+
+3. Do not let anyone take water from the well while it is being cleaned and chlorinated. Water with that much chlorine tastes and smells bad and could be dangerous. [TN 1.4]
+
+4. Was it flooded by the sea, or does the water taste salty? If yes, follow SEAWATER PATH below. If no, follow ORDINARY PATH. [TN 15.1]
+
+ORDINARY PATH
+
+5. Look for nearby sources of pollution: latrines, ponds, surface water and animal pens. Remove debris and polluted pools near the well. [TN 1.1, TN 15.1]
+
+6. Remove floating debris with a sieve or bucket. Remove polluted water, sludge and debris with buckets or a pump. [TN 1.2, TN 15.1]
+
+7. Without chlorine powder, skip to step 8 and then from step 9 go straight to step 16. Otherwise: clean the well lining from outside the well with a long-handled brush and chlorine solution made with twice the powder given in step 12. Chlorine gives off a dangerous gas: do not climb in. [TN 1.2]
+
+8. Put a 15 cm layer of gravel on the bottom. Seal the top of the well with clay. Build a drainage apron and a wall around the top to keep out surface water, insects and rodents, and cover the well. [TN 1.2]
+
+9. Let the water rise back to its normal level, then check how cloudy it is with the coin test (see Clearing cloudy water), which WHO offers as a field estimate. If the coin disappears before the water is 50 cm deep, remove all the water again and let it refill. If it stays cloudy, do not chlorinate: see IF THINGS CHANGE. [TN 1.2, TN 1.3]
+
+10. WHO chlorinates a well only when its water is under 5 turbidity units. A coin still visible at 50 cm means under about 10, which is as clear as the coin test can show. The sources do not say whether to go on in that case. WHO also checks pH with paper strips and, below pH 6, adds hydrated lime before chlorinating. [TN 1.2, TN 1.3, TN 1.4]
+
+11. Work out the volume of water in the well, in cubic meters: 3.142 x diameter x diameter x depth of water, divided by 4, all in meters. [TN 1.2]
+
+12. Disinfect from outside the well: dissolve about 300 g of strong chlorine powder (high-strength calcium hypochlorite) in a 20-liter bucket of clear well water. For each cubic meter of water in the well, add 10 liters (half the bucket) of this solution. Stir the well with a long pole and leave it for at least 30 minutes. [TN 1.2, TN 1.4]
+
+13. Then remove all the water from the well. Do not let this water flow into streams or wetlands. The source gives no other place for it. [TN 1.4]
+
+14. When it has refilled, wait another 30 minutes. WHO then measures the chlorine left with a test kit. Above 0.5 mg per liter, it removes all the water again and repeats this. Below 0.5 mg per liter, the well is likely back to its condition before the disaster, which does not mean its water is safe to drink. [TN 1.4]
+
+15. Without a test kit: WHO's note on boreholes gives a check without one, pumping until the water no longer smells of chlorine. Its note on hand-dug wells gives only the test kit. [TN 2.4, TN 1.4]
+
+16. From then on, keep drinking water from the well safe at home: collect, handle and store it carefully, and treat it at home if you can. Disinfecting the well leaves no lasting protection. [TN 1.3]
+
+SEAWATER PATH
+
+17. Do step 5, and from step 6 only the floating debris and the sludge at the bottom. Do not pump out the water yet; that is step 18. Leave steps 7 and 8 for later. [TN 15.1, TN 1.2]
+
+18. Remove the water once, slowly, taking care not to pump so fast that the well empties. Send the water to the sea or a river, downstream of other wells. Do not pump it out again and again to lower the salt: pumping more than the well holds slows the natural cleaning, and hard pumping can make the well salty. [TN 15.1, TN 15.2, TN 15.3]
+
+19. The water may be cloudy for up to a day. After that it can be used for washing and cleaning, but not for drinking. [TN 15.2]
+
+20. Leave the well to clean itself naturally. This can take as long as one to two years, depending on rain and ground. Find drinking water from neighboring wells that are clear, or another source. [TN 15.2, TN 15.3]
+
+21. Rain helps. Do not drain standing water nearby to remove the salt, unless it has an oil film, in which case WHO says to drain it to the sea. Instead, channel rainwater into hollows so it soaks into the ground. Some malaria mosquitoes prefer to breed in salty standing water. [TN 15.3]
+
+22. Salt is not a health risk at levels people find acceptable to drink. Slightly salty but disinfected well water can be better than fresh water from an unprotected source. The community decides when the taste is acceptable. [TN 15.2, TN 15.3]
+
+23. When it is, do steps 7 and 8, then disinfect once with steps 9 to 16. Every time those steps say to remove all the water, pump slowly, and stop if the well is about to run dry. [TN 15.1, TN 15.2, TN 1.4]
+
+DO NOT
+
+- Do not climb into a well being cleaned with chlorine. Chlorine gives off a dangerous gas. Entering needs full protective clothing, breathing equipment and a strong air flow. [TN 1.2]
+
+- Do not deepen a salty well, and do not dig new deep wells near the coast, to reach fresh water below. [TN 15.3]
+
+- Avoid chlorinating a well repeatedly. It can pollute the groundwater and cause skin rashes in people who bathe in it. WHO's general note says to "repeat the process" when too much chlorine remains; this topic reads that as repeating the emptying and measuring after one dose, not a new dose. [TN 15.2, TN 1.4]
+
+IF THINGS CHANGE
+
+- If the water stays cloudy after cleaning, the gravel at the bottom may have failed or surface water may be getting in. These cannot be fixed at once. Do not chlorinate the well while it is cloudy. WHO says it is probably safe to let people use it, because the water should be at least as good as before the disaster. Treat drinking water at home. [TN 1.2, TN 1.3]
+
+- If a well that was clear starts to taste salty, pump it less or stop using it for a while. [TN 15.3]
+
+WITH NO SUPPLIES
+
+- Floating debris can be removed with a sieve or bucket, and water with buckets. Without chlorine powder, skip steps 7 and 12 to 15 and treat drinking water at home. [TN 1.2, TN 15.1, TN 1.3]
+
+ALTERNATIVES USING WHAT IS AVAILABLE
+
+- WHO says liquid bleach and bleaching powder are also used, but their usable chlorine varies with how long and how they were stored, and it gives a well dose only for strong chlorine powder. [TN 1.3]
+
+IF HELP IS DELAYED OR CANNOT BE REACHED
+
+- Without a test kit, the only check found is the smell test from WHO's borehole note, step 15. Treat drinking water from the well at home. [TN 2.4, TN 1.3]
+
+WHAT HAS NO EFFECTIVE SUBSTITUTE
+
+- Time, for a salty well. WHO calls natural flushing by rain and fresh water soaking into the ground the best and quickest remedy. [TN 15.2, TN 15.3]
+
+WHERE SOURCES DIFFER OR ARE SILENT
+
+- WHO's well cleaning is meant to bring the well back to its condition before the disaster. A low chlorine reading afterwards does not mean the water is safe to drink. [TN 1.1, TN 1.4]
+
+- WHO's clearness limit for chlorinating, 5 units, is below what its own coin test can show. [TN 1.2, TN 1.3]
+
+- WHO's general well note empties the well after the chlorine and repeats the emptying if too much remains. Its seawater note says to avoid repeated chlorination and not to pump so fast that the well runs dry. For a coastal well this topic follows the seawater note's slow pumping. [TN 1.4, TN 15.1, TN 15.2]
+
+- The smell test comes from WHO's note on boreholes, not hand-dug wells. [TN 2.4]
+
+LEFT OFF THIS TOPIC
+
+- Measuring pH and chlorine with test strips and kits. Needs equipment.
+
+- Repairing pumps and boreholes. In the WHO notes, written for technicians.
+
+Source: WHO/WEDC Technical Notes on Drinking-water, Sanitation and Hygiene in Emergencies, 2nd edition, 2013 (TN, note and page).
