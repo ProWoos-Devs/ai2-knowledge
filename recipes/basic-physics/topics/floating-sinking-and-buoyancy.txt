@@ -1,0 +1,36 @@
+Floating, sinking and buoyancy
+
+Search terms: floating and sinking, buoyancy, upthrust, density, Archimedes principle, water displacement, why steel ships float, heavy objects floating.
+
+Written for AI-2. Directed to children, parents and teachers.
+
+WHY THINGS FLOAT OR SINK
+
+Whether an object floats on water or sinks to the bottom depends on two physical forces acting in opposite directions:
+1. Gravity: The downward pull of Earth dragging the object down into the water.
+2. Buoyancy (or upthrust): The upward pushing force exerted by water on any object submerged in it.
+If the upward buoyant force is equal to or greater than the object's downward weight, the object floats on the surface. If gravity pulls harder than the water pushes up, the object sinks to the bottom.
+
+WHAT DENSITY MEANS
+
+Density is a measure of how tightly packed the matter (mass) is inside a given amount of space (volume).
+- High density: An object where lots of heavy mass is crammed into a small space, like a solid lead weight, a steel marble, or a stone pebble.
+- Low density: An object where particles are loosely spread out or filled with empty air pockets, like cork, a hollow plastic ball, a dry sponge, or balsa wood.
+The golden rule of floating in liquids is:
+- Objects with a density less than water float.
+- Objects with a density greater than water sink.
+Water has a density of about 1 gram per cubic centimeter. A block of wood has a density of around 0.6 grams per cubic centimeter, so it floats easily, while a rock has a density of 2.5 grams per cubic centimeter and sinks instantly.
+
+ARCHIMEDES' PRINCIPLE AND WATER DISPLACEMENT
+
+When you step into a full bathtub, the water level rises because your body pushes water out of the way to make room for itself. This pushed-away water is called displaced water.
+More than 2,000 years ago, the Greek mathematician Archimedes discovered that the upward buoyant force on an object is exactly equal to the weight of the water displaced by that object.
+
+WHY GIGANTIC STEEL SHIPS FLOAT
+
+A small solid steel bolt sinks straight to the bottom of the ocean, yet massive cargo ships weighing 50,000 tonnes of steel float safely across the seas. Why?
+The secret is the shape of the ship's hull:
+- A steel ship is not a solid block of metal. It is designed with a wide, hollow bowl shape filled with huge rooms, cargo holds, and millions of liters of trapped air.
+- Air is extremely light (low density).
+- When you calculate the average density of the entire ship (steel hull plus all the trapped air inside), the combined density of the ship is much lower than the density of seawater.
+- Furthermore, the ship's massive hull pushes aside a gigantic weight of water, creating an enormous upward buoyant force that easily supports the ship's immense weight.

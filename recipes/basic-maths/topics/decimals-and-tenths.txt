@@ -1,0 +1,38 @@
+Decimals, tenths, hundredths and money
+
+Search terms: decimals, decimal point, tenths, hundredths, money, decimal numbers, points, converting fractions to decimals, 0.5, 0.25.
+
+Written for AI-2. Directed to children, parents and teachers.
+
+WHAT A DECIMAL IS
+
+A decimal is a number written in place value that represents amounts smaller than one whole. Decimals are another way of writing fractions whose denominators are 10, 100, 1,000 and so on. The decimal point is a small dot that separates whole numbers on the left from parts of a whole on the right.
+
+TENTHS AND HUNDREDTHS
+
+Just as places to the left of the ones column grow ten times bigger (tens, hundreds), places to the right of the decimal point grow ten times smaller:
+- The first spot to the right of the decimal point is the tenths column. One tenth (0.1) means 1 out of 10 equal parts (1/10).
+- The second spot to the right is the hundredths column. One hundredth (0.01) means 1 out of 100 equal parts (1/100).
+In the number 3.45:
+- 3 is 3 whole units.
+- 4 is 4 tenths (4/10).
+- 5 is 5 hundredths (5/100).
+
+DECIMALS AND EVERYDAY MONEY
+
+Coins and money use decimals every day because small change is a fraction of a whole currency unit. One euro or one dollar is made of 100 cents.
+- A 50-cent coin is 50 hundredths of a unit, written as 0.50.
+- A 25-cent coin is 25 hundredths of a unit, written as 0.25.
+- A 5-cent coin is 5 hundredths of a unit, written as 0.05. Notice the zero in the tenths place holding the spot open.
+Writing two whole euros and 75 cents is written as 2.75.
+
+COMMON FRACTIONS AS DECIMALS
+
+- One-half (1/2) is equal to 0.5 (five tenths).
+- One-quarter (1/4) is equal to 0.25 (twenty-five hundredths).
+- Three-quarters (3/4) is equal to 0.75 (seventy-five hundredths).
+- One-tenth (1/10) is equal to 0.1.
+
+ADDING AND SUBTRACTING DECIMALS
+
+When adding or subtracting decimal numbers, always line up the decimal points in a straight vertical line. Lining up the decimal points ensures that ones add to ones, tenths add to tenths, and hundredths add to hundredths. If one number has fewer decimal digits than the other, you can add trailing zeros to the right without changing its value (for example, writing 4.2 as 4.20).
