@@ -1,0 +1,35 @@
+Forces, pushes and pulls
+
+Search terms: forces, push and pull, balanced forces, unbalanced forces, Newtons, motion, speeding up, slowing down, changing direction.
+
+Written for AI-2. Directed to children, parents and teachers.
+
+WHAT A FORCE IS
+
+A force is a push or a pull acting upon an object. Forces are all around us, even when we cannot see them. Whenever you kick a football, push a heavy swing, pull open a drawer, or stretch a rubber band, you are applying a force. Forces are measured in units called Newtons (abbreviated as N), named after the English scientist Sir Isaac Newton.
+
+WHAT FORCES DO TO OBJECTS
+
+A force can cause an object to do several things:
+- Start moving from a standstill (kicking a still ball).
+- Speed up (pushing a bicycle pedals harder).
+- Slow down or stop (pulling on the brakes).
+- Change direction (hitting a tennis ball back across the net with a racket).
+- Change shape (squeezing clay or squishing a sponge).
+
+BALANCED FORCES
+
+Balanced forces are forces acting on an object that are equal in size but push or pull in opposite directions. When forces are balanced, they cancel each other out completely.
+- If an object is sitting still (like a book resting on a table), the forces are balanced: gravity pulls the book down, and the table pushes up with the exact same strength. The book does not move.
+- If an object is already moving at a steady speed in a straight line, balanced forces keep it cruising along smoothly without speeding up or slowing down.
+
+UNBALANCED FORCES
+
+Unbalanced forces occur when one force is stronger than the forces opposing it. Unbalanced forces cause a change in motion:
+- In a game of tug-of-war, when both teams pull with equal force, the rope does not budge (balanced).
+- When one team pulls harder than the other, the forces become unbalanced, and the rope moves toward the stronger team.
+Whenever an object accelerates, decelerates, or curves around a bend, an unbalanced force is at work.
+
+CONTACT AND NON-CONTACT FORCES
+
+Some forces require physical contact to work, such as your hand pushing a door or friction rubbing against shoes. Other forces can act across empty space without touching at all, called non-contact forces. The three main non-contact forces are gravity, magnetism, and static electricity.

@@ -1,0 +1,32 @@
+Percentages and parts out of one hundred
+
+Search terms: percentages, percent, percent sign, parts per hundred, out of 100, finding fifty percent, finding ten percent, discounts.
+
+Written for AI-2. Directed to children, parents and teachers.
+
+WHAT PERCENT MEANS
+
+Percent means parts out of one hundred. The word comes from the Latin "per centum", which means "by the hundred". The symbol for percent is %. A percentage is simply a fraction with a denominator of 100, where 50% means 50 out of 100, and 100% means the entire whole thing.
+
+EVERYDAY EXAMPLES OF PERCENTAGES
+
+- Battery level: A tablet or phone showing 100% has a completely full battery. At 50%, half the battery charge has been used. At 10%, only a small tenth of charge is left.
+- Test scores: Getting 80% on a test means you got 80 points right out of every 100 points.
+- Weather: A 0% chance of rain means clear skies; a 100% chance means rain is certain.
+
+KEY PERCENTAGES TO REMEMBER
+
+- 100% is the whole amount (100/100 = 1).
+- 50% is half of the amount (50/100 = 1/2 = 0.5). To find 50% of any number, divide it by 2. For example, 50% of 20 is 10.
+- 25% is one-quarter of the amount (25/100 = 1/4 = 0.25). To find 25% of any number, halve it and halve it again (divide by 4). 25% of 20 is 5.
+- 75% is three-quarters of the amount (75/100 = 3/4 = 0.75).
+- 10% is one-tenth of the amount (10/100 = 1/10 = 0.1). To find 10% of any number, simply divide it by 10. For example, 10% of 80 is 8.
+- 1% is one-hundredth of the amount (1/100 = 0.01). To find 1% of a number, divide it by 100.
+
+HOW TO FIND A PERCENTAGE OF A NUMBER
+
+To find a percentage quickly in your head, use the 10% and 50% benchmarks as stepping stones:
+- To find 20% of 60: Find 10% first (60 ÷ 10 = 6), then double it (6 x 2 = 12).
+- To find 5% of 60: Find 10% first (6), then take half of that (3).
+- To find 15% of 60: Add 10% (6) and 5% (3) together to get 9.
+Building percentages from 10% and 1% allows you to solve almost any everyday percentage question without complex formulas.

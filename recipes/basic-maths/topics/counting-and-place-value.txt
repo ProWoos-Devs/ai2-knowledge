@@ -1,0 +1,29 @@
+Counting, digits and place value
+
+Search terms: counting, place value, ones tens hundreds thousands, digits, zero as a placeholder, large numbers, how numbers work, value of digits.
+
+Written for AI-2. Directed to children, parents and teachers.
+
+DIGITS AND NUMBERS
+
+Digits are the ten single symbols from 0 to 9 used to make every number in mathematics. Just like letters make up words, the digits 0, 1, 2, 3, 4, 5, 6, 7, 8 and 9 make up all numbers. A digit on its own is a single symbol, while a number tells you an amount, a position or a measurement.
+
+WHAT PLACE VALUE MEANS
+
+Place value means that the position of a digit in a number determines how much it is worth. In our base-ten number system, moving one spot to the left multiplies the value of that digit by ten. The first spot on the right is the ones column, the next spot to the left is the tens column, followed by hundreds, thousands, ten thousands and hundred thousands.
+
+HOW A NUMBER IS BUILT
+
+In the number 354, each digit stands for a different amount because of its column:
+- The 4 is in the ones column, so it means 4 ones (4).
+- The 5 is in the tens column, so it means 5 tens (50).
+- The 3 is in the hundreds column, so it means 3 hundreds (300).
+When you add those parts together, 300 + 50 + 4 equals 354. Writing a number split into its place values is called expanded form.
+
+WHY ZERO IS IMPORTANT AS A PLACEHOLDER
+
+Zero is used as a placeholder to keep other digits in their proper columns when a column is empty. In the number 105, there are 1 hundred, 0 tens and 5 ones. Without the zero, writing 15 would mean only 1 ten and 5 ones, which is a completely different amount. Zero tells you that a place has nothing in it, while holding that column open so the other numbers keep their true value.
+
+READING LARGE NUMBERS
+
+Large numbers are grouped in sets of three digits separated by commas or spaces to make them easy to read. Each group of three has its own ones, tens and hundreds. The first group from the right is ones, the second group is thousands, and the third group is millions. For example, 425,160 is read as four hundred twenty-five thousand, one hundred sixty.

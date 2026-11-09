@@ -1,0 +1,38 @@
+Perimeter and area of flat shapes
+
+Search terms: perimeter, area, measuring perimeter, finding area, square units, fence around, space inside, length times width, square meters.
+
+Written for AI-2. Directed to children, parents and teachers.
+
+PERIMETER: THE DISTANCE AROUND THE OUTSIDE
+
+Perimeter is the total length of the boundary line around the outside of a flat 2D shape. Imagine an ant walking all the way around the outer edge of a table and back to where it started; the distance the ant walks is the perimeter.
+To find the perimeter of any straight-sided shape:
+1. Measure the length of every outer side.
+2. Add all those side lengths together.
+For example, for a triangle with sides measuring 3 cm, 4 cm and 5 cm:
+Perimeter = 3 + 4 + 5 = 12 cm.
+For a rectangle with length 6 m and width 2 m:
+Perimeter = 6 + 2 + 6 + 2 = 16 m.
+Perimeter is measured in ordinary units of length, such as millimeters, centimeters or meters.
+
+AREA: THE FLAT SPACE COVERED INSIDE
+
+Area is the amount of flat two-dimensional surface inside a closed shape. While perimeter is like the fence around a garden, area is the grassy lawn inside the fence.
+Area is measured in square units, such as square centimeters (written as cm²) or square meters (written as m²). One square centimeter is a square that measures 1 cm along every side. Finding area means counting how many of those unit squares fit inside the shape without overlapping.
+
+FINDING THE AREA OF A RECTANGLE OR SQUARE
+
+To find the area of a rectangle without counting every tiny square individually, multiply its length by its width:
+Area = length x width.
+For example, if a room is 5 meters long and 3 meters wide:
+Area = 5 x 3 = 15 square meters (15 m²).
+For a square where every side is 4 cm:
+Area = 4 x 4 = 16 square centimeters (16 cm²).
+
+DO NOT CONFUSE PERIMETER AND AREA
+
+Perimeter and area measure two completely different things:
+- Perimeter measures a one-dimensional line (length), written in plain units like meters (m). It tells you how much fencing you need to build around a playground.
+- Area measures a two-dimensional surface, written in square units like square meters (m²). It tells you how much paint you need to paint a wall or how much carpet covers a floor.
+Two shapes can have the exact same perimeter while having totally different areas.
