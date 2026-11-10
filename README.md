@@ -31,7 +31,7 @@ ai-2 doc search "how do I find a big file?"   ask, and get passages with their s
 
 ## Share a pack
 
-Made one from your own documents, a manual, a body of public text? **[CONTRIBUTING.md](CONTRIBUTING.md) walks the whole way**, from a folder of text to a merged entry: building it, hosting the file yourself, the entry to add to [`catalog/community.yml`](catalog/community.yml), and what to do when CI complains. The summary is under [Contributing a pack](#contributing-a-pack) below.
+Made one from your own documents, a manual, a body of public text? **[CONTRIBUTING.md](CONTRIBUTING.md) walks the whole way**, from a folder of text to a merged entry: building it, adding the file to your pull request, the entry to add to [`catalog/community.yml`](catalog/community.yml), and what to do when CI complains. The summary is under [Contributing a pack](#contributing-a-pack) below.
 
 Besides the catalog, this repository holds the recipes that build the project's own packs (`recipes/`) and the tools that check every entry (`tools/`).
 
@@ -78,9 +78,9 @@ These are not style preferences. They come from measurements recorded in the AI-
 
 ## Contributing a pack
 
-**First time? [CONTRIBUTING.md](CONTRIBUTING.md) walks the whole way**, from a folder of text to a merged entry, including how to host the file yourself and what to do when CI complains. The rest of this section is the summary.
+**First time? [CONTRIBUTING.md](CONTRIBUTING.md) walks the whole way**, from a folder of text to a merged entry, including where the file goes and what to do when CI complains. The rest of this section is the summary.
 
-Open a pull request that adds one entry to `catalog/community.yml`. **You host the file** (a GitHub release of your own, a Hugging Face dataset, any stable HTTPS URL); this repository holds the catalog, not the bytes.
+Open a pull request that adds one entry to `catalog/community.yml` and the file itself at `packs/my-pack/my-pack-r1.ai2pack`, where `r1` is its revision. A file of more than 10 MB does not go in the repository: host it yourself (a GitHub release of your own, a Hugging Face dataset, any stable HTTPS URL) and give that URL in the entry.
 
 An entry looks like this:
 
@@ -93,7 +93,7 @@ An entry looks like this:
   license: CC-BY-4.0
   attribution: "Text from ..., used under CC BY 4.0."
   embedder: nomic-embed-text-v1.5
-  url: https://example.org/my-pack.ai2pack
+  url: https://raw.githubusercontent.com/ProWoos-Devs/ai2-knowledge/main/packs/my-pack/my-pack-r1.ai2pack
   size_bytes: 1234567
   sha256: <64 hex characters>
   documents: 120
@@ -109,8 +109,8 @@ Checked by CI on the pull request, with `tools/validate-catalog.py --install`:
 
 - the entry is complete and names who made the pack, its categories, audience and ages are ones [`catalog/categories.yml`](catalog/categories.yml) lists, the license is one this catalog carries, and the `id` is not already taken (ids are global, so one pack can never be installed in place of another)
 - the table at the top of this page is the catalog (`tools/render-catalog.py` writes it; run it after adding your entry)
-- the file downloads over HTTPS and matches `size_bytes` and `sha256`, the download stopping the moment it outgrows the declared size
-- **AI-2 itself installs the downloaded file** on a clean machine, at the pinned version the workflow names, and then the manifest inside the installed pack is compared with the catalog entry, id, title, version, revision, license, languages, embedder, document and part counts. The hash only proves the bytes are the ones the entry described; this is what proves the description true
+- the file in `packs/` is where its id and revision say and matches `size_bytes` and `sha256`; a file hosted elsewhere is downloaded over HTTPS and checked the same way, the download stopping the moment it outgrows the declared size
+- **AI-2 itself installs the file** on a clean machine, at the pinned version the workflow names, and then the manifest inside the installed pack is compared with the catalog entry, id, title, version, revision, license, languages, embedder, document and part counts. The hash only proves the bytes are the ones the entry described; this is what proves the description true
 - the installed index really holds the number of parts the manifest claims
 - the attribution the license requires is in the manifest, which is where AI-2 reads it from when it prints an answer, and for Apache-2.0 and GFDL the license text is inside the pack as a document, because those two require the recipient to receive the license itself
 

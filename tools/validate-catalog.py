@@ -6,8 +6,11 @@ Three layers, each stricter than the last:
 
   (none)     every entry complete, licences redistributable, ids unique,
              hashes the right shape, the maker named, categories, audience
-             and ages taken from catalog/categories.yml
-  --fetch    download each pack and check its size and SHA-256
+             and ages taken from catalog/categories.yml; and for a pack whose
+             file is in this repository under packs/, the file is there, in
+             the right place, and matches the entry's size and SHA-256
+  --fetch    download each pack and check its size and SHA-256 (a pack whose
+             file is in this repository is read from the checkout instead)
   --install  install the downloaded pack with AI-2 itself and compare the
              manifest inside it against what the catalog entry claims
 
@@ -30,6 +33,7 @@ to install a current pack at all.
 import hashlib
 import os
 import re
+import shutil
 import sqlite3
 import sys
 import tempfile
@@ -60,6 +64,49 @@ ATTRIBUTION_NEEDED = ("CC-BY", "GFDL", "PSF", "OGL", "MIT", "Apache")
 # the one obligation we can check mechanically checkable.
 LICENCE_TEXT_NEEDED = ("Apache-2.0", "GFDL")
 LICENCE_DOC = re.compile(r"(licen[cs]e|notice|copying)", re.I)
+
+
+# A pack's file may come in the pull request itself, under packs/, and then
+# its url is the address that file has once the pull request is merged. The
+# file name carries the revision and an old revision is never overwritten or
+# removed, because every released ai-2 carries a copy of the catalog and goes
+# on asking for the file that copy names. A file above the limit does not
+# belong in a git history; its maker hosts it and gives the url.
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+IN_REPO = "https://raw.githubusercontent.com/ProWoos-Devs/ai2-knowledge/main/"
+IN_REPO_LIMIT = 10 * 1024 * 1024
+
+
+def in_repo_file(p: dict) -> str | None:
+    """Where the pack's file is in the checkout, if its url says it lives in
+    this repository; None for a file hosted anywhere else."""
+    url = str(p.get("url", ""))
+    return os.path.join(ROOT, *url[len(IN_REPO):].split("/")) if url.startswith(IN_REPO) else None
+
+
+def in_repo_check(where: str, p: dict) -> list[str]:
+    """The file is where its id and revision say, and is the one the entry
+    describes. No network: on a pull request the url does not exist yet."""
+    expected = f"packs/{p.get('id')}/{p.get('id')}-r{p.get('revision')}.ai2pack"
+    if str(p.get("url", ""))[len(IN_REPO):] != expected:
+        return [f"{where}: a pack kept in this repository goes at {expected}, so its url is {IN_REPO}{expected}"]
+    path = os.path.join(ROOT, *expected.split("/"))
+    if not os.path.isfile(path):
+        return [f"{where}: {expected} is not in the repository; add the file to the pull request"]
+    problems = []
+    size = os.path.getsize(path)
+    if size > IN_REPO_LIMIT:
+        problems.append(f"{where}: {size} bytes is over the {IN_REPO_LIMIT} bytes a file in this repository "
+                        "may be; host it yourself and give its url")
+    if size != p.get("size_bytes"):
+        problems.append(f"{where}: {expected} is {size} bytes, the entry says {p.get('size_bytes')}")
+    h = hashlib.sha256()
+    with open(path, "rb") as f:
+        for block in iter(lambda: f.read(1 << 20), b""):
+            h.update(block)
+    if h.hexdigest() != p.get("sha256"):
+        problems.append(f"{where}: sha256 of {expected} is {h.hexdigest()}, the entry says {p.get('sha256')}")
+    return problems
 
 
 # What the catalog entry and the pack's own manifest must agree on. Everything
@@ -190,6 +237,8 @@ def check(path: str, fetch: bool, install: bool = False, seen_ids: set | None = 
         if not isinstance(p.get("languages"), list):
             problems.append(f"{where}: languages is not a list")
         problems += check_classification(where, p, known)
+        if in_repo_file(p) and not problems:
+            problems += in_repo_check(where, p)
         if fetch and not problems:
             downloaded, trouble = fetch_check(where, p)
             problems += trouble
@@ -216,6 +265,13 @@ def fetch_check(where: str, p: dict) -> tuple[str | None, list[str]]:
     """Download the pack; returns the file (for the install check) and what is
     wrong with it. The read stops once the response passes the size the entry
     declares, so a wrong URL cannot pull a hundred gigabytes into CI."""
+    local = in_repo_file(p)
+    if local:                                           # checked by in_repo_check already
+        fd, path = tempfile.mkstemp(suffix=".ai2pack")
+        os.close(fd)
+        shutil.copyfile(local, path)
+        print(f"  read {os.path.relpath(local, ROOT)}", flush=True)
+        return path, []
     print(f"  downloading {p['url']}", flush=True)
     h = hashlib.sha256()
     size = 0
