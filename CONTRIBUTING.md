@@ -136,17 +136,7 @@ Once the pull request is merged the file is served at this address, which is the
 https://raw.githubusercontent.com/ProWoos-Devs/ai2-knowledge/main/packs/my-pack/my-pack-r1.ai2pack
 ```
 
-**A file of more than 10 MB does not go in the repository**, because everything committed here stays in its history for good. Host a large file yourself instead. Any stable HTTPS URL works: a GitHub release of your own, a Hugging Face dataset, the Internet Archive. With the `gh` CLI:
-
-```bash
-gh repo create my-knowledge-pack --public
-gh release create v1 --repo YOURNAME/my-knowledge-pack --title "my-pack v1" my-pack.ai2pack
-gh release view v1 --repo YOURNAME/my-knowledge-pack --json assets --jq '.assets[].url'
-```
-
-Through the website instead: create a repository, Releases, Draft a new release, attach the `.ai2pack`, publish, then copy the link from the asset.
-
-If you host it yourself, the URL must serve the file itself over HTTPS, not a landing page, and it must keep working. AI-2 refuses a URL that is not HTTPS and refuses a redirect that leaves HTTPS.
+**Every Knowledge Pack's file lives in this repository.** A file hosted anywhere else is not listed, because a link to another server can die or change hands and then the catalog points at nothing. A file may be up to 10 MB, because everything committed here stays in the history for good. If yours is larger, open an issue before sending it.
 
 ## 8. Measure the file
 
@@ -201,7 +191,7 @@ Commit the README change that last command makes together with your entry. CI fa
 
 ## 10. Open the pull request
 
-CI then does the whole thing for real: takes your file from the pull request (or downloads it, if you host it yourself), checks its place, its size and its SHA-256, **installs it with AI-2 itself**, and compares the manifest inside the installed pack against your entry, id, title, version, revision, license, languages, embedder, and the document and part counts. It also counts the rows in the installed index, requires the attribution your license asks for, and for Apache-2.0 and GFDL requires the license text to be inside the pack as a document.
+CI then does the whole thing for real: takes your file from the pull request, checks its place, its size and its SHA-256, **installs it with AI-2 itself**, and compares the manifest inside the installed pack against your entry, id, title, version, revision, license, languages, embedder, and the document and part counts. It also counts the rows in the installed index, requires the attribution your license asks for, and for Apache-2.0 and GFDL requires the license text to be inside the pack as a document.
 
 If it fails, the message names the field and both values. The two common ones:
 
@@ -226,7 +216,7 @@ A merged change does not reach anyone's machine by itself. The pack's maker rebu
 
 1. Raise `revision` in the manifest (and `version`, for people to read).
 2. Rebuild and re-export.
-3. Add it to `packs/` under its new name, `my-pack-r2.ai2pack` for revision 2, and leave the old file where it is: every released AI-2 carries a copy of the catalog and still asks for the file that copy names. If you host the file yourself, upload it as a new release asset and do not overwrite the old one.
+3. Add it to `packs/` under its new name, `my-pack-r2.ai2pack` for revision 2, and leave the old file where it is: every released AI-2 carries a copy of the catalog and still asks for the file that copy names.
 4. Update your catalog entry: `version`, `revision`, `url`, `size_bytes`, `sha256`, and the counts if they changed.
 
 AI-2 installs a pack whose revision is the same or higher and refuses an older one, so raising the number is what makes the update reach people.
