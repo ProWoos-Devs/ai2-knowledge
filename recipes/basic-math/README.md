@@ -2,7 +2,7 @@
 
 The building blocks of arithmetic, fractions, decimals, negative numbers, shapes and measurement for children ages 6 to 12 (`school-age` and `preteen`), written for study and reference on an AI-2 machine with no connection.
 
-Written rather than extracted, and not from any one source or school program. No teacher has reviewed it.
+Written rather than extracted, and not from any one source or school program. Every topic was read twice, the second time by an independent reader who had not seen the first corrections, and then went through an AI-assisted content review (https://github.com/ProWoos-Devs/ai2-knowledge/issues/11). No teacher has reviewed it.
 
 There are no telephone numbers here, or in any Knowledge Pack.
 

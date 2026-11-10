@@ -1,6 +1,6 @@
 Subtraction, taking away and finding difference
 
-Search terms: subtraction, subtracting, minus, take away, difference, how much more, borrowing, column subtraction, decomposing, regrouping.
+Search terms: subtraction, subtracting, minus, take away, difference, how much more, borrowing, column subtraction, subtracting across zeros, decomposing, regrouping, subtract, how many are left, minus sign.
 
 Written for AI-2. Directed to children, parents and teachers.
 
@@ -16,7 +16,7 @@ Subtraction answers two common questions:
 
 ORDER MATTERS IN SUBTRACTION
 
-Unlike addition, the order of numbers in subtraction cannot be swapped. 9 - 4 equals 5, but 4 - 9 does not equal 5. When working with whole numbers in primary school, the bigger number always comes first.
+Unlike addition, the order of numbers in subtraction cannot be swapped. 9 - 4 equals 5, but 4 - 9 does not equal 5. It goes below zero and equals -5, which the topic on negative numbers explains. In most first subtraction problems the bigger number comes first.
 
 CHECKING SUBTRACTION WITH ADDITION
 
@@ -35,3 +35,8 @@ For example, in 52 - 18:
 In the ones column, 2 is smaller than 8. Borrow 1 ten from the 5 tens (leaving 4 tens). The 2 becomes 12.
 Now subtract ones: 12 - 8 = 4.
 Subtract tens: 4 - 1 = 3. The answer is 34.
+
+WHEN THE NEXT COLUMN HAS A ZERO
+
+Sometimes there are no tens to regroup, as in 402 - 178. Look farther left for a digit that is not zero. Regroup 1 hundred into 10 tens, giving 3 hundreds, 10 tens and 2 ones. Then regroup 1 of those tens into 10 ones, giving 3 hundreds, 9 tens and 12 ones.
+Now subtract each column: 12 - 8 = 4 ones, 9 - 7 = 2 tens, 3 - 1 = 2 hundreds. The answer is 224.

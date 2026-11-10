@@ -1,28 +1,28 @@
 Air and water resistance
 
-Search terms: air resistance, water resistance, drag, parachutes, streamlined, aerodynamics, falling through air, swimming, fluid friction.
+Search terms: air resistance, water resistance, drag, parachutes, streamlined, aerodynamics, falling through air, swimming, fluid friction, parachute, wind, why paper falls slowly, shape.
 
 Written for AI-2. Directed to children, parents and teachers.
 
 WHAT AIR RESISTANCE IS
 
-Air resistance (also called aerodynamic drag) is a type of friction caused by air pushing against a moving object. Even though air feels invisible and weightless, it is filled with billions of tiny air particles (molecules). When an object travels through the air, it has to push those air particles out of the way, and the particles push back, creating a resisting force that slows the object down.
+Air resistance (also called aerodynamic drag) is a type of friction caused by air pushing against a moving object. Even though air is invisible and feels like nothing, it is made of a huge number of tiny particles (molecules). When an object travels through the air, it has to push those air particles out of the way, and the particles push back, creating a resisting force that slows the object down.
 
-HOW SPEED AND SURFACE AREA AFFECT DRAG
+HOW SPEED AND SHAPE AFFECT DRAG
 
 The amount of air resistance depends on two key things:
-1. Surface area: Wide, flat objects meet more air particles and experience huge drag. If you drop a flat sheet of paper, it catches the air and drifts down slowly. If you crumple the exact same sheet of paper into a tight little ball, it has a tiny surface area, encounters much less drag, and drops straight to the floor rapidly.
-2. Speed: The faster an object moves, the more air resistance pushes against it. You can feel this by holding your hand out of an open car window: at low speeds you feel a gentle breeze, but at highway speeds the air pushes your hand back with great force.
+1. The area facing the air: Wide, flat objects meet more air particles and experience much more drag. If you drop a flat sheet of paper, it catches the air and drifts down slowly. If you crumple the same sheet into a tight little ball, a much smaller area faces the air, so it meets much less drag and drops quickly to the floor.
+2. Speed: The faster an object moves, the more air resistance pushes against it. You can feel this on a bicycle: when you ride slowly you feel a gentle breeze, but when you ride fast the air pushes hard against your face and chest.
 
 HOW PARACHUTES WORK
 
-A parachute uses a massive canopy of fabric to catch a huge volume of air as it drops. The air trapped underneath pushes upward with powerful air resistance that balances out the downward pull of gravity. This balance allows a skydiver to float gently and safely down to the ground rather than crashing.
+A parachute uses a massive canopy of fabric to catch a huge volume of air as it drops. The air underneath pushes upward with strong air resistance. Very soon this push balances the downward pull of gravity, so the skydiver stops speeding up and comes down at a slow, steady speed instead of a dangerously fast one.
 
 WHAT STREAMLINED MEANS
 
 Streamlining is designing an object with a smooth, pointed, tapered shape so it slices cleanly through air or water with minimal drag.
 - Nature: Fast-swimming sharks and dolphins have torpedo-shaped bodies that glide through water. Birds such as falcons fold their wings into sharp arrowheads when diving through the air.
-- Human engineering: High-speed bullet trains, racing cars, jet planes, and cycling helmets are carefully curved and streamlined in wind tunnels so they move faster while burning far less fuel.
+- Human engineering: High-speed bullet trains, racing cars, jet planes, and cycling helmets are carefully shaped and tested in wind tunnels so they move faster while using less energy.
 
 WATER RESISTANCE
 

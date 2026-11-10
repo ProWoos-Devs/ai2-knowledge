@@ -1,12 +1,12 @@
 Light, shadows and reflection
 
-Search terms: light, shadows, reflection, mirrors, straight lines, transparent, translucent, opaque, speed of light, ray of light.
+Search terms: light, shadows, reflection, mirrors, straight lines, transparent, translucent, opaque, speed of light, ray of light, shadow, mirror, sunlight, dark, periscope, see-through.
 
 Written for AI-2. Directed to children, parents and teachers.
 
 WHAT LIGHT IS AND HOW IT TRAVELS
 
-Light is a form of radiant energy that allows our eyes to see the world. Light travels in perfectly straight lines called light rays. In empty space or air, light travels at approximately 300,000 kilometers per second, making it the fastest thing known in the universe. It takes just about 8 minutes for sunlight to travel 150 million kilometers to reach Earth.
+Light is a form of radiant energy that allows our eyes to see the world. Light travels in straight lines called light rays, as long as it stays in the same material. In empty space or air, light travels at approximately 300,000 kilometers per second, making it the fastest thing known in the universe. It takes just about 8 minutes for sunlight to travel 150 million kilometers to reach Earth.
 
 TRANSPARENT, TRANSLUCENT AND OPAQUE
 
@@ -24,7 +24,8 @@ A shadow is an area of darkness formed when an opaque object blocks light from t
 
 REFLECTION AND MIRRORS
 
-Reflection occurs when light rays hit a shiny surface and bounce off it, like a rubber ball bouncing off a smooth floor.
-- On a smooth, polished plane mirror, all incoming light rays bounce off neatly at the exact same angle (the angle of incoming light equals the angle of reflected light). This regular reflection produces a crisp, clear image of your face.
+Reflection occurs when light rays hit a surface and bounce off it, like a rubber ball bouncing off a floor.
+- On a smooth, flat mirror (called a plane mirror), all incoming light rays bounce off neatly at the exact same angle (the angle of incoming light equals the angle of reflected light). This regular reflection produces a crisp, clear image of your face.
 - On a rough wall or paper, light rays bounce off in all sorts of scattered directions (diffuse reflection), which illuminates the room without creating a reflection image.
 A simple periscope uses two mirrors angled at 45 degrees to bounce light down a tube, so you can see over a wall or, from a submarine, above the ocean surface.
+Never look straight at the Sun, and never use a mirror to bounce sunlight into anyone's eyes. Sunlight can damage eyes very quickly.

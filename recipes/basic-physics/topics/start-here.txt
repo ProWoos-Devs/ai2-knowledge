@@ -10,7 +10,7 @@ This Knowledge Pack explains the core ideas of physics for children ages 6 to 12
 
 HOW TO SEARCH THIS PACK
 
-Ask your question in normal, everyday words. For example, you can type "why do things fall down", "how does a rainbow form", "why do steel ships float", or "how does an electric circuit work". The search will retrieve the exact topic and passage answering your question.
+Ask your question in normal, everyday words. For example, you can type "why do things fall down", "how does a rainbow form", "why do steel ships float", or "how does an electric circuit work". The search will look for the topic and passage that best answer your question.
 
 TOPICS IN THIS PACK
 

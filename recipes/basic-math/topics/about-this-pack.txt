@@ -12,7 +12,7 @@ How numbers and words are written here
 
 Measurements are in metric units: meters, grams and liters.
 
-Decimals are written with a point, as in 2.75, and large numbers with a comma between groups of three digits, as in 1,000. Many countries do it the other way round and write 2,75 and 1.000. The amounts are the same; only the marks differ. Use the way your school uses.
+Decimals are written with a point, as in 2.75, and large numbers with a comma between groups of three digits, as in 1,000. Many countries do it the other way around and write 2,75 and 1.000. The amounts are the same; only the marks differ. Use the way your school uses.
 
 Some words also change from place to place. Math is called maths in many countries, and carrying and borrowing are both also called regrouping.
 

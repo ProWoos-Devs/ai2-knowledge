@@ -1,6 +1,6 @@
 Counting, digits and place value
 
-Search terms: counting, place value, ones tens hundreds thousands, digits, zero as a placeholder, large numbers, how numbers work, value of digits.
+Search terms: counting, place value, ones tens hundreds thousands, digits, zero as a placeholder, large numbers, how numbers work, value of digits, numbers, millions, expanded form.
 
 Written for AI-2. Directed to children, parents and teachers.
 
@@ -10,7 +10,7 @@ Digits are the ten single symbols from 0 to 9 used to make every number in mathe
 
 WHAT PLACE VALUE MEANS
 
-Place value means that the position of a digit in a number determines how much it is worth. In our base-ten number system, moving one spot to the left multiplies the value of that digit by ten. The first spot on the right is the ones column, the next spot to the left is the tens column, followed by hundreds, thousands, ten thousands and hundred thousands.
+Place value means that the position of a digit in a number determines how much it is worth. In our base-ten number system, moving one spot to the left multiplies the value of that digit by ten. In a whole number, the digit farthest to the right is in the ones column. Moving left, the columns are tens, hundreds, thousands, ten thousands and hundred thousands. In a decimal number such as 3.45, the ones column is the one just to the left of the decimal point.
 
 HOW A NUMBER IS BUILT
 

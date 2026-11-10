@@ -1,6 +1,6 @@
 Sound and vibrations
 
-Search terms: sound, vibrations, sound waves, pitch, volume, loudness, frequency, echoes, medium, speed of sound.
+Search terms: sound, vibrations, sound waves, pitch, volume, loudness, frequency, echoes, medium, speed of sound, noise, hearing, ears, loud and quiet, echo, decibels, music.
 
 Written for AI-2. Directed to children, parents and teachers.
 
@@ -13,7 +13,7 @@ HOW SOUND TRAVELS
 Sound needs a physical material (called a medium) to travel through. Sound waves pass through solids, liquids, and gases:
 - In air: Sound travels at about 340 meters per second (about 1,225 km/h).
 - In water: Sound travels much faster, around 1,500 meters per second, which helps whales hear each other over very long distances.
-- In solid steel: Sound zooms at over 5,000 meters per second because the atoms are packed tightly together and pass the bumps along very quickly.
+- In solid steel: Sound zooms at over 5,000 meters per second because steel is very stiff. Its atoms are held firmly to their neighbors and pass the bumps along very quickly.
 
 NO SOUND IN OUTER SPACE
 
@@ -31,7 +31,8 @@ VOLUME: LOUD AND QUIET SOUNDS
 Volume (loudness) describes the strength and energy carried by a sound wave:
 - Gentle vibrations create low-energy sound waves with small height (amplitude), producing a soft whisper or ticking clock.
 - Forceful vibrations create high-energy sound waves with tall amplitude, producing a loud shout, slamming door, or drum beat.
-Loudness is measured in decibels (dB). Whispers are about 30 dB, normal speaking is about 60 dB, and loud rock concerts or sirens exceed 110 dB.
+Loudness is measured in decibels (dB). Whispers are about 30 dB, normal speaking is about 60 dB, and loud rock concerts or sirens can reach 110 dB or more.
+Very loud sounds can permanently damage your hearing, and the damage can happen before your ears hurt. Keep sound experiments gentle and away from ears. Turn headphones down, take listening breaks, and move away from loud speakers or machinery.
 
 HOW ECHOES FORM
 

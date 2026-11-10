@@ -1,6 +1,6 @@
 Simple machines making work easier
 
-Search terms: simple machines, levers, pulleys, inclined planes, ramps, wheels and axles, screws, mechanical advantage, fulcrum, pivot.
+Search terms: simple machines, levers, pulleys, inclined planes, ramps, wheels and axles, screws, mechanical advantage, fulcrum, pivot, wedges, seesaw, ramp, lever, pulley, lifting heavy things.
 
 Written for AI-2. Directed to children, parents and teachers.
 
@@ -29,9 +29,12 @@ A wheel and axle consists of a large round wheel fastened to a smaller central r
 
 A pulley is a grooved wheel with a rope or cable looped around it.
 - A single fixed pulley (like on a tall flagpole or window blind) changes the direction of the force: you pull downward on the rope, and the flag rises upward.
-- A pulley that moves with the load cuts the effort needed roughly in half, and every pulley added this way cuts it further. In exchange you pull more rope. This lets construction workers and sailors hoist heavy sails and engine blocks.
+- A pulley that moves with the load, held up by two sections of the same rope, cuts the effort needed roughly in half, but you must pull twice as much rope. With one long rope running through several pulleys, count the sections of rope holding up the load: more sections mean less effort. The arrangement matters. A pulley that only changes the rope's direction does not reduce the effort. This lets construction workers and sailors hoist heavy sails and engine blocks.
 
-5. SCREWS AND WEDGES
+5. WEDGES
 
 - A wedge is two inclined planes joined back-to-back that splits things apart, like an axe chopping logs or a knife slicing butter.
+
+6. SCREWS
+
 - A screw is an inclined plane wrapped in a spiral around a central cylinder. Turning a screw drives it deep into tough timber with immense holding strength.
