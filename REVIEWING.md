@@ -49,10 +49,6 @@ If you prefer to make the corrections yourself, [CONTRIBUTING.md](CONTRIBUTING.m
 
 Each Knowledge Pack says in its own text who has reviewed it, for example "No teacher has reviewed it" or "Not reviewed by a clinician". If you are a teacher, a clinician or otherwise work in the subject and are willing to be named as a reviewer, say in your report how you would like to be credited. If you prefer not to be named, that is fine, and the text will say only that an independent reader checked it.
 
-## Reviews by an AI assistant
-
-A review may be done with an AI assistant, following this same page, and the report should say so. It is recorded as an AI-assisted review and does not replace a reading by a person who knows the subject. An example is https://github.com/ProWoos-Devs/ai2-knowledge/issues/11 .
-
 ## What happens next
 
 Every point is checked and answered in the issue. Corrections are made by pull request and reach people's machines when the next revision of the Knowledge Pack is published.
