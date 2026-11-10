@@ -6,10 +6,15 @@ Three layers, each stricter than the last:
 
   (none)     every entry complete, licences redistributable, ids unique,
              hashes the right shape, the maker named, categories, audience
-             and ages taken from catalog/categories.yml
-  --fetch    download each pack and check its size and SHA-256
-  --install  install the downloaded pack with AI-2 itself and compare the
-             manifest inside it against what the catalog entry claims
+             and ages taken from catalog/categories.yml; the pack's file
+             is in this repository under packs/, in the right place, and
+             matches the entry's size and SHA-256
+  --install  install the pack with AI-2 itself and compare the manifest
+             inside it against what the catalog entry claims
+
+Every pack's file lives in this repository. Nothing is downloaded: on a pull
+request the file is read from the checkout. (--fetch is still accepted and
+does nothing more than the plain check.)
 
 The third layer is the one that matters for a contributed pack: the hash only
 proves the bytes are the ones the entry described, not that the entry
@@ -25,15 +30,15 @@ to install a current pack at all.
 
   pip install "ai2 @ git+https://github.com/ProWoos-Devs/ai-2@v0.18.0"
 
-  python3 tools/validate-catalog.py [--fetch] [--install] [catalog/*.yml]
+  python3 tools/validate-catalog.py [--install] [catalog/*.yml]
 """
 import hashlib
 import os
 import re
+import shutil
 import sqlite3
 import sys
 import tempfile
-import urllib.request
 
 import yaml
 
@@ -60,6 +65,51 @@ ATTRIBUTION_NEEDED = ("CC-BY", "GFDL", "PSF", "OGL", "MIT", "Apache")
 # the one obligation we can check mechanically checkable.
 LICENCE_TEXT_NEEDED = ("Apache-2.0", "GFDL")
 LICENCE_DOC = re.compile(r"(licen[cs]e|notice|copying)", re.I)
+
+
+# Every pack's file lives in this repository, under packs/, and comes in the
+# same pull request as its entry. Its url is the address that file has once
+# the pull request is merged. No file hosted anywhere else is listed: a link
+# to someone else's server can die or change hands, and then the catalog
+# points at nothing. The file name carries the revision and an old revision
+# is never overwritten or removed, because every released ai-2 carries a copy
+# of the catalog and goes on asking for the file that copy names. The limit
+# is there because whatever is committed stays in the history for good.
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+IN_REPO = "https://raw.githubusercontent.com/ProWoos-Devs/ai2-knowledge/main/"
+IN_REPO_LIMIT = 10 * 1024 * 1024
+
+
+def in_repo_file(p: dict) -> str | None:
+    """Where the pack's file is in the checkout, if its url says it lives in
+    this repository; None otherwise, which the catalog does not accept."""
+    url = str(p.get("url", ""))
+    return os.path.join(ROOT, *url[len(IN_REPO):].split("/")) if url.startswith(IN_REPO) else None
+
+
+def in_repo_check(where: str, p: dict) -> list[str]:
+    """The file is where its id and revision say, and is the one the entry
+    describes. No network: on a pull request the url does not exist yet."""
+    expected = f"packs/{p.get('id')}/{p.get('id')}-r{p.get('revision')}.ai2pack"
+    if str(p.get("url", ""))[len(IN_REPO):] != expected:
+        return [f"{where}: a pack kept in this repository goes at {expected}, so its url is {IN_REPO}{expected}"]
+    path = os.path.join(ROOT, *expected.split("/"))
+    if not os.path.isfile(path):
+        return [f"{where}: {expected} is not in the repository; add the file to the pull request"]
+    problems = []
+    size = os.path.getsize(path)
+    if size > IN_REPO_LIMIT:
+        problems.append(f"{where}: {size} bytes is over the {IN_REPO_LIMIT} bytes a file in this repository "
+                        "may be; open an issue before sending a pack this large")
+    if size != p.get("size_bytes"):
+        problems.append(f"{where}: {expected} is {size} bytes, the entry says {p.get('size_bytes')}")
+    h = hashlib.sha256()
+    with open(path, "rb") as f:
+        for block in iter(lambda: f.read(1 << 20), b""):
+            h.update(block)
+    if h.hexdigest() != p.get("sha256"):
+        problems.append(f"{where}: sha256 of {expected} is {h.hexdigest()}, the entry says {p.get('sha256')}")
+    return problems
 
 
 # What the catalog entry and the pack's own manifest must agree on. Everything
@@ -185,11 +235,16 @@ def check(path: str, fetch: bool, install: bool = False, seen_ids: set | None = 
             problems.append(f"{where}: {p['license']} needs an attribution line")
         if not SHA.match(str(p.get("sha256", ""))):
             problems.append(f"{where}: sha256 is not 64 hex characters")
-        if not str(p.get("url", "")).startswith("https://"):
-            problems.append(f"{where}: url is not https")
+        if p.get("url") and not in_repo_file(p):
+            problems.append(f"{where}: the file must be in this repository, at "
+                            f"packs/{p.get('id')}/{p.get('id')}-r{p.get('revision')}.ai2pack, with the url "
+                            f"{IN_REPO}packs/{p.get('id')}/{p.get('id')}-r{p.get('revision')}.ai2pack; "
+                            "a file hosted anywhere else is not listed")
         if not isinstance(p.get("languages"), list):
             problems.append(f"{where}: languages is not a list")
         problems += check_classification(where, p, known)
+        if not problems:
+            problems += in_repo_check(where, p)
         if fetch and not problems:
             downloaded, trouble = fetch_check(where, p)
             problems += trouble
@@ -200,47 +255,14 @@ def check(path: str, fetch: bool, install: bool = False, seen_ids: set | None = 
     return problems
 
 
-class HttpsOnlyRedirect(urllib.request.HTTPRedirectHandler):
-    """A redirect may not leave HTTPS. The same rule as `ai2.pack`, which is
-    the source of truth; it is repeated here so the plain `--fetch` layer needs
-    nothing but PyYAML, and so CI cannot be gentler than the machine it speaks
-    for."""
-
-    def redirect_request(self, req, fp, code, msg, headers, newurl):
-        if not str(newurl).lower().startswith("https://"):
-            raise OSError(f"the download was redirected to {str(newurl).split(':')[0]}, which is not https")
-        return super().redirect_request(req, fp, code, msg, headers, newurl)
-
-
 def fetch_check(where: str, p: dict) -> tuple[str | None, list[str]]:
-    """Download the pack; returns the file (for the install check) and what is
-    wrong with it. The read stops once the response passes the size the entry
-    declares, so a wrong URL cannot pull a hundred gigabytes into CI."""
-    print(f"  downloading {p['url']}", flush=True)
-    h = hashlib.sha256()
-    size = 0
-    limit = int(p["size_bytes"])
+    """A copy of the pack's file for the install check, which installs it and
+    then deletes it. The file itself was checked by in_repo_check already."""
+    local = in_repo_file(p)
     fd, path = tempfile.mkstemp(suffix=".ai2pack")
-    try:
-        opener = urllib.request.build_opener(HttpsOnlyRedirect)
-        with os.fdopen(fd, "wb") as out, opener.open(p["url"], timeout=300) as r:
-            for block in iter(lambda: r.read(1 << 20), b""):
-                h.update(block)
-                size += len(block)
-                out.write(block)
-                if size > limit:
-                    return None, [f"{where}: the file is larger than the entry's {limit} bytes; stopped"]
-    except OSError as exc:
-        os.path.exists(path) and os.remove(path)
-        return None, [f"{where}: cannot download ({exc})"]
-    problems = []
-    if size != limit:
-        problems.append(f"{where}: {size} bytes, the entry says {limit}")
-    if h.hexdigest() != p["sha256"]:
-        problems.append(f"{where}: sha256 is {h.hexdigest()}, the entry says {p['sha256']}")
-    if problems:
-        os.remove(path)
-        return None, problems
+    os.close(fd)
+    shutil.copyfile(local, path)
+    print(f"  read {os.path.relpath(local, ROOT)}", flush=True)
     return path, []
 
 

@@ -17,7 +17,7 @@ jobs:
       - name: The list of packs on the front page is the catalog
         run: python3 tools/render-catalog.py --check
 
-      # A pull request goes further: every pack it lists is downloaded, then
+      # A pull request goes further: every pack it lists is read from packs/, then
       # installed by AI-2 itself and compared with what the entry claims. The
       # hash alone only proves the bytes are the ones the entry described, not
       # that the description is true, and a person deciding whether to install
@@ -30,6 +30,6 @@ jobs:
       - name: Install AI-2 itself
         if: github.event_name == 'pull_request'
         run: pip install "ai2 @ git+https://github.com/ProWoos-Devs/ai-2@v0.18.0"
-      - name: Download every pack and install it
+      - name: Install every pack
         if: github.event_name == 'pull_request'
         run: python3 tools/validate-catalog.py --install

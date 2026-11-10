@@ -121,19 +121,22 @@ XDG_DATA_HOME="$tmp" ai-2 doc search --in my-pack "the question you most expect"
 
 Ask it the ten questions you expect people to ask. If the answers are poor, the fix is almost always the text, not the settings, and step 2 says how.
 
-## 7. Host the file yourself
+## 7. Put the file in your pull request
 
-This repository holds the catalog, not the bytes. Any stable HTTPS URL works: a GitHub release of your own, a Hugging Face dataset, the Internet Archive. With the `gh` CLI:
+The file goes in this repository, in the same pull request as your catalog entry (step 9). Name it after the pack's id and its revision, in a folder named after the id:
 
 ```bash
-gh repo create my-knowledge-pack --public
-gh release create v1 --repo YOURNAME/my-knowledge-pack --title "my-pack v1" my-pack.ai2pack
-gh release view v1 --repo YOURNAME/my-knowledge-pack --json assets --jq '.assets[].url'
+mkdir -p packs/my-pack
+cp my-pack.ai2pack packs/my-pack/my-pack-r1.ai2pack
 ```
 
-Through the website instead: create a repository, Releases, Draft a new release, attach the `.ai2pack`, publish, then copy the link from the asset.
+Once the pull request is merged the file is served at this address, which is the `url` of your entry:
 
-Whichever you use, the URL must serve the file itself over HTTPS, not a landing page, and it must keep working. AI-2 refuses a URL that is not HTTPS and refuses a redirect that leaves HTTPS.
+```
+https://raw.githubusercontent.com/ProWoos-Devs/ai2-knowledge/main/packs/my-pack/my-pack-r1.ai2pack
+```
+
+**Every Knowledge Pack's file lives in this repository.** A file hosted anywhere else is not listed, because a link to another server can die or change hands and then the catalog points at nothing. A file may be up to 10 MB, because everything committed here stays in the history for good. If yours is larger, open an issue before sending it.
 
 ## 8. Measure the file
 
@@ -142,11 +145,11 @@ stat -c%s my-pack.ai2pack        # size_bytes
 sha256sum my-pack.ai2pack        # sha256
 ```
 
-Both go in the entry, and both are checked on every download, on your pull request and on every machine that installs it.
+Both go in the entry, and both are checked on your pull request and on every machine that installs the pack.
 
 ## 9. Add your entry
 
-Fork this repository, branch, and add one entry to `catalog/community.yml`. It is the one catalog, for packs made by anyone, and the AI-2 project's own packs are in it too:
+Fork this repository, branch, add the file from step 7, and add one entry to `catalog/community.yml`. It is the one catalog, for packs made by anyone, and the AI-2 project's own packs are in it too:
 
 ```yaml
 - id: my-pack
@@ -158,7 +161,7 @@ Fork this repository, branch, and add one entry to `catalog/community.yml`. It i
   license: CC-BY-4.0
   attribution: "Text from ..., by ..., used under CC BY 4.0."
   embedder: nomic-embed-text-v1.5
-  url: https://github.com/YOURNAME/my-knowledge-pack/releases/download/v1/my-pack.ai2pack
+  url: https://raw.githubusercontent.com/ProWoos-Devs/ai2-knowledge/main/packs/my-pack/my-pack-r1.ai2pack
   size_bytes: 1234567
   sha256: <64 hex characters>
   documents: 120
@@ -188,7 +191,7 @@ Commit the README change that last command makes together with your entry. CI fa
 
 ## 10. Open the pull request
 
-CI then does the whole thing for real: downloads your file, checks its size and SHA-256, **installs it with AI-2 itself**, and compares the manifest inside the installed pack against your entry, id, title, version, revision, license, languages, embedder, and the document and part counts. It also counts the rows in the installed index, requires the attribution your license asks for, and for Apache-2.0 and GFDL requires the license text to be inside the pack as a document.
+CI then does the whole thing for real: takes your file from the pull request, checks its place, its size and its SHA-256, **installs it with AI-2 itself**, and compares the manifest inside the installed pack against your entry, id, title, version, revision, license, languages, embedder, and the document and part counts. It also counts the rows in the installed index, requires the attribution your license asks for, and for Apache-2.0 and GFDL requires the license text to be inside the pack as a document.
 
 If it fails, the message names the field and both values. The two common ones:
 
@@ -213,7 +216,7 @@ A merged change does not reach anyone's machine by itself. The pack's maker rebu
 
 1. Raise `revision` in the manifest (and `version`, for people to read).
 2. Rebuild and re-export.
-3. Upload it as a new release asset; do not overwrite the old file, machines may still be fetching it.
+3. Add it to `packs/` under its new name, `my-pack-r2.ai2pack` for revision 2, and leave the old file where it is: every released AI-2 carries a copy of the catalog and still asks for the file that copy names.
 4. Update your catalog entry: `version`, `revision`, `url`, `size_bytes`, `sha256`, and the counts if they changed.
 
 AI-2 installs a pack whose revision is the same or higher and refuses an older one, so raising the number is what makes the update reach people.
