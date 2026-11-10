@@ -1,0 +1,32 @@
+Addition and combining numbers
+
+Search terms: addition, adding, plus, sum, total, combine, carrying over, regrouping, column addition, number line addition, making ten.
+
+Written for AI-2. Directed to children, parents and teachers.
+
+WHAT ADDITION MEANS
+
+Addition means combining two or more amounts together to find the total. The symbol for addition is the plus sign (+). The numbers you add together are called addends, and the final answer is called the sum or total. For example, in 3 + 4 = 7, 3 and 4 are addends and 7 is the sum.
+
+ORDER DOES NOT MATTER IN ADDITION
+
+You can add numbers in any order and the total stays exactly the same. This rule is called the commutative property of addition. For example, 4 + 7 gives 11, and 7 + 4 also gives 11. Knowing this helps you add faster by starting with the larger number and counting on the smaller number.
+
+ADDING ZERO
+
+Adding zero to any number leaves that number unchanged. For example, 9 + 0 equals 9. Because adding zero makes no change to the amount, zero is called the additive identity.
+
+MENTAL MATH TRICKS: MAKING TEN
+
+Making ten is a fast mental math strategy that splits a number to reach the friendly number ten first. When adding 8 + 5, think of 5 as 2 + 3. Add the 2 to the 8 to make 10, then add the remaining 3 to get 13. Reaching ten first makes mental calculations much easier.
+
+COLUMN ADDITION AND CARRYING OVER
+
+Column addition lines up numbers by their place value columns (ones under ones, tens under tens) starting from the right.
+1. Write the numbers vertically so the ones line up on the right and tens line up to their left.
+2. Add the ones column first. If the sum is 9 or less, write it below the line.
+3. If the ones sum is 10 or greater, write the ones digit below the line and carry the tens digit over to the top of the tens column. This is also called regrouping.
+4. Add the tens column, remembering to include any digit carried over from the ones.
+For example, to add 27 + 15:
+Add the ones: 7 + 5 = 12. Write 2 in the ones answer space and carry 1 ten to the tens column.
+Add the tens: 1 (carried) + 2 + 1 = 4. The total is 42.

@@ -1,0 +1,21 @@
+About the Basic Math Knowledge Pack
+
+Written for AI-2. Directed to children, parents and teachers.
+
+Where the topics come from
+
+The topics were written for AI-2, in its own wording. They cover the arithmetic, fractions, decimals, shapes and measurement usually taught to children from about 6 to 12 years old. They do not follow the school program of any one country, and they were not copied from a textbook.
+
+No teacher has reviewed them.
+
+How numbers and words are written here
+
+Measurements are in metric units: meters, grams and liters.
+
+Decimals are written with a point, as in 2.75, and large numbers with a comma between groups of three digits, as in 1,000. Many countries do it the other way round and write 2,75 and 1.000. The amounts are the same; only the marks differ. Use the way your school uses.
+
+Some words also change from place to place. Math is called maths in many countries, and carrying and borrowing are both also called regrouping.
+
+Found a mistake, or something missing?
+
+Tell us at https://github.com/ProWoos-Devs/ai2-knowledge/issues , or change the topic yourself and open a pull request; the topics are plain text files in the folder recipes/basic-math/topics/ of the same repository. Say which topic and what is wrong. This Knowledge Pack works offline and cannot update itself, so a correction reaches it in its next revision.

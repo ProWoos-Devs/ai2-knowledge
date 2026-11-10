@@ -1,0 +1,31 @@
+Shapes in 2D and 3D geometry
+
+Search terms: shapes, geometry, 2D shapes, 3D shapes, circles, triangles, squares, rectangles, cubes, spheres, vertices, edges, faces, sides.
+
+Written for AI-2. Directed to children, parents and teachers.
+
+FLAT (2D) SHAPES
+
+Two-dimensional (2D) shapes are completely flat shapes that have only length and width, with no thickness. You can draw them on a flat piece of paper.
+- Circle: A perfectly round curved shape where every point along the curved boundary is the exact same distance from the center. It has no straight sides and no corners.
+- Triangle: A polygon with 3 straight sides and 3 corners (called vertices). Triangles can have equal sides (equilateral), two equal sides (isosceles), or three different sides (scalene).
+- Square: A 4-sided polygon where all 4 sides are exactly equal in length, and all 4 corners are square right angles (90 degrees).
+- Rectangle: A 4-sided polygon with 4 square right angles, where opposite sides are equal in length.
+- Pentagon: A polygon with 5 straight sides and 5 vertices.
+- Hexagon: A polygon with 6 straight sides and 6 vertices, shaped like the cells in a honeybee comb.
+
+SOLID (3D) SHAPES
+
+Three-dimensional (3D) shapes are solid objects that have length, width and height. They take up physical space and you can hold them in your hands.
+- Sphere: A perfectly round ball, like an orange or a soccer ball. It has 1 curved surface and 0 edges or vertices.
+- Cube: A solid box where all 6 faces are identical flat squares. It has 6 flat faces, 12 straight edges and 8 sharp vertices (corners).
+- Cylinder: A shape with 2 identical flat circular ends and 1 curved tube-like surface, shaped like an aluminum food can.
+- Cone: A shape with 1 flat circular base and a curved surface that tapers to a single pointed vertex at the top, like an ice-cream cone.
+- Pyramid: A solid with a flat polygon base and flat triangular sides that meet at a point at the top.
+
+PARTS OF A 3D SHAPE: FACES, EDGES AND VERTICES
+
+- Face: A flat or curved surface that forms the outer skin of the shape.
+- Edge: The straight line where two flat faces meet.
+- Vertex (plural: vertices): A sharp corner where three or more edges come together to form a point.
+A die for board games (which is a cube) has 6 faces, 12 edges and 8 vertices.

@@ -1,0 +1,37 @@
+Telling time, clocks and the calendar
+
+Search terms: telling time, reading clocks, analog clock, digital clock, hour hand, minute hand, half past, quarter past, 24-hour time, calendar, days in a month.
+
+Written for AI-2. Directed to children, parents and teachers.
+
+READING AN ANALOG CLOCK
+
+An analog clock has a round face with the numbers 1 to 12 spaced evenly around it, and two main hands that turn clockwise:
+- The short hand is the hour hand. It points to the current hour. It moves slowly, taking 12 hours to make one full rotation around the clock face.
+- The long hand is the minute hand. It points to the minutes past the hour. It takes 60 minutes (1 hour) to go completely around the clock face once.
+Each number on the clock face represents 5 minutes for the long minute hand: 1 means 5 minutes, 2 means 10 minutes, 3 means 15 minutes, 6 means 30 minutes, and 12 means 60 minutes (a new hour).
+
+KEY CLOCK POSITIONS
+
+- O'clock: When the long minute hand points straight up at 12. If the short hand points at 3, it is exactly 3:00 (three o'clock).
+- Quarter past: When the minute hand points to 3 (15 minutes past the hour, one-quarter of the clock circle).
+- Half past: When the minute hand points straight down at 6 (30 minutes past the hour, half of the circle).
+- Quarter to: When the minute hand points to 9 (45 minutes past the hour, meaning 15 minutes remain before the next hour arrives).
+
+DIGITAL CLOCKS: 12-HOUR AND 24-HOUR TIME
+
+Digital clocks show time using digits separated by a colon, like 07:30.
+- In 12-hour time, hours run from 1 to 12. We use AM for times between midnight and midday (morning), and PM for times between midday and midnight (afternoon and evening).
+- In 24-hour time, the day starts at 00:00 (midnight) and counts up to 23:59. For times after 12:00 noon, simply add 12 to the afternoon hour: 1:00 PM becomes 13:00, 5:30 PM becomes 17:30, and 8:00 PM becomes 20:00.
+
+UNITS OF TIME AND THE CALENDAR
+
+Time is counted in fixed units:
+- 60 seconds = 1 minute
+- 60 minutes = 1 hour
+- 24 hours = 1 day (one full spin of the Earth on its axis)
+- 7 days = 1 week
+- About 52 weeks = 1 year (52 weeks and 1 day, or 2 days in a leap year)
+- 12 months = 1 year (one complete orbit of the Earth around the Sun)
+A regular year has 365 days. Almost every fourth year is a leap year with 366 days, adding an extra day (February 29) to keep the calendar aligned with Earth's orbit. The exception is a year ending in 00, which is a leap year only if it can be divided by 400: 2000 was a leap year, 2100 will not be.
+Months have 30 or 31 days, except February which has 28 days (29 in leap years). The knuckle trick helps you remember: make a fist; knuckles are 31-day months (January, March, May, July, August, October, December) and valleys between knuckles are shorter months.

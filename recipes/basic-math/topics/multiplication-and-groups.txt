@@ -1,0 +1,30 @@
+Multiplication, equal groups and times tables
+
+Search terms: multiplication, multiplying, times tables, times, multiply, product, equal groups, repeated addition, arrays, doubling.
+
+Written for AI-2. Directed to children, parents and teachers.
+
+WHAT MULTIPLICATION MEANS
+
+Multiplication is a fast way of doing repeated addition with equal groups. The symbol for multiplication is the times sign (x). The numbers being multiplied together are called factors, and the final answer is called the product. For example, 4 x 3 means 4 groups of 3 (3 + 3 + 3 + 3), which equals 12.
+
+ORDER DOES NOT MATTER IN MULTIPLICATION
+
+You can multiply numbers in any order and the product stays the same. This is called the commutative property of multiplication. For example, 3 groups of 5 (3 x 5 = 15) has the exact same total as 5 groups of 3 (5 x 3 = 15).
+
+ARRAYS: ROWS AND COLUMNS
+
+An array is a picture that arranges objects into neat rows and columns to show multiplication visually. A chocolate bar with 3 rows of 4 squares has 3 x 4 = 12 squares. Turning the chocolate bar sideways shows 4 rows of 3 squares (4 x 3 = 12). Arrays make it easy to see why 3 x 4 and 4 x 3 give the same result.
+
+MULTIPLYING BY 0 AND 1
+
+Multiplying any number by 1 leaves that number unchanged. For example, 7 x 1 = 7, because 1 group of 7 is just 7.
+Multiplying any number by 0 always gives zero. For example, 7 x 0 = 0, because 0 groups of 7 contains nothing at all.
+
+HELPFUL TIMES TABLE STRATEGIES
+
+- Two times table (2x): Just double the number (2 x 6 is 6 + 6 = 12).
+- Four times table (4x): Double the number and double it again (4 x 5: double 5 is 10, double 10 is 20).
+- Five times table (5x): The answer always ends in either 5 or 0 (5, 10, 15, 20, 25).
+- Ten times table (10x): Move the number one place value column to the left by placing a zero on the end (10 x 7 = 70).
+- Nine times table (9x): The tens digit goes up by 1 and the ones digit goes down by 1 (09, 18, 27, 36, 45, 54, 63, 72, 81, 90). Up to 9 x 10, the digits of each answer add up to 9 (1 + 8 = 9, 2 + 7 = 9).
