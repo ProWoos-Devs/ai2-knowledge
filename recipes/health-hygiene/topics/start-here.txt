@@ -6,7 +6,7 @@ Written for AI-2. Directed to children, parents and teachers.
 
 WHAT THIS KNOWLEDGE PACK IS
 
-This Knowledge Pack is for children aged 6 to 12 and the parents and teachers helping them. It explains ordinary health habits and what those habits can and cannot do. It works without the Internet. The writing is original, based on the CDC, NIH and HHS sources named in the About topic. It is not a diagnosis service or a source of medicine doses.
+This Knowledge Pack is for children aged 6 to 12 and the parents and teachers helping them. It has 15 subject topics explaining ordinary health habits and what those habits can and cannot do. It works without the Internet. The writing is original, based on the health sources named in the About topic. It is not a diagnosis service or a source of medicine doses.
 
 HOW TO SEARCH
 
@@ -27,6 +27,7 @@ TOPICS YOU CAN FIND
 - Coughs, sneezes and shared air
 - Periods and personal hygiene
 - When you feel ill
+- Staying home and returning to group learning
 - Medicines and household cleaners
 
 READING WITH AN ADULT
@@ -41,4 +42,4 @@ SOURCES AND REVIEW
 
 Square brackets identify the source and its section. "Web" means an unpaginated web page, not a missing printed page number. About this Health and Hygiene Knowledge Pack explains the short source names. The original agency sources are freely available online, but a connection is not needed to read the instructions here.
 
-No teacher or clinician has reviewed this Knowledge Pack. CDC, NIH and the United States Department of Health and Human Services did not write or endorse it.
+No teacher or clinician has reviewed this Knowledge Pack. The source organizations did not write or endorse it.

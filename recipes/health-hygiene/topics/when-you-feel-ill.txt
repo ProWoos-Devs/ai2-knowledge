@@ -1,6 +1,6 @@
 When you feel ill
 
-Search terms: feel ill, sick, unwell, fever, vomiting, diarrhea, tummy ache, cough, tell an adult, stay home, trouble breathing, cannot wake, need help, no doctor.
+Search terms: feel ill, sick, unwell, fever, vomiting, diarrhea, tummy ache, cough, tell an adult, trouble breathing, cannot wake, blood in poop, cannot drink, need help, no doctor.
 
 Written for AI-2. Directed to children, parents and teachers.
 
@@ -12,6 +12,8 @@ DRINKING DURING ILLNESS
 
 With diarrhea or vomiting, keep drinking safe fluids to replace what your body loses and help prevent dehydration; safe water helps, and properly prepared oral rehydration solution also replaces lost salts. [DIARRHEA, What to do if you or your family are ill with diarrhea; NORO, Drink plenty of liquids; web.]
 
+Seek medical help right away if a child with vomiting or diarrhea cannot drink enough to replace losses, vomits often, has diarrhea lasting more than a day, has severe belly pain, or has poop containing blood or looking black and sticky. These can be signs of a serious problem. [GASTRO, Seek care right away, Infants and children; web.]
+
 WHEN HELP IS URGENT
 
 For a child with fast breathing, trouble breathing, ribs pulling in with each breath, bluish lips or face, chest pain, a seizure, or not being alert or responding to others while awake: tell an adult and seek medical help right away. CDC lists these as emergency warning signs of flu complications; they do not prove that an illness is flu. [FLU, Emergency Warning Signs of Flu Complications, In children; web.]
@@ -20,16 +22,12 @@ Also seek medical help right away for muscle pain so severe a child refuses to w
 
 Dehydration means losing too much body fluid. Not urinating for 8 hours, a dry mouth or no tears when crying also need medical help right away. A seizure is a temporary change in brain activity that can involve shaking or loss of awareness. Other severe or worrying symptoms need medical assessment too. [FLU, Emergency Warning Signs of Flu Complications; SEIZURE, Overview and Signs and symptoms; web.]
 
-AVOID SPREADING AN INFECTION
-
-For adults: keep a child home from group learning with fever, including fever with a new rash; vomiting more than twice in the previous 24 hours; diarrhea causing accidents, containing blood or causing more than 2 extra bowel movements above the child's usual number in 24 hours; draining skin sores that cannot be covered; or breathing-related symptoms that worsen or fail to improve, unless another cause such as allergies explains them. A child also needs to stay home if unable to take part comfortably or needing more care than staff can provide. [SICK, Staying Home When Sick; web.]
-
-Returning depends on the illness and recovery. For example, CDC's general school guidance requires at least 24 hours without fever and without fever-reducing medicine. Bloody diarrhea or fever with a new rash needs medical assessment before returning. Meeting a school rule does not mean every illness is cured. If a required assessment is unavailable, this Knowledge Pack cannot say that returning is safe. [SICK, Return to School; web.]
-
-Wash hands after the toilet and after coughing, sneezing or blowing your nose. Cover coughs with a tissue or elbow. [HAND, Key times to wash hands; COUGH, Steps you can take; web.]
-
 MEDICINES AND UNAVAILABLE HELP
 
-Do not take medicine on your own. A trusted caregiver must give it. If a child might have taken an unintended medicine, vitamin or supplement, get help immediately, even if you are not completely sure. [MEDS, Keep young children safe; web.]
+Do not choose a medicine or dose without instructions for you. Usually a caregiver gives your medicine. If your health professional and caregiver have agreed that you can use a particular prescribed medicine yourself and taught you how, follow that personal plan. This Knowledge Pack does not replace it. If a child might have taken an unintended medicine, vitamin or supplement, get help immediately, even if you are not completely sure. [ASTHMA pp. 13–14; MEDS, Keep young children safe; web.]
 
 This Knowledge Pack gives no medicine doses or rehydration recipes. If medical help cannot be reached, the urgent signs still need treatment that these texts cannot provide.
+
+STAYING HOME IS A SEPARATE QUESTION
+
+Needing medical help and staying home from group learning are separate questions. The topic “Staying home and returning to group learning” explains the stay-home list and return criteria for parents and teachers. Being at home does not replace getting help for urgent signs. [SICK, Staying Home When Sick; FLU, Emergency Warning Signs of Flu Complications; web.]

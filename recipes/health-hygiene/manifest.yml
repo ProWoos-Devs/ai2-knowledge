@@ -10,7 +10,9 @@ attribution: 'Original educational text written for the ProWoos-Devs AI-2 projec
   of Health, U.S. Department of Health and Human Services. The agencies and the U.S. Government did not
   write or endorse this Knowledge Pack. Their original information is available free. MIT applies to the
   original AI-2 writing. WHO, Boil water (2015), is the source of the boiling instruction, in our own words;
-  WHO did not write or endorse this Knowledge Pack.'
+  WHO did not write or endorse this Knowledge Pack. Additional factual recommendations from the
+  U.S. Food and Drug Administration and the American Dental Association are stated in our own words;
+  neither organization wrote or endorsed this Knowledge Pack. Source documents and images are not included.'
 modified: Health facts written in original wording for children, with source and section citations, cut
   into parts and embedded for search by AI-2.
 sources:
@@ -64,6 +66,10 @@ sources:
   url: https://www.cdc.gov/hygiene/about/menstrual-hygiene.html
   retrieved: '2026-11-10'
 - file: when-you-feel-ill.txt
+  title: NIH/NIDDK, Symptoms & Causes of Viral Gastroenteritis (“Stomach Flu”)
+  url: https://www.niddk.nih.gov/health-information/digestive-diseases/viral-gastroenteritis/symptoms-causes
+  retrieved: '2026-11-10'
+- file: staying-home-and-returning-to-group-learning.txt
   title: CDC, When Students or Staff are Sick
   url: https://www.cdc.gov/children-and-school-preparedness/infection-prevention/when-sick.html
   retrieved: '2026-11-10'

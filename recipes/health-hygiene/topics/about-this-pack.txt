@@ -6,11 +6,11 @@ Written for AI-2. Directed to children, parents and teachers.
 
 WHERE THE TEXT COMES FROM
 
-These topics were written in original wording for children aged 6 to 12, with parents and teachers helping. Their health instructions come from the named CDC, NIH and HHS agency sources. The boiling instruction follows WHO's guidance. They cover routine hygiene and prevention, not a complete medical manual. A first reading and an independent second reading have taken place. No teacher or clinician has reviewed this Knowledge Pack.
+These 15 subject topics were written in original wording for children aged 6 to 12, with parents and teachers helping. Their health instructions come from the named agency sources and professional factual recommendations. The boiling instruction follows WHO's guidance. They cover routine hygiene and prevention, not a complete medical manual. A first reading, an independent second reading and a content review have taken place. No teacher or clinician has reviewed this Knowledge Pack.
 
 HOW THE CITATIONS WORK
 
-Each citation gives a short source name and the section used. "Web" means an unpaginated web page. ACTIVITY uses printed pages of the HHS physical activity guidelines; BOIL uses page 1 of WHO's two-page brief. Sources were checked on 2026-11-10. Their titles below identify them without an Internet connection; the recipe README lists their addresses and reuse terms. The original agency information is available online without charge.
+Each citation gives a short source name and the section used. "Web" means an unpaginated web page. ACTIVITY uses printed pages of the HHS physical activity guidelines; ASTHMA uses printed pp. 13–14 of the NHLBI school guide; BOIL uses page 1 of WHO's two-page brief. Sources were checked on 2026-11-10. Their titles below identify them without an Internet connection; the recipe README lists their addresses and reuse terms. The original sources are available online without charge.
 
 CDC SOURCE NAMES
 
@@ -20,6 +20,7 @@ CDC is the United States Centers for Disease Control and Prevention.
 - GERM: Appendix A: How Infections Spread, page 8 of the web guidance Preventing Spread of Infections in K-12 Schools.
 - HAND: About Handwashing.
 - HANDFAQ: Hand Hygiene Frequently Asked Questions.
+- SANITIZER: Hand Sanitizer Guidelines and Recommendations, especially How it works, Dos and Don'ts.
 - SCHOOLHAND: About Hand Hygiene in Schools and Early Care and Education Settings.
 - HAIR: Healthy Habits: Hair and Scalp Hygiene.
 - FOOT: Healthy Habits: Foot Hygiene.
@@ -50,7 +51,14 @@ NIH is the United States National Institutes of Health. Its institutes supply th
 - TEETH: National Institute of Dental and Craniofacial Research, Oral Hygiene.
 - DECAY: The same institute, The Tooth Decay Process: How to Reverse It and Avoid a Cavity.
 - EAT: National Institute of Diabetes and Digestive and Kidney Diseases, Helping Your Child: Tips for Parents & Other Caregivers.
+- GASTRO: The same institute, Symptoms & Causes of Viral Gastroenteritis (“Stomach Flu”), Seek care right away, Infants and children.
 - SLEEP: National Heart, Lung, and Blood Institute, How Much Sleep Is Enough?
+- ASTHMA: The same institute, Managing Asthma: A Guide for Schools, revised December 2014, printed pp. 13–14.
+
+OTHER SOURCE NAMES
+
+- TAMPON: United States Food and Drug Administration (FDA), The Facts on Tampons and Tampon Safety, especially Tampon Safety Tips 5 and 7.
+- BRUSH: American Dental Association, Toothbrushes, updated August 2026, Key Points, Toothbrushing Methods and Toothbrush Care. Only its factual recommendations are stated in our own words; the copyrighted page and its images are not included.
 
 HHS PRINTED SOURCE
 
@@ -62,7 +70,7 @@ BOIL means the World Health Organization (WHO) technical brief Boil water, WHO/F
 
 This Knowledge Pack works offline and cannot correct itself. It supplies no medicine doses, chemical mixing recipes or complete treatment for an ill child. If water, materials or professional help are unavailable, a source's limits remain limits. A missing treatment is not made safe by an offline text.
 
-The original educational writing is MIT licensed, like the AI-2 project. Agency information and public-domain facts remain under their own terms. No agency photographs, logos or source documents are reproduced. Sources and links do not imply endorsement by CDC, NIH, HHS, WHO or the United States Government. The agencies did not write this Knowledge Pack. There are no telephone numbers here or in any Knowledge Packs.
+The original educational writing is MIT licensed, like the AI-2 project. The source publications keep their own copyright or public-domain status. No source photographs, logos or documents are reproduced. Sources and links do not imply endorsement by CDC, NIH, HHS, FDA, WHO, the American Dental Association or the United States Government. These organizations did not write this Knowledge Pack. There are no telephone numbers here or in any Knowledge Packs.
 
 FOUND A MISTAKE OR SOMETHING MISSING?
 
