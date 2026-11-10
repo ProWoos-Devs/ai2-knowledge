@@ -38,7 +38,12 @@ For each point, give four things:
 
 If a topic has nothing wrong, a line saying so is useful too, because it tells us the topic was read.
 
-Send the list as one issue at https://github.com/ProWoos-Devs/ai2-knowledge/issues (this needs a free GitHub account). If you prefer to make the corrections yourself, [CONTRIBUTING.md](CONTRIBUTING.md#improving-an-existing-pack) says how to open a pull request.
+Send the list in whichever way is easier for you:
+
+- as one issue at https://github.com/ProWoos-Devs/ai2-knowledge/issues (this needs a free GitHub account), or
+- by email to dev@prowoos.com
+
+If you prefer to make the corrections yourself, [CONTRIBUTING.md](CONTRIBUTING.md#improving-an-existing-pack) says how to open a pull request.
 
 ## Being named
 
