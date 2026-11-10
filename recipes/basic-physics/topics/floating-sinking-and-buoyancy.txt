@@ -19,6 +19,7 @@ Density is a measure of how tightly packed the matter (mass) is inside a given a
 The golden rule of floating in liquids is:
 - Objects with a density less than water float.
 - Objects with a density greater than water sink.
+- An object with the same density as water stays where it is under the surface, neither rising nor sinking. The water's push exactly balances its weight. This is called neutral buoyancy, and it is how a fish or a submarine can hover underwater.
 Water has a density of about 1 gram per cubic centimeter. Most wood has a density of around 0.6 grams per cubic centimeter, so it floats easily, while a typical rock has a density of about 2.5 grams per cubic centimeter and sinks.
 
 ARCHIMEDES' PRINCIPLE AND WATER DISPLACEMENT

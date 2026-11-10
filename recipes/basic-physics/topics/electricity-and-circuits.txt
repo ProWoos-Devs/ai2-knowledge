@@ -6,7 +6,7 @@ Written for AI-2. Directed to children, parents and teachers.
 
 WHAT ELECTRICITY IS
 
-Electricity is a form of energy carried by the flow of electrons, which are tiny particles, much smaller than an atom, that carry a negative electric charge. When electrons move along a pathway, they create an electric current, which can power lamps, spin electric motors, heat toasters, and run computers.
+Electricity is about electric charges and the forces between them. Charges can build up on an object, which is static electricity, or flow along a path, which is an electric current. In metal wires the moving charges are electrons, tiny particles much smaller than an atom that carry a negative electric charge. A battery supplies the energy, and the current carries it around the circuit, which can power lamps, spin electric motors, heat toasters, and run computers.
 
 WHAT A COMPLETE CIRCUIT IS
 
@@ -25,5 +25,5 @@ ELECTRICAL CONDUCTORS AND INSULATORS
 ELECTRICAL SAFETY
 
 Electricity is immensely useful, but mains electricity from household wall sockets is extremely powerful and dangerous:
-- Safe for experiments: Small, low-voltage AA or AAA batteries (1.5 volts) are safe for children to touch and build circuits with in class or at home. Always put a bulb or buzzer in the loop: a wire joined straight from one end of a battery to the other gets hot. Never put any battery in your mouth. Small round button batteries are very dangerous if swallowed.
+- For experiments: With an adult, use an undamaged 1.5-volt AA or AAA battery in a holder, and a bulb or buzzer made for that voltage. Keep the circuit dry. Always put the bulb or buzzer in the loop and never join the two ends of a battery directly with a wire: the wire and the battery can get hot. If a battery or wire becomes hot, stop and tell the adult. Do not use leaking or damaged batteries. Never put any battery in your mouth. Small round button batteries are very dangerous if swallowed.
 - Dangerous: Mains electricity (100 to 240 volts, depending on the country) can kill. Never touch wall sockets, never poke objects into sockets, and never use electrical cords near water or sinks.

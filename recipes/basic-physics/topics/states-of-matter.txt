@@ -10,13 +10,13 @@ Matter is the scientific word for all physical stuff in the universe that has ma
 
 SOLIDS
 
-In a solid, the particles are packed tightly together in fixed, orderly rows. The particles cannot move freely; they can only vibrate gently back and forth in place.
+In a solid, the particles are packed tightly together and held in fixed positions. They cannot move freely; they can only vibrate gently back and forth in place. In some solids, such as salt crystals, the particles form a neat repeating pattern. In others, such as glass, they have no regular pattern.
 - Properties: Solids have a definite, fixed shape and a definite volume.
 - Examples: Rocks, wooden tables, metal spoons, and ice cubes. A solid keeps its shape whether you put it in a bowl, on a table, or in a backpack.
 
 LIQUIDS
 
-In a liquid, the particles are close together but are not locked into neat rows. They can tumble, slide, and flow over and around one another smoothly.
+In a liquid, the particles are close together but are not held in fixed positions. They can tumble, slide, and flow over and around one another smoothly.
 - Properties: Liquids have a definite volume, but no fixed shape. A liquid takes the exact shape of whatever container you pour it into.
 - Examples: Water, milk, orange juice, and cooking oil. If you spill a glass of water, it spreads out across the table until stopped by a barrier.
 

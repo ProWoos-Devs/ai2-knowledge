@@ -1,6 +1,6 @@
 Fractions and parts of a whole
 
-Search terms: fractions, half, quarter, third, numerator, denominator, equal parts, fraction bar, equivalent fractions, comparing fractions, fraction, halves, thirds, fourths, one-fourth, top number, bottom number, pizza slices.
+Search terms: fractions, half, quarter, third, numerator, denominator, equal parts, fraction bar, equivalent fractions, comparing fractions, adding fractions, subtracting fractions, fraction, halves, thirds, fourths, one-fourth, top number, bottom number, pizza slices.
 
 Written for AI-2. Directed to children, parents and teachers.
 
@@ -31,4 +31,9 @@ When two fractions have the same numerator (like 1/2 and 1/8), the one with the 
 EQUIVALENT FRACTIONS
 
 Equivalent fractions are different fractions that name the exact same amount. Fold a sheet of paper in half, open it, and shade one of the 2 halves. Now 1/2 of the paper is shaded. If you fold it again across the middle, the shaded part now has 2 out of 4 equal boxes (2/4). The amount of paper shaded has not changed at all, so 1/2 is equivalent to 2/4.
-You can find an equivalent fraction by multiplying or dividing both the numerator and the denominator by the same number (any number except zero). For 1/2, multiplying top and bottom by 2 gives 2/4; multiplying both by 3 gives 3/6.
+You can find an equivalent fraction by multiplying or dividing both the numerator and the denominator by the same number (any number except zero).
+
+ADDING AND SUBTRACTING FRACTIONS
+
+To add or subtract fractions with the same denominator, add or subtract the numerators and keep the denominator the same: 1/4 + 2/4 = 3/4, and 3/4 - 1/4 = 2/4. Never add the denominators.
+If the denominators are different, first write equivalent fractions that share a denominator: 1/2 + 1/4 = 2/4 + 1/4 = 3/4. For 1/2, multiplying top and bottom by 2 gives 2/4; multiplying both by 3 gives 3/6.

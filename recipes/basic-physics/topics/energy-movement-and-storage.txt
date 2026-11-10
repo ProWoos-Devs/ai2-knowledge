@@ -22,10 +22,10 @@ COMMON TYPES OF STORED (POTENTIAL) ENERGY
 
 OTHER FORMS OF ENERGY YOU MEET EVERY DAY
 
-- Thermal (heat) energy: The jiggling movement of tiny atoms inside hot soup or steam.
+- Thermal energy: The energy of the jiggling, moving particles inside everything, more of it in hot soup than in cold soup. When this energy passes from a hot thing to a cooler thing, we call it heat.
 - Light energy: Radiant waves that travel from the Sun or lightbulbs and allow our eyes to see.
 - Sound energy: Vibrating air waves made by speaking, clapping, or musical instruments.
-- Electrical energy: The movement of tiny electric charges through wires.
+- Electrical energy: Energy carried by an electric current from a source such as a battery to a device such as a lamp.
 
 THE LAW OF CONSERVATION OF ENERGY
 

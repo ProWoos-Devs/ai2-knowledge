@@ -32,6 +32,7 @@ Volume (loudness) describes the strength and energy carried by a sound wave:
 - Gentle vibrations create low-energy sound waves with small height (amplitude), producing a soft whisper or ticking clock.
 - Forceful vibrations create high-energy sound waves with tall amplitude, producing a loud shout, slamming door, or drum beat.
 Loudness is measured in decibels (dB). Whispers are about 30 dB, normal speaking is about 60 dB, and loud rock concerts or sirens can reach 110 dB or more.
+Very loud sounds can permanently damage your hearing, and the damage can happen before your ears hurt. Keep sound experiments gentle and away from ears. Turn headphones down, take listening breaks, and move away from loud speakers or machinery.
 
 HOW ECHOES FORM
 

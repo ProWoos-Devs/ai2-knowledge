@@ -7,7 +7,7 @@ Written for AI-2. Directed to children, parents and teachers.
 WHAT MAGNETS ARE
 
 A magnet is an object made from magnetic materials that produces an invisible area of magnetic force around itself called a magnetic field. Magnets can pull (attract) certain metals toward themselves or push (repel) other magnets away, without needing to touch them physically.
-Never put a magnet in your mouth. Small strong magnets are very dangerous if swallowed.
+Use large magnets, with an adult. Keep magnets out of your mouth, nose and ears, and away from younger children. Do not use small, very strong magnet balls for these activities. If a magnet may have been swallowed, tell an adult immediately and get medical help right away.
 
 MAGNETIC POLES: NORTH AND SOUTH
 
@@ -33,6 +33,6 @@ Earth has a magnetic North Pole and a magnetic South Pole. This planetary magnet
 HOW A COMPASS WORKS
 
 A navigational compass is simply a lightweight, magnetized needle balanced freely on a sharp central pivot:
-- The north-seeking tip of the compass needle lines up with Earth's magnetic field and points roughly north, toward the magnetic North Pole in the Arctic.
-- Here is a puzzle: opposite poles attract, so the pole of Earth's magnet up there is really a south pole. People call that place the magnetic North Pole only because the north ends of compass needles point to it.
+- The north-seeking end of the compass needle lines up with Earth's magnetic field in the place where you are, and usually points roughly north. This direction is called magnetic north. It can differ a little from true north on a map, and nearby magnets or iron objects can disturb the compass.
+- Here is a puzzle: opposite poles attract, so Earth's magnetism in the far north behaves like the south pole of a bar magnet. The region is called the magnetic North Pole only because the north ends of compass needles are drawn that way.
 - For centuries, travelers, sailors, hikers, and explorers have relied on compasses to find their way across vast oceans, dense forests, and featureless deserts, day or night, rain or shine.

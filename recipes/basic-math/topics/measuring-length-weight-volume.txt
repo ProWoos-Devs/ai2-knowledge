@@ -30,7 +30,7 @@ Mass measures how much matter is inside an object. In everyday speech people cal
 
 MEASURING LIQUID VOLUME AND CAPACITY
 
-Volume (or capacity) measures how much three-dimensional space a liquid takes up inside a container.
+Volume measures how much three-dimensional space something takes up. A container's capacity is how much it can hold when it is full. A 1-liter bottle that is half full has a capacity of 1 liter and holds 500 milliliters of liquid.
 - Milliliter (mL): A very small amount. A teaspoon holds about 5 mL.
 - Liter (L): A standard milk carton or large reusable water bottle. 1,000 mL = 1 L.
 Water connects the metric system cleanly: 1 liter of pure freshwater has a volume of 1,000 milliliters and weighs almost exactly 1 kilogram.

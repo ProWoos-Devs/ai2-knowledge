@@ -7,9 +7,10 @@ Written for AI-2. Directed to children, parents and teachers.
 HEAT VERSUS TEMPERATURE
 
 Heat and temperature are closely related, but they are not the same thing:
-- Thermal energy (heat) is the total amount of vibrating kinetic energy stored in the moving particles of an object. The faster the particles jiggle, the more heat energy they possess.
-- Temperature is a measure of how hot or cold something is, telling us the average speed of those vibrating particles. Temperature is measured in degrees Celsius (°C) using a thermometer.
-A giant swimming pool filled with warm 25 °C water contains much more total heat energy than a tiny cup of boiling tea at 100 °C, because the swimming pool has vastly more warm particles.
+- Thermal energy is the energy inside an object that comes from its tiny particles moving and pulling on one another. The more particles there are and the faster they jiggle, the more thermal energy the object has.
+- Temperature is a measure of how hot or cold something is. In a hotter object the particles move faster on average. Temperature is measured in degrees Celsius (°C) using a thermometer.
+- Heat is energy on the move: energy passing from something warmer to something cooler because of the difference in temperature.
+A giant swimming pool filled with warm 25 °C water contains much more thermal energy than a tiny cup of boiling tea at 100 °C, because the swimming pool has vastly more warm particles.
 
 HEAT ALWAYS FLOWS FROM HOT TO COLD
 
