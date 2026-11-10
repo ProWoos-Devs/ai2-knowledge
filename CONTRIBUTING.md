@@ -204,6 +204,7 @@ Every change to a pack goes through this repository, the project's own changes i
 
 - **To report a problem**, open an issue at https://github.com/ProWoos-Devs/ai2-knowledge/issues . Name the pack, the topic and the step, and say what is wrong. For a pack written from sources, give the source and page that support the change.
 - **To fix it yourself**, fork this repository, edit the topic under `recipes/<pack>/topics/` and open a pull request. Change the text only; you do not need to rebuild the pack, raise its revision or touch the catalog entry.
+- **To review a whole Knowledge Pack**, or a few of its topics, follow [REVIEWING.md](REVIEWING.md). It says what to look for and how to report it, and it needs no installation.
 - **For a pack whose recipe is not in this repository**, the text lives with its maker. Open an issue here naming the pack, and we pass it to the maker named in its `contact`.
 
 A merged change does not reach anyone's machine by itself. The pack's maker rebuilds it, raises its `revision` and publishes it as described below, usually with several fixes at once.
