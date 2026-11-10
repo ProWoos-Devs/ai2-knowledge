@@ -2,7 +2,7 @@
 
 Routine hygiene, teeth, safe water and food, nutrition, sleep, activity and recognizing illness for children ages 6 to 12 (`school-age` and `preteen`), with parents and teachers helping. Written for study and reference on an AI-2 machine with no connection. Categories: `'13.13'` Water, sanitation and hygiene; `'13.14'` Nutrition; `'07.05'` Primary and secondary education. Audience: `children`. Language: English. License: MIT for the original writing. Contact: ProWoos-Devs.
 
-Written in original wording from CDC, NIH and HHS agency health information, with a factual comparison to WHO's boiling guidance. Source: Centers for Disease Control and Prevention; National Institutes of Health; U.S. Department of Health and Human Services; World Health Organization. These agencies and the United States Government did not write or endorse this Knowledge Pack. Their original information is available online without charge. Agency logos, photographs, copied tables and source documents are not included.
+Written in original wording from CDC, NIH and HHS agency health information, with the boiling instruction from WHO's guidance. Source: Centers for Disease Control and Prevention; National Institutes of Health; U.S. Department of Health and Human Services; World Health Organization. These agencies and the United States Government did not write or endorse this Knowledge Pack. Their original information is available online without charge. Agency logos, photographs, copied tables and source documents are not included.
 
 A first reading against REVIEWING.md and the sources recorded twelve corrections, which were applied. An independent second reading reported 26 omissions or comprehension issues. Nineteen were corrected; seven source gaps were accepted by the project maintainer, with a partial correction to one using an existing source. No teacher or clinician has reviewed this Knowledge Pack. It has not been built or measured.
 
@@ -24,7 +24,7 @@ ai-2 knowledge export health-hygiene --manifest manifest.yml -o health-hygiene.a
 - Each short passage keeps the qualifications needed to understand it. Search shows passages of about 110 words, so a reader may not see a warning elsewhere in the topic.
 - Metric units and American spelling. Converted temperatures are rounded and described as approximate; time limits retain the source's qualifications.
 - Routine prevention, with the child and helping adult roles stated. No medicine doses, rehydration recipes, chemical-mixing instructions, latrine construction or independent medical treatment for children. Source gaps when supplies or help are missing are stated rather than filled from memory.
-- Source differences are stated explicitly: this recipe follows CDC's timed adult boiling method and explains why WHO's rolling-boil rule, used in Water and Sanitation, differs. The current NIH sleep recommendation is used instead of the older 2011 booklet's number. The activity target follows the cited CDC guidance.
+- The adult boiling instruction follows WHO's rule, the same one used in Water and Sanitation: heat the water until it is bubbling hard, then take it off the heat. CDC's emergency page adds 1 minute of boiling, 3 minutes at high elevation, which its Yellow Book describes as a margin of safety; this recipe does not use the timed rule. The current NIH sleep recommendation is used instead of the older 2011 booklet's number. The activity target follows the cited CDC guidance.
 
 ## Sources and how they are cited
 
@@ -43,7 +43,7 @@ The source key is also inside `topics/about-this-pack.txt`, so it remains availa
 | PERIOD | CDC, [Healthy Habits: Menstrual Hygiene](https://www.cdc.gov/hygiene/about/menstrual-hygiene.html) | Named section; unpaginated web page. |
 | WATER | CDC, [How to Make Water Safe in an Emergency](https://www.cdc.gov/water-emergency/about/index.html) | Named section; unpaginated web page. |
 | YELLOW | CDC Yellow Book, [Water Disinfection for Travelers](https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/water-disinfection-for-travelers.html), 2026 edition | Heat; unpaginated web page. |
-| BOIL | WHO, [Boil water, technical brief WHO/FWC/WSH/15.02 (2015)](https://www.who.int/publications/i/item/WHO-FWC-WSH-15.02) | PDF p. 1, Scientific basis and Conclusions; factual comparison only. |
+| BOIL | WHO, [Boil water, technical brief WHO/FWC/WSH/15.02 (2015)](https://www.who.int/publications/i/item/WHO-FWC-WSH-15.02) | PDF p. 1, Introduction and Conclusions. |
 | STORE | CDC, [How to Create an Emergency Water Supply](https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html) | Named section; unpaginated web page. |
 | FOOD | CDC, [Preventing Food Poisoning](https://www.cdc.gov/food-safety/prevention/index.html) | Named section; unpaginated web page. |
 | MILK | CDC, [Raw Milk](https://www.cdc.gov/food-safety/foods/raw-milk.html) | Overview; unpaginated web page. |
@@ -73,7 +73,7 @@ The source key is also inside `topics/about-this-pack.txt`, so it remains availa
 
 The HHS physical activity guidelines are a federal agency publication; only their factual recommendations are independently explained, with the publication credited. Its photographs, tables and layout are not reproduced.
 
-WHO's Boil water brief is copyright WHO 2015, with no open license stated. Only its factual conclusion is independently summarized to explain the difference from CDC's rule; no protected source prose, table, figure or layout is reproduced or adapted, and no MIT relicensing of the brief is claimed. The Yellow Book's Heat section is used for the factual explanation of CDC's extra minute; its third-party figure is excluded. The explanation of “rolling boil” is our wording for the ordinary meaning of the term.
+WHO's Boil water brief is copyright WHO 2015, with no open license stated. Its conclusion is the basis of the adult boiling instruction, stated in our own words, as in the Water and Sanitation Knowledge Pack; no protected source prose, table, figure or layout is reproduced or adapted, and no MIT relicensing of the brief is claimed. The Yellow Book's Heat section is used for two facts, that the first small bubbles rising from the bottom are simmering and not boiling, and that CDC's extra minute is a margin of safety; its third-party figure is excluded. “Bubbling hard, with large bubbles breaking all over the surface” is our wording for the ordinary meaning of “rolling boil”.
 
 MIT applies to the original AI-2 educational writing, not a claim to relicense an agency document or own public-domain facts. A rights specialist has not reviewed this use. No UNICEF publication is used.
 

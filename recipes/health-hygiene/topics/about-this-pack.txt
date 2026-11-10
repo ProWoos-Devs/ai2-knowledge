@@ -6,7 +6,7 @@ Written for AI-2. Directed to children, parents and teachers.
 
 WHERE THE TEXT COMES FROM
 
-These topics were written in original wording for children aged 6 to 12, with parents and teachers helping. Their health instructions come from the named CDC, NIH and HHS agency sources. WHO's boiling guidance is compared with CDC's. They cover routine hygiene and prevention, not a complete medical manual. A first reading and an independent second reading have taken place. No teacher or clinician has reviewed this Knowledge Pack.
+These topics were written in original wording for children aged 6 to 12, with parents and teachers helping. Their health instructions come from the named CDC, NIH and HHS agency sources. The boiling instruction follows WHO's guidance. They cover routine hygiene and prevention, not a complete medical manual. A first reading and an independent second reading have taken place. No teacher or clinician has reviewed this Knowledge Pack.
 
 HOW THE CITATIONS WORK
 
@@ -58,7 +58,7 @@ HHS is the United States Department of Health and Human Services. ACTIVITY means
 
 LIMITS AND LICENSE
 
-BOIL means the World Health Organization (WHO) technical brief Boil water, WHO/FWC/WSH/15.02, 2015, page 1, Scientific basis and Conclusions. It is cited only to compare the factual basis of the two agencies' boiling rules; the brief itself is not included or relicensed.
+BOIL means the World Health Organization (WHO) technical brief Boil water, WHO/FWC/WSH/15.02, 2015, page 1, Introduction and Conclusions. The boiling instruction follows it, in our own words; the brief itself is not included or relicensed.
 
 This Knowledge Pack works offline and cannot correct itself. It supplies no medicine doses, chemical mixing recipes or complete treatment for an ill child. If water, materials or professional help are unavailable, a source's limits remain limits. A missing treatment is not made safe by an offline text.
 
