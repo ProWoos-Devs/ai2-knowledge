@@ -11,6 +11,8 @@ A Knowledge Pack is a set of documents that an [AI-2](https://github.com/ProWoos
 |---|---|---|---|---|---|---|---|
 | `ai2-help` | Operating systems | AI-2's own documentation, the wiki pages plus topics written for the questions people ask | [ProWoos-Devs](https://github.com/ProWoos-Devs) | en | 337 KB | MIT | [download](https://github.com/ProWoos-Devs/ai2-knowledge/releases/download/packs-2026-09-18/ai2-help.ai2pack) |
 | `linux-essentials` | Operating systems | Twenty everyday tasks on a Linux machine, written for AI-2 (runit, not systemd) | [ProWoos-Devs](https://github.com/ProWoos-Devs) | en | 125 KB | MIT | [download](https://github.com/ProWoos-Devs/ai2-knowledge/releases/download/packs-2026-09-18/linux-essentials.ai2pack) |
+| `basic-math` | Mathematics, for children (6 to 9, 10 to 12) | Thirteen topics of basic mathematics for children of 6 to 12, from counting and place value to fractions, percentages and telling time, not reviewed by a teacher | [ProWoos-Devs](https://github.com/ProWoos-Devs) | en | 233 KB | MIT | [download](https://github.com/ProWoos-Devs/ai2-knowledge/releases/download/packs-2026-11-10/basic-math.ai2pack) |
+| `basic-physics` | Physics, for children (6 to 9, 10 to 12) | Fourteen topics of basic physics for children of 6 to 12, from forces and gravity to light, sound, electricity and magnets, with things to try, not reviewed by a teacher or physicist | [ProWoos-Devs](https://github.com/ProWoos-Devs) | en | 274 KB | MIT | [download](https://github.com/ProWoos-Devs/ai2-knowledge/releases/download/packs-2026-11-10/basic-physics.ai2pack) |
 | `first-aid` | First aid and emergency care | What to do in eleven medical emergencies with no training and possibly no help coming, written from IFRC 2025, not reviewed by a clinician | [ProWoos-Devs](https://github.com/ProWoos-Devs) | en | 384 KB | MIT | [download](https://github.com/ProWoos-Devs/ai2-knowledge/releases/download/packs-2026-11-07-2/first-aid.ai2pack) |
 | `water-sanitation` | Water, sanitation and hygiene | Safe water and sanitation with no services and possibly no help coming, from boiling and bleach to cleaning a flooded well and building a latrine, written from WHO sources, not reviewed by a specialist | [ProWoos-Devs](https://github.com/ProWoos-Devs) | en | 321 KB | MIT | [download](https://github.com/ProWoos-Devs/ai2-knowledge/releases/download/packs-2026-11-07-2/water-sanitation.ai2pack) |
 | `everyday` | Countries and territories | 196 countries with their capitals, currencies, official languages and country codes, from Wikidata | [ProWoos-Devs](https://github.com/ProWoos-Devs) | en | 578 KB | MIT | [download](https://github.com/ProWoos-Devs/ai2-knowledge/releases/download/packs-2026-11-02-2/everyday.ai2pack) |
@@ -136,7 +138,7 @@ Only content that may be redistributed, and **a license being on the list is not
 
 ## The packs made by the AI-2 project
 
-Four, published on the releases [packs-2026-09-18](https://github.com/ProWoos-Devs/ai2-knowledge/releases/tag/packs-2026-09-18) and [packs-2026-11-02-2](https://github.com/ProWoos-Devs/ai2-knowledge/releases/tag/packs-2026-11-02-2) and listed in the catalog like any other pack.
+Seven, published on the releases [packs-2026-09-18](https://github.com/ProWoos-Devs/ai2-knowledge/releases/tag/packs-2026-09-18), [packs-2026-11-02-2](https://github.com/ProWoos-Devs/ai2-knowledge/releases/tag/packs-2026-11-02-2), [packs-2026-11-07-2](https://github.com/ProWoos-Devs/ai2-knowledge/releases/tag/packs-2026-11-07-2) and [packs-2026-11-10](https://github.com/ProWoos-Devs/ai2-knowledge/releases/tag/packs-2026-11-10) and listed in the catalog like any other pack.
 
 | Pack | Recipe | License |
 |---|---|---|
@@ -145,8 +147,10 @@ Four, published on the releases [packs-2026-09-18](https://github.com/ProWoos-De
 | `everyday` | `recipes/everyday` | MIT, facts from [Wikidata](https://www.wikidata.org/wiki/Wikidata:Licensing) |
 | `first-aid` | `recipes/first-aid` | MIT, written from the IFRC guidelines 2025 |
 | `water-sanitation` | `recipes/water-sanitation` | MIT, written from WHO, WEDC, Eawag, US EPA and Sphere sources |
+| `basic-math` | `recipes/basic-math` | MIT |
+| `basic-physics` | `recipes/basic-physics` | MIT |
 
-Each recipe holds what built it (a query or a topic set), the renderer where there is one, the rules and the manifest, so anyone can rebuild a pack and compare it with what was published. Measured with question sets written by someone who had not read the packs, 20 questions each, right answer first: everyday 20/20 (on revision 2, before telephone codes were removed), linux-essentials 19/20, ai2-help 18/20, first-aid 14/20, and water-sanitation 17/22 on a set of 22.
+Each recipe holds what built it (a query or a topic set), the renderer where there is one, the rules and the manifest, so anyone can rebuild a pack and compare it with what was published. Measured with question sets written by someone who had not read the packs, 20 questions each, right answer first: everyday 20/20 (on revision 2, before telephone codes were removed), linux-essentials 19/20, ai2-help 18/20, first-aid 14/20, water-sanitation 17/22 on a set of 22, basic-math 18/20, and basic-physics 19/20 (18/19 leaving out one question its text was later changed for).
 
 Wikidata is collaboratively edited, so a rebuild of `everyday` is never published without reading the diff. Its renderer writes everything a person should check to `flags.txt`: 22 entries of 196 on the 2026-09-16 snapshot, all of them real (seven countries with several currencies in circulation, six with more than one capital, two labels Wikidata has no English word for, two part-qualified overrides, two entities that are not countries for this purpose, the United States with no federal official language, and the Kingdom of the Netherlands with no currency of its own in the data). The statement rules behind those numbers are in `recipes/everyday/README.md` and were settled in #1.
 

@@ -13,6 +13,10 @@ ai-2 doc index --in basic-math --embedder nomic-embed-text-v1.5 topics/*.txt
 ai-2 knowledge export basic-math --manifest manifest.yml -o basic-math.ai2pack
 ```
 
+## Measured
+
+An outside question set of 20, written by someone who had seen only the list of topic titles, searched with `ai-2 doc search` on the built Knowledge Pack (2026-11-10): top-1 18/20, top-3 20/20. The two not ranked first ("what is the tens place and the ones place" and "what does the dot in 3.5 mean") had the right topic second and third.
+
 ## House style
 
 - One subject per file, first line the title, then the search terms people would type.

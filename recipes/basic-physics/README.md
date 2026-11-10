@@ -13,6 +13,10 @@ ai-2 doc index --in basic-physics --embedder nomic-embed-text-v1.5 topics/*.txt
 ai-2 knowledge export basic-physics --manifest manifest.yml -o basic-physics.ai2pack
 ```
 
+## Measured
+
+An outside question set of 20, written by someone who had seen only the list of topic titles, searched with `ai-2 doc search` on the built Knowledge Pack (2026-11-10): top-1 19/20, top-3 20/20. One question ("where does a wound up toy car get its power from") missed on the first build, and a wind-up toy example and search terms were added because of it, so it is no longer an untouched question. Without it: top-1 18/19, top-3 19/19. The one not ranked first ("classroom examples of a push and a pull for year 2") had the right topic second, behind Start here.
+
 ## House style
 
 - One subject per file, first line the title, then the search terms people would type.
