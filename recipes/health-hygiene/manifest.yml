@@ -1,0 +1,72 @@
+id: health-hygiene
+title: Health and Hygiene for Children
+version: '2026-11-10'
+revision: 1
+languages:
+- en
+license: MIT
+attribution: 'Original educational text written for the ProWoos-Devs AI-2 project from CDC, NIH and HHS
+  agency health information. Source: Centers for Disease Control and Prevention and National Institutes
+  of Health, U.S. Department of Health and Human Services. The agencies and the U.S. Government did not
+  write or endorse this Knowledge Pack. Their original information is available free. MIT applies to the
+  original AI-2 writing.'
+modified: Health facts written in original wording for children, with source and section citations, cut
+  into parts and embedded for search by AI-2.
+sources:
+- file: germs-and-how-they-spread.txt
+  title: 'CDC, Appendix A: How Infections Spread'
+  url: https://www.cdc.gov/children-and-school-preparedness/infection-prevention/appendix-a.html
+  retrieved: '2026-11-10'
+- file: washing-hands-with-soap.txt
+  title: CDC, About Handwashing
+  url: https://www.cdc.gov/clean-hands/about/
+  retrieved: '2026-11-10'
+- file: using-the-toilet-and-keeping-clean.txt
+  title: CDC, Hand Hygiene Frequently Asked Questions
+  url: https://www.cdc.gov/clean-hands/faq/index.html
+  retrieved: '2026-11-10'
+- file: washing-body-hair-feet-and-nails.txt
+  title: CDC, Hygiene Basics
+  url: https://www.cdc.gov/hygiene/about/index.html
+  retrieved: '2026-11-10'
+- file: teeth-and-gums.txt
+  title: NIH/NIDCR, Oral Hygiene
+  url: https://www.nidcr.nih.gov/health-info/oral-hygiene
+  retrieved: '2026-11-10'
+- file: safe-water-for-drinking.txt
+  title: CDC, How to Make Water Safe in an Emergency
+  url: https://www.cdc.gov/water-emergency/about/index.html
+  retrieved: '2026-11-10'
+- file: food-and-clean-hands.txt
+  title: CDC, Preventing Food Poisoning
+  url: https://www.cdc.gov/food-safety/prevention/index.html
+  retrieved: '2026-11-10'
+- file: eating-a-variety-of-foods.txt
+  title: 'NIH/NIDDK, Helping Your Child: Tips for Parents & Other Caregivers'
+  url: https://www.niddk.nih.gov/health-information/weight-management/healthy-eating-physical-activity-for-life/helping-your-child-tips-for-parents
+  retrieved: '2026-11-10'
+- file: sleep-and-rest.txt
+  title: NIH/NHLBI, How Much Sleep Is Enough?
+  url: https://www.nhlbi.nih.gov/health/sleep/how-much-sleep
+  retrieved: '2026-11-10'
+- file: moving-and-playing.txt
+  title: U.S. Department of Health and Human Services, Physical Activity Guidelines for Americans, second
+    edition (2018)
+  url: https://odphp.health.gov/sites/default/files/2019-09/Physical_Activity_Guidelines_2nd_edition.pdf
+  retrieved: '2026-11-10'
+- file: coughs-sneezes-and-shared-air.txt
+  title: CDC, Hygiene and Respiratory Viruses Prevention
+  url: https://www.cdc.gov/respiratory-viruses/prevention/hygiene.html
+  retrieved: '2026-11-10'
+- file: periods-and-personal-hygiene.txt
+  title: 'CDC, Healthy Habits: Menstrual Hygiene'
+  url: https://www.cdc.gov/hygiene/about/menstrual-hygiene.html
+  retrieved: '2026-11-10'
+- file: when-you-feel-ill.txt
+  title: CDC, When Students or Staff are Sick
+  url: https://www.cdc.gov/children-and-school-preparedness/infection-prevention/when-sick.html
+  retrieved: '2026-11-10'
+- file: medicines-and-household-cleaners.txt
+  title: CDC, Up and Away Campaign Resources
+  url: https://www.cdc.gov/medication-safety/php/toolkit/index.html
+  retrieved: '2026-11-10'
