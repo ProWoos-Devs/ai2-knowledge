@@ -10,16 +10,16 @@ This Knowledge Pack explains the building blocks of mathematics for children age
 
 HOW TO SEARCH THIS PACK
 
-Ask your question in normal everyday words. For example, you can type "how do I add fractions", "what is place value", "difference between perimeter and area", or "how to read an analog clock". The search will bring you the exact explanation that answers your question.
+Ask your question in normal everyday words. For example, you can type "what is a numerator", "what is place value", "difference between perimeter and area", or "how to read an analog clock". The search will bring you the topic that best matches your question.
 
 TOPICS IN THIS PACK
 
 Numbers and Arithmetic:
 - Counting, digits and place value (how numbers are built with ones, tens and hundreds)
-- Addition and combining (putting numbers together and carrying over)
-- Subtraction and finding difference (taking away and borrowing)
-- Multiplication and equal groups (times tables, arrays and patterns)
-- Division and sharing (sharing into equal piles and handling remainders)
+- Addition and combining numbers (putting numbers together and carrying over)
+- Subtraction, taking away and finding difference (borrowing and checking)
+- Multiplication, equal groups and times tables (arrays and patterns)
+- Division, sharing equally and remainders (sharing into equal piles)
 
 Fractions and Decimals:
 - Fractions and parts of a whole (halves, thirds, quarters, numerators and denominators)
@@ -29,8 +29,8 @@ Fractions and Decimals:
 
 Shapes and Measurement:
 - Shapes in 2D and 3D geometry (sides, corners, faces and edges)
-- Perimeter and area (measuring boundaries and flat space inside)
-- Measuring length, mass and volume (meters, kilograms, liters and metric prefixes)
+- Perimeter and area of flat shapes (measuring boundaries and flat space inside)
+- Measuring length, mass, weight and volume (meters, kilograms, liters and metric prefixes)
 - Telling time, clocks and the calendar (reading clock hands, hours, minutes and dates)
 
 TIPS FOR LEARNING MATH

@@ -2,7 +2,7 @@
 
 Forces, gravity, friction, energy, simple machines, states of matter, heat, light, sound, electricity, magnets and floating for children ages 6 to 12 (`school-age` and `preteen`), written for study and reference on an AI-2 machine with no connection.
 
-Written rather than extracted, and not from any one source or school program. No teacher or physicist has reviewed it.
+Written rather than extracted, and not from any one source or school program. Every topic was read twice, the second time by an independent reader who had not seen the first corrections. No teacher or physicist has reviewed it.
 
 There are no telephone numbers here, or in any Knowledge Pack.
 

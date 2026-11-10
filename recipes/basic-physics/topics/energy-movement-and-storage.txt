@@ -1,6 +1,6 @@
 Energy, movement and storage
 
-Search terms: energy, kinetic energy, potential energy, stored energy, conservation of energy, movement energy, heat energy, forms of energy.
+Search terms: energy, kinetic energy, potential energy, stored energy, conservation of energy, movement energy, heat energy, forms of energy, joules, types of energy, roller coaster, food energy, fuel, wind-up toy, spring.
 
 Written for AI-2. Directed to children, parents and teachers.
 
@@ -10,15 +10,15 @@ Energy is the ability to do work, cause movement, or create change in the physic
 
 THE TWO MAIN FAMILIES OF ENERGY
 
-Energy comes in many forms, but they all fall into two broad families:
-1. Kinetic energy: The energy of moving objects. Anything that is moving has kinetic energy. A rolling bowling ball, a flying bird, rushing river water, and the blowing wind all have kinetic energy. The faster and heavier an object is, the more kinetic energy it carries.
+Energy comes in many forms. Two broad families are a good place to start:
+1. Kinetic energy: The energy of moving objects. Anything that is moving has kinetic energy. A rolling bowling ball, a flying bird, rushing river water, and the blowing wind all have kinetic energy. The faster an object moves and the more mass it has, the more kinetic energy it carries.
 2. Potential energy: Energy that is stored and waiting to be released later.
 
 COMMON TYPES OF STORED (POTENTIAL) ENERGY
 
-- Gravitational potential energy: Energy stored in an object because of its height above the ground. A rollercoaster car paused at the very peak of a steep hill has lots of gravitational potential energy. When it plunges downward, that stored energy transforms into rushing kinetic energy.
-- Elastic potential energy: Energy stored in something that is stretched or squashed, like a pulled slingshot rubber band or a compressed mattress spring.
-- Chemical energy: Energy stored inside the chemical bonds of food, wood, coal, and batteries. When you eat an apple, your body digests it and releases chemical energy to power your muscles.
+- Gravitational potential energy: Energy stored in an object because of its height above the ground. A roller coaster car paused at the very peak of a steep hill has lots of gravitational potential energy. When it plunges downward, that stored energy transforms into rushing kinetic energy.
+- Elastic potential energy: Energy stored in something that is stretched or squashed, like a pulled slingshot rubber band, a compressed mattress spring, or the wound-up spring inside a toy car. When the spring unwinds, its stored energy turns into the movement of the toy.
+- Chemical energy: Energy stored in substances such as food, wood, coal, and the chemicals inside batteries. It is released when those substances react, for example when wood burns in air. When you eat an apple, your body digests it and releases chemical energy to power your muscles.
 
 OTHER FORMS OF ENERGY YOU MEET EVERY DAY
 

@@ -1,6 +1,6 @@
 Shapes in 2D and 3D geometry
 
-Search terms: shapes, geometry, 2D shapes, 3D shapes, circles, triangles, squares, rectangles, cubes, spheres, vertices, edges, faces, sides.
+Search terms: shapes, geometry, 2D shapes, 3D shapes, circles, triangles, squares, rectangles, cubes, spheres, vertices, edges, faces, sides, corners, polygon, pentagon, hexagon, cone, cylinder, pyramid, ball, box.
 
 Written for AI-2. Directed to children, parents and teachers.
 
@@ -8,7 +8,7 @@ FLAT (2D) SHAPES
 
 Two-dimensional (2D) shapes are completely flat shapes that have only length and width, with no thickness. You can draw them on a flat piece of paper.
 - Circle: A perfectly round curved shape where every point along the curved boundary is the exact same distance from the center. It has no straight sides and no corners.
-- Triangle: A polygon with 3 straight sides and 3 corners (called vertices). Triangles can have equal sides (equilateral), two equal sides (isosceles), or three different sides (scalene).
+- Triangle: A polygon (a flat closed shape with straight sides) with 3 straight sides and 3 corners (called vertices). Triangles can have three equal sides (equilateral), two equal sides (isosceles), or three different sides (scalene).
 - Square: A 4-sided polygon where all 4 sides are exactly equal in length, and all 4 corners are square right angles (90 degrees).
 - Rectangle: A 4-sided polygon with 4 square right angles, where opposite sides are equal in length.
 - Pentagon: A polygon with 5 straight sides and 5 vertices.
@@ -27,5 +27,5 @@ PARTS OF A 3D SHAPE: FACES, EDGES AND VERTICES
 
 - Face: A flat or curved surface that forms the outer skin of the shape.
 - Edge: The straight line where two flat faces meet.
-- Vertex (plural: vertices): A sharp corner where three or more edges come together to form a point.
+- Vertex (plural: vertices): A sharp point or corner. On a shape with flat faces it is where three or more edges come together. The tip of a cone is also called a vertex.
 A die for board games (which is a cube) has 6 faces, 12 edges and 8 vertices.

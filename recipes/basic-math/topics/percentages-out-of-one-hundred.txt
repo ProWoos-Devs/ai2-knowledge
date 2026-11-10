@@ -1,6 +1,6 @@
 Percentages and parts out of one hundred
 
-Search terms: percentages, percent, percent sign, parts per hundred, out of 100, finding fifty percent, finding ten percent, discounts.
+Search terms: percentages, percent, percent sign, parts per hundred, out of 100, finding fifty percent, finding ten percent, discounts, percentage, % sign, half price.
 
 Written for AI-2. Directed to children, parents and teachers.
 
@@ -12,6 +12,7 @@ EVERYDAY EXAMPLES OF PERCENTAGES
 
 - Battery level: A tablet or phone showing 100% has a completely full battery. At 50%, half the battery charge has been used. At 10%, only a small tenth of charge is left.
 - Test scores: Getting 80% on a test means you got 80 points right out of every 100 points.
+- Store discounts: 50% off means half the price comes off. 10% off a toy that costs 20 coins takes 2 coins off, so you pay 18.
 - Weather: A 0% chance of rain means no rain is expected; a 100% chance means rain is certain.
 
 KEY PERCENTAGES TO REMEMBER
@@ -25,8 +26,9 @@ KEY PERCENTAGES TO REMEMBER
 
 HOW TO FIND A PERCENTAGE OF A NUMBER
 
-To find a percentage quickly in your head, use the 10% and 50% benchmarks as stepping stones:
+To find a percentage quickly in your head, use 10% as a stepping stone:
 - To find 20% of 60: Find 10% first (60 ÷ 10 = 6), then double it (6 x 2 = 12).
 - To find 5% of 60: Find 10% first (6), then take half of that (3).
 - To find 15% of 60: Add 10% (6) and 5% (3) together to get 9.
+- To find 12% of 60: Add 10% (6) and two lots of 1% (0.6 + 0.6 = 1.2) to get 7.2.
 Building percentages from 10% and 1% allows you to solve almost any everyday percentage question without complex formulas.

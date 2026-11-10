@@ -1,6 +1,6 @@
 Heat, temperature and conduction
 
-Search terms: heat, temperature, thermal energy, conduction, convection, radiation, thermal insulators, conductors, degrees Celsius, thermometers.
+Search terms: heat, temperature, thermal energy, conduction, convection, radiation, thermal insulators, conductors, degrees Celsius, thermometers, hot and cold, keeping warm, insulation, why metal feels hot.
 
 Written for AI-2. Directed to children, parents and teachers.
 
@@ -17,11 +17,11 @@ Heat energy naturally flows from a warmer object to a cooler object until both r
 
 THE THREE WAYS HEAT TRAVELS
 
-1. Conduction: Heat traveling directly through solid materials by touch. Fast, jiggling particles bump into their cooler neighbors, passing the vibration down the line. Leaving a metal spoon in a pot of hot soup makes the handle hot through conduction.
+1. Conduction: Heat traveling through a material, or between materials that touch. It works best in solids. Fast, jiggling particles bump into their cooler neighbors, passing the vibration down the line. Leaving a metal spoon in a pot of hot soup makes the handle hot through conduction.
 2. Convection: Heat traveling through liquids and gases by circulating currents. Warm liquid or air expands, becomes less dense, and rises upward, while cooler fluid sinks down to replace it. This is why warm air rises to the ceiling of a heated room.
-3. Radiation: Heat traveling across empty space as invisible infrared light waves. Heat from the Sun travels 150 million kilometers through the freezing vacuum of space to warm the Earth through radiation.
+3. Radiation: Heat traveling as light waves, both the light we see and invisible infrared waves. These waves can cross empty space. The Sun's energy travels 150 million kilometers through the vacuum of space and warms the Earth through radiation.
 
 THERMAL CONDUCTORS AND INSULATORS
 
 - Thermal conductors: Materials that let heat flow through them quickly and easily. Metals like copper, aluminum, and iron are excellent heat conductors, which is why cooking frying pans are made of metal.
-- Thermal insulators: Materials that block or slow down the transfer of heat. Wood, plastic, rubber, wool, feathers, and trapped air are superb insulators. This is why pan handles are wrapped in heat-resistant plastic or wood, winter coats are filled with fluffy down, and vacuum flasks keep drinks hot for hours.
+- Thermal insulators: Materials that block or slow down the transfer of heat. Wood, plastic, rubber, wool, feathers, and trapped air are superb insulators. This is why pan handles are wrapped in heat-resistant plastic or wood and winter coats are filled with fluffy down. A vacuum flask keeps drinks hot for hours because the gap between its two walls has almost no air, so there are very few particles to carry the heat away.

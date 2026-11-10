@@ -1,13 +1,13 @@
 Measuring length, mass, weight and volume
 
-Search terms: measurement, metric units, measuring length, measuring weight, measuring liquid volume, centimeters, meters, grams, kilograms, liters.
+Search terms: measurement, metric units, measuring length, measuring weight, measuring liquid volume, centimeters, meters, grams, kilograms, liters, mass, weight, how long, how heavy, how much liquid, millimeters, kilometers, milliliters, ton.
 
 Written for AI-2. Directed to children, parents and teachers.
 
 THE METRIC SYSTEM AND PREFIXES
 
 The metric system is the worldwide system of measurement based on tens, hundreds and thousands. Because it uses powers of ten, changing between metric units is done simply by multiplying or dividing by 10, 100 or 1,000.
-Three important prefixes appear in every metric measurement:
+Three prefixes are used very often in metric measurements:
 - Milli- means one thousandth (1/1,000). A millimeter is one thousandth of a meter.
 - Centi- means one hundredth (1/100). A centimeter is one hundredth of a meter.
 - Kilo- means one thousand (1,000). A kilometer is one thousand meters.
@@ -15,7 +15,7 @@ Three important prefixes appear in every metric measurement:
 MEASURING LENGTH AND DISTANCE
 
 Length tells you how long, tall or wide an object is, or how far apart two places are.
-- Millimeter (mm): Very tiny, about the thickness of a plastic card or fingernail.
+- Millimeter (mm): Very tiny, about the thickness of a plastic bank card.
 - Centimeter (cm): About the width of your pinky finger. 10 mm = 1 cm.
 - Meter (m): About one long adult step or the width of a doorway. 100 cm = 1 m.
 - Kilometer (km): Used for long road trips and distance between towns. 1,000 m = 1 km. A walk of 10 to 15 minutes is about 1 kilometer.
@@ -31,6 +31,6 @@ Mass measures how much matter is inside an object. In everyday speech people cal
 MEASURING LIQUID VOLUME AND CAPACITY
 
 Volume (or capacity) measures how much three-dimensional space a liquid takes up inside a container.
-- Milliliter (ml): A very small amount. A teaspoon holds about 5 ml.
-- Liter (l): A standard milk carton or large reusable water bottle. 1,000 ml = 1 l.
+- Milliliter (mL): A very small amount. A teaspoon holds about 5 mL.
+- Liter (L): A standard milk carton or large reusable water bottle. 1,000 mL = 1 L.
 Water connects the metric system cleanly: 1 liter of pure freshwater has a volume of 1,000 milliliters and weighs almost exactly 1 kilogram.

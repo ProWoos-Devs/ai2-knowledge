@@ -1,6 +1,6 @@
 Color and rainbows
 
-Search terms: color, rainbows, white light, spectrum, prisms, refraction, ROYGBIV, bending light, wavelengths, absorbing colors.
+Search terms: color, rainbows, white light, spectrum, prisms, refraction, ROYGBIV, bending light, wavelengths, absorbing colors, rainbow colors, prism, why leaves are green, straw in water.
 
 Written for AI-2. Directed to children, parents and teachers.
 
@@ -18,7 +18,7 @@ The colors of the rainbow always appear in the exact same order:
 5. Blue
 6. Indigo
 7. Violet
-A popular mnemonic to memorize this order is the name "ROY G. BIV". Each color represents light vibrating at a slightly different wavelength and frequency. Red light has the longest wavelength and bends the least; violet light has the shortest wavelength and bends the most.
+A popular mnemonic to memorize this order is the name "ROY G. BIV". Light travels as waves, and each color is light with a slightly different wavelength (the distance from one wave to the next). Red light has the longest wavelength and bends the least; violet light has the shortest wavelength and bends the most.
 
 REFRACTION: BENDING LIGHT
 

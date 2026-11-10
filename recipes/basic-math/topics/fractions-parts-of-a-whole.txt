@@ -1,6 +1,6 @@
 Fractions and parts of a whole
 
-Search terms: fractions, half, quarter, third, numerator, denominator, equal parts, fraction bar, equivalent fractions, comparing fractions.
+Search terms: fractions, half, quarter, third, numerator, denominator, equal parts, fraction bar, equivalent fractions, comparing fractions, fraction, halves, thirds, fourths, one-fourth, top number, bottom number, pizza slices.
 
 Written for AI-2. Directed to children, parents and teachers.
 
@@ -10,7 +10,7 @@ A fraction shows one or more equal parts of a whole object or group. When you cu
 
 NUMERATOR AND DENOMINATOR
 
-A fraction is written with two numbers separated by a horizontal line called the fraction bar:
+A fraction is written with two numbers, one above the other, separated by a line called the fraction bar. On one line of text the bar is typed as a slash, as in 3/4:
 - The denominator is the bottom number. It tells you the total number of equal parts the whole is divided into.
 - The numerator is the top number. It tells you how many of those equal parts you have or are counting.
 In the fraction 3/4 (three-quarters): 4 is the denominator (the whole has 4 equal parts) and 3 is the numerator (you have 3 of those parts).
@@ -30,5 +30,5 @@ When two fractions have the same numerator (like 1/2 and 1/8), the one with the 
 
 EQUIVALENT FRACTIONS
 
-Equivalent fractions are different fractions that name the exact same amount. If you fold a sheet of paper in half, 1 of the 2 halves (1/2) is shaded. If you fold it again across the middle, the shaded part now has 2 out of 4 equal boxes (2/4). The amount of paper shaded has not changed at all, so 1/2 is equivalent to 2/4.
-You can find an equivalent fraction by multiplying or dividing both the numerator and the denominator by the same number. For 1/2, multiplying top and bottom by 2 gives 2/4; multiplying both by 3 gives 3/6.
+Equivalent fractions are different fractions that name the exact same amount. Fold a sheet of paper in half, open it, and shade one of the 2 halves. Now 1/2 of the paper is shaded. If you fold it again across the middle, the shaded part now has 2 out of 4 equal boxes (2/4). The amount of paper shaded has not changed at all, so 1/2 is equivalent to 2/4.
+You can find an equivalent fraction by multiplying or dividing both the numerator and the denominator by the same number (any number except zero). For 1/2, multiplying top and bottom by 2 gives 2/4; multiplying both by 3 gives 3/6.

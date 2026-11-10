@@ -1,6 +1,6 @@
 Gravity and why things fall
 
-Search terms: gravity, gravitational pull, falling, why things fall down, weight and mass, Moon gravity, Isaac Newton, center of the Earth.
+Search terms: gravity, gravitational pull, falling, why things fall down, weight and mass, Moon gravity, Isaac Newton, center of the Earth, dropping things, do heavy things fall faster, kilograms, astronauts on the Moon.
 
 Written for AI-2. Directed to children, parents and teachers.
 
@@ -16,7 +16,7 @@ MASS VERSUS WEIGHT
 
 Mass and weight are two different scientific concepts that people often mix up in everyday speech:
 - Mass is the amount of physical matter (particles) that an object is made of. Mass is measured in kilograms (kg) and never changes, no matter where you travel in the universe. If your mass is 30 kg on Earth, your mass is still exactly 30 kg on the Moon or floating in space.
-- Weight is the measure of the pulling force of gravity acting on your mass. Weight is measured in newtons (N). Because the Moon has much less mass than Earth, its gravity is only about one-sixth as strong. On the Moon, you would weigh one-sixth of what you weigh on Earth and could jump much higher, even though your body mass is unchanged.
+- Weight is the measure of the pulling force of gravity acting on your mass. Weight is measured in newtons (N). On Earth, each kilogram of mass weighs about 10 newtons, so a child with a mass of 30 kg weighs about 300 newtons. Bathroom scales show kilograms because they are made for use on Earth. Because the Moon has much less mass than Earth, its gravity is only about one-sixth as strong. On the Moon, you would weigh one-sixth of what you weigh on Earth and could jump much higher, even though your body mass is unchanged.
 
 DO HEAVIER THINGS FALL FASTER?
 

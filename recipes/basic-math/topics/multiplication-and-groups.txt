@@ -1,6 +1,6 @@
 Multiplication, equal groups and times tables
 
-Search terms: multiplication, multiplying, times tables, times, multiply, product, equal groups, repeated addition, arrays, doubling.
+Search terms: multiplication, multiplying, times tables, times, multiply, product, equal groups, repeated addition, arrays, doubling, multiplication table, groups of.
 
 Written for AI-2. Directed to children, parents and teachers.
 
@@ -26,5 +26,5 @@ HELPFUL TIMES TABLE STRATEGIES
 - Two times table (2x): Just double the number (2 x 6 is 6 + 6 = 12).
 - Four times table (4x): Double the number and double it again (4 x 5: double 5 is 10, double 10 is 20).
 - Five times table (5x): The answer always ends in either 5 or 0 (5, 10, 15, 20, 25).
-- Ten times table (10x): Move the number one place value column to the left by placing a zero on the end (10 x 7 = 70).
+- Ten times table (10x): Every digit moves one place value column to the left. For a whole number, that is the same as placing a zero on the end (10 x 7 = 70). It does not work that way for decimals: 10 x 2.5 is 25, not 2.50.
 - Nine times table (9x): The tens digit goes up by 1 and the ones digit goes down by 1 (09, 18, 27, 36, 45, 54, 63, 72, 81, 90). Up to 9 x 10, the digits of each answer add up to 9 (1 + 8 = 9, 2 + 7 = 9).

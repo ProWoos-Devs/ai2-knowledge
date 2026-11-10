@@ -1,6 +1,6 @@
 Subtraction, taking away and finding difference
 
-Search terms: subtraction, subtracting, minus, take away, difference, how much more, borrowing, column subtraction, decomposing, regrouping.
+Search terms: subtraction, subtracting, minus, take away, difference, how much more, borrowing, column subtraction, decomposing, regrouping, subtract, how many are left, minus sign.
 
 Written for AI-2. Directed to children, parents and teachers.
 
@@ -16,7 +16,7 @@ Subtraction answers two common questions:
 
 ORDER MATTERS IN SUBTRACTION
 
-Unlike addition, the order of numbers in subtraction cannot be swapped. 9 - 4 equals 5, but 4 - 9 does not equal 5. When working with whole numbers in primary school, the bigger number always comes first.
+Unlike addition, the order of numbers in subtraction cannot be swapped. 9 - 4 equals 5, but 4 - 9 does not equal 5. It goes below zero and equals -5, which the topic on negative numbers explains. In most first subtraction problems the bigger number comes first.
 
 CHECKING SUBTRACTION WITH ADDITION
 

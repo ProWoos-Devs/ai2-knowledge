@@ -1,16 +1,17 @@
 Magnets and magnetism
 
-Search terms: magnets, magnetism, magnetic poles, north and south, attract and repel, magnetic field, iron and steel, compass, Earth magnetic poles.
+Search terms: magnets, magnetism, magnetic poles, north and south, attract and repel, magnetic field, iron and steel, compass, Earth magnetic poles, magnet, fridge magnet, what sticks to a magnet.
 
 Written for AI-2. Directed to children, parents and teachers.
 
 WHAT MAGNETS ARE
 
 A magnet is an object made from magnetic materials that produces an invisible area of magnetic force around itself called a magnetic field. Magnets can pull (attract) certain metals toward themselves or push (repel) other magnets away, without needing to touch them physically.
+Never put a magnet in your mouth. Small strong magnets are very dangerous if swallowed.
 
 MAGNETIC POLES: NORTH AND SOUTH
 
-Every magnet, no matter its size or shape (bar magnet, horseshoe magnet, or flat fridge magnet), has two ends called magnetic poles:
+Every magnet, no matter its size or shape, has two kinds of magnetic pole. On a bar magnet or a horseshoe magnet there is one at each end:
 - The North pole (N)
 - The South pole (S)
 The fundamental rule of magnetism is: Opposite poles attract, and like poles repel.
@@ -32,5 +33,6 @@ Earth has a magnetic North Pole and a magnetic South Pole. This planetary magnet
 HOW A COMPASS WORKS
 
 A navigational compass is simply a lightweight, magnetized needle balanced freely on a sharp central pivot:
-- Because opposite magnetic poles attract, the North-seeking tip of the compass needle automatically aligns with Earth's magnetic field lines and points directly toward the magnetic North Pole.
+- The north-seeking tip of the compass needle lines up with Earth's magnetic field and points roughly north, toward the magnetic North Pole in the Arctic.
+- Here is a puzzle: opposite poles attract, so the pole of Earth's magnet up there is really a south pole. People call that place the magnetic North Pole only because the north ends of compass needles point to it.
 - For centuries, travelers, sailors, hikers, and explorers have relied on compasses to find their way across vast oceans, dense forests, and featureless deserts, day or night, rain or shine.

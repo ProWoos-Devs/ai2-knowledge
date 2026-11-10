@@ -1,6 +1,6 @@
 Floating, sinking and buoyancy
 
-Search terms: floating and sinking, buoyancy, upthrust, density, Archimedes principle, water displacement, why steel ships float, heavy objects floating.
+Search terms: floating and sinking, buoyancy, upthrust, density, Archimedes principle, water displacement, why steel ships float, heavy objects floating, float, sink, boats, why do things float.
 
 Written for AI-2. Directed to children, parents and teachers.
 
@@ -9,7 +9,7 @@ WHY THINGS FLOAT OR SINK
 Whether an object floats on water or sinks to the bottom depends on two physical forces acting in opposite directions:
 1. Gravity: The downward pull of Earth dragging the object down into the water.
 2. Buoyancy (or upthrust): The upward pushing force exerted by water on any object submerged in it.
-If the upward buoyant force is equal to or greater than the object's downward weight, the object floats on the surface. If gravity pulls harder than the water pushes up, the object sinks to the bottom.
+If the water can push up as hard as the object's weight pulls down, the object floats. An object held under water with a bigger upward push rises to the surface, where the two forces become equal. If gravity pulls harder than the water pushes up, the object sinks to the bottom.
 
 WHAT DENSITY MEANS
 
@@ -19,16 +19,16 @@ Density is a measure of how tightly packed the matter (mass) is inside a given a
 The golden rule of floating in liquids is:
 - Objects with a density less than water float.
 - Objects with a density greater than water sink.
-Water has a density of about 1 gram per cubic centimeter. A block of wood has a density of around 0.6 grams per cubic centimeter, so it floats easily, while a typical rock has a density of about 2.5 grams per cubic centimeter and sinks.
+Water has a density of about 1 gram per cubic centimeter. Most wood has a density of around 0.6 grams per cubic centimeter, so it floats easily, while a typical rock has a density of about 2.5 grams per cubic centimeter and sinks.
 
 ARCHIMEDES' PRINCIPLE AND WATER DISPLACEMENT
 
-When you step into a full bathtub, the water level rises because your body pushes water out of the way to make room for itself. This pushed-away water is called displaced water.
+When you step into a bathtub, the water level rises because your body pushes water out of the way to make room for itself. This pushed-away water is called displaced water.
 More than 2,000 years ago, the Greek mathematician Archimedes discovered that the upward buoyant force on an object is exactly equal to the weight of the water displaced by that object.
 
 WHY GIGANTIC STEEL SHIPS FLOAT
 
-A small solid steel bolt sinks straight to the bottom of the ocean, yet massive steel cargo ships weighing 50,000 metric tons float safely across the seas. Why?
+A small solid steel bolt sinks straight to the bottom of the ocean, yet massive steel cargo ships with a mass of 50,000 metric tons float safely across the seas. Why?
 The secret is the shape of the ship's hull:
 - A steel ship is not a solid block of metal. It is designed with a wide, hollow bowl shape filled with huge rooms, cargo holds, and millions of liters of trapped air.
 - Air is extremely light (low density).

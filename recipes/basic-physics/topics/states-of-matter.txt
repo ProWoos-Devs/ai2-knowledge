@@ -1,6 +1,6 @@
 States of matter: solids, liquids and gases
 
-Search terms: states of matter, solids liquids gases, melting, freezing, evaporation, boiling, condensation, particles, water ice steam.
+Search terms: states of matter, solids liquids gases, melting, freezing, evaporation, boiling, condensation, particles, water ice steam, what is matter, atoms, molecules, ice melting, water vapor.
 
 Written for AI-2. Directed to children, parents and teachers.
 
@@ -33,4 +33,5 @@ Matter changes from one state to another when you add or take away heat energy:
 - Freezing (solidifying): Cooling removes heat, turning a liquid into a solid (water freezing into ice).
 - Evaporation and boiling: Adding heat turns a liquid into a gas (water boiling into invisible water vapor at 100 °C at sea level; a puddle drying in the sun is evaporation at a lower temperature).
 - Condensation: Cooling removes heat from a gas, turning it back into a liquid (water vapor meeting a cold bathroom mirror and turning into water droplets).
+The white cloud you see above a boiling kettle is not the gas itself. It is tiny droplets of liquid water that form when the invisible vapor cools in the air.
 Through all these changes, the particles themselves stay the same; only their energy and arrangement change.
