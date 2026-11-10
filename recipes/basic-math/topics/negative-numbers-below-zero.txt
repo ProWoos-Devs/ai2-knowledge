@@ -1,0 +1,30 @@
+Negative numbers and counting below zero
+
+Search terms: negative numbers, below zero, minus numbers, cold temperature, thermometer, number line, subtracting past zero, debt.
+
+Written for AI-2. Directed to children, parents and teachers.
+
+WHAT NEGATIVE NUMBERS ARE
+
+Negative numbers are numbers that are less than zero. They are written with a minus sign (-) placed directly in front of the digit, like -1, -2, -3 and -10. On a horizontal number line, positive numbers lie to the right of zero, while negative numbers stretch out to the left of zero.
+
+EVERYDAY EXAMPLES OF NEGATIVE NUMBERS
+
+- Temperatures: On a cold winter day, when the air is freezing, a thermometer can drop below 0 °C to -5 °C (five degrees below zero).
+- Buildings and elevators: Floors above the street level are positive (1, 2, 3), while underground basements or parking levels are often marked -1 or -2.
+- Owing money (debt): If you want to buy a snack that costs 5 coins but you only have 3, you are short by 2 coins. If a friend lends you the 2 coins, your balance is -2 coins until you pay them back.
+
+READING THE NUMBER LINE
+
+Zero sits right in the middle between positive and negative numbers. Zero is neither positive nor negative.
+As you move to the right on a number line, numbers get larger: -3, -2, -1, 0, 1, 2, 3.
+As you move to the left on a number line, numbers get smaller.
+This means that -1 is actually larger than -5. Think of temperature: -1 °C is cold, but -5 °C is much colder and lower.
+
+ADDING AND SUBTRACTING WITH NEGATIVE NUMBERS
+
+When working on a number line:
+- Adding a positive number means moving to the right (getting warmer or larger). Starting at -3 and adding 5 brings you past zero to +2.
+- Subtracting a positive number means moving to the left (getting colder or smaller). Starting at 2 and subtracting 4 moves you left past zero to -2.
+- Taking away 1 from 0 gives -1. Taking away 1 from -1 gives -2.
+Picturing a thermometer or a person walking along a line makes moving across zero simple and visual.

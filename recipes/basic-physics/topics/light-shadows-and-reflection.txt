@@ -1,0 +1,30 @@
+Light, shadows and reflection
+
+Search terms: light, shadows, reflection, mirrors, straight lines, transparent, translucent, opaque, speed of light, ray of light.
+
+Written for AI-2. Directed to children, parents and teachers.
+
+WHAT LIGHT IS AND HOW IT TRAVELS
+
+Light is a form of radiant energy that allows our eyes to see the world. Light travels in perfectly straight lines called light rays. In empty space or air, light travels at approximately 300,000 kilometers per second, making it the fastest thing known in the universe. It takes just about 8 minutes for sunlight to travel 150 million kilometers to reach Earth.
+
+TRANSPARENT, TRANSLUCENT AND OPAQUE
+
+Different materials treat light rays in three distinct ways:
+1. Transparent: Materials that let almost all light pass straight through without scattering. You can see through them clearly. Examples: clean window glass, clear water, and eyeglass lenses.
+2. Translucent: Materials that let some light through, but scatter the rays in many directions. Light shines through, but you cannot see distinct shapes or details clearly. Examples: frosted bathroom glass, wax paper, and thin white cloth.
+3. Opaque: Materials that completely block light from passing through. No light travels through them. Examples: thick cardboard, brick walls, wooden doors, and metal spoons.
+
+HOW SHADOWS ARE MADE
+
+A shadow is an area of darkness formed when an opaque object blocks light from traveling in straight lines. Because light cannot bend around corners on its own, the region directly behind the blocked object remains unlit.
+- If you move an object closer to a flashlight or lamp, it blocks a wider cone of light rays, casting a larger shadow on the wall.
+- If you move the object farther away from the light, the shadow becomes smaller and sharper.
+- Outdoors, shadows change length throughout the day: long in the early morning and late afternoon when the Sun is low, and short around midday when the Sun is high in the sky.
+
+REFLECTION AND MIRRORS
+
+Reflection occurs when light rays hit a shiny surface and bounce off it, like a rubber ball bouncing off a smooth floor.
+- On a smooth, polished plane mirror, all incoming light rays bounce off neatly at the exact same angle (the angle of incoming light equals the angle of reflected light). This regular reflection produces a crisp, clear image of your face.
+- On a rough wall or paper, light rays bounce off in all sorts of scattered directions (diffuse reflection), which illuminates the room without creating a reflection image.
+A simple periscope uses two mirrors angled at 45 degrees to bounce light down a tube, so you can see over a wall or, from a submarine, above the ocean surface.

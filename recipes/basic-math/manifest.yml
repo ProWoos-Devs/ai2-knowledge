@@ -1,0 +1,8 @@
+id: basic-math
+title: Basic Math for Children
+version: "2026-11-09"
+revision: 1       # raise this for every rebuild you publish, and mirror it in the catalog entry
+languages: [en]
+license: MIT
+attribution: "Written for AI-2 by Rafael Minuesa for children learning basic mathematics. MIT licensed, like the rest of the project."
+modified: "Written as topics for children, cut into parts and embedded for search by AI-2."
