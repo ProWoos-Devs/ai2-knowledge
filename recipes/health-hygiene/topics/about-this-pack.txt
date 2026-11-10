@@ -6,11 +6,11 @@ Written for AI-2. Directed to children, parents and teachers.
 
 WHERE THE TEXT COMES FROM
 
-These topics were written in original wording for children aged 6 to 12, with parents and teachers helping. Their health instructions come from the named CDC, NIH and HHS agency sources. They cover routine hygiene and prevention, not a complete medical manual. No teacher or clinician has reviewed this Knowledge Pack. An AI-assisted reading does not count as a teacher's or clinician's review.
+These topics were written in original wording for children aged 6 to 12, with parents and teachers helping. Their health instructions come from the named CDC, NIH and HHS agency sources. WHO's boiling guidance is compared with CDC's. They cover routine hygiene and prevention, not a complete medical manual. An AI-assisted first reading and an independent AI-assisted second reading have taken place. No teacher or clinician has reviewed this Knowledge Pack.
 
 HOW THE CITATIONS WORK
 
-Each citation gives a short source name and the section used. "Web" means an unpaginated web page. ACTIVITY uses the printed pages of the HHS physical activity guidelines; those are real PDF page references. Sources were checked on 2026-11-10. Their titles below identify them without an Internet connection; the recipe README lists their addresses and reuse terms. The original agency information is available online without charge.
+Each citation gives a short source name and the section used. "Web" means an unpaginated web page. ACTIVITY uses printed pages of the HHS physical activity guidelines; BOIL uses page 1 of WHO's two-page brief. Sources were checked on 2026-11-10. Their titles below identify them without an Internet connection; the recipe README lists their addresses and reuse terms. The original agency information is available online without charge.
 
 CDC SOURCE NAMES
 
@@ -26,8 +26,10 @@ CDC is the United States Centers for Disease Control and Prevention.
 - NAIL: Healthy Habits: Nail Hygiene.
 - PERIOD: Healthy Habits: Menstrual Hygiene.
 - WATER: How to Make Water Safe in an Emergency.
+- YELLOW: Water Disinfection for Travelers, CDC Yellow Book, 2026 edition, Heat section.
 - STORE: How to Create an Emergency Water Supply.
 - FOOD: Preventing Food Poisoning.
+- MILK: Raw Milk, used to explain pasteurization.
 - SLEEPH: About Sleep.
 - PLAY: Child Activity: An Overview.
 - PLAYTYPES: What Counts for Children and Teens.
@@ -35,6 +37,8 @@ CDC is the United States Centers for Disease Control and Prevention.
 - AIR: Everyday Actions for Schools to Prevent and Control the Spread of Infections, page 2 of the school web guidance.
 - SICK: When Students or Staff are Sick, page 3 of the school web guidance.
 - FLU: Signs and Symptoms of Flu, including Emergency Warning Signs of Flu Complications.
+- DIARRHEA: What You Can Do to Prevent Diarrheal Illness After a Disaster.
+- NORO: About Norovirus, used for symptoms and replacing lost fluids.
 - SEIZURE: Epilepsy Basics, used to explain what a seizure is.
 - MEDS: Up and Away Campaign Resources, especially Keep young children safe.
 - BLEACH: Cleaning and Disinfecting with Bleach.
@@ -54,9 +58,11 @@ HHS is the United States Department of Health and Human Services. ACTIVITY means
 
 LIMITS AND LICENSE
 
+BOIL means the World Health Organization (WHO) technical brief Boil water, WHO/FWC/WSH/15.02, 2015, page 1, Scientific basis and Conclusions. It is cited only to compare the factual basis of the two agencies' boiling rules; the brief itself is not included or relicensed.
+
 This Knowledge Pack works offline and cannot correct itself. It supplies no medicine doses, chemical mixing recipes or complete treatment for an ill child. If water, materials or professional help are unavailable, a source's limits remain limits. A missing treatment is not made safe by an offline text.
 
-The original educational writing is MIT licensed, like the AI-2 project. Agency information and public-domain facts remain under their own terms. No agency photographs, logos or source documents are reproduced. Sources and links do not imply endorsement by CDC, NIH, HHS or the United States Government. The agencies did not write this Knowledge Pack. There are no telephone numbers here or in any Knowledge Packs.
+The original educational writing is MIT licensed, like the AI-2 project. Agency information and public-domain facts remain under their own terms. No agency photographs, logos or source documents are reproduced. Sources and links do not imply endorsement by CDC, NIH, HHS, WHO or the United States Government. The agencies did not write this Knowledge Pack. There are no telephone numbers here or in any Knowledge Packs.
 
 FOUND A MISTAKE OR SOMETHING MISSING?
 

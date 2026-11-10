@@ -6,7 +6,7 @@ Written for AI-2. Directed to children, parents and teachers.
 
 FOOD CAN CARRY GERMS
 
-Food poisoning can happen when food carries harmful germs. Raw meat, poultry, seafood and eggs can carry germs. So can unwashed produce and raw dough made with uncooked flour. Cooking and clean handling matter; food does not become safe just because it looks ready to eat. This topic explains everyday habits, not a complete cooking or food-preservation method. [FOOD, Overview, Riskier foods and Cook to the right temperature; web.]
+Food poisoning can happen when food carries harmful germs. Riskier foods include raw or undercooked meat, poultry, seafood, eggs and sprouts; unwashed produce; cut melon; and raw dough made with uncooked flour. They also include unpasteurized milk, juice, cider and soft cheese. Unpasteurized means not given the heat treatment that kills harmful germs; milk straight from an animal is unpasteurized. [FOOD, Overview and Riskier foods; MILK, Overview; web.]
 
 START WITH CLEAN HANDS
 
@@ -18,10 +18,18 @@ Juice from raw meat can carry germs onto food that will not be cooked. Keep raw 
 
 COOKING NEEDS THE RIGHT CHECK
 
-An adult preparing food needs to cook it thoroughly. Meat or poultry being brown on the outside does not show that the inside reached a safe temperature. A food thermometer checks that; this topic does not replace the appropriate temperature instructions for each food. Do not taste raw dough or batter containing uncooked flour or eggs. [FOOD, Riskier foods and Cook to the right temperature; web.]
+For adults cooking food: use a food thermometer to check the temperature inside. The rounded Celsius equivalents of CDC's temperatures are:
+
+- All poultry, including ground chicken or turkey: about 74 °C.
+- Leftovers and casseroles: about 74 °C.
+- Ground beef or pork: about 71 °C.
+- Whole cuts of beef, veal, lamb or pork: about 63 °C, then rest for 3 minutes before cutting or eating.
+- Fish with fins: about 63 °C, or until the flesh is opaque and separates easily with a fork. Opaque means you cannot see through it. [FOOD, Safe internal temperatures for different foods; web.]
+
+Color and texture cannot show that meat or poultry is safely cooked. There is no check without a thermometer given here for these foods. Do not taste raw dough or batter containing uncooked flour or eggs. [FOOD, Cook to the right temperature and Riskier foods; web.]
 
 LEFTOVERS AND NO REFRIGERATOR
 
-Perishable foods are foods that can become unsafe without suitable temperature control, such as meat, milk, cut fruit and cooked leftovers. They need prompt refrigeration: within 2 hours, or within 1 hour when the surrounding temperature is above about 32 °C. The refrigerator should be about 4 °C or colder. These are limits for ordinary storage, not promises that an unknown food is safe until a timer rings. [FOOD, Refrigerate food promptly; web.]
+Perishable foods, such as meat, milk, cut fruit and cooked leftovers, can become unsafe without suitable cooling. Refrigerate them within 2 hours, or within 1 hour when the surrounding temperature is above about 32 °C. Keep the refrigerator at about 4 °C or colder. [FOOD, Refrigerate food promptly; web.]
 
-Without a refrigerator or another way to keep food at a verified safe temperature, a covered bowl in a room does not provide the cooling the guidance requires. Ask an adult about food that has been left out. This source gives no general method for keeping cooked leftovers safely overnight without cooling. Covering food helps with handling; it does not replace temperature control. [FOOD, Refrigerate food promptly and Cook to the right temperature; web.]
+Without refrigeration, do not eat or keep perishable food that has been left out for more than 2 hours, or more than 1 hour in heat above about 32 °C. A cover does not keep food cold. This Knowledge Pack does not explain keeping cooked leftovers overnight without cooling. [FOOD, Refrigerate food promptly; web.]

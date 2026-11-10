@@ -6,24 +6,30 @@ Written for AI-2. Directed to children, parents and teachers.
 
 DESCRIBE WHAT IS HAPPENING
 
-Symptoms are changes you notice when you feel unwell. They can include feeling feverish, a cough, vomiting, loose or watery poop called diarrhea, or unusual tiredness. A child and a helping adult may not know which illness is causing them. Describe what you notice to a parent, teacher or other trusted caregiver instead of having to name a disease first. The same symptom can occur with more than one illness. [SICK, Staying Home When Sick; FLU, Symptoms and Cold versus flu; web.]
+Symptoms are changes you notice when you feel unwell. Tell a parent, teacher or trusted caregiver what you notice: feeling feverish, coughing, vomiting, loose or watery poop called diarrhea, unusual tiredness or a tummy ache. A tummy ache is pain in your belly. It can occur with vomiting or diarrhea, but those symptoms do not tell you which illness you have. You do not have to name a disease before asking for help. [SICK, Staying Home When Sick; FLU, Symptoms; NORO, Signs and symptoms; web.]
 
-Useful details include whether you have vomited repeatedly, whether poop contains blood or causes accidents, and whether a cough is getting worse rather than better. These are among the signs the school guidance considers when deciding whether a child should stay away from a group. They are not a way to decide that every other symptom is harmless. [SICK, Staying Home When Sick; web.]
+DRINKING DURING ILLNESS
+
+With diarrhea or vomiting, keep drinking safe fluids to replace what your body loses and help prevent dehydration; safe water helps, and properly prepared oral rehydration solution also replaces lost salts. [DIARRHEA, What to do if you or your family are ill with diarrhea; NORO, Drink plenty of liquids; web.]
 
 WHEN HELP IS URGENT
 
-CDC lists trouble breathing, bluish lips or face, not being alert or interacting when awake, and seizures as emergency warning signs for flu complications in children. Seek medical help right away for these signs. A seizure is a temporary change in brain activity; it can involve shaking or a loss of awareness, but may look different. These signs are not a diagnosis of flu. [FLU, Emergency Warning Signs of Flu Complications; SEIZURE, Overview and Signs and symptoms; web.]
+For a child with fast breathing, trouble breathing, ribs pulling in with each breath, bluish lips or face, chest pain, a seizure, or not being alert or responding to others while awake: tell an adult and seek medical help right away. CDC lists these as emergency warning signs of flu complications; they do not prove that an illness is flu. [FLU, Emergency Warning Signs of Flu Complications, In children; web.]
 
-Dehydration means the body has lost too much fluid. CDC's emergency warning signs for children include not urinating for 8 hours, a dry mouth or no tears when crying. Seek medical help right away for these signs rather than treating them only as reasons to miss school. The list is not complete: other severe or concerning symptoms also need assessment. [FLU, Emergency Warning Signs of Flu Complications; web.]
+Also seek medical help right away for muscle pain so severe a child refuses to walk; fever above 40 °C that is not controlled by fever-reducing medicine; fever or cough that improves but then returns or worsens; or a long-term medical condition getting worse. These are more of CDC's emergency warning signs for children. [FLU, Emergency Warning Signs of Flu Complications, In children; web.]
+
+Dehydration means losing too much body fluid. Not urinating for 8 hours, a dry mouth or no tears when crying also need medical help right away. A seizure is a temporary change in brain activity that can involve shaking or loss of awareness. Other severe or worrying symptoms need medical assessment too. [FLU, Emergency Warning Signs of Flu Complications; SEIZURE, Overview and Signs and symptoms; web.]
 
 AVOID SPREADING AN INFECTION
 
-An adult should keep a child away from group learning when illness prevents comfortable participation or the child's care needs cannot be met there. Wash hands after the toilet and after coughing, sneezing or blowing the nose. Cover coughs with a tissue or elbow. These habits help protect other people even when the illness has no known name. [SICK, Staying Home When Sick; HAND, Key times to wash hands; COUGH, Steps you can take; web.]
+For adults: keep a child home from group learning with fever, including fever with a new rash; vomiting more than twice in the previous 24 hours; diarrhea causing accidents, containing blood or causing more than 2 extra bowel movements above the child's usual number in 24 hours; draining skin sores that cannot be covered; or breathing-related symptoms that worsen or fail to improve, unless another cause such as allergies explains them. A child also needs to stay home if unable to take part comfortably or needing more care than staff can provide. [SICK, Staying Home When Sick; web.]
 
-Returning depends on the illness and recovery, not only on a child wanting to join a game. For example, CDC's general school guidance requires at least 24 hours without a fever and without fever-reducing medicine. Bloody diarrhea or a fever with a new rash needs medical assessment before returning. Those school rules are not medical clearance for every illness. When the required medical assessment cannot be reached, this text cannot declare it safe to return. [SICK, Return to School; web.]
+Returning depends on the illness and recovery. For example, CDC's general school guidance requires at least 24 hours without fever and without fever-reducing medicine. Bloody diarrhea or fever with a new rash needs medical assessment before returning. Meeting a school rule does not mean every illness is cured. If a required assessment is unavailable, this Knowledge Pack cannot say that returning is safe. [SICK, Return to School; web.]
+
+Wash hands after the toilet and after coughing, sneezing or blowing your nose. Cover coughs with a tissue or elbow. [HAND, Key times to wash hands; COUGH, Steps you can take; web.]
 
 MEDICINES AND UNAVAILABLE HELP
 
-Do not take a medicine on your own. A trusted caregiver must handle it. If a child may have swallowed an unintended medicine, get help immediately, even if no symptoms have appeared. [MEDS, Keep young children safe; web.]
+Do not take medicine on your own. A trusted caregiver must give it. If a child might have taken an unintended medicine, vitamin or supplement, get help immediately, even if you are not completely sure. [MEDS, Keep young children safe; web.]
 
-This topic gives no diagnosis, dose or home-treatment recipe. If professional help cannot be reached, the urgent signs remain urgent; an offline text cannot make those conditions safe or replace the treatment they may need.
+This Knowledge Pack gives no medicine doses or rehydration recipes. If medical help cannot be reached, the urgent signs still need treatment that these texts cannot provide.
