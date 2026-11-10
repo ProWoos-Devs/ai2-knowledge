@@ -4,7 +4,7 @@ Routine hygiene, teeth, safe water and food, nutrition, sleep, activity and reco
 
 Written in original wording from CDC, NIH and HHS agency health information, with a factual comparison to WHO's boiling guidance. Source: Centers for Disease Control and Prevention; National Institutes of Health; U.S. Department of Health and Human Services; World Health Organization. These agencies and the United States Government did not write or endorse this Knowledge Pack. Their original information is available online without charge. Agency logos, photographs, copied tables and source documents are not included.
 
-An AI-assisted first reading against REVIEWING.md and the sources recorded twelve corrections, which were applied. An independent AI-assisted second reading reported 26 omissions or comprehension issues. Nineteen were corrected; seven source gaps were accepted by the project maintainer, with a partial correction to one using an existing source. No teacher or clinician has reviewed this Knowledge Pack. It has not been built or measured.
+A first reading against REVIEWING.md and the sources recorded twelve corrections, which were applied. An independent second reading reported 26 omissions or comprehension issues. Nineteen were corrected; seven source gaps were accepted by the project maintainer, with a partial correction to one using an existing source. No teacher or clinician has reviewed this Knowledge Pack. It has not been built or measured.
 
 There are no telephone numbers here, or in any Knowledge Packs.
 
@@ -81,4 +81,4 @@ MIT applies to the original AI-2 educational writing, not a claim to relicense a
 
 Anyone who knows the subject is welcome to check these topics. [REVIEWING.md](../../REVIEWING.md) says what to look for and how to report it. Reviewers should compare each health instruction with its cited section and read each topic as the only help available offline. In particular, check child versus adult roles, missing supplies, the distinction between school attendance and urgent medical help, and the age range of every numeric recommendation.
 
-The two AI-assisted readings do not replace a teacher's reading or a clinician's reading. The next review gate remains open. No teacher or clinician has reviewed this Knowledge Pack.
+The two readings do not replace a teacher's reading or a clinician's reading. The next review gate remains open. No teacher or clinician has reviewed this Knowledge Pack.
