@@ -54,3 +54,7 @@ Both are visible in `flags.txt` on every rebuild, so they get looked at rather t
 ## Measured
 
 196 entries, 9,733 words, a 580 KB pack. An outside question set of 20 (written by someone who had not read the entries) was answered 20 times out of 20 with the right entry first on revision 2, 17 direct questions and 3 reverse ones. On revision 3, the 18 questions that do not ask for a calling code still find the right entry first. An earlier in-house set of 10 reverse questions scored 8 of 10 by meaning alone and 9 of 10 by keyword search, failing different ones, which is why a facts pack wants both.
+
+## Reviewing
+
+Anyone is welcome to check this Knowledge Pack. Its entries are generated from Wikidata, so there are no topic files to read here, and the things to check are the rules and the list above. [REVIEWING.md](../../REVIEWING.md) says how to report what you find.

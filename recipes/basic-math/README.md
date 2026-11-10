@@ -24,3 +24,7 @@ An outside question set of 20, written by someone who had seen only the list of 
 - Each section says the thing first in plain words, then shows it with a worked example from everyday life (sharing fruit, folding paper, measuring a room).
 - Search shows passages of about 110 words, so each section is written to be understood without the ones before it. A number opens the whole topic.
 - Metric units only. Decimals are written with a point and thousands with a comma, and the About topic says that many countries do it the other way round.
+
+## Reviewing
+
+Anyone who knows the subject is welcome to check these topics. [REVIEWING.md](../../REVIEWING.md) says what to look for and how to report it.

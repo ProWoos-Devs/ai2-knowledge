@@ -22,3 +22,7 @@ ai-2 knowledge export first-aid --manifest manifest.yml -o first-aid.ai2pack
 ## Measured
 
 An outside question set of 20, written by someone who had seen only the list of topic titles: top-1 14/20, top-3 19/20. The misses are mostly ones where a topic for another age or Drowning came first, and one question ("found my mum on the floor, she's snoring and breathing ok but i can't wake her") did not reach the right topic in the top three.
+
+## Reviewing
+
+Anyone who knows the subject is welcome to check these topics. [REVIEWING.md](../../REVIEWING.md) says what to look for and how to report it.

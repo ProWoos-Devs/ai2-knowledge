@@ -25,3 +25,7 @@ An outside question set of 20, written by someone who had seen only the list of 
 - Search shows passages of about 110 words, so each section is written to be understood without the ones before it. A number opens the whole topic.
 - Metric units only (meters, kilograms, newtons, joules, degrees Celsius).
 - The only electricity a topic invites a child to handle is a 1.5 volt battery. Wall sockets are named as dangerous and never part of an experiment.
+
+## Reviewing
+
+Anyone who knows the subject is welcome to check these topics. [REVIEWING.md](../../REVIEWING.md) says what to look for and how to report it.

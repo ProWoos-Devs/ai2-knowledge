@@ -22,3 +22,7 @@ ai-2 knowledge export ai2-help --manifest manifest.yml -o ai2-help.ai2pack
 ## Measured
 
 An outside question set of 20: top-1 18/20, top-3 20/20, against 17/20 and 18/20 with the wiki pages alone.
+
+## Reviewing
+
+Anyone who knows the subject is welcome to check these topics. [REVIEWING.md](../../REVIEWING.md) says what to look for and how to report it.

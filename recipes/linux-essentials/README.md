@@ -22,3 +22,7 @@ ai-2 knowledge export linux-essentials --manifest manifest.yml -o linux-essentia
 ## Measured
 
 An outside question set of 20, written by someone who had not read the topics: top-1 19/20, top-3 20/20. The first run, before three subjects were written, scored 17/20.
+
+## Reviewing
+
+Anyone who knows the subject is welcome to check these topics. [REVIEWING.md](../../REVIEWING.md) says what to look for and how to report it.
