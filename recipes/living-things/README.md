@@ -15,6 +15,12 @@ ai-2 doc index --in living-things --embedder nomic-embed-text-v1.5 topics/*.txt
 ai-2 knowledge export living-things --manifest manifest.yml -o living-things.ai2pack
 ```
 
+## Measured
+
+Built on 2026-11-11 with ai-2 0.29.1: 16 documents, 105 parts. An outside question set, written by someone who had seen only the list of the 14 subject topic titles, searched with `ai-2 doc search` on the built Knowledge Pack. Twenty questions were asked for and 21 came back; all 21 were kept and none was changed: top-1 16/21, top-3 20/21.
+
+The five that did not come first: "how does a cut on my knee heal by itself" did not find the cells topic in the top three; "how do plants drink water from the ground" found the roots topic second, after habitats; "why do camels have humps" found the habitats topic second, after animal groups; "how do polar bears stay warm in the snow" found it third; and "how does my hand know to pull away from something hot so fast" found the nervous system topic second, after lungs. No topic mentions camels or polar bears.
+
 ## House style
 
 - Every topic says "Written for AI-2. Directed to children, parents and teachers."
@@ -122,4 +128,4 @@ Anyone who knows the subject is welcome to check these topics.
 
 Follow [REVIEWING.md](../../REVIEWING.md) for every reading. Compare factual statements with their cited sections, including the saved copies when a source site cannot be opened. Check exceptions to simple rules, child-level definitions, organism versus life-stage distinctions, food-web arrow direction and the separate paths of air, blood and food. The independent second reading took place on 2026-11-11 and its findings have been applied. The [content review](https://github.com/ProWoos-Devs/ai2-knowledge/issues/25) took place on 2026-11-11 and its four findings have been applied.
 
-No teacher or clinician has reviewed this Knowledge Pack. No search measurement has been made.
+No teacher or clinician has reviewed this Knowledge Pack.
