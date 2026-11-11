@@ -1,0 +1,73 @@
+id: living-things
+title: Living Things and the Human Body for Children
+version: '2026-11-11'
+revision: 1
+languages:
+- en
+license: MIT
+attribution: 'Original educational writing for the ProWoos-Devs AI-2 project, from factual references
+  by the U.S. National Park Service, U.S. Fish & Wildlife Service, USDA, NOAA and NIH. No claim to original
+  U.S. Government works. The agencies and the United States Government did not write or endorse this Knowledge
+  Pack. Source: National Heart, Lung, and Blood Institute; National Institutes of Health; U.S. Department
+  of Health and Human Services. Courtesy: National Eye Institute, National Institutes of Health (NEI/NIH).
+  NLM MeSH facts are from entries retrieved on 2026-11-11; this offline writing does not reflect later
+  changes. MIT applies to the original writing, not to source documents or data.'
+modified: Facts explained in original wording for children, with source and section citations, cut into
+  parts and embedded for search by AI-2.
+sources:
+- file: living-and-nonliving-things.txt
+  title: National Park Service, Alive in Dyke Marsh
+  url: https://www.nps.gov/teachers/classrooms/alive-in-dyke-marsh.htm
+  retrieved: '2026-11-11'
+- file: cells-growth-and-repair.txt
+  title: NIH/NCI SEER, Cell Structure & Function
+  url: https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/cells/
+  retrieved: '2026-11-11'
+- file: roots-stems-and-leaves.txt
+  title: National Park Service, Plant Adaptations
+  url: https://www.nps.gov/teachers/classrooms/plant-adaptations.htm
+  retrieved: '2026-11-11'
+- file: flowers-seeds-and-new-plants.txt
+  title: U.S. Fish & Wildlife Service, Attracting Pollinators to Your Garden (2011)
+  url: https://www.govinfo.gov/content/pkg/GOVPUB-I49-PURL-gpo58962/pdf/GOVPUB-I49-PURL-gpo58962.pdf
+  retrieved: '2026-11-11'
+- file: animal-groups.txt
+  title: National Park Service, Mammals of the Everglades
+  url: https://www.nps.gov/ever/learn/kidsyouth/mammals-of-the-everglades.htm
+  retrieved: '2026-11-11'
+- file: animal-life-cycles.txt
+  title: National Park Service, Monarch Butterfly, Featured Creature
+  url: https://www.nps.gov/articles/000/monarch-butterfly-featured-creature.htm
+  retrieved: '2026-11-11'
+- file: habitats-and-adaptations.txt
+  title: National Park Service, Home Sweet Home, third-grade activity guide
+  url: https://www.nps.gov/common/uploads/teachers/lessonplans/Home%20Sweet%20Home%20Activity%20Guide.pdf
+  retrieved: '2026-11-11'
+- file: food-chains-webs-and-decomposers.txt
+  title: NOAA, Aquatic food webs
+  url: https://www.noaa.gov/education/resource-collections/marine-life/aquatic-food-webs
+  retrieved: '2026-11-11'
+- file: senses-and-the-world-around-you.txt
+  title: NIH/NEI, How the Eyes Work
+  url: https://www.nei.nih.gov/eye-health-information/healthy-vision/how-eyes-work
+  retrieved: '2026-11-11'
+- file: brain-spinal-cord-and-nerves.txt
+  title: NIH/NCI SEER, Introduction to the Nervous System
+  url: https://training.seer.cancer.gov/anatomy/nervous/
+  retrieved: '2026-11-11'
+- file: bones-joints-and-muscles.txt
+  title: NIH/NCI SEER, Introduction to the Skeletal System
+  url: https://training.seer.cancer.gov/anatomy/skeletal/
+  retrieved: '2026-11-11'
+- file: heart-blood-and-circulation.txt
+  title: NIH/NHLBI, How the Heart Works, The Heart
+  url: https://www.nhlbi.nih.gov/health/heart
+  retrieved: '2026-11-11'
+- file: lungs-and-breathing.txt
+  title: NIH/NHLBI, How the Lungs Work, The Lungs
+  url: https://www.nhlbi.nih.gov/health/lungs
+  retrieved: '2026-11-11'
+- file: food-and-digestion.txt
+  title: NIH/NIDDK, Your Digestive System & How it Works
+  url: https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works
+  retrieved: '2026-11-11'
