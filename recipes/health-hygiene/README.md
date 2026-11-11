@@ -19,6 +19,8 @@ ai-2 knowledge export health-hygiene --manifest manifest.yml -o health-hygiene.a
 
 Built on 2026-11-10 with ai-2 0.29.0: 17 documents, 107 parts. An outside question set of 20, written by someone who had seen only the list of the 15 subject topic titles, searched with `ai-2 doc search` on the built Knowledge Pack: top-1 19/20, top-3 20/20. No question was changed. The one that did not come first ("We have no soap at school this week. What can the children use to clean their hands before eating?") found the hand washing topic second, after the toilet topic.
 
+Revision 2, built on 2026-11-11 with ai-2 0.29.1 after the urgent signs with vomiting or diarrhea were completed in "When you feel ill": 17 documents, 110 parts. The same 20 questions, none changed: top-1 19/20, top-3 20/20, with the same question second.
+
 ## House style
 
 - One subject per file, first line the title, then the search terms people would type.
