@@ -37,4 +37,4 @@ SOURCES AND REVIEW
 
 Square brackets identify sources and sections. "Web" means an unpaginated web page. PDF and printed page numbers are labeled separately. The About topic identifies the source codes without needing a connection. The original educational writing is MIT licensed. Source organizations did not write or endorse this Knowledge Pack.
 
-A first reading has been completed. An independent second reading took place on 2026-11-11 and its findings have been applied. The content review has not taken place. No teacher or clinician has reviewed this Knowledge Pack. These are explanations of biology and anatomy, not instructions for diagnosing illness or choosing treatment.
+A first reading has been completed. An independent second reading took place on 2026-11-11 and its findings have been applied. A content review took place on 2026-11-11 and its four findings have been applied. No teacher or clinician has reviewed this Knowledge Pack. These are explanations of biology and anatomy, not instructions for diagnosing illness or choosing treatment.

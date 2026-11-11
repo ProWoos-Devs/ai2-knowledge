@@ -8,11 +8,11 @@ WHERE THE TEXT COMES FROM
 
 These fourteen subject topics explain living things and the human body for children aged 6 to 12, with parents and teachers helping. Start here and About are two additional topics. The explanations were written in original wording from the agency sources named below. Paper examples were written for this Knowledge Pack. It does not follow one country's school program or supply a complete biology course.
 
-A first reading has been completed. An independent second reading took place on 2026-11-11 and its findings have been applied. The content review has not taken place. No teacher or clinician has reviewed this Knowledge Pack.
+A first reading has been completed. An independent second reading took place on 2026-11-11 and its findings have been applied. A content review took place on 2026-11-11 and its four findings have been applied. No teacher or clinician has reviewed this Knowledge Pack.
 
 READING THE CITATIONS
 
-Square brackets give a source code and a section or page. Web sources are unpaginated; a named section is their locator, not an invented page number. S3 and S29 use PDF page numbers because printed numbers are absent. S30 uses the guide's printed numbers, which differ from the PDF viewer's page count. Sources were consulted on 2026-11-11. Their titles identify them offline; the recipe README has the addresses and reuse details.
+Square brackets give a source code and a section or page. Web sources are unpaginated; a named section is their locator, not an invented page number. S3, S29 and S51 use PDF page numbers because printed numbers are absent. S38 also uses PDF page numbers. S30 uses the guide's printed numbers, which differ from the PDF viewer's page count. Sources were consulted on 2026-11-11. Their titles identify them offline; the recipe README has the addresses and reuse details.
 
 SOURCE KEY
 
@@ -72,12 +72,16 @@ SOURCE KEY
 - S45: NIH/NCI SEER, Blood.
 - S46: National Park Service, Ferns, Guadalupe Mountains.
 - S47: NIH/NCI SEER, Classification & Structure of Blood Vessels.
+- S48: NASA Earth Observatory, Phytoplankton Bloom off California's Channel Islands.
+- S49: U.S. Department of Energy, Scientists Build a Spatial Atlas of the Chloroplast Proteome, the Home of Photosynthesis.
+- S50: NIH/NCI SEER, Tentorium.
+- S51: USDA Forest Service, The Simple Truth: We Can't Live Without Them.
 
 ORIGINAL WRITING AND SOURCE RIGHTS
 
-The original educational writing is MIT licensed. Sources keep their own rights or public-domain status. No claim to original U.S. Government works. The National Park Service, U.S. Fish & Wildlife Service, USDA, NOAA and NIH did not write or endorse this Knowledge Pack. Source documents, artwork, photographs, videos, logos and worksheets are not included.
+The original educational writing is MIT licensed. Sources keep their own rights or public-domain status. No claim to original U.S. Government works. The National Park Service, U.S. Fish & Wildlife Service, USDA, NOAA, NIH, NASA and the U.S. Department of Energy did not write or endorse this Knowledge Pack. Source documents, artwork, photographs, videos, logos and worksheets are not included.
 
-NIH means the United States National Institutes of Health. Its institutes are identified in the source key. Source: National Heart, Lung, and Blood Institute; National Institutes of Health; U.S. Department of Health and Human Services. Courtesy: National Eye Institute, National Institutes of Health (NEI/NIH). Courtesy: National Human Genome Research Institute. NCI and NIDDK provided anatomy and digestion references, NIDCD provided sensory references, and the NIH touch article was written by Sharon Reynolds. NOAA means the National Oceanic and Atmospheric Administration. USDA means the United States Department of Agriculture; NRCS is its Natural Resources Conservation Service.
+NIH means the United States National Institutes of Health. Its institutes are identified in the source key. Source: National Heart, Lung, and Blood Institute; National Institutes of Health; U.S. Department of Health and Human Services. Courtesy: National Eye Institute, National Institutes of Health (NEI/NIH). Courtesy: National Human Genome Research Institute. NCI and NIDDK provided anatomy and digestion references, NIDCD provided sensory references, and the NIH touch article was written by Sharon Reynolds. NOAA means the National Oceanic and Atmospheric Administration. USDA means the United States Department of Agriculture; NRCS is its Natural Resources Conservation Service. NASA means the National Aeronautics and Space Administration. The U.S. Department of Energy supplies the chloroplast reference.
 
 NLM means the National Library of Medicine. The MeSH facts used here are from entries Germination (D018525) and Plant Stems (D018547), retrieved on 2026-11-11. This offline writing does not reflect later changes to those entries. The source dictionary's wording is not reproduced. A rights specialist has not reviewed the source use.
 

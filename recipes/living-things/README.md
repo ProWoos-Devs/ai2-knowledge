@@ -2,9 +2,9 @@
 
 Plants, animals, cells, habitats, food webs, senses and the body's movement, circulation, breathing and digestion for children ages 6 to 12 (`school-age` and `preteen`), with parents and teachers helping. Written for study and reference on an AI-2 machine with no connection. Categories: `'11.09'` Biology; `'13.01'` Anatomy and physiology; `'07.05'` Primary and secondary education. Audience: `children`. Language: English. License: MIT for the original writing. Contact: ProWoos-Devs.
 
-Original educational explanations written from the cited agency facts and educational guidance, with original paper examples. The sources are the U.S. National Park Service, U.S. Fish & Wildlife Service, U.S. Department of Agriculture, National Oceanic and Atmospheric Administration, and National Institutes of Health. These organizations and the United States Government did not write or endorse this Knowledge Pack. Source documents, photographs, illustrations, videos, logos and worksheets are not included.
+Original educational explanations written from the cited agency facts and educational guidance, with original paper examples. The sources are the U.S. National Park Service, U.S. Fish & Wildlife Service, U.S. Department of Agriculture, National Oceanic and Atmospheric Administration, National Institutes of Health, National Aeronautics and Space Administration, and U.S. Department of Energy. These organizations and the United States Government did not write or endorse this Knowledge Pack. Source documents, photographs, illustrations, videos, logos and worksheets are not included.
 
-A first reading has been completed. An independent second reading took place on 2026-11-11 and its findings have been applied. The content review has not taken place. No teacher or clinician has reviewed this Knowledge Pack.
+A first reading has been completed. An independent second reading took place on 2026-11-11 and its findings have been applied. A content review took place on 2026-11-11 and its four findings have been applied. No teacher or clinician has reviewed this Knowledge Pack.
 
 There are no telephone numbers here, or in any Knowledge Packs.
 
@@ -87,6 +87,10 @@ The source codes and titles below also appear in the offline About topic. The ma
 | S45 | [NIH/NCI SEER, Blood](https://training.seer.cancer.gov/anatomy/cardiovascular/blood/) | Blood; web, unpaginated. |
 | S46 | [National Park Service, Ferns, Guadalupe Mountains](https://www.nps.gov/gumo/learn/nature/ferns.htm) | Opening fern description; web, unpaginated. |
 | S47 | [NIH/NCI SEER, Classification & Structure of Blood Vessels](https://training.seer.cancer.gov/anatomy/cardiovascular/blood/classification.html) | Opening explanation; Capillaries; Veins; web, unpaginated. |
+| S48 | [NASA Earth Observatory, Phytoplankton Bloom off California's Channel Islands](https://science.nasa.gov/earth/earth-observatory/phytoplankton-bloom-off-californias-channel-islands-3192/) | Paragraph beginning By measuring the color variations of the ocean; web, unpaginated. |
+| S49 | [U.S. Department of Energy, Scientists Build a Spatial Atlas of the Chloroplast Proteome, the Home of Photosynthesis](https://www.energy.gov/science/ber/articles/scientists-build-spatial-atlas-chloroplast-proteome-home-photosynthesis) | The Science; web, unpaginated. |
+| S50 | [NIH/NCI SEER, Tentorium](https://training.seer.cancer.gov/cns/cns-anatomy/tentorium.html) | Cranial Nerves, especially the trigeminal-nerve entry; web, unpaginated. |
+| S51 | [USDA Forest Service, The Simple Truth: We Can't Live Without Them](https://www.fs.usda.gov/wildflowers/pollinators/documents/simpletruthbrochure.pdf) | PDF p. 3, Why do pollinators visit flowers? and Pollinator Syndrome Traits Table; no printed page number. |
 
 ## Source reuse
 
@@ -106,12 +110,16 @@ The [NLM MeSH terms](https://www.nlm.nih.gov/databases/download/terms_and_condit
 
 [NHGRI’s copyright policy](https://www.genome.gov/about-nhgri/Policies-Guidance/Copyright) permits use of its information unless otherwise marked and requests acknowledgment. Courtesy: National Human Genome Research Institute. The Cell definition supplies facts about plant, animal and bacterial cells; no source illustration or narration is reproduced.
 
+The NASA chlorophyll facts are independently explained with agency credit under its [usage guidance](https://www.nasa.gov/nasa-brand-center/images-and-media/), which permits factual use without implying endorsement and retains exceptions for outside material. The [Department of Energy policy](https://www.energy.gov/web-policies), Copyright, Restrictions and Permissions Notice, identifies government information as public domain, requests acknowledgment and preserves outside-material rights. Only the factual chloroplast explanation is used. No NASA or Department of Energy image, mark or research method is reproduced.
+
+The Forest Service-hosted pollinator brochure is a cooperative publication. Its nectar distinction is used only as independently stated fact; no claim that all its content is government-authored or public domain is made. Its poster, table, artwork and source prose are not reproduced.
+
 MIT applies to the original educational writing. The source publications keep their own rights or public-domain status. A rights specialist has not reviewed this use.
 
 ## Reviewing
 
 Anyone who knows the subject is welcome to check these topics.
 
-Follow [REVIEWING.md](../../REVIEWING.md) for every reading. Compare factual statements with their cited sections, including the saved copies when a source site cannot be opened. Check exceptions to simple rules, child-level definitions, organism versus life-stage distinctions, food-web arrow direction and the separate paths of air, blood and food. The independent second reading took place on 2026-11-11 and its findings have been applied. The separate content review is still required before the recipe pull request.
+Follow [REVIEWING.md](../../REVIEWING.md) for every reading. Compare factual statements with their cited sections, including the saved copies when a source site cannot be opened. Check exceptions to simple rules, child-level definitions, organism versus life-stage distinctions, food-web arrow direction and the separate paths of air, blood and food. The independent second reading took place on 2026-11-11 and its findings have been applied. The [content review](https://github.com/ProWoos-Devs/ai2-knowledge/issues/25) took place on 2026-11-11 and its four findings have been applied.
 
 No teacher or clinician has reviewed this Knowledge Pack. No search measurement has been made.
