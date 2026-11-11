@@ -51,7 +51,7 @@ NIH is the United States National Institutes of Health. Its institutes supply th
 - TEETH: National Institute of Dental and Craniofacial Research, Oral Hygiene.
 - DECAY: The same institute, The Tooth Decay Process: How to Reverse It and Avoid a Cavity.
 - EAT: National Institute of Diabetes and Digestive and Kidney Diseases, Helping Your Child: Tips for Parents & Other Caregivers.
-- GASTRO: The same institute, Symptoms & Causes of Viral Gastroenteritis (“Stomach Flu”), Seek care right away, Infants and children.
+- GASTRO: The same institute, Symptoms & Causes of Viral Gastroenteritis (“Stomach Flu”), What are the symptoms of dehydration? and Seek care right away, Infants and children; plus the linked NIDDK Dictionary definitions of rectum and pus. These are unpaginated web pages.
 - SLEEP: National Heart, Lung, and Blood Institute, How Much Sleep Is Enough?
 - ASTHMA: The same institute, Managing Asthma: A Guide for Schools, revised December 2014, printed pp. 13–14.
 

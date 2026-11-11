@@ -1,6 +1,6 @@
 When you feel ill
 
-Search terms: feel ill, sick, unwell, fever, vomiting, diarrhea, tummy ache, cough, tell an adult, trouble breathing, cannot wake, blood in poop, cannot drink, need help, no doctor.
+Search terms: feel ill, sick, unwell, fever, vomiting, diarrhea, dehydration, tummy ache, cough, tell an adult, trouble breathing, cannot wake, blood in poop, cannot drink, need help, no doctor.
 
 Written for AI-2. Directed to children, parents and teachers.
 
@@ -18,7 +18,7 @@ Seek medical help right away for a child with vomiting or diarrhea who has a cha
 
 Rectal pain means pain in the rectum, the last part of the large intestine, where poop waits before leaving the body. Pus is a thick fluid that looks yellow or white. [GASTRO, linked NIDDK Dictionary definitions, rectum and pus; web.]
 
-With vomiting or diarrhea, thirst, urinating less than usual, little energy, a dry mouth, no tears when crying, sunken eyes or cheeks, or skin that does not quickly flatten back to normal after a pinch is released can be signs of dehydration. Seek medical help right away for these signs; do not wait for 8 hours without urinating. [GASTRO, What are the symptoms of dehydration? and Seek care right away; web.]
+Dehydration means losing too much body fluid. With vomiting or diarrhea, thirst, urinating less than usual, little energy, a dry mouth, no tears when crying, sunken eyes or cheeks, or skin that does not quickly flatten back to normal after a pinch is released can be signs of dehydration. Seek medical help right away for these signs. Urinating less than usual is already one of them, so do not wait until a child has not urinated for 8 hours. [NORO, Signs and symptoms, Dehydration; GASTRO, What are the symptoms of dehydration? and Seek care right away; web.]
 
 WHEN HELP IS URGENT
 
@@ -26,7 +26,7 @@ For a child with fast breathing, trouble breathing, ribs pulling in with each br
 
 Also seek medical help right away for muscle pain so severe a child refuses to walk; fever above 40 °C that is not controlled by fever-reducing medicine; fever or cough that improves but then returns or worsens; or a long-term medical condition getting worse. These are more of CDC's emergency warning signs for children. [FLU, Emergency Warning Signs of Flu Complications, In children; web.]
 
-Dehydration means losing too much body fluid. Not urinating for 8 hours, a dry mouth or no tears when crying also need medical help right away. A seizure is a temporary change in brain activity that can involve shaking or loss of awareness. Other severe or worrying symptoms need medical assessment too. [FLU, Emergency Warning Signs of Flu Complications; SEIZURE, Overview and Signs and symptoms; web.]
+Not urinating for 8 hours, a dry mouth or no tears when crying also need medical help right away. A seizure is a temporary change in brain activity that can involve shaking or loss of awareness. Other severe or worrying symptoms need medical assessment too. [FLU, Emergency Warning Signs of Flu Complications; SEIZURE, Overview and Signs and symptoms; web.]
 
 MEDICINES AND UNAVAILABLE HELP
 
