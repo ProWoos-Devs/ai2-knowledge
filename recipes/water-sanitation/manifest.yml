@@ -1,7 +1,7 @@
 id: water-sanitation
 title: Water and Sanitation
-version: "2026-11-07"
-revision: 2       # raise this for every rebuild you publish, and mirror it in the catalog entry
+version: "2026-11-11"
+revision: 3       # raise this for every rebuild you publish, and mirror it in the catalog entry
 languages: [en]
 license: MIT
 attribution: "Written for AI-2 by Rafael Minuesa, in its own wording, from the WHO/WEDC Technical Notes on Drinking-water, Sanitation and Hygiene in Emergencies (2013), WHO's Boil Water brief (2015), Guidelines for Drinking-water Quality (2022) and Guidelines on Sanitation and Health (2018), the Eawag SODIS manual (2016), the US EPA's Emergency Disinfection of Drinking Water (2026) and the Sphere Handbook (2018). None of them wrote or endorsed it. MIT licensed, like the rest of the project."

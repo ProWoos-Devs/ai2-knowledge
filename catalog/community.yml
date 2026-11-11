@@ -81,19 +81,19 @@ packs:
 - id: water-sanitation
   title: Water and Sanitation
   description: Safe water and sanitation with no services and possibly no help coming, from boiling and bleach to cleaning a flooded well and building a latrine, written from WHO sources, not reviewed by a specialist
-  version: '2026-11-07'
-  revision: 2
+  version: '2026-11-11'
+  revision: 3
   languages:
   - en
   license: MIT
   attribution: Written for AI-2 by Rafael Minuesa, in its own wording, from the WHO/WEDC Technical Notes on Drinking-water, Sanitation and Hygiene in Emergencies (2013), WHO's Boil Water brief (2015), Guidelines for Drinking-water Quality (2022) and Guidelines on Sanitation and Health (2018), the Eawag SODIS manual (2016), the US EPA's Emergency Disinfection of Drinking Water (2026) and the Sphere Handbook (2018). None of them wrote or endorsed it. MIT licensed, like the rest of the project.
   embedder: nomic-embed-text-v1.5
-  url: https://raw.githubusercontent.com/ProWoos-Devs/ai2-knowledge/main/packs/water-sanitation/water-sanitation-r2.ai2pack
-  size_bytes: 328864
-  sha256: ef75aa0fe25994b31f5afdcc7564a8317730f4cea69ba09405a5485e85975b80
+  url: https://raw.githubusercontent.com/ProWoos-Devs/ai2-knowledge/main/packs/water-sanitation/water-sanitation-r3.ai2pack
+  size_bytes: 328936
+  sha256: fbc73a52cc1665699d94600cc7251948b3865bdc6df4ccb5ef161d26fdd3f57d
   documents: 12
   parts: 103
-  built_with: ai-2 0.26.0
+  built_with: ai-2 0.29.1
   contact: ProWoos-Devs
   categories:
   - '13.13'
