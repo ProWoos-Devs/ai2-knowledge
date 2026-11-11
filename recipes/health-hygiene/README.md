@@ -4,7 +4,7 @@ Routine hygiene, teeth, safe water and food, nutrition, sleep, activity and reco
 
 Written in original wording from agency health information and professional factual recommendations, with the boiling instruction from WHO's guidance. Sources: Centers for Disease Control and Prevention; National Institutes of Health; U.S. Department of Health and Human Services; U.S. Food and Drug Administration; World Health Organization; American Dental Association. These organizations and the United States Government did not write or endorse this Knowledge Pack. Their original information is available online without charge. Source logos, photographs, copied tables and source documents are not included.
 
-A first reading against REVIEWING.md and the sources recorded twelve corrections, which were applied. An independent second reading reported 26 omissions or comprehension issues. Nineteen were corrected; seven source gaps were accepted by the project maintainer, with a partial correction to one using an existing source. A further [content review](https://github.com/ProWoos-Devs/ai2-knowledge/issues/18) reported eight findings; all eight were checked against their sources and applied, including urgent help for diarrhea lasting more than a day. School attendance and return criteria now have their own topic. No teacher or clinician has reviewed this Knowledge Pack. It has not been built or measured.
+A first reading against REVIEWING.md and the sources recorded twelve corrections, which were applied. An independent second reading reported 26 omissions or comprehension issues. Nineteen were corrected; seven source gaps were accepted by the project maintainer, with a partial correction to one using an existing source. A further [content review](https://github.com/ProWoos-Devs/ai2-knowledge/issues/18) reported eight findings; all eight were checked against their sources and applied, including urgent help for diarrhea lasting more than a day. School attendance and return criteria now have their own topic. No teacher or clinician has reviewed this Knowledge Pack.
 
 There are no telephone numbers here, or in any Knowledge Packs.
 
@@ -14,6 +14,10 @@ There are no telephone numbers here, or in any Knowledge Packs.
 ai-2 doc index --in health-hygiene --embedder nomic-embed-text-v1.5 topics/*.txt
 ai-2 knowledge export health-hygiene --manifest manifest.yml -o health-hygiene.ai2pack
 ```
+
+## Measured
+
+Built on 2026-11-10 with ai-2 0.29.0: 17 documents, 107 parts. An outside question set of 20, written by someone who had seen only the list of the 15 subject topic titles, searched with `ai-2 doc search` on the built Knowledge Pack: top-1 19/20, top-3 20/20. No question was changed. The one that did not come first ("We have no soap at school this week. What can the children use to clean their hands before eating?") found the hand washing topic second, after the toilet topic.
 
 ## House style
 
