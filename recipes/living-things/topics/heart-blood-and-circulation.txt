@@ -6,13 +6,13 @@ Written for AI-2. Directed to children, parents and teachers.
 
 A PUMP AND A NETWORK
 
-The heart is an organ that pumps blood through the body. Blood travels in vessels, including arteries, veins and tiny capillaries. Together the heart and blood vessels make up the circulatory system. Blood carries oxygen and nutrients that body parts need. It also carries carbon dioxide, a waste gas, toward the lungs so it can leave the body in breathed-out air. [S11, The Heart; S12A, Gas exchange; web.]
+The heart is a muscle-containing organ in your chest, between your lungs, about the size of your fist. It pumps blood around the body. The heart and blood vessels form the circulatory system. Blood carries oxygen and nutrients, useful substances from food, to body parts. It carries carbon dioxide, a waste gas, toward the lungs to be breathed out. [S11, The Heart; S11A, Supplying oxygen to the heart's muscle; S12B, opening explanation; S45, Blood; S13, Why is digestion important?; web.]
 
-The heart is made of living tissue, including muscle. Its activity moves blood rather than making the oxygen itself. The lungs transfer oxygen from inhaled air into the blood. Heart and lungs therefore have different jobs that fit together. Neither organ alone describes the whole journey of oxygen to the body's cells. [S11, The Heart; S12, The Lungs; S12A, Gas exchange; web.]
+The heart's electrical system controls the rate and rhythm of the heartbeat, the repeated pumping action. Blood contains red blood cells, white blood cells and platelets. Red blood cells carry oxygen using a protein called hemoglobin. The lungs transfer oxygen from inhaled air into blood; the heart moves that blood onward. [S11, The Heart; S8, marrow explanation; S12A, Gas exchange; web.]
 
 FOUR CHAMBERS AND VALVES
 
-The heart has four chambers: two atria and two ventricles. An atrium receives blood, and a ventricle pumps blood onward. The right and left sides handle different parts of the circulation. Valves open and close to keep blood moving in the required direction, rather than flowing backward between steps. These are parts of one coordinated pump. [S11A, Heart valves and Adding oxygen to blood; web.]
+The heart has a right atrium and right ventricle, and a left atrium and left ventricle. These are its four chambers, or internal spaces. Blood enters an atrium and is pumped into a ventricle. The ventricle pumps it out of the heart. Valves open and close to keep blood moving forward. [S11A, Heart valves and Adding oxygen to blood; web.]
 
 FOLLOW ONE CIRCUIT
 
@@ -22,6 +22,6 @@ The left ventricle pumps blood out through a large artery called the aorta towar
 
 ARTERIES AND VEINS
 
-Arteries carry blood away from the heart; veins bring it toward the heart. These names describe direction, not whether the blood has much oxygen. The pulmonary artery carries oxygen-poor blood toward the lungs, and the pulmonary veins bring oxygen-rich blood back. Those examples prevent the mistaken rule that every artery carries oxygen-rich blood. [S11A, opening explanation and Adding oxygen to blood; web.]
+Arteries carry blood away from the heart; veins bring it toward the heart. The names describe direction, not oxygen content. The pulmonary artery carries oxygen-poor blood to the lungs; the pulmonary veins bring oxygen-rich blood back. Here pulmonary means relating to the lungs. Capillaries are tiny blood vessels connected to the network of arteries and veins. In body tissues, materials such as oxygen pass between blood and cells through capillaries. [S11A, opening explanation and Adding oxygen to blood; S12B, Air fills your lung's air sacs; S47, opening explanation, Capillaries and Veins; web.]
 
-The heart muscle also needs oxygen and nutrients. Its own coronary arteries supply them. On paper, trace body -> right heart -> lungs -> left heart -> body, then add arrows showing direction. This simplified model helps explain the journey without replacing the separate roles of chambers, valves and blood vessels. [S11A, Supplying oxygen to the heart's muscle and Adding oxygen to blood; web.]
+The heart muscle also needs oxygen and nutrients. Its own coronary arteries supply them. On paper, trace body -> right heart -> lungs -> left heart -> body, then add arrows showing direction. The arrows show blood flow, rather than airflow. [S11A, Supplying oxygen to the heart's muscle and Adding oxygen to blood; web.]

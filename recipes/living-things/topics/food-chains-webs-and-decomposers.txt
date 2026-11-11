@@ -6,9 +6,9 @@ Written for AI-2. Directed to children, parents and teachers.
 
 FOOD CONNECTS LIVING THINGS
 
-A food chain follows one feeding route. A food web joins many routes, showing who eats whom in a community. An animal can eat several kinds of food and can itself be eaten by different animals. A single chain is therefore a simplified part of a larger web. These diagrams help explain connections, not just which animal seems strongest. [S6, What is a food web?; S30, printed p. 5, Everything Is Connected.]
+A food chain follows one feeding route. A food web joins many routes, showing who eats whom among organisms living in the same area. An animal can eat several kinds of food and can itself be eaten by different animals. A single chain is therefore a simplified part of a larger web. These diagrams help explain connections, not just which animal seems strongest. [S6, What is a food web?; S30, printed p. 5, Everything Is Connected.]
 
-The arrows in a food web point from food toward the organism eating it. They show the direction in which food energy passes. If krill eat tiny drifting producers called phytoplankton, the arrow goes from phytoplankton to krill. A backward arrow would tell a different feeding story. Always read the arrow's meaning before interpreting a diagram. [S6, What is a food web? and diagram caption; web.]
+The arrows in a food web point from food toward the organism eating it. They show the direction in which food energy passes. Krill are small, shrimp-like animals. If they eat tiny drifting plantlike organisms called phytoplankton, the arrow goes from phytoplankton to krill. A backward arrow would tell a different feeding story. [S6, What is a food web? and diagram caption; S41, opening krill explanation; web.]
 
 PRODUCERS AND CONSUMERS
 
@@ -16,11 +16,11 @@ Producers make food using a source of energy. Green plants and many algae use li
 
 Consumers obtain food by eating other organisms. Herbivores eat plant material or plantlike producers; carnivores eat animals; omnivores eat both plant material and animals. An organism can take different positions in different feeding routes. These words describe feeding, rather than whether an animal is good, bad, large or small. [S6, Consumers, Herbivores, Carnivores and Omnivores; web.]
 
-A predator catches other animals as food; the animals it eats are its prey. In an ocean example, krill can be eaten by herring, and herring by larger fish or seals. An animal can be a predator in one connection and prey in another. Drawing several arrows can reveal connections that a single straight chain leaves out. [S6, food-web diagram and Consumers; web.]
+On land, one food chain is grass -> rabbit -> fox. A predator catches other animals as food; the animals it eats are its prey. In an ocean example, krill can be eaten by herring, and herring by larger fish or seals. An animal can be a predator in one connection and prey in another. Drawing several arrows can reveal connections that a single straight chain leaves out. [S6, food-web diagram and Consumers; S30, printed p. 10, Food chain; web where unpaginated.]
 
 WHAT HAPPENS TO REMAINS?
 
-Scavengers eat dead or rotting material. Some bacteria and fungi break down remaining material through decomposition, returning nutrients that producers can use. These decomposers belong in the story too. Nutrients are useful materials organisms need; decomposition helps recycle them through the environment. Dead material does not simply stop having a role in the web. [S6, Who cleans up the leftovers?; web.]
+Scavengers eat dead or rotting material. Some bacteria and fungi break down remaining material through decomposition, returning nutrients that producers can use. On land, shelf fungi growing on dead trees are decomposers you may see. Nutrients are useful materials organisms need; decomposition helps recycle them. Dead material still has a role in a food web. [S6, Who cleans up the leftovers?; S43, opening explanation; web.]
 
 CHANGES CAN TRAVEL THROUGH A WEB
 

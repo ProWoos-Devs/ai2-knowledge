@@ -6,7 +6,7 @@ Written for AI-2. Directed to children, parents and teachers.
 
 INFORMATION FOR THE BRAIN
 
-Your senses provide information about your surroundings and your body. Receptors are cells or cell parts that respond to changes such as light, sound, chemicals or pressure. Signals travel through nerves and are processed by the nervous system. Seeing, hearing and feeling therefore involve both sensory organs and the brain, rather than the organs working alone. [S10, sensory input and integration; S7A, Cell membrane; S24, opening explanation; web.]
+Your senses provide information about your surroundings and your body. Receptors are cells or cell parts that respond to changes such as light, sound, chemicals or pressure. Signals travel through nerves and are processed by the nervous system. Seeing, hearing and feeling therefore involve both sensory organs and the brain, rather than the organs working alone. [S10, sensory input and integration; S20, How the Eyes Work; S22, How does your sense of smell work?; S23, How does your sense of taste work?; S24, opening explanation; web.]
 
 EYES: LIGHT INTO SIGNALS
 
@@ -18,12 +18,12 @@ Sound waves travel along the ear canal and make the eardrum vibrate. Three tiny 
 
 NOSE AND TONGUE: CHEMICAL SENSES
 
-Smelling begins when tiny molecules reach specialized cells high inside the nose. Receptors on these cells detect molecules and the cells send messages to the brain. Molecules can arrive through the nostrils or from food in the mouth through a passage toward the nose. Smell is an important part of flavor. [S22, How does your sense of smell work?; web.]
+Smelling begins when tiny particles called molecules, too small to see, reach specialized cells high inside the nose. These particles come from things around you. Receptors on these cells detect molecules and the cells send messages to the brain. Molecules can arrive through the nostrils or from food in the mouth through a passage toward the nose. Smell is an important part of flavor. [S22, How does your sense of smell work?; web.]
 
 Taste cells in taste buds respond to molecules from food and drink. Taste buds occur on the tongue and in other places in the mouth and throat. Messages reach the brain through taste nerves. Sweet, sour, salty, bitter and umami, or savory, are basic taste qualities. They are not confined to separate little zones on the tongue. Flavor combines taste, smell and other sensations. [S23, How does your sense of taste work?; web.]
 
 SKIN AND BALANCE
 
-Sensory nerve cells help detect touch, pressure, temperature and pain. Messages from the body travel through nerves and the spinal cord toward the brain. Touch is more than one simple signal, and different sensory nerves can respond to different kinds of change. [S24, opening explanation and human sensory-neuron results; web.]
+Sensory nerve cells in the skin and other body parts help detect touch, pressure, temperature and pain. Messages from the body travel through nerves and the spinal cord toward the brain. Touch is more than one simple signal, and different sensory nerves can respond to different kinds of change. [S24, opening explanation and human sensory-neuron results; web.]
 
 The familiar five senses are not the whole list. Balance uses information from the inner ears, eyes, and sensors in muscles and other body parts. The brain combines these signals to help keep track of body position and movement. [S28, How does my body keep its balance?; web.]

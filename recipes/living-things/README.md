@@ -2,11 +2,9 @@
 
 Plants, animals, cells, habitats, food webs, senses and the body's movement, circulation, breathing and digestion for children ages 6 to 12 (`school-age` and `preteen`), with parents and teachers helping. Written for study and reference on an AI-2 machine with no connection. Categories: `'11.09'` Biology; `'13.01'` Anatomy and physiology; `'07.05'` Primary and secondary education. Audience: `children`. Language: English. License: MIT for the original writing. Contact: ProWoos-Devs.
 
-Written for AI-2. Directed to children, parents and teachers.
-
 Original educational explanations written from the cited agency facts and educational guidance, with original paper examples. The sources are the U.S. National Park Service, U.S. Fish & Wildlife Service, U.S. Department of Agriculture, National Oceanic and Atmospheric Administration, and National Institutes of Health. These organizations and the United States Government did not write or endorse this Knowledge Pack. Source documents, photographs, illustrations, videos, logos and worksheets are not included.
 
-A first reading against REVIEWING.md and the saved source passages has been completed, with corrections recorded in the working files. The independent second reading and content review have not taken place. No teacher or clinician has reviewed this Knowledge Pack.
+A first reading has been completed. An independent second reading took place on 2026-11-11 and its findings have been applied. The content review has not taken place. No teacher or clinician has reviewed this Knowledge Pack.
 
 There are no telephone numbers here, or in any Knowledge Packs.
 
@@ -19,6 +17,7 @@ ai-2 knowledge export living-things --manifest manifest.yml -o living-things.ai2
 
 ## House style
 
+- Every topic says "Written for AI-2. Directed to children, parents and teachers."
 - One subject per plain text file: title, search terms and the exact children's audience line, then short sections.
 - Fourteen subject topics of about 400 prose words, excluding citations, plus Start here and About. The longer About topic carries the complete source key for offline readers.
 - Each section explains its terms before developing the idea. Examples use descriptions and paper drawings; each anatomy topic can be read on its own.
@@ -28,14 +27,14 @@ ai-2 knowledge export living-things --manifest manifest.yml -o living-things.ai2
 
 ## Sources and how they are cited
 
-The source codes and titles below also appear in the offline About topic. The manifest attaches a primary source to each subject document by its exact `.txt` filename; the topic citations identify additional sources and sections. The source register in the working files identifies the saved passages used for the first reading. Sources are references for independently written explanations, not redistributed source texts.
+The source codes and titles below also appear in the offline About topic. The manifest attaches a primary source to each subject document by its exact `.txt` filename; the topic citations identify additional sources and sections. The source register in the working files identifies the saved passages used for writing and readings. Sources are references for independently written explanations, not redistributed source texts.
 
 | Code | Source | Sections or pages |
 | --- | --- | --- |
 | S1 | [National Park Service, Alive in Dyke Marsh](https://www.nps.gov/teachers/classrooms/alive-in-dyke-marsh.htm) | Background; web, unpaginated. |
 | S2 | [National Park Service, Plant Adaptations](https://www.nps.gov/teachers/classrooms/plant-adaptations.htm) | Background; Plant Structures and Functions; Cacti; Juniper; web, unpaginated. |
 | S3 | [U.S. Fish & Wildlife Service, Attracting Pollinators to Your Garden (2011)](https://www.govinfo.gov/content/pkg/GOVPUB-I49-PURL-gpo58962/pdf/GOVPUB-I49-PURL-gpo58962.pdf) | PDF pp. 3–4, What is Pollination? and Meet the Pollinators; no printed numbers. |
-| S4 | [National Park Service, Vertebrate Fossils](https://www.nps.gov/subjects/fossils/vertebrate-fossils.htm) | Introduction, for the backbone distinction; web, unpaginated. |
+| S4 | [National Park Service, Vertebrate Fossils](https://www.nps.gov/subjects/fossils/vertebrate-fossils.htm) | Introduction, for the backbone distinction; Mammals, for living mammal reproductive groups; web, unpaginated. |
 | S5 | [National Park Service, Monarch Butterfly, Featured Creature](https://www.nps.gov/articles/000/monarch-butterfly-featured-creature.htm) | Distribution and Habitat; Behavior and Diet; Life Cycle; web, unpaginated. |
 | S6 | [NOAA, Aquatic food webs](https://www.noaa.gov/education/resource-collections/marine-life/aquatic-food-webs) | What is a food web?; diagram caption; Producers; Consumers; Who cleans up the leftovers?; Trophic cascades; web, unpaginated. |
 | S7 | [NIH/NCI SEER, Cell Structure & Function](https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/cells/) | Cell Structure & Function; web, unpaginated. |
@@ -70,12 +69,24 @@ The source codes and titles below also appear in the offline About topic. The ma
 | S27 | [NIH/NLM MeSH, Germination](https://www.ncbi.nlm.nih.gov/mesh/68018525) | Germination, MeSH D018525, retrieved 2026-11-11; web, unpaginated. |
 | S28 | [NIH/NIDCD, Balance Disorders](https://www.nidcd.nih.gov/health/balance-disorders) | How does my body keep its balance?; web, unpaginated. |
 | S29 | [USDA NRCS, Seedbed Preparation and Seed to Soil Contact, Technical Note 6 (2005)](https://www.nrcs.usda.gov/plantmaterials/wapmctn6330.pdf) | PDF p. 1, Section 6.1 Seed to Soil Contact; no printed page number. |
-| S30 | [National Park Service, Home Sweet Home, third-grade activity guide](https://www.nps.gov/common/uploads/teachers/lessonplans/Home%20Sweet%20Home%20Activity%20Guide.pdf) | Printed pp. 1 and 5, Background and Everything Is Connected. |
+| S30 | [National Park Service, Home Sweet Home, third-grade activity guide](https://www.nps.gov/common/uploads/teachers/lessonplans/Home%20Sweet%20Home%20Activity%20Guide.pdf) | Printed pp. 1–2 and 5, Background, Arrangement, Everybody Needs a Home and Everything Is Connected; pp. 10–11, Food chain, Organism, Water and Photosynthesis glossary entries. |
 | S31 | [National Park Service, Adaptations](https://www.nps.gov/teachers/classrooms/adaptations.htm) | Background and Vocabulary; web, unpaginated. |
 | S32 | [NIH/NLM MeSH, Plant Stems](https://www.ncbi.nlm.nih.gov/mesh/68018547) | Plant Stems, MeSH D018547, retrieved 2026-11-11; web, unpaginated. |
 | S33 | [National Park Service, Blue in the Face: Breathing Underwater](https://www.nps.gov/articles/blue-in-the-face-breathing-underwater.htm) | So, how do gills work?; web, unpaginated. |
 | S34 | [National Park Service, Trees: The Inside Story](https://www.nps.gov/teachers/classrooms/trees-the-inside-story.htm) | Roots; Leaves; Trunks; web, unpaginated. |
 | S35 | [National Park Service, Birds, Cabrillo National Monument](https://www.nps.gov/cabr/learn/nature/birds.htm) | All About Birds; Physical Characteristics; web, unpaginated. |
+| S36 | [NIH/NIAMS, Health Lesson: Learning About Muscles](https://www.niams.nih.gov/health-topics/educational-resources/health-lesson-learning-about-muscles) | What are muscles?; How do muscles work?; Vocabulary, Contraction and Tissue; web, unpaginated. |
+| S37 | [NIH Curriculum Supplement, Information about the Musculoskeletal and Skin Systems](https://www.ncbi.nlm.nih.gov/books/NBK20361/?report=printable) | Muscle, opposing-pair and eccentric-contraction explanations; web, unpaginated. NIH Curriculum Supplement Series (2007), with Biological Sciences Curriculum Study. |
+| S38 | [USDA Forest Service, The Woody Plant Seed Manual, Chapter 1: Seed Biology](https://www.fs.usda.gov/nsl/Wpsm/Chapter1.pdf) | PDF pp. 10–11, Fertilization and Fruit and Seed Development; pp. 21–23, Variation in Dormancy and Environmental Factors. |
+| S39 | [NIH/NHGRI, Cell](https://www.genome.gov/genetics-glossary/Cell) | Definition; web, unpaginated. |
+| S40 | [National Park Service, Orange Sulphur](https://www.nps.gov/articles/000/orange-sulphur.htm) | Life Cycle; web, unpaginated. Prepared by Sonya Daw, NPS Klamath Inventory & Monitoring Network, Southern Oregon University. |
+| S41 | [NOAA Fisheries, Krill and Oceanographic Research in the Antarctic](https://www.fisheries.noaa.gov/international/science-data/krill-and-oceanographic-research-antarctic) | Opening krill explanation; web, unpaginated. |
+| S42 | [NOAA Fisheries, Age and Growth](https://www.fisheries.noaa.gov/national/science-data/age-and-growth) | Scales and Other Structures; web, unpaginated. |
+| S43 | [National Park Service, Mushrooms and Other Fungi, Big Thicket](https://www.nps.gov/bith/learn/nature/mushrooms-and-other-fungi.htm) | Opening explanation, including shelf fungi; web, unpaginated. |
+| S44 | [NIH/NIAMS, Health Lesson: Learning About Joints](https://www.niams.nih.gov/health-topics/educational-resources/health-lesson-learning-about-joints) | What are joints?; How do joints move?; web, unpaginated. |
+| S45 | [NIH/NCI SEER, Blood](https://training.seer.cancer.gov/anatomy/cardiovascular/blood/) | Blood; web, unpaginated. |
+| S46 | [National Park Service, Ferns, Guadalupe Mountains](https://www.nps.gov/gumo/learn/nature/ferns.htm) | Opening fern description; web, unpaginated. |
+| S47 | [NIH/NCI SEER, Classification & Structure of Blood Vessels](https://training.seer.cancer.gov/anatomy/cardiovascular/blood/classification.html) | Opening explanation; Capillaries; Veins; web, unpaginated. |
 
 ## Source reuse
 
@@ -91,10 +102,16 @@ The [National Park Service's Ownership policy](https://www.nps.gov/aboutus/discl
 
 The [NLM MeSH terms](https://www.nlm.nih.gov/databases/download/terms_and_conditions_mesh.html) permit use with clear source credit and no implied endorsement, and require a version or currency statement for redistributed information. The facts cited here use NLM MeSH entries Germination (D018525) and Plant Stems (D018547), as retrieved on 2026-11-11. This offline writing does not reflect later changes to those entries. Their credited dictionary wording is not copied; the underlying facts are explained independently. No rights over NLM data or its source dictionary are claimed.
 
+[NIAMS’s disclaimer](https://www.niams.nih.gov/disclaimer) identifies its website text as public domain, with separate rights for purchased images. Only the factual muscle and joint explanations are used, in original wording. The NIH Curriculum Supplement Series chapter, prepared with Biological Sciences Curriculum Study, is credited for the facts about opposing muscle pairs and force during lengthening. Its source prose, figures and teaching materials are not reproduced; no claim that all content in that jointly prepared publication is public domain is made. The general [NIH copyright guidance](https://www.nih.gov/about-nih/frequently-asked-questions) retains exceptions for outside material.
+
+[NHGRI’s copyright policy](https://www.genome.gov/about-nhgri/Policies-Guidance/Copyright) permits use of its information unless otherwise marked and requests acknowledgment. Courtesy: National Human Genome Research Institute. The Cell definition supplies facts about plant, animal and bacterial cells; no source illustration or narration is reproduced.
+
 MIT applies to the original educational writing. The source publications keep their own rights or public-domain status. A rights specialist has not reviewed this use.
 
 ## Reviewing
 
-Follow [REVIEWING.md](../../REVIEWING.md) for every reading. Compare factual statements with their cited sections, including the saved copies when a source site cannot be opened. Check exceptions to simple rules, child-level definitions, organism versus life-stage distinctions, food-web arrow direction and the separate paths of air, blood and food. The independent second reading must take place before the separate content review and recipe pull request.
+Anyone who knows the subject is welcome to check these topics.
+
+Follow [REVIEWING.md](../../REVIEWING.md) for every reading. Compare factual statements with their cited sections, including the saved copies when a source site cannot be opened. Check exceptions to simple rules, child-level definitions, organism versus life-stage distinctions, food-web arrow direction and the separate paths of air, blood and food. The independent second reading took place on 2026-11-11 and its findings have been applied. The separate content review is still required before the recipe pull request.
 
 No teacher or clinician has reviewed this Knowledge Pack. No search measurement has been made.

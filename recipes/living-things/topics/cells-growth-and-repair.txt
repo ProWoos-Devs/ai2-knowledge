@@ -1,14 +1,14 @@
 Cells, growth and repair
 
-Search terms: cells, what is a cell, growing, repair, cell division, nucleus, membrane, cytoplasm, DNA, tissues, organs, microscopic, body building blocks.
+Search terms: cells, what is a cell, growing, repair, cell division, nucleus, membrane, cytoplasm, DNA, plant cells, microscopic, body building blocks.
 
 Written for AI-2. Directed to children, parents and teachers.
 
 SMALL UNITS THAT DO WORK
 
-Cells are the smallest units that carry out the activities of life. An organism can consist of one cell or many cells working together. Your body contains many kinds of cells with different shapes and jobs. Almost all are microscopic, meaning too small to see separately with your unaided eyes. Their small size does not make their work unimportant. [S7, Cell Structure & Function; S7A, Cell Structure; web.]
+Cells are the smallest units that carry out the activities of life. An organism can consist of one cell or many cells working together. Your body contains many kinds of cells with different shapes and jobs. Almost all are microscopic, meaning too small to see separately with your unaided eyes. Plants, like animals, are made of many cells. Bacteria are examples of living things made of just one cell. [S7, Cell Structure & Function; S7A, Cell Structure; S39, Definition; web.]
 
-The body begins as a single fertilized cell and develops into a body with many cells. Growth involves producing new cells and cells increasing in size. Cell division also helps replace cells and repair tissues. These are ordinary body processes, not something a person has to remember to start each time they grow. [S7, Cell Structure & Function; S7A, Cytoplasm; S7B, Cell division; web.]
+The body begins as a single cell and develops into a body with many cells. Growth involves producing new cells and cells increasing in size. Cell division also helps replace worn-out cells and repair damaged parts of the body. [S7, Cell Structure & Function; S7A, Cytoplasm; S7B, Cell division; web.]
 
 BOUNDARY, CONTENTS AND INSTRUCTIONS
 
@@ -18,10 +18,10 @@ Inside a typical human cell is cytoplasm, a gel-like material where many chemica
 
 HOW NEW CELLS FORM
 
-In a common kind of body-cell division, called mitosis, one parent cell produces two new cells. Nuclear material is divided, and the cytoplasm divides too. New cells need the genetic information needed for their work. This is different from simply stretching one cell until it becomes an entire adult body. The body grows through organized growth and division. [S7B, Cell division; web.]
+In a common kind of body-cell division, called mitosis, one parent cell produces two new cells. Each new cell receives the same set of genetic instructions as the parent, rather than half a set. The cytoplasm divides too. Mitosis helps the body grow and replace cells; it is different from the special division that makes egg and sperm cells. [S7B, Cell division; web.]
 
 DIFFERENT JOBS IN ONE BODY
 
-Muscle cells are specialized for contraction, the action that produces muscle movement. Nerve cells help carry messages. Bone contains living cells too; it is not just a collection of lifeless sticks. These examples show why the shape and structure of a cell matter. A muscle cell and a nerve cell cannot be treated as interchangeable pieces simply because both are cells. [S9, Introduction to the Muscular System; S10, Introduction to the Nervous System; S8, Introduction to the Skeletal System; S7B, Cell Function; web.]
+Muscle cells are specialized for contraction, the action that produces muscle movement. Nerve cells help carry messages. Bone contains living cells too; it is not just a collection of lifeless sticks. These examples show why the shape and structure of a cell matter. A muscle cell and a nerve cell cannot be treated as interchangeable pieces simply because both are cells. [S9, Introduction to the Muscular System; S10B, Structure of a Nerve; S24, opening explanation; S8, Introduction to the Skeletal System; S7B, Cell Function; web.]
 
-You can draw an enlarged model with a boundary, cytoplasm and nucleus. Label it "a simplified cell model." The drawing helps explain the parts, but its size on paper is not the cell's real size. [S7A, Cell Structure; web.]
+You can draw an enlarged model with a boundary, cytoplasm and nucleus. Label it "a simplified human cell model." The drawing helps explain the parts, but its size on paper is not the cell's real size. [S7A, Cell Structure; web.]

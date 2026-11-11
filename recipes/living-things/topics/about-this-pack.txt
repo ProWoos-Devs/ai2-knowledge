@@ -8,7 +8,7 @@ WHERE THE TEXT COMES FROM
 
 These fourteen subject topics explain living things and the human body for children aged 6 to 12, with parents and teachers helping. Start here and About are two additional topics. The explanations were written in original wording from the agency sources named below. Paper examples were written for this Knowledge Pack. It does not follow one country's school program or supply a complete biology course.
 
-A first reading against REVIEWING.md and the saved source passages has taken place. The independent second reading and content review have not taken place. No teacher or clinician has reviewed this Knowledge Pack.
+A first reading has been completed. An independent second reading took place on 2026-11-11 and its findings have been applied. The content review has not taken place. No teacher or clinician has reviewed this Knowledge Pack.
 
 READING THE CITATIONS
 
@@ -60,12 +60,24 @@ SOURCE KEY
 - S33: National Park Service, Blue in the Face: Breathing Underwater.
 - S34: National Park Service, Trees: The Inside Story.
 - S35: National Park Service, Birds, Cabrillo National Monument.
+- S36: NIH/NIAMS, Health Lesson: Learning About Muscles.
+- S37: NIH Curriculum Supplement, Information about the Musculoskeletal and Skin Systems.
+- S38: USDA Forest Service, The Woody Plant Seed Manual, Chapter 1: Seed Biology.
+- S39: NIH/NHGRI, Cell.
+- S40: National Park Service, Orange Sulphur.
+- S41: NOAA Fisheries, Krill and Oceanographic Research in the Antarctic.
+- S42: NOAA Fisheries, Age and Growth.
+- S43: National Park Service, Mushrooms and Other Fungi, Big Thicket.
+- S44: NIH/NIAMS, Health Lesson: Learning About Joints.
+- S45: NIH/NCI SEER, Blood.
+- S46: National Park Service, Ferns, Guadalupe Mountains.
+- S47: NIH/NCI SEER, Classification & Structure of Blood Vessels.
 
 ORIGINAL WRITING AND SOURCE RIGHTS
 
 The original educational writing is MIT licensed. Sources keep their own rights or public-domain status. No claim to original U.S. Government works. The National Park Service, U.S. Fish & Wildlife Service, USDA, NOAA and NIH did not write or endorse this Knowledge Pack. Source documents, artwork, photographs, videos, logos and worksheets are not included.
 
-NIH means the United States National Institutes of Health. Its institutes are identified in the source key. Source: National Heart, Lung, and Blood Institute; National Institutes of Health; U.S. Department of Health and Human Services. Courtesy: National Eye Institute, National Institutes of Health (NEI/NIH). NCI and NIDDK provided anatomy and digestion references, NIDCD provided sensory references, and the NIH touch article was written by Sharon Reynolds. NOAA means the National Oceanic and Atmospheric Administration. USDA means the United States Department of Agriculture; NRCS is its Natural Resources Conservation Service.
+NIH means the United States National Institutes of Health. Its institutes are identified in the source key. Source: National Heart, Lung, and Blood Institute; National Institutes of Health; U.S. Department of Health and Human Services. Courtesy: National Eye Institute, National Institutes of Health (NEI/NIH). Courtesy: National Human Genome Research Institute. NCI and NIDDK provided anatomy and digestion references, NIDCD provided sensory references, and the NIH touch article was written by Sharon Reynolds. NOAA means the National Oceanic and Atmospheric Administration. USDA means the United States Department of Agriculture; NRCS is its Natural Resources Conservation Service.
 
 NLM means the National Library of Medicine. The MeSH facts used here are from entries Germination (D018525) and Plant Stems (D018547), retrieved on 2026-11-11. This offline writing does not reflect later changes to those entries. The source dictionary's wording is not reproduced. A rights specialist has not reviewed the source use.
 

@@ -6,9 +6,9 @@ Written for AI-2. Directed to children, parents and teachers.
 
 AIR AND BLOOD HAVE DIFFERENT PATHS
 
-The lungs are organs in the chest where gases pass between air and blood. Breathing in is inhaling; breathing out is exhaling. Oxygen moves from inhaled air into the blood, while carbon dioxide moves from the blood into air that will be breathed out. This exchange helps supply body cells and remove a waste gas. The air and blood do not simply pour together into one tube. [S12, The Lungs; S12A, Gas exchange; web.]
+The two lungs are organs in the chest where gases pass between air and blood. Breathing in is inhaling; breathing out is exhaling. Oxygen moves from inhaled air into the blood, while carbon dioxide moves from the blood into air that will be breathed out. This exchange helps supply body cells and remove a waste gas. The air and blood do not simply pour together into one tube. [S12, The Lungs; S12A, Gas exchange; web.]
 
-The respiratory system includes the lungs, airways and muscles used for breathing. The circulatory system, made up of the heart and blood vessels, brings blood to and from the lungs. Understanding breathing therefore involves both the movement of air and the movement of blood. One system supports the other. [S12B, opening explanation; web.]
+The respiratory system includes the lungs, airways and muscles used for breathing. The circulatory system, made up of the heart and blood vessels, brings blood to and from the lungs. Understanding breathing therefore involves both the movement of air and the movement of blood. One system supports the other. [S12B, opening explanation; S12, The Lungs; web.]
 
 THE AIR'S JOURNEY
 
@@ -18,10 +18,10 @@ Air sacs are surrounded by capillaries, tiny blood vessels. Oxygen passes throug
 
 WHAT MAKES AIR MOVE?
 
-The diaphragm is a breathing muscle below the lungs. During inhaling it contracts and moves downward, increasing space inside the chest. Muscles between the ribs also help enlarge that space. The lungs expand and air moves in. During ordinary breathing out, these muscles relax, the chest space becomes smaller and air flows out. [S12A, Breathing in and Breathing out; web.]
+The diaphragm is a breathing muscle. During inhaling it contracts and moves downward, increasing space inside the chest. Muscles between the ribs also help enlarge that space. The lungs expand and air moves in. During ordinary breathing out, these muscles relax, the chest space becomes smaller and air flows out. [S12A, Breathing in and Breathing out; web.]
 
-During physical activity, additional muscle effort can help push air out more rapidly. The body also controls breathing automatically through the nervous system. You do not need a separate decision before every breath. These explanations describe how ordinary breathing works, rather than an instruction to hold or change your breathing. [S12A, Breathing out; S12, The Lungs; web.]
+During physical activity, additional muscle effort can help push air out more rapidly. The brain controls how fast or slowly you breathe by sensing the body's need for oxygen and its need to remove carbon dioxide. These explanations describe how ordinary breathing works, rather than an instruction to hold or change your breathing. [S12A, Breathing out; S12, The Lungs; web.]
 
 WHERE THE GASES GO
 
-Oxygen-rich blood returns from the lungs to the left side of the heart, which pumps it to the body. Cells use oxygen in processes that supply usable energy, and carbon dioxide returns through blood toward the lungs. On paper, keep two paths distinct: air through the airways, and blood through vessels. Mark where gases cross between them at the air sacs. [S12A, Gas exchange; web.]
+Oxygen-rich blood returns from the lungs to the left side of the heart, which pumps it to the body. Cells use oxygen to help release usable energy. In doing so, they produce carbon dioxide, a waste gas. This passes into blood and travels back toward the lungs. On paper, keep two paths distinct: air through the airways, and blood through vessels. Mark where gases cross between them at the air sacs. [S12A, Gas exchange; web.]
