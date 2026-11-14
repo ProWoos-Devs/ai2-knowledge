@@ -1,0 +1,69 @@
+Líneas de confianza: por qué hay que aceptar un activo antes de recibirlo
+
+Términos de búsqueda: línea de confianza, trustline, aceptar un activo, aceptar token, añadir REAL8, agregar REAL8, activar REAL8, no veo mi REAL8, no me aparece el saldo, me enviaron REAL8 y no llega, emisor, código del activo, activo emitido, token, REAL8 falso, REAL8 de prueba, quitar un activo.
+
+Escrito a partir del curso "Introducción a la criptomoneda REAL8" de REAL8 y de la documentación de Stellar. No revisado por un experto independiente.
+
+Para: Personas que quieren recibir REAL8 u otro activo en Stellar
+
+No para: Crear o emitir un activo propio.
+
+USA ESTE TEMA CUANDO
+
+- Quieres recibir REAL8 por primera vez
+- Te enviaron un activo y no aparece en tu cuenta
+- No sabes si un activo llamado REAL8 es el verdadero
+
+QUÉ HACER
+
+1. Una línea de confianza es tu permiso para tener un activo concreto en tu cuenta. Hace falta para recibir cualquier activo, salvo XLM. [Stellar cuentas; Curso M2 L1]
+
+2. Un activo se reconoce por dos datos juntos, su código y su emisor. Distintos emisores pueden usar el mismo código, así que el nombre solo no basta. [Curso M2 L1; Stellar activos]
+
+3. El REAL8 de la red principal tiene el código REAL8 y el emisor GBVYYQ7XXRZW6ZCNNCL2X2THNPQ6IM4O47HAA25JTAG7Z3CXJCQ3W4CD. Compara la dirección completa del emisor. La forma corta, como GBVYYQ7X…W4CD, solo sirve para leerla mejor. [Curso M2 L1]
+
+4. Añade la línea de confianza hacia el REAL8 correcto antes de que te lo envíen. [Curso M2 L1; Curso M6 L3]
+
+5. Cada línea de confianza aumenta la reserva mínima de tu cuenta. Deja XLM suficiente para la reserva y para las comisiones. Esto vale para el caso habitual, en que ninguna otra cuenta cubre tu reserva. Otra cuenta puede cubrirla por ti, lo que se llama patrocinio. Ver Qué es Stellar y cómo funciona un pago. [Curso M4 L1; Stellar cuentas; Stellar lumens]
+
+6. Quien recibe un activo también necesita su propia línea de confianza hacia ese código y ese emisor. Sin ella no puede recibir un pago directo de ese activo. [Curso M7 L1; Curso M2 L1]
+
+7. La documentación de Stellar describe además los saldos pendientes, que se pueden enviar a una cuenta que todavía no tiene la línea de confianza. Para reclamar uno, quien lo recibe tiene que crear antes esa línea. [Stellar cuentas]
+
+NO HAGAS
+
+- No añadas una línea de confianza a un activo solo por su nombre o su logotipo. Comprueba el emisor. Ver Estafas con criptomonedas. [Curso M2 L1]
+
+- No confundas el REAL8 de prueba con el REAL8 real. Son activos distintos, con emisores distintos. El REAL8 de prueba se usa en la red de prueba (TESTNET) y no tiene valor real. [Curso M2 L1; Curso M4 L1]
+
+SI LAS COSAS CAMBIAN
+
+- Si te enviaron REAL8 y no te llega, comprueba que estás en la misma red en la que te enviaron el pago, y que tu línea de confianza es hacia ese código y ese emisor exactos. [Curso M7 L1; Curso M6 L3; Curso M6 L6]
+
+- Si cierras una línea de confianza, la reserva que ocupaba vuelve a tu saldo disponible. [Stellar lumens]
+
+- Para participar en un fondo de liquidez necesitas líneas de confianza hacia los dos activos del fondo, salvo XLM, y otra hacia la participación del fondo. Ver Fondos de liquidez: qué son y qué riesgo tienen. [Curso M8 L1; Stellar liquidez]
+
+SIN BANCO
+
+- No necesitas un banco para recibir XLM. Es el único activo que no necesita línea de confianza, porque no tiene emisor. Aun así, tu cuenta tiene que existir antes en la red, y normalmente la crea otra cuenta con XLM. [Curso M2 L1; Curso M4 L1; Stellar lumens]
+
+LO QUE NO TIENE SUSTITUTO
+
+- Comparar el emisor completo del activo. [Curso M2 L1]
+
+DONDE LAS FUENTES NO DICEN NADA
+
+- Las fuentes no explican cómo quitar una línea de confianza en la billetera ni qué hacer antes con el saldo de ese activo.
+
+- El curso no dice qué pasa con el dinero de un pago directo de REAL8 a una cuenta que no tiene línea de confianza.
+
+- El curso no explica cómo reclamar un saldo pendiente en la billetera.
+
+QUEDA FUERA DE ESTE TEMA
+
+- Crear o emitir un activo.
+
+- Activos falsos y otras trampas. Ver Estafas con criptomonedas.
+
+Fuente: REAL8, curso "Introducción a la criptomoneda REAL8", versión en español, https://real8.org/es/courses/introduccion-a-la-criptomoneda-real8/ , comprobado el 13 de noviembre de 2026 (Curso, módulo M y lección L). Documentación de Stellar para desarrolladores, leída el 13 de noviembre de 2026, "Accounts" (Stellar cuentas), https://developers.stellar.org/docs/learn/fundamentals/stellar-data-structures/accounts , "Assets" (Stellar activos), https://developers.stellar.org/docs/learn/fundamentals/stellar-data-structures/assets , "Lumens (XLM)" (Stellar lumens), https://developers.stellar.org/docs/learn/fundamentals/lumens , y "Liquidity on Stellar" (Stellar liquidez), https://developers.stellar.org/docs/learn/fundamentals/liquidity-on-stellar-sdex-liquidity-pools .

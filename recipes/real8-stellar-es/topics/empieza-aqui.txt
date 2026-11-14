@@ -1,0 +1,71 @@
+Empieza aquí: usar REAL8 y Stellar con cuidado
+
+Términos de búsqueda: REAL8, empezar, principiante, soy nuevo, no sé nada, primera vez, por dónde empiezo, cómo funciona, cripto, criptomoneda, monedero, billetera, wallet, cómo recibo REAL8, cómo envío REAL8, comprobar un pago, qué tengo que saber.
+
+Escrito a partir del curso "Introducción a la criptomoneda REAL8" de REAL8. No revisado por un experto independiente.
+
+Para: Personas que van a usar REAL8 o Stellar por primera vez
+
+No para: Inversiones ni consejos sobre si comprar o vender. Este tema no dice cuánto vale nada ni si va a subir o bajar.
+
+USA ESTE TEMA CUANDO
+
+- Vas a usar una billetera digital (wallet) por primera vez
+- Quieres recibir o enviar REAL8 y no sabes qué comprobar
+- No sabes qué tema de este Knowledge Pack leer primero
+
+QUÉ HACER
+
+1. Aprende la diferencia entre tu dirección pública y tu clave secreta. La dirección pública empieza por G y es lo que das a otros para recibir. La clave secreta empieza por S y da el control de la cuenta, así que es solo tuya. Ver Qué es una billetera: la dirección pública y la clave secreta. [Curso M3 L1]
+
+2. Guarda tu clave secreta en un lugar seguro antes de guardar dinero en la billetera o de borrar sus datos. El equipo de REAL8 no puede recuperarla si la pierdes. Ver Cómo guardar la clave secreta y qué pasa si la pierdes. [Curso M3 L1]
+
+3. Abre la billetera de REAL8 solo en la página web app.real8.org, escrita exactamente así. [Curso M3 L1]
+
+4. Mira siempre en qué red estás. En la red de prueba los activos no tienen valor real. En la red principal los pagos son reales. Ver Qué es Stellar y cómo funciona un pago. [Curso M4 L1; Curso M6 L1; Curso M6 L8]
+
+5. Tener claves no es lo mismo que tener una cuenta. Normalmente la cuenta empieza a existir en la red cuando otra cuenta con fondos la crea con XLM, y una parte de ese XLM se queda en ella como reserva. Ver Qué es Stellar y cómo funciona un pago. [Curso M4 L1; Curso M6 L2]
+
+6. Para recibir REAL8, tu cuenta necesita antes una línea de confianza hacia el REAL8 correcto. REAL8 es un activo, es decir, una moneda o ficha de la red, y el REAL8 correcto se reconoce por su código y su emisor, que es la cuenta que lo creó, no por el nombre ni por el logotipo. Ver Líneas de confianza: por qué hay que aceptar un activo antes de recibirlo. [Curso M2 L1]
+
+7. Antes de enviar, comprueba la red, el destinatario, el activo por su código y su emisor, la cantidad y cualquier memo que te pidan, que es una nota corta que acompaña al pago. Comprueba también que te queda XLM libre, por encima de la reserva, para la comisión. Hazlo mientras todavía puedes cambiar el pago. [Curso M9 L1; Curso M3 L2; Curso M4 L1]
+
+8. Después de enviar, busca el resultado en el historial de la billetera y guarda el hash de la transacción, un código largo que identifica la transacción. Con él puedes encontrar su registro y comprobar el pago. [Curso M9 L1; Curso M5 L2; Curso M10 L1]
+
+9. Si quieres cambiar un activo por otro o aportar a un fondo, son acciones distintas. Ver Intercambios: cambiar un activo por otro. Ver Fondos de liquidez: qué son y qué riesgo tienen. [Curso M4 L4]
+
+NO HAGAS
+
+- No pegues nunca tu clave secreta en un chat de soporte, en un formulario de otra página ni en la respuesta de un curso. Si importas tu cuenta, hazlo solo en la billetera, después de comprobar que la página es exactamente app.real8.org. Ver Estafas con criptomonedas. [Curso M3 L1; Curso M6 L2]
+
+- No te fíes solo del nombre REAL8 ni de un logotipo. Otros pueden crear un activo con el mismo nombre. Comprueba también el emisor. [Curso M2 L1]
+
+- No confirmes un pago sin revisarlo. El equipo de REAL8 no puede cancelar un pago ya hecho a una dirección equivocada. Ver Errores que no tienen vuelta atrás. [Curso M3 L1; Curso M3 L2]
+
+SI LAS COSAS CAMBIAN
+
+- Si algo falla, el mensaje de error es una pista. Mira la red elegida y el registro de la transacción para ver qué falta. No hay una solución única para todos los fallos. [Curso M7 L1]
+
+- Si pagaste a un servicio y no aparece en tu cuenta de ese servicio, compara el memo que te pidió con el que pusiste y pide ayuda a ese servicio. No vuelvas a pagar, porque pagar otra vez no arregla el primer pago. [Curso M7 L1]
+
+SIN BANCO
+
+- No necesitas un banco para tener una cuenta de Stellar. Normalmente la crea otra cuenta con XLM. [Curso M4 L1]
+
+- La billetera tiene una opción de efectivo de MoneyGram, que cambia efectivo por USDC y USDC por efectivo, con sus propias instrucciones de identidad, referencias y límites. Cash Out envía USDC, así que si solo tienes REAL8, primero tienes que cambiarlo por USDC. Lee las instrucciones antes de empezar. Ver Cambiar efectivo por cripto y al revés. [Curso M5 L3; Curso M9 L1; Curso M4 L4]
+
+LO QUE NO TIENE SUSTITUTO
+
+- Tu clave secreta. Quien la tiene controla la cuenta, y el equipo de REAL8 no puede recuperarla si la pierdes. [Curso M3 L1]
+
+DONDE LAS FUENTES NO DICEN NADA
+
+- El curso supone que tienes conexión a internet y un navegador. No dice cómo usar REAL8 sin conexión.
+
+QUEDA FUERA DE ESTE TEMA
+
+- Precios, inversiones y si conviene comprar o vender.
+
+- Ahorrar, presupuestos y deudas. Están en otro Knowledge Pack, Finanzas básicas.
+
+Fuente: REAL8, curso "Introducción a la criptomoneda REAL8", versión en español, https://real8.org/es/courses/introduccion-a-la-criptomoneda-real8/ , comprobado el 13 de noviembre de 2026 (Curso, módulo M y lección L).

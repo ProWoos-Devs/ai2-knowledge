@@ -1,0 +1,73 @@
+Intercambios: cambiar un activo por otro
+
+Términos de búsqueda: intercambio, intercambiar, swap, cambiar REAL8 por XLM, cambiar XLM por REAL8, comprar REAL8 con XLM, cambiar REAL8 por USDC, cambiar XLM por USDC, vender REAL8, convertir un activo, tipo de cambio, cotización, mínimo a recibir, deslizamiento, tolerancia, slippage, recibí menos de lo esperado, pago con ruta, no hay ruta, el intercambio falló, libro de ofertas.
+
+Escrito a partir del curso "Introducción a la criptomoneda REAL8" de REAL8 y de la documentación de Stellar. No revisado por un experto independiente.
+
+Para: Personas que quieren cambiar un activo por otro en su billetera de Stellar
+
+No para: Decidir si te conviene cambiar. Este tema no dice qué precio es bueno.
+
+USA ESTE TEMA CUANDO
+
+- Quieres cambiar REAL8 por XLM u otro activo
+- No entiendes la cotización o el mínimo a recibir
+- Un intercambio falló
+
+QUÉ HACER
+
+1. Un intercambio cambia un activo por otro dentro de tu propia cuenta. [Curso M4 L4; Curso M6 L5]
+
+2. La billetera lo hace con un pago con ruta, que convierte los activos a través del libro de ofertas, que es la lista de ofertas de compra y venta que otras cuentas tienen abiertas en la red, a través de los fondos de liquidez, o de los dos. Para eso hace falta una ruta posible entre los dos activos. [Curso M4 L3; Stellar liquidez]
+
+3. La forma de intercambio que explica el curso es la de envío fijo. En ella eliges exactamente cuánto envías, y el mínimo a recibir pone un límite a lo mal que puede salir la conversión. Si la ruta no puede darte ese mínimo, el intercambio falla en vez de darte menos. [Curso M4 L3]
+
+4. Lee la cotización, que es lo que la billetera calcula que vas a recibir, y el mínimo a recibir. Confirma solo cuando entiendas las dos cifras. [Curso M6 L5; Curso M9 L1]
+
+5. Antes de confirmar, comprueba la red, los dos activos por su código y su emisor, la cantidad, tus líneas de confianza y que te queda XLM libre para la comisión. Otros pueden crear un activo con el mismo código, como REAL8. Ver Líneas de confianza: por qué hay que aceptar un activo antes de recibirlo. [Curso M5 L1; Curso M2 L1; Curso M9 L1; Curso M6 L5]
+
+6. La comisión de un fondo de liquidez ya va incluida en el cambio que te da, y es aparte de la comisión de la red. [Curso M4 L4; Stellar liquidez]
+
+7. Si un fondo tiene poca cantidad de los dos activos, tu intercambio mueve más el precio y recibes peor cambio. [Stellar liquidez]
+
+NO HAGAS
+
+- No subas la tolerancia de deslizamiento sin pensarlo para arreglar un intercambio que falla. Subirla baja el mínimo que aceptas recibir, así que reduce tu protección, y si no hay ruta no crea un mercado. [Curso M4 L3; Curso M6 L5]
+
+- No confundas intercambiar con aportar liquidez a un fondo. Son acciones distintas. Ver Fondos de liquidez: qué son y qué riesgo tienen. [Curso M4 L4]
+
+SI LAS COSAS CAMBIAN
+
+- Si no hay ruta, no hay un mercado disponible entre esos dos activos en ese momento. [Curso M7 L1; Curso M6 L5]
+
+- Si el intercambio no llega al mínimo, mira la nueva cotización y decide si te parece aceptable. [Curso M4 L3; Curso M7 L1]
+
+- Si un intercambio falla, no se realiza el cambio de activos. Pero si la transacción llegó a incluirse en el registro de la red, la comisión de la red se cobra igualmente, así que cada nuevo intento cuesta otra comisión. Si la red la rechaza antes de incluirla, no se cobra comisión. [Curso M4 L2; Stellar transacciones; Stellar ciclo]
+
+SIN BANCO
+
+- No hace falta un banco para cambiar un activo por otro. El intercambio ocurre dentro de la propia red Stellar, que funciona como un mercado descentralizado entre las cuentas. [Stellar liquidez]
+
+LO QUE NO TIENE SUSTITUTO
+
+- Leer el mínimo a recibir antes de confirmar. [Curso M4 L3; Curso M9 L1]
+
+DONDE LAS FUENTES NO DICEN NADA
+
+- Las fuentes no dicen cómo saber si una cotización es justa.
+
+- Las fuentes no explican qué protección tienes en un intercambio en el que lo fijo es la cantidad que recibes.
+
+- Las fuentes no dicen si un intercambio ya hecho se puede deshacer.
+
+QUEDA FUERA DE ESTE TEMA
+
+- Aportar liquidez a un fondo. Ver Fondos de liquidez: qué son y qué riesgo tienen.
+
+- Errores al enviar. Ver Errores que no tienen vuelta atrás.
+
+- Recoger efectivo. Cambiar un activo por otro no es lo mismo que recoger efectivo. Ver Cambiar efectivo por cripto y al revés.
+
+- Precios e inversiones.
+
+Fuente: REAL8, curso "Introducción a la criptomoneda REAL8", versión en español, https://real8.org/es/courses/introduccion-a-la-criptomoneda-real8/ , comprobado el 13 de noviembre de 2026 (Curso, módulo M y lección L). Documentación de Stellar para desarrolladores, leída el 13 de noviembre de 2026, "Liquidity on Stellar" (Stellar liquidez), https://developers.stellar.org/docs/learn/fundamentals/liquidity-on-stellar-sdex-liquidity-pools , "Operations and Transactions" (Stellar transacciones), https://developers.stellar.org/docs/learn/fundamentals/transactions/operations-and-transactions , y, leída el 14 de noviembre de 2026, "Transaction Lifecycle" (Stellar ciclo), https://developers.stellar.org/docs/learn/fundamentals/transactions/transaction-lifecycle .

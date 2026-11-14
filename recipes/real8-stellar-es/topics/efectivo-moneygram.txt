@@ -1,0 +1,97 @@
+Cambiar efectivo por cripto y al revés
+
+Términos de búsqueda: efectivo, dinero en efectivo, plata, MoneyGram, Money Gram, Cash In, Cash Out, depositar efectivo, retirar efectivo, retiro, sacar dinero, cobrar, cobrar en efectivo, recoger efectivo, remesa, giro, envío de dinero, convertir cripto en dinero, pasar cripto a efectivo, cambiar cripto por dinero, vender cripto, comprar cripto con efectivo, USDC, dólares digitales, cash, sin cuenta bancaria.
+
+Escrito a partir del curso "Introducción a la criptomoneda REAL8" de REAL8, de una página de Circle y de dos páginas de la Comisión Federal de Comercio de EE. UU. (FTC). No revisado por un experto independiente.
+
+Para: Personas que quieren cambiar efectivo por un activo en su billetera de Stellar, o recoger en efectivo lo que tienen en ella
+
+No para: Saber dónde está el punto de MoneyGram más cercano, cuánto cobra o qué límites tiene. Este tema no da cifras.
+
+USA ESTE TEMA CUANDO
+
+- Tienes dinero en efectivo y lo quieres en tu billetera de Stellar
+- Quieres recoger en efectivo lo que tienes en tu billetera
+- No sabes qué activo necesitas para sacar efectivo
+
+QUÉ HACER
+
+1. La billetera de REAL8 tiene una opción de efectivo de MoneyGram. Cash In cambia efectivo por USDC. Cash Out envía USDC para que puedas recoger efectivo. USDC es un activo digital distinto de REAL8, y Circle lo describe como una moneda estable respaldada en dólares. Tener USDC en la billetera no es lo mismo que haber recogido el efectivo. [Curso M5 L3; Circle USDC]
+
+2. La encuentras en la billetera en MoneyGram, o en Retirar / Depositar. Usa la billetera solo en app.real8.org y comprueba que el dominio es exactamente ese. [Curso M5 L1; Curso M3 L1]
+
+3. La opción usa USDC. Si solo tienes REAL8, primero tienes que cambiarlo por USDC, porque tener REAL8 no significa que ya tengas el USDC que necesitas para Cash Out. [Curso M5 L3; Curso M4 L4]
+
+4. Tu cuenta tiene que existir ya en la red principal. Tener una dirección no basta, y normalmente otra cuenta la crea con XLM. Cada línea de confianza deja más XLM reservado en la cuenta, y además necesitas XLM libre para las comisiones. Esto vale para el caso habitual, en que ninguna otra cuenta cubre tu reserva. Ver Qué es Stellar y cómo funciona un pago. [Curso M4 L1]
+
+5. USDC es un activo emitido, así que tu cuenta necesita una línea de confianza hacia él, igual que para REAL8. Identifica cualquier activo emitido por su código y su emisor, no por el nombre ni por el logotipo. Ver Líneas de confianza: por qué hay que aceptar un activo antes de recibirlo. [Curso M8 L1; Curso M2 L1; Curso M9 L1]
+
+6. Circle publica en su página que el emisor de USDC en la red principal de Stellar es GA5ZSEJYB37JRC5AVCIA5MOP4RHTM335X2KGX3IHOJAPP5RE34K4KZVN. Compara la dirección completa del emisor. [Circle USDC; Curso M2 L1]
+
+7. Para cambiar REAL8 o XLM por USDC dentro de tu cuenta, haz un intercambio. Hace falta una ruta posible entre los dos activos, y antes de confirmar lee el mínimo a recibir. Ver Intercambios: cambiar un activo por otro. [Curso M4 L4; Curso M4 L3; Curso M6 L5; Curso M9 L1]
+
+8. Antes de retirar efectivo, comprueba que tienes el USDC necesario según el procedimiento del servicio. [Curso M9 L1]
+
+9. Antes de continuar, lee las instrucciones que muestra la billetera sobre la verificación de identidad, las referencias y los límites. [Curso M5 L3; Curso M10 L1]
+
+10. Cash Out envía USDC desde tu cuenta. Antes de confirmar ese envío, revisa la cantidad, que el activo es USDC y el destinatario, y sigue las instrucciones de memo del servicio, si lo pide. Ver Errores que no tienen vuelta atrás. [Curso M5 L3; Curso M3 L2; Curso M9 L1]
+
+11. Después de la operación, consulta el resultado en el historial de la billetera y guarda el hash de la transacción. El hash identifica la transacción, y con él puedes encontrar su registro y comprobar el pago. [Curso M9 L1; Curso M5 L2; Curso M10 L1]
+
+NO HAGAS
+
+- No abras la opción de efectivo desde un enlace que te llegue en un mensaje, aunque parezca de MoneyGram o de REAL8. Entra tú en app.real8.org. [FTC cripto; FTC estafa; Curso M3 L1]
+
+- No pegues tu clave secreta en un chat de soporte, tampoco si te ofrecen ayuda con el efectivo. Ver Estafas con criptomonedas. [Curso M3 L1]
+
+- No creas a quien te promete efectivo gratis. Las promesas de dinero gratis son siempre falsas. [FTC cripto]
+
+- No empieces una operación sin leer antes las instrucciones del servicio. [Curso M5 L3]
+
+- No pagues a nadie que insista en que le pagues solo con criptomonedas o con un servicio de envío de dinero como MoneyGram. Es una señal de estafa. Ver Estafas con criptomonedas. [FTC estafa]
+
+- No hagas una operación de efectivo porque alguien te mete prisa. Quien te presiona para que pagues es un estafador. Antes, cuéntaselo a alguien de confianza. [FTC estafa]
+
+- No vuelvas a enviar USDC porque el efectivo no aparece. Revisa antes el pago en el historial con su hash. Pagar otra vez no arregla el primer pago. [Curso M7 L1; Curso M6 L8]
+
+SI LAS COSAS CAMBIAN
+
+- Lee cada vez las instrucciones actuales del servicio, no las que recuerdas de otra vez. [Curso M10 L1; Curso M5 L3]
+
+- Si tienes REAL8 pero no USDC, primero necesitas conseguir el USDC. Ver Intercambios: cambiar un activo por otro. [Curso M5 L3; Curso M4 L4]
+
+- El curso de REAL8 no exige ninguna operación real con efectivo. [Curso M5 L3; Curso M10 L1]
+
+SIN BANCO
+
+- La opción de efectivo cambia efectivo por USDC y USDC por efectivo. [Curso M5 L3]
+
+- La cuenta de Stellar en la que recibes el USDC no la abre un banco. Normalmente la crea otra cuenta con XLM. [Curso M4 L1]
+
+- Tampoco hay un banco que anule un envío equivocado. Por lo general, los pagos con criptomonedas son irreversibles, y el equipo de REAL8 no puede cancelar un pago completado a una dirección equivocada. Ver Errores que no tienen vuelta atrás. [FTC cripto; Curso M3 L1]
+
+LO QUE NO TIENE SUSTITUTO
+
+- Leer las instrucciones actuales del servicio antes de cada operación. [Curso M5 L3; Curso M10 L1]
+
+DONDE LAS FUENTES NO DICEN NADA
+
+- Las fuentes no dicen en qué países funciona la opción de efectivo ni dónde están los puntos para recogerlo.
+
+- No dicen cuánto cobra MoneyGram por cada operación.
+
+- No dicen qué documentos de identidad se piden. La billetera muestra instrucciones de verificación de identidad.
+
+- No explican qué son las referencias que muestra la billetera.
+
+- No dicen si la opción de efectivo pide una cuenta bancaria.
+
+- No dicen qué hace MoneyGram si el efectivo no llega o si la operación se queda a medias.
+
+QUEDA FUERA DE ESTE TEMA
+
+- Cómo hacer un intercambio paso a paso. Ver Intercambios: cambiar un activo por otro.
+
+- Comisiones, límites y cifras concretas, que cambian.
+
+Fuente: REAL8, curso "Introducción a la criptomoneda REAL8", versión en español, https://real8.org/es/courses/introduccion-a-la-criptomoneda-real8/ , comprobado el 13 de noviembre de 2026 (Curso, módulo M y lección L). Circle, "USDC Contract Addresses" (Circle USDC), https://developers.circle.com/stablecoins/usdc-contract-addresses , leída el 13 de noviembre de 2026. Comisión Federal de Comercio de EE. UU. (FTC), leídas el 13 de noviembre de 2026, "Lo que hay que saber sobre las criptomonedas y las estafas" (FTC cripto), https://consumidor.ftc.gov/articulos/lo-que-hay-que-saber-sobre-las-criptomonedas-y-las-estafas , y "Cómo evitar una estafa" (FTC estafa), https://consumidor.ftc.gov/articulos/como-evitar-una-estafa .

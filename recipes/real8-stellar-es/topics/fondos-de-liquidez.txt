@@ -1,0 +1,71 @@
+Fondos de liquidez: qué son y qué riesgo tienen
+
+Términos de búsqueda: fondo de liquidez, pool de liquidez, liquidity pool, AMM, depositar en un fondo, proveer liquidez, ganar comisiones, rendimiento de un fondo, aportar liquidez, participaciones del fondo, pool shares, pérdida impermanente, comisiones del fondo, unirse a un fondo, retirar de un fondo, pareja de activos, par de activos, REAL8 XLM fondo.
+
+Escrito a partir del curso "Introducción a la criptomoneda REAL8" de REAL8, de la documentación de Stellar y de una página de la Comisión Federal de Comercio de EE. UU. (FTC). No revisado por un experto independiente.
+
+Para: Personas que piensan poner activos en un fondo de liquidez de Stellar
+
+No para: Calcular cuánto vas a ganar. Las fuentes no lo calculan.
+
+USA ESTE TEMA CUANDO
+
+- Te ofrecen aportar activos a un fondo de liquidez
+- No entiendes qué son las participaciones de un fondo
+- Retiraste de un fondo y te devolvió cantidades distintas a las que pusiste
+
+QUÉ HACER
+
+1. Un fondo de liquidez contiene dos activos. Cuando depositas, aportas los dos activos según la proporción del fondo y recibes participaciones. Cuando retiras, el fondo te devuelve cantidades de los dos activos según tu parte y lo que haya en el fondo en ese momento. [Curso M8 L1; Stellar liquidez]
+
+2. Tus participaciones representan tu parte del fondo. Por ejemplo, si un fondo tiene 150 participaciones y tú tienes 30, te corresponde el 20 %. [Curso M8 L1; Stellar liquidez]
+
+3. Las participaciones no se pueden enviar a otra persona como un activo normal. Solo aumentan cuando depositas y bajan cuando retiras. [Curso M4 L4; Curso M8 L1; Stellar liquidez]
+
+4. El fondo cobra una comisión en cada intercambio que pasa por él. Los participantes reciben una parte de esas comisiones según su parte del fondo, y la cobran al retirar. Esta comisión es distinta de la comisión de la red. [Curso M4 L4; Curso M8 L2; Stellar liquidez]
+
+5. Para participar necesitas líneas de confianza hacia los dos activos del fondo, salvo XLM, y otra hacia la participación. Primero tienen que existir las líneas hacia los activos, y tienen que estar autorizadas por el emisor de cada activo. Sin eso no se puede crear la línea de la participación. La línea de la participación ocupa el doble de reserva que una línea normal, en el caso habitual, en que ninguna otra cuenta cubre tu reserva. Deja también XLM para las comisiones. Ver Líneas de confianza: por qué hay que aceptar un activo antes de recibirlo. [Curso M8 L1; Curso M4 L1; Stellar liquidez]
+
+6. Antes de decidir, identifica los dos activos por su código y su emisor, lo que tendrías que aportar de cada uno, la reserva que necesitas y lo que podrías retirar. Otros pueden crear un activo con el mismo código, como REAL8. [Curso M8 L2; Curso M2 L1]
+
+7. Antes de confirmar un depósito o una retirada, entiende qué cantidades y qué límites de precio aceptas. La proporción del fondo puede cambiar entre el envío y el momento en que la red lo acepta. [Stellar liquidez]
+
+NO HAGAS
+
+- No pongas activos en un fondo sin entender la pérdida impermanente. Si cambian los precios de un activo frente al otro, lo que retires puede valer menos que si te hubieras quedado con los activos por separado. [Curso M4 L4; Curso M8 L2]
+
+- No confundas aportar a un fondo con intercambiar. Para cambiar un activo por otro no hace falta participar en ningún fondo. Ver Intercambios: cambiar un activo por otro. [Curso M4 L4; Stellar liquidez]
+
+- No firmes un depósito si no entiendes la pareja de activos o cómo funciona el fondo. [Curso M8 L2]
+
+- No creas a quien te garantiza ganancias por aportar a un fondo. Solo los estafadores garantizan ganancias o rendimientos altos. Ver Estafas con criptomonedas. [FTC cripto]
+
+SI LAS COSAS CAMBIAN
+
+- Lo que hay en el fondo cambia con cada intercambio, así que lo que te corresponde también cambia. [Curso M8 L1]
+
+- El emisor de un activo puede dejar de autorizar tu línea de confianza hacia ese activo. Si lo hace, la red retira automáticamente tu parte de todos los fondos que lo contienen y borra esas participaciones. Lo retirado no vuelve directamente a tu saldo, sino como saldos pendientes a tu nombre que tienes que reclamar. [Stellar liquidez]
+
+SIN BANCO
+
+- No hace falta un banco para aportar a un fondo. El fondo no lo gestiona una persona ni un banco. Lo gestiona la propia red con una fórmula que fija los precios según lo que hay en el fondo. [Stellar liquidez]
+
+LO QUE NO TIENE SUSTITUTO
+
+- Entender la pareja de activos y tu posición antes de firmar. [Curso M8 L1; Curso M8 L2]
+
+DONDE LAS FUENTES NO DICEN NADA
+
+- Las fuentes no dicen cuánto puedes ganar o perder en un fondo concreto.
+
+- Las fuentes no dicen si una pérdida impermanente se recupera. El nombre no promete que desaparezca.
+
+- El curso no explica cómo reclamar en la billetera los saldos pendientes que deja una autorización retirada.
+
+QUEDA FUERA DE ESTE TEMA
+
+- Cambiar un activo por otro. Ver Intercambios: cambiar un activo por otro.
+
+- Precios e inversiones.
+
+Fuente: REAL8, curso "Introducción a la criptomoneda REAL8", versión en español, https://real8.org/es/courses/introduccion-a-la-criptomoneda-real8/ , comprobado el 13 de noviembre de 2026 (Curso, módulo M y lección L). Documentación de Stellar para desarrolladores, "Liquidity on Stellar" (Stellar liquidez), https://developers.stellar.org/docs/learn/fundamentals/liquidity-on-stellar-sdex-liquidity-pools , leída el 13 de noviembre de 2026. Comisión Federal de Comercio de EE. UU. (FTC), "Lo que hay que saber sobre las criptomonedas y las estafas" (FTC cripto), https://consumidor.ftc.gov/articulos/lo-que-hay-que-saber-sobre-las-criptomonedas-y-las-estafas , leída el 13 de noviembre de 2026.

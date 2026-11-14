@@ -1,0 +1,69 @@
+Errores que no tienen vuelta atrás
+
+Términos de búsqueda: envié a la dirección equivocada, mandé a otra dirección, envié mal, me equivoqué de dirección, me equivoqué de cantidad, envié a la red equivocada, cancelar un pago, devolver un pago, reembolso, pago perdido, pago irreversible, olvidé el memo, pagué dos veces, error al enviar, recuperar dinero, deshacer una transacción.
+
+Escrito a partir del curso "Introducción a la criptomoneda REAL8" de REAL8, de la documentación de Stellar y de una página de la Comisión Federal de Comercio de EE. UU. (FTC). No revisado por un experto independiente.
+
+Para: Personas que van a enviar REAL8 u otro activo, o que ya cometieron un error
+
+No para: Reclamar ante un organismo. Las fuentes no describen ninguna forma de anular un pago.
+
+USA ESTE TEMA CUANDO
+
+- Vas a hacer un pago y quieres evitar errores
+- Enviaste un pago a quien no debías
+- Un pago no aparece donde esperabas
+
+QUÉ HACER
+
+1. Ten claro que un pago completado no se puede cancelar. El equipo de REAL8 tampoco puede hacerlo. [Curso M3 L1; FTC cripto]
+
+2. Antes de confirmar, comprueba la red, el destinatario, el activo por su código y su emisor, la cantidad y el memo, si el destinatario te pide uno. Deja también XLM libre para la comisión. Hazlo mientras todavía puedes cambiar el pago. [Curso M3 L2; Curso M9 L1]
+
+3. Un código QR o un contacto guardado te ayudan a poner la dirección, pero comprueba igualmente el destino. Un nombre fácil no sustituye esa comprobación. [Curso M3 L2; Curso M10 L1]
+
+4. Compara la dirección de destino completa con la que te dieron, no solo el principio y el final. [Curso M3 L2; Curso M10 L1]
+
+5. Después de enviar, busca el pago en el historial y guarda el hash. Si algo parece ir mal, compara ese registro con lo que querías hacer antes de volver a enviar. [Curso M5 L2; Curso M6 L4]
+
+6. Mira siempre en qué red estás. Lo de la red de prueba no tiene valor real. En la red principal los activos son reales, así que revisa cada pago con el mismo cuidado. [Curso M4 L1; Curso M6 L1; Curso M6 L8]
+
+NO HAGAS
+
+- No vuelvas a pagar para arreglar un memo olvidado. Pagar otra vez no arregla el primer pago. [Curso M7 L1]
+
+- No vuelvas a enviar porque no se pudo comprobar el pago. Un fallo al consultar la red no demuestra que el pago haya fallado. [Curso M7 L1]
+
+- No subas la tolerancia de deslizamiento sin pensarlo para forzar un intercambio que falló. Subirla baja el mínimo que aceptas recibir, así que reduce tu protección, y no arregla la causa. Ver Intercambios: cambiar un activo por otro. [Curso M4 L3]
+
+- No dependas de la billetera sin haber guardado antes una copia segura de tu clave secreta. Si la pierdes, el equipo de REAL8 no puede recuperarla, y es probable que nadie pueda ayudarte a recuperar los fondos. Ver Cómo guardar la clave secreta y qué pasa si la pierdes. [Curso M3 L1; FTC cripto]
+
+SI LAS COSAS CAMBIAN
+
+- Si enviaste un pago a la persona equivocada, normalmente solo puedes recuperarlo si esa persona te lo devuelve. [FTC cripto]
+
+- Si pagaste a un servicio y el pago no aparece en tu cuenta de ese servicio, puede faltar el memo. Pide ayuda al servicio que recibió el pago y dale el hash, que identifica la transacción. [Curso M7 L1; Curso M5 L2]
+
+- Si una transacción falla, no se aplica ninguna de sus operaciones, así que el pago no se hizo. Pero si la transacción llegó a incluirse en el registro de la red, la comisión de la red se cobra igualmente, así que cada nuevo intento cuesta otra comisión. Si la red la rechaza antes de incluirla, no se cobra comisión. [Curso M4 L2; Stellar transacciones; Stellar ciclo]
+
+SIN BANCO
+
+- No hay un banco que pueda anular el pago. Según la FTC de EE. UU., por lo general los pagos con criptomonedas son irreversibles, y solo recuperas el dinero si quien lo recibió te lo devuelve. [FTC cripto]
+
+LO QUE NO TIENE SUSTITUTO
+
+- Revisar el pago antes de confirmarlo. [Curso M3 L2]
+
+DONDE LAS FUENTES NO DICEN NADA
+
+- Las fuentes no dicen cómo pedir a un desconocido que te devuelva un pago enviado por error.
+
+- Las fuentes no dicen qué protección legal tienen los pagos con criptomonedas en tu país.
+
+QUEDA FUERA DE ESTE TEMA
+
+- Pagos que te piden con engaños. Ver Estafas con criptomonedas.
+
+- Perder la clave secreta. Ver Cómo guardar la clave secreta y qué pasa si la pierdes.
+
+Fuente: REAL8, curso "Introducción a la criptomoneda REAL8", versión en español, https://real8.org/es/courses/introduccion-a-la-criptomoneda-real8/ , comprobado el 13 de noviembre de 2026 (Curso, módulo M y lección L). Documentación de Stellar para desarrolladores, "Operations and Transactions" (Stellar transacciones), https://developers.stellar.org/docs/learn/fundamentals/transactions/operations-and-transactions , leída el 13 de noviembre de 2026, y "Transaction Lifecycle" (Stellar ciclo), https://developers.stellar.org/docs/learn/fundamentals/transactions/transaction-lifecycle , leída el 14 de noviembre de 2026. Comisión Federal de Comercio de EE. UU. (FTC), "Lo que hay que saber sobre las criptomonedas y las estafas" (FTC cripto), https://consumidor.ftc.gov/articulos/lo-que-hay-que-saber-sobre-las-criptomonedas-y-las-estafas , leída el 13 de noviembre de 2026.

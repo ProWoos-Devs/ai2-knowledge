@@ -1,0 +1,67 @@
+Qué es una billetera: la dirección pública y la clave secreta
+
+Términos de búsqueda: billetera, wallet, cartera, dirección pública, dirección G, clave secreta, clave S, clave privada, llave, llave privada, llave pública, monedero, monedero digital, contraseña, número de cuenta, cobrar, código QR, qué puedo compartir, cómo me pagan, dirección federada, alias, contactos, exportar historial, ocultar saldos, credenciales por correo.
+
+Escrito a partir del curso "Introducción a la criptomoneda REAL8" de REAL8. No revisado por un experto independiente.
+
+Para: Personas que tienen o van a crear una billetera para REAL8 o Stellar
+
+No para: Elegir entre billeteras de distintas empresas. El curso solo describe la billetera de REAL8.
+
+USA ESTE TEMA CUANDO
+
+- No sabes qué dato de tu billetera puedes dar a otra persona
+- Alguien te pide tu clave
+- Quieres que te paguen y no sabes qué darles
+
+QUÉ HACER
+
+1. La billetera de REAL8 crea tus claves en tu propio navegador. Desde ella recibes y envías activos, cambias un activo por otro y compruebas tus pagos. [Curso M3 L1; Curso M5 L1]
+
+2. Tu dirección pública empieza por G. Es el dato que puedes dar a otros para que te paguen. [Curso M3 L1]
+
+3. Tu clave secreta empieza por S y da el control de la cuenta. Quien la tenga puede mover lo que hay en ella. No la des a nadie. [Curso M3 L1]
+
+4. Para recibir un pago, busca en la billetera la opción de recibir y da la dirección que aparece allí. Es el dato que puedes dar con seguridad. [Curso M3 L2]
+
+5. Si quieres una dirección más fácil de decir, puedes crear una dirección federada, como tunombre*real8.org. Es solo un alias para recibir pagos y nunca da acceso a tu cuenta. [Curso M10 L1]
+
+6. Guarda a las personas a las que pagas a menudo en los contactos de la billetera, con un nombre y una nota. Aun así, compara la dirección antes de enviar. Un nombre fácil no sustituye esa comprobación. [Curso M5 L2; Curso M10 L1; Curso M3 L2]
+
+7. Puedes exportar tu historial de pagos para tener un registro. Ese archivo registra lo que hiciste, pero no es una copia de tu clave secreta y no sirve para recuperar la billetera. [Curso M5 L2; Curso M10 L1]
+
+8. En un lugar público puedes ocultar los saldos en la pantalla. Eso solo esconde lo que se ve y no cambia lo que hay en la cuenta. [Curso M5 L2]
+
+NO HAGAS
+
+- No pegues tu clave secreta en un chat de soporte, en un formulario de otra página ni en la respuesta de un curso. Si importas tu cuenta, hazlo solo en la billetera, después de comprobar que la página es exactamente app.real8.org. Ver Estafas con criptomonedas. [Curso M3 L1; Curso M6 L2]
+
+- No uses la opción «Enviarme las credenciales por correo» pensando que es privada. El correo lleva la clave secreta a la vista, sin ninguna protección, y cualquiera que pueda leer ese mensaje la tiene. Que las claves se creen en tu navegador no protege la copia que va por correo. [Curso M3 L1]
+
+SI LAS COSAS CAMBIAN
+
+- Si vas a borrar los datos del navegador o a cambiar de dispositivo, guarda antes tu clave secreta. Los contactos se guardan en ese navegador, así que no cuentes con que aparezcan en otro dispositivo. Ver Cómo guardar la clave secreta y qué pasa si la pierdes. [Curso M3 L1; Curso M5 L2]
+
+- Si alguien te dice que necesita tu clave secreta para pagarte, no se la des. Para pagarte solo necesita tu dirección pública o tu dirección federada. [Curso M3 L1; Curso M10 L1]
+
+SIN BANCO
+
+- No necesitas un banco para tener una billetera. Las claves las crea la propia billetera en tu navegador, y normalmente la cuenta empieza a existir en la red cuando otra cuenta con fondos la crea con XLM. Ver Qué es Stellar y cómo funciona un pago. [Curso M3 L1; Curso M4 L1]
+
+LO QUE NO TIENE SUSTITUTO
+
+- Tu clave secreta. Da el control de la cuenta, y el equipo de REAL8 no puede recuperarla si la pierdes. [Curso M3 L1]
+
+DONDE LAS FUENTES NO DICEN NADA
+
+- El curso no compara la billetera de REAL8 con otras ni dice cómo elegir una.
+
+- El curso no dice qué hacer si otra persona llega a ver tu clave secreta.
+
+QUEDA FUERA DE ESTE TEMA
+
+- Cómo guardar la clave secreta. Ver Cómo guardar la clave secreta y qué pasa si la pierdes.
+
+- Cómo funciona un pago. Ver Qué es Stellar y cómo funciona un pago.
+
+Fuente: REAL8, curso "Introducción a la criptomoneda REAL8", versión en español, https://real8.org/es/courses/introduccion-a-la-criptomoneda-real8/ , comprobado el 13 de noviembre de 2026 (Curso, módulo M y lección L).
