@@ -2,6 +2,16 @@
 
 A Knowledge Pack is a set of documents that an [AI-2](https://github.com/ProWoos-Devs/ai-2) machine can search and answer from, offline, with the source of every answer named. One file holds the documents and the search index, so the slow part, indexing, happens on a fast computer and an old laptop only has to read the result.
 
+## Why Knowledge Packs
+
+About [2.2 billion people](https://www.itu.int/itu-d/reports/statistics/facts-figures-2025/) do not use the Internet, most of them in low- and middle-income countries, and in low-income countries only [23 percent](https://www.itu.int/itu-d/reports/statistics/2025/10/15/ff25-internet-use/) of people are online (ITU, Facts and Figures 2025). A school, a clinic or a family in that position may still have a computer, often an old donated one. What it lacks is a way to look things up.
+
+Knowledge Packs are made for that. Each one covers a subject, such as first aid, safe water, basic mathematics for children or using Linux. You install it once, from this catalog while you have a connection or from a file someone hands you, and from then on it answers questions with no network at all. The hardest case is the one we design for: no grid, no Internet, laptops charged from solar panels, and no way to download a correction.
+
+That is also why a Knowledge Pack answers with the original passage and names its source, instead of writing an answer. A small model on an old laptop can invent things, and when the question is about a choking baby or dirty water, an invented answer is worse than none. What you read is what the authors wrote, and you can see where it came from.
+
+Anyone can build a Knowledge Pack from their own documents, so a community can put its own knowledge on its own machines, such as a school's lessons, a clinic's procedures or local farming practice.
+
 **This repository is the community catalog.** It is where packs are listed, where you get them, and where you share one you made. Anyone can add a pack. The AI-2 project's own packs are listed here next to everyone else's.
 
 ## Get a pack
