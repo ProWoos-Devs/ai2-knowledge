@@ -1,0 +1,65 @@
+Qué es REAL8 y para qué sirve
+
+Términos de búsqueda: qué es REAL8, Real de a Ocho, Real de a 8, real ocho, moneda REAL8, token REAL8, moneda de plata, Hispanopedia, para qué sirve REAL8, quién está detrás de REAL8, quién creó REAL8, quién emite REAL8, REAL8 es seguro, REAL8 es una estafa, misión de REAL8.
+
+Escrito a partir del curso "Introducción a la criptomoneda REAL8" de REAL8 y de una página de la Comisión Federal de Comercio de EE. UU. (FTC). No revisado por un experto independiente.
+
+Para: Personas que quieren saber qué es REAL8 antes de usarlo
+
+No para: Saber cuánto vale REAL8 o si conviene comprarlo. Este tema no habla de precios.
+
+USA ESTE TEMA CUANDO
+
+- Alguien te habla de REAL8 y no sabes qué es
+- Quieres saber quién está detrás de REAL8
+- Quieres comprobar que tienes el REAL8 verdadero
+
+QUÉ HACER
+
+1. REAL8 se inspira en el Real de a Ocho, una moneda de plata que, según el documento que presenta el proyecto (en inglés, whitepaper), se aceptaba en muchos lugares porque su peso y su pureza eran siempre los mismos. La moneda histórica solo da nombre e identidad al proyecto. [Curso M1 L1]
+
+2. REAL8 funciona en la red Stellar. Ver Qué es Stellar y cómo funciona un pago. [Curso M1 L1]
+
+3. El proyecto lo patrocina la Asociación Hispanopedia, una entidad sin ánimo de lucro registrada en España. Su misión declarada une la inclusión financiera con el acceso a la educación en comunidades desatendidas. [Curso M1 L1]
+
+4. El curso de REAL8 enseña a usar las herramientas de esa misión, que son recibir un activo, enviar un pago y comprobar una transacción. [Curso M1 L1]
+
+5. Reconoce el REAL8 de la red principal por su código, REAL8, y su emisor completo, GBVYYQ7XXRZW6ZCNNCL2X2THNPQ6IM4O47HAA25JTAG7Z3CXJCQ3W4CD. [Curso M2 L1]
+
+6. REAL8 es un activo emitido, así que tu cuenta necesita una línea de confianza hacia él antes de recibirlo. XLM no la necesita. Ver Líneas de confianza: por qué hay que aceptar un activo antes de recibirlo. [Curso M2 L1]
+
+NO HAGAS
+
+- No te fíes solo del nombre REAL8 ni de un logotipo. Comprueba el emisor. [Curso M2 L1]
+
+- No confundas el REAL8 de prueba, que se usa para practicar, con el REAL8 real. [Curso M2 L1]
+
+- No pienses en ninguna criptomoneda como una inversión segura. Su valor puede cambiar mucho y muy rápido, y si baja no hay garantía de que vuelva a subir. [FTC cripto]
+
+SI LAS COSAS CAMBIAN
+
+- Si quieres explicar REAL8 a otra persona, dile en qué red funciona y qué pretende conseguir el proyecto. [Curso M1 L1]
+
+- Si quieres conocer mejor su origen, la página de historia del sitio de REAL8 y la primera sección del whitepaper, el documento que presenta el proyecto, hablan de la moneda histórica y de la misión. [Curso M10 L1]
+
+SIN BANCO
+
+- No necesitas un banco para tener REAL8. Necesitas una cuenta de Stellar, creada normalmente por otra cuenta con XLM, y una línea de confianza hacia REAL8. [Curso M4 L1; Curso M2 L1]
+
+LO QUE NO TIENE SUSTITUTO
+
+- Comprobar el emisor de REAL8. [Curso M2 L1]
+
+DONDE LAS FUENTES NO DICEN NADA
+
+- El curso no habla del precio de REAL8 ni de cómo se fija.
+
+- El curso no dice que REAL8 esté respaldado por plata ni por ningún otro bien.
+
+QUEDA FUERA DE ESTE TEMA
+
+- Precios, inversiones y si conviene comprar o vender.
+
+- Cómo reconocer una estafa. Ver Estafas con criptomonedas.
+
+Fuente: REAL8, curso "Introducción a la criptomoneda REAL8", versión en español, https://real8.org/es/courses/introduccion-a-la-criptomoneda-real8/ , comprobado el 13 de noviembre de 2026 (Curso, módulo M y lección L). Comisión Federal de Comercio de EE. UU. (FTC), "Lo que hay que saber sobre las criptomonedas y las estafas" (FTC cripto), https://consumidor.ftc.gov/articulos/lo-que-hay-que-saber-sobre-las-criptomonedas-y-las-estafas , leída el 13 de noviembre de 2026.

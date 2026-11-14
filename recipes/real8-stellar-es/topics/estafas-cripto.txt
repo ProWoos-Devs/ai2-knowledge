@@ -1,0 +1,75 @@
+Estafas con criptomonedas
+
+Términos de búsqueda: estafa cripto, me estafaron, estafador, engaño, fraude con criptomonedas, me piden la clave secreta, falso soporte, airdrop, criptomonedas gratis, duplicar mis criptomonedas, inversión garantizada, gerente de inversiones, me pidieron pagar en cripto, código QR, enlace sospechoso, REAL8 falso, chantaje, me amenazan, me piden dinero, conocí a alguien por internet, pareja por internet, trabajo que pide pago, soporte de REAL8, no puedo retirar mi dinero.
+
+Escrito a partir del curso "Introducción a la criptomoneda REAL8" de REAL8, de la documentación de Stellar y de dos páginas de la Comisión Federal de Comercio de EE. UU. (FTC). No revisado por un experto independiente.
+
+Para: Personas que usan criptomonedas o a las que alguien pide pagar con ellas
+
+No para: Denunciar una estafa. Las páginas de la FTC se dirigen a Estados Unidos, y las fuentes no dicen dónde denunciar en otro país.
+
+USA ESTE TEMA CUANDO
+
+- Alguien te pide tu clave secreta
+- Te ofrecen ganancias seguras o criptomonedas gratis
+- Te piden que pagues o "protejas tu dinero" con criptomonedas
+
+QUÉ HACER
+
+1. Desconfía de quien te exige pagar con criptomonedas o insiste en que pagues solo así. Según la FTC, ningún negocio honrado te exigirá que envíes criptomonedas por adelantado, ni para comprar algo ni para proteger tu dinero. [FTC cripto; FTC estafa]
+
+2. Ten presente que solo los estafadores garantizan ganancias o rendimientos altos. [FTC cripto]
+
+3. Comprueba que un activo llamado REAL8 tiene el emisor correcto. Otros emisores pueden crear un activo con el mismo código, REAL8. Ver Líneas de confianza: por qué hay que aceptar un activo antes de recibirlo. [Curso M2 L1; Stellar activos]
+
+4. Usa la billetera de REAL8 solo en la página web app.real8.org, escrita exactamente así, y no abras enlaces de mensajes inesperados aunque parezcan de una empresa que conoces. [Curso M3 L1; FTC cripto]
+
+5. Antes de poner dinero en algo, averigua cómo funciona, pregunta a dónde irá tu dinero y averigua la reputación de quien te lo pide. [FTC cripto]
+
+6. Si alguien dice que una empresa conocida lanza su propia moneda, comprueba si es verdad antes de comprarla. [FTC cripto]
+
+NO HAGAS
+
+- No des tu clave secreta a nadie, tampoco a quien dice ser de soporte. No la pegues en un chat, en un formulario de otra página ni en la respuesta de un curso. Si importas tu cuenta, hazlo solo en la billetera, después de comprobar que la página es exactamente app.real8.org. [Curso M3 L1; Curso M6 L2; Stellar glosario]
+
+- No envíes criptomonedas a quien promete multiplicarlas, aunque diga ser una persona famosa o te dé un código QR. [FTC cripto]
+
+- No sigas consejos de inversión de alguien que conociste en una página o aplicación de citas. [FTC cripto]
+
+- No creas en promesas de dinero o criptomonedas gratis. [FTC cripto]
+
+- No pagues para conseguir un trabajo. [FTC cripto]
+
+- No envíes criptomonedas a una billetera que te indican para "protegerlas". [FTC cripto]
+
+- No pagues a quien te amenaza con publicar fotos o datos tuyos si no le pagas en criptomonedas. [FTC cripto]
+
+SI LAS COSAS CAMBIAN
+
+- Si te presionan para que actúes ya, para y cuéntaselo a alguien de confianza antes de hacer nada. [FTC estafa]
+
+- Si una "cuenta de inversión" no te deja retirar tu dinero o te pide cargos altos para retirarlo, es una estafa. [FTC cripto]
+
+SIN BANCO
+
+- No hay un banco que pueda anular el pago a un estafador. Según la FTC de EE. UU., por lo general los pagos con criptomonedas son irreversibles. Por lo general, solo recuperas el dinero si quien lo recibió te lo devuelve. Ver Errores que no tienen vuelta atrás. [FTC cripto]
+
+LO QUE NO TIENE SUSTITUTO
+
+- Que tu clave secreta la conozcas solo tú. [Curso M3 L1]
+
+DONDE LAS FUENTES NO DICEN NADA
+
+- Las fuentes no dicen dónde denunciar una estafa fuera de Estados Unidos.
+
+- Las fuentes no dicen qué protección legal tienen los pagos con criptomonedas en tu país.
+
+- Las fuentes no dicen cómo recuperar criptomonedas ya enviadas a un estafador.
+
+- Las fuentes no hablan de quien ofrece recuperar, a cambio de un pago, criptomonedas ya enviadas a un estafador.
+
+QUEDA FUERA DE ESTE TEMA
+
+- Estafas sin criptomonedas. Están en otro Knowledge Pack, Finanzas básicas.
+
+Fuente: REAL8, curso "Introducción a la criptomoneda REAL8", versión en español, https://real8.org/es/courses/introduccion-a-la-criptomoneda-real8/ , comprobado el 13 de noviembre de 2026 (Curso, módulo M y lección L). Documentación de Stellar para desarrolladores, leída el 13 de noviembre de 2026, "Glossary" (Stellar glosario), https://developers.stellar.org/docs/learn/glossary , y "Assets" (Stellar activos), https://developers.stellar.org/docs/learn/fundamentals/stellar-data-structures/assets . Comisión Federal de Comercio de EE. UU. (FTC), leídas el 13 de noviembre de 2026, "Lo que hay que saber sobre las criptomonedas y las estafas" (FTC cripto), https://consumidor.ftc.gov/articulos/lo-que-hay-que-saber-sobre-las-criptomonedas-y-las-estafas , y "Cómo evitar una estafa" (FTC estafa), https://consumidor.ftc.gov/articulos/como-evitar-una-estafa .

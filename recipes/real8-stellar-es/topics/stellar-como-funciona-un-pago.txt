@@ -1,0 +1,77 @@
+Qué es Stellar y cómo funciona un pago
+
+Términos de búsqueda: Stellar, XLM, lumen, lúmenes, red Stellar, crear una cuenta, activar una cuenta, reserva mínima, por qué no puedo gastar todo mi XLM, saldo disponible, saldo bloqueado, comisión, tarifa, memo, concepto, referencia, transacción, operación, hash, red de prueba, testnet, red principal, la cuenta no existe, fondos insuficientes, el pago no llega, pago fallido.
+
+Escrito a partir del curso "Introducción a la criptomoneda REAL8" de REAL8, de la documentación de Stellar y de una página de la Comisión Federal de Comercio de EE. UU. (FTC). No revisado por un experto independiente.
+
+Para: Personas que quieren entender qué pasa cuando envían o reciben un pago en Stellar
+
+No para: Programadores. Este tema no explica contratos inteligentes ni cómo crear un activo.
+
+USA ESTE TEMA CUANDO
+
+- Quieres saber qué es Stellar y qué es XLM
+- Tu cuenta no puede gastar todo su XLM
+- Un pago falló y no sabes por qué
+
+QUÉ HACER
+
+1. Stellar es la red en la que funciona REAL8. XLM es la moneda propia de la red, la única que no necesita emisor ni línea de confianza. Se usa para pagar las comisiones y para cubrir la reserva mínima que cada cuenta tiene que guardar. [Curso M1 L1; Curso M2 L1; Stellar lumens]
+
+2. Normalmente una cuenta empieza a existir cuando otra cuenta con fondos la crea con XLM, con una operación especial de creación de cuenta. Tener las claves todavía no es tener una cuenta. [Curso M4 L1; Stellar glosario]
+
+3. Cada cuenta tiene que guardar una reserva mínima de XLM. La reserva crece con cada línea de confianza o cada oferta abierta que añades. No es una comisión que pagas en cada pago, se queda en la cuenta. La cifra la fija la red, que puede cambiarla, aunque rara vez lo hace. Esto vale para el caso habitual, en que ninguna otra cuenta cubre tu reserva. Otra cuenta puede cubrirla por ti, lo que se llama patrocinio. [Curso M4 L1; Stellar lumens]
+
+4. Mantén XLM por encima de la reserva para pagar las comisiones. Cada operación paga una comisión pequeña en XLM, que puede subir cuando la red está muy ocupada. Si tienes ofertas de venta abiertas, parte del saldo también está comprometida en ellas, así que tener XLM por encima de la reserva no significa que puedas gastarlo todo. [Curso M4 L1; Curso M4 L2; Stellar lumens]
+
+5. Un pago es una operación dentro de una transacción, y una transacción puede llevar varias operaciones. Se aplican todas o ninguna. Si una falla, no se aplica ninguna. [Curso M4 L2; Stellar transacciones]
+
+6. El memo es un dato corto que acompaña al pago. [Stellar transacciones] Sirve, por ejemplo, para que un servicio que usa una sola cuenta para muchas personas sepa quién le paga. Si el destinatario te pide un memo y su tipo, ponlo tal como te lo indica. [Curso M4 L2]
+
+7. Hay dos redes. En la red de prueba los activos no tienen valor real, y en la red principal los pagos son reales. La red se elige en los Ajustes de la billetera, y la etiqueta TESTNET indica que estás en la red de prueba. [Curso M4 L1; Curso M6 L2; Curso M6 L6; Curso M6 L8]
+
+8. Antes de enviar, comprueba la red, el destinatario, el activo por su código y su emisor, la cantidad y el memo, y que te queda XLM libre, por encima de la reserva, para la comisión. [Curso M9 L1; Curso M3 L2; Curso M4 L1]
+
+9. Después del pago, la billetera muestra el hash de la transacción, un código largo que identifica la transacción. Guárdalo, porque con él puedes buscarla en un explorador, una página web que muestra los pagos de la red, y comprobar el pago. [Curso M5 L2]
+
+NO HAGAS
+
+- No dejes la cuenta sin XLM libre. Sin XLM por encima de la reserva no puedes pagar la comisión de un pago. [Curso M4 L1; Curso M9 L1]
+
+- No confundas la red de prueba con la red principal. Lo de la red de prueba no tiene valor real, se borra cada cierto tiempo, y su saldo no sirve en la red principal. [Curso M4 L1; Curso M6 L6]
+
+- No vuelvas a pagar si olvidaste el memo. Pide ayuda al servicio que recibió el pago. [Curso M7 L1]
+
+SI LAS COSAS CAMBIAN
+
+- Si la cuenta de destino no existe, comprueba que la red y la dirección son las correctas. Si lo son, esa cuenta todavía no se ha creado con XLM. [Curso M7 L1]
+
+- Si no tienes fondos suficientes, revisa la cantidad, la reserva, la comisión y lo que tengas comprometido en ofertas de venta abiertas. [Curso M7 L1; Stellar lumens]
+
+- Si no puedes conectar con la red para comprobar un pago, eso no demuestra que el pago haya fallado. Mira el registro del pago y vuelve a comprobarlo cuando haya conexión. No lo vuelvas a enviar mientras tanto. [Curso M7 L1; Curso M6 L8]
+
+- Si cierras una línea de confianza u otra cosa que ocupa reserva, como una oferta abierta, la reserva que ocupaba vuelve a tu saldo disponible. [Stellar lumens]
+
+SIN BANCO
+
+- No necesitas un banco para tener una cuenta de Stellar. Normalmente la crea otra cuenta con XLM. [Curso M4 L1]
+
+- Tampoco hay un banco que guarde en secreto tus pagos. En Stellar tu dirección pública y sus pagos se ven en el registro de la red, y cualquiera puede consultarlos. A veces se puede saber quién hizo un pago a partir de esos datos. [Stellar glosario; FTC cripto]
+
+LO QUE NO TIENE SUSTITUTO
+
+- Saber en qué red estás, la principal o la de prueba, en cada pago. [Curso M6 L6]
+
+DONDE LAS FUENTES NO DICEN NADA
+
+- Las fuentes no dicen cómo conseguir el primer XLM de la red principal si nadie te activa la cuenta.
+
+QUEDA FUERA DE ESTE TEMA
+
+- Las líneas de confianza. Ver Líneas de confianza: por qué hay que aceptar un activo antes de recibirlo.
+
+- Cambiar un activo por otro. Ver Intercambios: cambiar un activo por otro.
+
+- Contratos inteligentes y cómo crear un activo.
+
+Fuente: REAL8, curso "Introducción a la criptomoneda REAL8", versión en español, https://real8.org/es/courses/introduccion-a-la-criptomoneda-real8/ , comprobado el 13 de noviembre de 2026 (Curso, módulo M y lección L). Documentación de Stellar para desarrolladores, leída el 13 de noviembre de 2026, "Lumens (XLM)" (Stellar lumens), https://developers.stellar.org/docs/learn/fundamentals/lumens , "Glossary" (Stellar glosario), https://developers.stellar.org/docs/learn/glossary , y "Operations and Transactions" (Stellar transacciones), https://developers.stellar.org/docs/learn/fundamentals/transactions/operations-and-transactions . Comisión Federal de Comercio de EE. UU. (FTC), "Lo que hay que saber sobre las criptomonedas y las estafas" (FTC cripto), https://consumidor.ftc.gov/articulos/lo-que-hay-que-saber-sobre-las-criptomonedas-y-las-estafas , leída el 13 de noviembre de 2026.

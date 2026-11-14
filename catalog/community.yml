@@ -254,3 +254,23 @@ packs:
   categories:
   - '06.05'
   audience: general
+- id: real8-stellar-es
+  title: REAL8 y Stellar
+  description: REAL8 and the Stellar network for beginners in Spanish, wallets and secret keys, payments, trustlines, swaps, liquidity pools, cash in and out through MoneyGram, mistakes that cannot be undone and crypto scams, written by REAL8 about its own project from its course, the Stellar docs, Circle and the FTC, with no investment advice
+  version: '2026-11-14'
+  revision: 1
+  languages:
+  - es
+  license: MIT
+  attribution: Escrito por REAL8 con sus propias palabras a partir de su curso «Introducción a la criptomoneda REAL8», de la documentación de Stellar para desarrolladores (licencia Apache 2.0), de una página de Circle sobre USDC y de dos páginas de la Comisión Federal de Comercio de EE. UU. (FTC) sobre estafas, de dominio público. Ni la Stellar Development Foundation, ni MoneyGram, ni Circle, ni la FTC lo escribieron ni lo respaldan. Licencia MIT.
+  embedder: nomic-embed-text-v2-moe
+  url: https://raw.githubusercontent.com/ProWoos-Devs/ai2-knowledge/main/packs/real8-stellar-es/real8-stellar-es-r1.ai2pack
+  size_bytes: 373564
+  sha256: e0c27fc099fa5e40b12a91d9f8720d2b8db6cf1eb0c1d509fd40528b948aff6a
+  documents: 12
+  parts: 117
+  built_with: ai-2 0.29.2
+  contact: REAL8-crypto
+  categories:
+  - '06.05'
+  audience: general

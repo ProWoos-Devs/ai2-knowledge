@@ -1,0 +1,58 @@
+id: real8-stellar-es
+title: REAL8 y Stellar
+version: '2026-11-14'
+revision: 1
+languages:
+- es
+license: MIT
+attribution: Escrito por REAL8 con sus propias palabras a partir de su curso «Introducción a la criptomoneda REAL8», de la documentación de Stellar para desarrolladores (licencia Apache 2.0), de una página de Circle sobre USDC y de dos páginas de la Comisión Federal de Comercio de EE. UU. (FTC) sobre estafas, de dominio público. Ni la Stellar Development Foundation, ni MoneyGram, ni Circle, ni la FTC lo escribieron ni lo respaldan. Licencia MIT.
+modified: Escrito como temas, cortado en partes e indexado para la búsqueda de AI-2.
+sources:
+- file: billetera-direccion-clave.txt
+  title: REAL8, curso Introducción a la criptomoneda REAL8, versión en español
+  url: https://real8.org/es/courses/introduccion-a-la-criptomoneda-real8/
+  retrieved: '2026-11-13'
+- file: efectivo-moneygram.txt
+  title: REAL8, curso Introducción a la criptomoneda REAL8, versión en español
+  url: https://real8.org/es/courses/introduccion-a-la-criptomoneda-real8/
+  retrieved: '2026-11-13'
+- file: empieza-aqui.txt
+  title: REAL8, curso Introducción a la criptomoneda REAL8, versión en español
+  url: https://real8.org/es/courses/introduccion-a-la-criptomoneda-real8/
+  retrieved: '2026-11-13'
+- file: errores-sin-vuelta-atras.txt
+  title: REAL8, curso Introducción a la criptomoneda REAL8, versión en español
+  url: https://real8.org/es/courses/introduccion-a-la-criptomoneda-real8/
+  retrieved: '2026-11-13'
+- file: estafas-cripto.txt
+  title: FTC, Lo que hay que saber sobre las criptomonedas y las estafas
+  url: https://consumidor.ftc.gov/articulos/lo-que-hay-que-saber-sobre-las-criptomonedas-y-las-estafas
+  retrieved: '2026-11-13'
+- file: fondos-de-liquidez.txt
+  title: REAL8, curso Introducción a la criptomoneda REAL8, versión en español
+  url: https://real8.org/es/courses/introduccion-a-la-criptomoneda-real8/
+  retrieved: '2026-11-13'
+- file: guardar-clave-secreta.txt
+  title: REAL8, curso Introducción a la criptomoneda REAL8, versión en español
+  url: https://real8.org/es/courses/introduccion-a-la-criptomoneda-real8/
+  retrieved: '2026-11-13'
+- file: intercambios.txt
+  title: REAL8, curso Introducción a la criptomoneda REAL8, versión en español
+  url: https://real8.org/es/courses/introduccion-a-la-criptomoneda-real8/
+  retrieved: '2026-11-13'
+- file: lineas-de-confianza.txt
+  title: REAL8, curso Introducción a la criptomoneda REAL8, versión en español
+  url: https://real8.org/es/courses/introduccion-a-la-criptomoneda-real8/
+  retrieved: '2026-11-13'
+- file: que-es-real8.txt
+  title: REAL8, curso Introducción a la criptomoneda REAL8, versión en español
+  url: https://real8.org/es/courses/introduccion-a-la-criptomoneda-real8/
+  retrieved: '2026-11-13'
+- file: sobre-este-knowledge-pack.txt
+  title: REAL8, curso Introducción a la criptomoneda REAL8, versión en español
+  url: https://real8.org/es/courses/introduccion-a-la-criptomoneda-real8/
+  retrieved: '2026-11-13'
+- file: stellar-como-funciona-un-pago.txt
+  title: REAL8, curso Introducción a la criptomoneda REAL8, versión en español
+  url: https://real8.org/es/courses/introduccion-a-la-criptomoneda-real8/
+  retrieved: '2026-11-13'

@@ -1,0 +1,33 @@
+Sobre el Knowledge Pack REAL8 y Stellar
+
+Escrito a partir del curso de REAL8, de la documentación de Stellar, de una página de Circle y de páginas de la Comisión Federal de Comercio de EE. UU. No revisado por un experto independiente.
+
+De dónde salen los temas
+
+Los temas se basan en el curso "Introducción a la criptomoneda REAL8", versión en español, de REAL8. Para algunos puntos se usaron también varias páginas de la documentación de Stellar para desarrolladores, publicada con licencia Apache 2.0, dos páginas de la Comisión Federal de Comercio de EE. UU. (FTC) sobre estafas, que son de dominio público, y una página de Circle para el emisor de USDC. Las palabras son nuestras. Ni la Stellar Development Foundation, ni MoneyGram, ni Circle, ni la FTC escribieron estos temas ni los respaldan.
+
+Este Knowledge Pack lo ha preparado REAL8 para el catálogo comunitario de AI-2, así que habla de su propio proyecto. Ninguna persona ajena a REAL8 lo ha revisado. En su lugar, cada indicación lleva entre corchetes la lección del curso o la página de la que sale, para que se pueda comprobar. Además, los temas se compararon con las fuentes en una lectura aparte.
+
+Estas fuentes se escribieron para otros lectores
+
+La documentación de Stellar está escrita para programadores, y las páginas de la FTC para personas que viven en Estados Unidos. Los consejos de la FTC sobre estafas se han usado aquí, pero los organismos donde denunciar son de Estados Unidos y se han dejado fuera. El curso describe solo la billetera de REAL8 en app.real8.org. En otra billetera los nombres y los botones pueden ser distintos.
+
+No es consejo de inversión
+
+Estos temas explican cómo funcionan las billeteras, los pagos, los intercambios y los fondos de Stellar, cómo cambiar efectivo por cripto y al revés, y cómo evitar errores y estafas. No dicen cuánto vale REAL8 ni ninguna otra criptomoneda, ni si conviene comprar, vender o aportar a un fondo. El valor de una criptomoneda puede cambiar mucho y muy rápido.
+
+Las fuentes no lo cubren todo
+
+Algunas preguntas no tienen respuesta en las fuentes, por ejemplo dónde guardar la clave secreta, cómo pedir que te devuelvan un pago enviado por error o cómo usar REAL8 sin conexión. Cuando pasa, el tema lo dice en la parte "Donde las fuentes no dicen nada". No llenamos ese hueco con consejos nuestros.
+
+Cifras que cambian
+
+La red Stellar puede cambiar cifras como la reserva mínima o las comisiones, y los servicios de efectivo pueden cambiar sus límites. Por eso estos temas explican para qué sirve cada una sin dar su valor.
+
+Mira la fecha
+
+Este Knowledge Pack funciona sin conexión y no se actualiza solo. El curso y las páginas web se comprobaron el 13 de noviembre de 2026. Lo que dicen puede haber cambiado desde entonces.
+
+¿Has encontrado un error o falta algo?
+
+Cuéntanoslo en https://github.com/ProWoos-Devs/ai2-knowledge/issues , o cambia tú el tema y propón el cambio en GitHub (lo que allí se llama una pull request). Los temas son archivos de texto en la carpeta recipes/real8-stellar-es/topics/ del mismo repositorio. Di qué tema y qué paso, y qué fuente apoya el cambio. Una corrección llega a este Knowledge Pack en su siguiente revisión.
