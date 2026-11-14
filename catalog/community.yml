@@ -236,19 +236,19 @@ packs:
   - preteen
 - id: real8-finanzas-es
   title: Finanzas básicas
-  description: Basic household money in Spanish, ordering money when it does not stretch, a simple budget, saving little by little, debt and interest, the full cost of sending money abroad and recognizing scams, each with what works without a bank, written by REAL8 from CFPB and FTC sources, not reviewed by a financial adviser
+  description: Basic household money in Spanish, ordering money when it does not stretch, a simple budget, saving little by little, debt and interest, the full cost of sending money abroad and recognizing scams, each with what works without a bank, written by REAL8 from CFPB, FTC, OCC and FBI sources, not reviewed by a financial adviser
   version: '2026-11-14'
   revision: 1
   languages:
   - es
   license: MIT
-  attribution: Escrito por REAL8 con sus propias palabras a partir de «Su dinero, sus metas» de la Oficina para la Protección Financiera del Consumidor de EE. UU. (CFPB, edición en español de octubre de 2015, PDF de marzo de 2016), de tres páginas de ayuda de la CFPB sobre envíos de dinero y de una página de la Comisión Federal de Comercio de EE. UU. (FTC) sobre estafas, todas de dominio público. Ni la CFPB ni la FTC lo escribieron ni lo respaldan. Licencia MIT.
+  attribution: Escrito por REAL8 con sus propias palabras a partir de «Su dinero, sus metas» de la Oficina para la Protección Financiera del Consumidor de EE. UU. (CFPB, edición en español de octubre de 2015, PDF de marzo de 2016), de tres páginas de ayuda de la CFPB sobre envíos de dinero, de una página de la Comisión Federal de Comercio de EE. UU. (FTC) sobre estafas, de una página de la Oficina del Contralor de la Moneda de EE. UU. (OCC) y de un aviso del FBI, todas de dominio público. Ni la CFPB, ni la FTC, ni la OCC, ni el FBI lo escribieron ni lo respaldan. Licencia MIT.
   embedder: nomic-embed-text-v2-moe
   url: https://raw.githubusercontent.com/ProWoos-Devs/ai2-knowledge/main/packs/real8-finanzas-es/real8-finanzas-es-r1.ai2pack
-  size_bytes: 250534
-  sha256: dd11a6f52ba2808d23e5b684195e02f5617d36fc84293022daf89c2ac37e175c
+  size_bytes: 256819
+  sha256: c5185eb360e21c69f4793f992a64847f3d714168126c30c3a80c1342cfe1b96d
   documents: 7
-  parts: 78
+  parts: 80
   built_with: ai-2 0.29.2
   contact: REAL8-crypto
   categories:
@@ -265,10 +265,10 @@ packs:
   attribution: Escrito por REAL8 con sus propias palabras a partir de su curso «Introducción a la criptomoneda REAL8», de la documentación de Stellar para desarrolladores (licencia Apache 2.0), de una página de Circle sobre USDC y de dos páginas de la Comisión Federal de Comercio de EE. UU. (FTC) sobre estafas, de dominio público. Ni la Stellar Development Foundation, ni MoneyGram, ni Circle, ni la FTC lo escribieron ni lo respaldan. Licencia MIT.
   embedder: nomic-embed-text-v2-moe
   url: https://raw.githubusercontent.com/ProWoos-Devs/ai2-knowledge/main/packs/real8-stellar-es/real8-stellar-es-r1.ai2pack
-  size_bytes: 373564
-  sha256: e0c27fc099fa5e40b12a91d9f8720d2b8db6cf1eb0c1d509fd40528b948aff6a
+  size_bytes: 380165
+  sha256: 1e232553ea188b750d7aa9bb002543be48e57188b74bae53cc4383a60b59cd03
   documents: 12
-  parts: 117
+  parts: 119
   built_with: ai-2 0.29.2
   contact: REAL8-crypto
   categories:

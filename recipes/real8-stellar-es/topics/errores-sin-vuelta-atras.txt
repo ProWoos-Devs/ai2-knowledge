@@ -44,7 +44,7 @@ SI LAS COSAS CAMBIAN
 
 - Si pagaste a un servicio y el pago no aparece en tu cuenta de ese servicio, puede faltar el memo. Pide ayuda al servicio que recibió el pago y dale el hash, que identifica la transacción. [Curso M7 L1; Curso M5 L2]
 
-- Si una transacción falla, no se aplica ninguna de sus operaciones, así que el pago no se hizo. [Curso M4 L2; Stellar transacciones]
+- Si una transacción falla, no se aplica ninguna de sus operaciones, así que el pago no se hizo. Pero si la transacción llegó a incluirse en el registro de la red, la comisión de la red se cobra igualmente, así que cada nuevo intento cuesta otra comisión. Si la red la rechaza antes de incluirla, no se cobra comisión. [Curso M4 L2; Stellar transacciones; Stellar ciclo]
 
 SIN BANCO
 
@@ -66,4 +66,4 @@ QUEDA FUERA DE ESTE TEMA
 
 - Perder la clave secreta. Ver Cómo guardar la clave secreta y qué pasa si la pierdes.
 
-Fuente: REAL8, curso "Introducción a la criptomoneda REAL8", versión en español, https://real8.org/es/courses/introduccion-a-la-criptomoneda-real8/ , comprobado el 13 de noviembre de 2026 (Curso, módulo M y lección L). Documentación de Stellar para desarrolladores, "Operations and Transactions" (Stellar transacciones), https://developers.stellar.org/docs/learn/fundamentals/transactions/operations-and-transactions , leída el 13 de noviembre de 2026. Comisión Federal de Comercio de EE. UU. (FTC), "Lo que hay que saber sobre las criptomonedas y las estafas" (FTC cripto), https://consumidor.ftc.gov/articulos/lo-que-hay-que-saber-sobre-las-criptomonedas-y-las-estafas , leída el 13 de noviembre de 2026.
+Fuente: REAL8, curso "Introducción a la criptomoneda REAL8", versión en español, https://real8.org/es/courses/introduccion-a-la-criptomoneda-real8/ , comprobado el 13 de noviembre de 2026 (Curso, módulo M y lección L). Documentación de Stellar para desarrolladores, "Operations and Transactions" (Stellar transacciones), https://developers.stellar.org/docs/learn/fundamentals/transactions/operations-and-transactions , leída el 13 de noviembre de 2026, y "Transaction Lifecycle" (Stellar ciclo), https://developers.stellar.org/docs/learn/fundamentals/transactions/transaction-lifecycle , leída el 14 de noviembre de 2026. Comisión Federal de Comercio de EE. UU. (FTC), "Lo que hay que saber sobre las criptomonedas y las estafas" (FTC cripto), https://consumidor.ftc.gov/articulos/lo-que-hay-que-saber-sobre-las-criptomonedas-y-las-estafas , leída el 13 de noviembre de 2026.

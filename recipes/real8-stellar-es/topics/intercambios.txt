@@ -42,7 +42,7 @@ SI LAS COSAS CAMBIAN
 
 - Si el intercambio no llega al mínimo, mira la nueva cotización y decide si te parece aceptable. [Curso M4 L3; Curso M7 L1]
 
-- Si un intercambio falla, no se aplica ninguna parte de la transacción. [Curso M4 L2; Stellar transacciones]
+- Si un intercambio falla, no se realiza el cambio de activos. Pero si la transacción llegó a incluirse en el registro de la red, la comisión de la red se cobra igualmente, así que cada nuevo intento cuesta otra comisión. Si la red la rechaza antes de incluirla, no se cobra comisión. [Curso M4 L2; Stellar transacciones; Stellar ciclo]
 
 SIN BANCO
 
@@ -70,4 +70,4 @@ QUEDA FUERA DE ESTE TEMA
 
 - Precios e inversiones.
 
-Fuente: REAL8, curso "Introducción a la criptomoneda REAL8", versión en español, https://real8.org/es/courses/introduccion-a-la-criptomoneda-real8/ , comprobado el 13 de noviembre de 2026 (Curso, módulo M y lección L). Documentación de Stellar para desarrolladores, leída el 13 de noviembre de 2026, "Liquidity on Stellar" (Stellar liquidez), https://developers.stellar.org/docs/learn/fundamentals/liquidity-on-stellar-sdex-liquidity-pools , y "Operations and Transactions" (Stellar transacciones), https://developers.stellar.org/docs/learn/fundamentals/transactions/operations-and-transactions .
+Fuente: REAL8, curso "Introducción a la criptomoneda REAL8", versión en español, https://real8.org/es/courses/introduccion-a-la-criptomoneda-real8/ , comprobado el 13 de noviembre de 2026 (Curso, módulo M y lección L). Documentación de Stellar para desarrolladores, leída el 13 de noviembre de 2026, "Liquidity on Stellar" (Stellar liquidez), https://developers.stellar.org/docs/learn/fundamentals/liquidity-on-stellar-sdex-liquidity-pools , "Operations and Transactions" (Stellar transacciones), https://developers.stellar.org/docs/learn/fundamentals/transactions/operations-and-transactions , y, leída el 14 de noviembre de 2026, "Transaction Lifecycle" (Stellar ciclo), https://developers.stellar.org/docs/learn/fundamentals/transactions/transaction-lifecycle .

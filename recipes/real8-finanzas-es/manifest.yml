@@ -5,7 +5,7 @@ revision: 1
 languages:
 - es
 license: MIT
-attribution: Escrito por REAL8 con sus propias palabras a partir de «Su dinero, sus metas» de la Oficina para la Protección Financiera del Consumidor de EE. UU. (CFPB, edición en español de octubre de 2015, PDF de marzo de 2016), de tres páginas de ayuda de la CFPB sobre envíos de dinero y de una página de la Comisión Federal de Comercio de EE. UU. (FTC) sobre estafas, todas de dominio público. Ni la CFPB ni la FTC lo escribieron ni lo respaldan. Licencia MIT.
+attribution: Escrito por REAL8 con sus propias palabras a partir de «Su dinero, sus metas» de la Oficina para la Protección Financiera del Consumidor de EE. UU. (CFPB, edición en español de octubre de 2015, PDF de marzo de 2016), de tres páginas de ayuda de la CFPB sobre envíos de dinero, de una página de la Comisión Federal de Comercio de EE. UU. (FTC) sobre estafas, de una página de la Oficina del Contralor de la Moneda de EE. UU. (OCC) y de un aviso del FBI, todas de dominio público. Ni la CFPB, ni la FTC, ni la OCC, ni el FBI lo escribieron ni lo respaldan. Licencia MIT.
 modified: Escrito como temas, cortado en partes e indexado para la búsqueda de AI-2.
 sources:
 - file: ahorrar-poco-a-poco.txt

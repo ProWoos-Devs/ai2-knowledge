@@ -2,7 +2,7 @@ Cómo reconocer una estafa
 
 Términos de búsqueda: estafa, timo, fraude, engaño, me llamaron del banco, me piden mis datos, premio, lotería, herencia, trabajo desde casa, inversión segura, me presionan para pagar, tarjeta de regalo, criptomonedas, robo de identidad, mensaje sospechoso, enlace sospechoso, cobrador falso, me llaman para cobrar una deuda.
 
-Escrito a partir de "Su dinero, sus metas" de la Oficina para la Protección Financiera del Consumidor de EE. UU. (CFPB) y de una página de la Comisión Federal de Comercio de EE. UU. (FTC). No revisado por un asesor financiero.
+Escrito a partir de "Su dinero, sus metas" de la Oficina para la Protección Financiera del Consumidor de EE. UU. (CFPB), de una página de la Comisión Federal de Comercio de EE. UU. (FTC), de una página de la Oficina del Contralor de la Moneda de EE. UU. (OCC) y de un aviso del FBI. No revisado por un asesor financiero.
 
 Para: Personas que reciben ofertas, llamadas o mensajes que piden dinero o datos personales
 
@@ -34,7 +34,7 @@ QUÉ HACER
 
 NO HAGAS
 
-- No des números de cuenta, contraseñas ni respuestas de seguridad por teléfono, correo o mensaje, y no respondas a los mensajes que te los piden. Dalos solo si llamaste tú a un número que sabes que es de esa empresa, o si escribiste tú la dirección de su página web y ves que es segura, con una dirección que empieza por https y un candado al lado. Un banco o una cooperativa de crédito nunca te llamará ni te escribirá para pedírtelos. [SDSM pp. 355, 362-363; FTC estafa]
+- No des números de cuenta ni respuestas de seguridad por teléfono, correo o mensaje, y no respondas a los mensajes que te los piden. Dalos solo si llamaste tú a un número que sabes que es de esa empresa, o si escribiste tú la dirección de su página web. Tu contraseña no la des nunca por teléfono, tampoco si llamaste tú. Una dirección que empieza por https y un candado al lado solo indican que la conexión va cifrada, no que la página sea de confianza, porque las páginas falsas también pueden tenerlos. Un banco o una cooperativa de crédito nunca te llamará ni te escribirá para pedírtelos. [SDSM pp. 355, 362-363; FTC estafa; OCC phishing; FBI https]
 
 - No pagues a nadie que insista en cobrar solo con criptomonedas, con un envío de dinero, con una aplicación de pago o con una tarjeta de regalo. [FTC estafa]
 
@@ -80,4 +80,4 @@ QUEDA FUERA DE ESTE TEMA
 
 - Estafas con monedas digitales y billeteras digitales (wallets). Están en el Knowledge Pack REAL8 y Stellar.
 
-Fuente: Oficina para la Protección Financiera del Consumidor de EE. UU. (CFPB), "Su dinero, sus metas: un conjunto de herramientas de empoderamiento financiero", edición en español con fecha de octubre de 2015, PDF publicado en marzo de 2016 (SDSM, página del PDF). Comisión Federal de Comercio de EE. UU. (FTC), "Cómo evitar una estafa" (FTC estafa), https://consumidor.ftc.gov/articulos/como-evitar-una-estafa, leída el 13 de noviembre de 2026.
+Fuente: Oficina para la Protección Financiera del Consumidor de EE. UU. (CFPB), "Su dinero, sus metas: un conjunto de herramientas de empoderamiento financiero", edición en español con fecha de octubre de 2015, PDF publicado en marzo de 2016 (SDSM, página del PDF). Comisión Federal de Comercio de EE. UU. (FTC), "Cómo evitar una estafa" (FTC estafa), https://consumidor.ftc.gov/articulos/como-evitar-una-estafa, leída el 13 de noviembre de 2026. Oficina del Contralor de la Moneda de EE. UU. (OCC), "Phishing Attack Prevention" (OCC phishing), https://www.occ.treas.gov/topics/consumers-and-communities/consumer-protection/fraud-resources/phishing-attack-prevention.html , y FBI, Internet Crime Complaint Center, "Cyber Actors Exploit 'Secure' Websites In Phishing Campaigns" (FBI https), https://www.ic3.gov/PSA/2019/PSA190610 , leídas el 14 de noviembre de 2026.
