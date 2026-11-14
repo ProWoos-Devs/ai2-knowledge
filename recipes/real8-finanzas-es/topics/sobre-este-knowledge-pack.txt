@@ -1,0 +1,29 @@
+Sobre el Knowledge Pack Finanzas básicas
+
+Escrito a partir de fuentes de dos organismos de EE. UU., la CFPB y la FTC. No revisado por un asesor financiero.
+
+De dónde salen los temas
+
+Los temas se basan en "Su dinero, sus metas: un conjunto de herramientas de empoderamiento financiero", edición en español con fecha de octubre de 2015 (PDF publicado en marzo de 2016), de la Oficina para la Protección Financiera del Consumidor de EE. UU. (CFPB). Para algunos puntos se usaron también tres páginas de ayuda de la CFPB sobre envíos de dinero y una página de la Comisión Federal de Comercio de EE. UU. (FTC) sobre estafas. Todas son de dominio público. Las palabras son nuestras. Ninguna de estas organizaciones escribió estos temas ni los respalda.
+
+Ningún asesor financiero los ha revisado. En su lugar, cada indicación lleva entre corchetes la página o la fuente de la que sale, para que se pueda comprobar.
+
+Este Knowledge Pack lo ha preparado REAL8 para el catálogo comunitario de AI-2. No recomienda ningún banco, empresa ni producto. Las monedas digitales están en el Knowledge Pack REAL8 y Stellar.
+
+Estas fuentes se escribieron para otro lector
+
+"Su dinero, sus metas" está escrito para trabajadores sociales de Estados Unidos y las personas a las que ayudan, y supone que hay bancos, ayudas públicas y leyes de ese país. Estos temas son para personas y familias de cualquier lugar. Dejamos fuera lo que solo vale en Estados Unidos, como las ayudas públicas, las cifras en dólares, las normas de impuestos de Estados Unidos, el historial de crédito y los derechos que dan sus leyes. Por eso puede faltar aquí algo que conozcas de las fuentes.
+
+Las fuentes no lo cubren todo
+
+Algunas preguntas no tienen respuesta en las fuentes que leímos, por ejemplo cómo proteger el dinero que guardas en casa o qué protección tienes al enviar dinero desde un país que no es Estados Unidos. Cuando pasa, el tema lo dice en la parte "Donde las fuentes no dicen nada". No llenamos ese hueco con consejos nuestros.
+
+Estos temas no son consejo financiero personal ni tratan de inversiones.
+
+Mira la fecha
+
+Este Knowledge Pack funciona sin conexión y no se actualiza solo. La edición de "Su dinero, sus metas" que usamos tiene fecha de octubre de 2015, y las páginas web se leyeron el 13 de noviembre de 2026. Lo que dicen puede haber cambiado desde entonces.
+
+¿Has encontrado un error o falta algo?
+
+Cuéntanoslo en https://github.com/ProWoos-Devs/ai2-knowledge/issues , o cambia tú el tema y abre una pull request. Los temas son archivos de texto en la carpeta recipes/real8-finanzas-es/topics/ del mismo repositorio. Di qué tema y qué paso, y qué fuente apoya el cambio. Una corrección llega a este Knowledge Pack en su siguiente revisión.

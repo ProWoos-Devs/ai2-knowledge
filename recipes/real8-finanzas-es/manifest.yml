@@ -1,0 +1,38 @@
+id: real8-finanzas-es
+title: Finanzas básicas
+version: '2026-11-14'
+revision: 1
+languages:
+- es
+license: MIT
+attribution: Escrito por REAL8 con sus propias palabras a partir de «Su dinero, sus metas» de la Oficina para la Protección Financiera del Consumidor de EE. UU. (CFPB, edición en español de octubre de 2015, PDF de marzo de 2016), de tres páginas de ayuda de la CFPB sobre envíos de dinero y de una página de la Comisión Federal de Comercio de EE. UU. (FTC) sobre estafas, todas de dominio público. Ni la CFPB ni la FTC lo escribieron ni lo respaldan. Licencia MIT.
+modified: Escrito como temas, cortado en partes e indexado para la búsqueda de AI-2.
+sources:
+- file: ahorrar-poco-a-poco.txt
+  title: CFPB, Su dinero, sus metas, edición en español de octubre de 2015 (PDF de marzo de 2016)
+  url: https://files.consumerfinance.gov/f/201603_cfpb_your-money-your-goals_toolkit_spanish.pdf
+  retrieved: '2026-11-12'
+- file: empieza-aqui.txt
+  title: CFPB, Su dinero, sus metas, edición en español de octubre de 2015 (PDF de marzo de 2016)
+  url: https://files.consumerfinance.gov/f/201603_cfpb_your-money-your-goals_toolkit_spanish.pdf
+  retrieved: '2026-11-12'
+- file: enviar-dinero.txt
+  title: CFPB, Su dinero, sus metas, edición en español de octubre de 2015 (PDF de marzo de 2016)
+  url: https://files.consumerfinance.gov/f/201603_cfpb_your-money-your-goals_toolkit_spanish.pdf
+  retrieved: '2026-11-12'
+- file: pedir-prestado.txt
+  title: CFPB, Su dinero, sus metas, edición en español de octubre de 2015 (PDF de marzo de 2016)
+  url: https://files.consumerfinance.gov/f/201603_cfpb_your-money-your-goals_toolkit_spanish.pdf
+  retrieved: '2026-11-12'
+- file: presupuesto-sencillo.txt
+  title: CFPB, Su dinero, sus metas, edición en español de octubre de 2015 (PDF de marzo de 2016)
+  url: https://files.consumerfinance.gov/f/201603_cfpb_your-money-your-goals_toolkit_spanish.pdf
+  retrieved: '2026-11-12'
+- file: reconocer-estafa.txt
+  title: CFPB, Su dinero, sus metas, edición en español de octubre de 2015 (PDF de marzo de 2016)
+  url: https://files.consumerfinance.gov/f/201603_cfpb_your-money-your-goals_toolkit_spanish.pdf
+  retrieved: '2026-11-12'
+- file: sobre-este-knowledge-pack.txt
+  title: CFPB, Su dinero, sus metas, edición en español de octubre de 2015 (PDF de marzo de 2016)
+  url: https://files.consumerfinance.gov/f/201603_cfpb_your-money-your-goals_toolkit_spanish.pdf
+  retrieved: '2026-11-12'
