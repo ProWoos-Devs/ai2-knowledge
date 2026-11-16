@@ -274,3 +274,24 @@ packs:
   categories:
   - '06.05'
   audience: general
+- id: historia-hispanica-mitos-es
+  title: Mitos y hechos de la historia hispánica
+  description: Forty questions about the history of Spain and the Hispanic world in Spanish, each opening with the common myths and the fact beside them, the Leyenda Negra, the conquests, the laws on the Indians, encomienda and mita, slavery, the Inquisition, viceroyalties, science and voyages, wars and battles, written by Hispanopedia from its own encyclopedia with a source on every fact and the gaps stated
+  version: '2026-11-15'
+  revision: 1
+  languages:
+  - es
+  license: CC-BY-SA-4.0
+  attribution: Escrito por Hispanopedia con sus propias palabras a partir de los artículos de su enciclopedia, https://es.hispanopedia.com/ , que se publican con licencia Creative Commons Atribución-CompartirIgual 4.0 y de los que una parte procede de Wikipedia en español. Cada tema nombra sus artículos. Licencia CC BY-SA 4.0.
+  embedder: nomic-embed-text-v2-moe
+  url: https://raw.githubusercontent.com/ProWoos-Devs/ai2-knowledge/main/packs/historia-hispanica-mitos-es/historia-hispanica-mitos-es-r1.ai2pack
+  size_bytes: 2992966
+  sha256: 56873533aa288dfd405ad25402dddeb6438f065c0052c7382a791655ab2e8d4b
+  documents: 42
+  parts: 937
+  built_with: ai-2 0.29.2
+  contact: hispanopedia-admin
+  categories:
+  - '16.12'
+  - '16.05'
+  audience: general

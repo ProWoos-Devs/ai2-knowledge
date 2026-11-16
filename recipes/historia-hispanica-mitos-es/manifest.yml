@@ -1,0 +1,178 @@
+id: historia-hispanica-mitos-es
+title: Mitos y hechos de la historia hispánica
+version: '2026-11-15'
+revision: 1
+languages:
+- es
+license: CC-BY-SA-4.0
+attribution: Escrito por Hispanopedia con sus propias palabras a partir de los artículos de su enciclopedia, https://es.hispanopedia.com/ , que se publican con licencia Creative Commons Atribución-CompartirIgual 4.0 y de los que una parte procede de Wikipedia en español. Cada tema nombra sus artículos. Licencia CC BY-SA 4.0.
+modified: Reescrito como respuestas a preguntas, cortado en partes e indexado para la búsqueda de AI-2.
+sources:
+- file: armada-de-1588.txt
+  title: Hispanopedia, artículo «Grande y Felicísima Armada»
+  url: https://es.hispanopedia.com/wiki/Grande_y_Felicísima_Armada
+  retrieved: '2026-11-15'
+- file: bernardo-de-galvez.txt
+  title: Hispanopedia, artículo «Bernardo de Gálvez»
+  url: https://es.hispanopedia.com/wiki/Bernardo_de_Gálvez
+  retrieved: '2026-11-15'
+- file: blas-de-lezo-y-cartagena.txt
+  title: Hispanopedia, artículo «Blas de Lezo» y otro que el tema nombra
+  url: https://es.hispanopedia.com/wiki/Blas_de_Lezo
+  retrieved: '2026-11-15'
+- file: brujas.txt
+  title: Hispanopedia, artículo «Caza de brujas» y otro que el tema nombra
+  url: https://es.hispanopedia.com/wiki/Caza_de_brujas
+  retrieved: '2026-11-15'
+- file: bulas-y-tordesillas.txt
+  title: Hispanopedia, artículo «Bulas Alejandrinas» y otro que el tema nombra
+  url: https://es.hispanopedia.com/wiki/Bulas_Alejandrinas
+  retrieved: '2026-11-15'
+- file: camino-real-de-tierra-adentro.txt
+  title: Hispanopedia, artículo «Camino Real de Tierra Adentro»
+  url: https://es.hispanopedia.com/wiki/Camino_Real_de_Tierra_Adentro
+  retrieved: '2026-11-15'
+- file: colonias-o-virreinatos.txt
+  title: Hispanopedia, artículo «Derecho Indiano» y otros 2 que el tema nombra
+  url: https://es.hispanopedia.com/wiki/Derecho_Indiano
+  retrieved: '2026-11-15'
+- file: conquista-de-mexico.txt
+  title: Hispanopedia, artículo «Conquista de México-Tenochtitlan» y otros 2 que el tema nombra
+  url: https://es.hispanopedia.com/wiki/Conquista_de_México-Tenochtitlan
+  retrieved: '2026-11-15'
+- file: conquista-del-peru.txt
+  title: Hispanopedia, artículo «Conquista del Imperio incaico»
+  url: https://es.hispanopedia.com/wiki/Conquista_del_Imperio_incaico
+  retrieved: '2026-11-15'
+- file: contraarmada-de-1589.txt
+  title: Hispanopedia, artículo «Armada Inglesa»
+  url: https://es.hispanopedia.com/wiki/Armada_Inglesa
+  retrieved: '2026-11-15'
+- file: de-que-murieron-los-indigenas.txt
+  title: Hispanopedia, artículo «Catástrofe demográfica en América tras la llegada de los europeos»
+  url: https://es.hispanopedia.com/wiki/Catástrofe_demográfica_en_América_tras_la_llegada_de_los_europeos
+  retrieved: '2026-11-15'
+- file: empieza-aqui.txt
+  title: Hispanopedia, la enciclopedia de la Asociación Hispanopedia
+  url: https://es.hispanopedia.com/
+  retrieved: '2026-11-15'
+- file: encomienda.txt
+  title: Hispanopedia, artículo «Encomienda»
+  url: https://es.hispanopedia.com/wiki/Encomienda
+  retrieved: '2026-11-15'
+- file: esclavitud.txt
+  title: Hispanopedia, artículo «Esclavitud en España»
+  url: https://es.hispanopedia.com/wiki/Esclavitud_en_España
+  retrieved: '2026-11-15'
+- file: escuela-de-salamanca.txt
+  title: Hispanopedia, artículo «Escuela de Salamanca» y otro que el tema nombra
+  url: https://es.hispanopedia.com/wiki/Escuela_de_Salamanca
+  retrieved: '2026-11-15'
+- file: expedicion-de-la-vacuna.txt
+  title: Hispanopedia, artículo «Real Expedición Filantrópica de la Vacuna»
+  url: https://es.hispanopedia.com/wiki/Real_Expedición_Filantrópica_de_la_Vacuna
+  retrieved: '2026-11-15'
+- file: hispanidad.txt
+  title: Hispanopedia, artículo «Hispanidad»
+  url: https://es.hispanopedia.com/wiki/Hispanidad
+  retrieved: '2026-11-15'
+- file: inquisicion-espanola.txt
+  title: Hispanopedia, artículo «Inquisición española»
+  url: https://es.hispanopedia.com/wiki/Inquisición_española
+  retrieved: '2026-11-15'
+- file: invasion-napoleonica.txt
+  title: Hispanopedia, artículo «Invasión Napoleónica de España»
+  url: https://es.hispanopedia.com/wiki/Invasión_Napoleónica_de_España
+  retrieved: '2026-11-15'
+- file: isabel-la-catolica.txt
+  title: Hispanopedia, artículo «Isabel I de Castilla»
+  url: https://es.hispanopedia.com/wiki/Isabel_I_de_Castilla
+  retrieved: '2026-11-15'
+- file: jeronimo-de-ayanz.txt
+  title: Hispanopedia, artículo «Jerónimo de Ayanz y Beaumont»
+  url: https://es.hispanopedia.com/wiki/Jerónimo_de_Ayanz_y_Beaumont
+  retrieved: '2026-11-15'
+- file: juan-latino.txt
+  title: Hispanopedia, artículo «Juan Latino»
+  url: https://es.hispanopedia.com/wiki/Juan_Latino
+  retrieved: '2026-11-15'
+- file: juicio-de-residencia.txt
+  title: Hispanopedia, artículo «Juicio de residencia»
+  url: https://es.hispanopedia.com/wiki/Juicio_de_residencia
+  retrieved: '2026-11-15'
+- file: junta-de-valladolid.txt
+  title: Hispanopedia, artículo «Junta de Valladolid»
+  url: https://es.hispanopedia.com/wiki/Junta_de_Valladolid
+  retrieved: '2026-11-15'
+- file: las-casas-y-la-brevisima.txt
+  title: Hispanopedia, artículo «Bartolomé de las Casas» y otro que el tema nombra
+  url: https://es.hispanopedia.com/wiki/Bartolomé_de_las_Casas
+  retrieved: '2026-11-15'
+- file: lepanto.txt
+  title: Hispanopedia, artículo «Batalla de Lepanto»
+  url: https://es.hispanopedia.com/wiki/Batalla_de_Lepanto
+  retrieved: '2026-11-15'
+- file: leyes-que-protegian-a-los-indios.txt
+  title: Hispanopedia, artículo «Leyes de Burgos» y otros 2 que el tema nombra
+  url: https://es.hispanopedia.com/wiki/Leyes_de_Burgos
+  retrieved: '2026-11-15'
+- file: mestizaje.txt
+  title: Hispanopedia, artículo «Mestizaje»
+  url: https://es.hispanopedia.com/wiki/Mestizaje
+  retrieved: '2026-11-15'
+- file: misiones-guaranies.txt
+  title: Hispanopedia, artículo «Misiones jesuíticas guaraníes»
+  url: https://es.hispanopedia.com/wiki/Misiones_jesuíticas_guaraníes
+  retrieved: '2026-11-15'
+- file: mita.txt
+  title: Hispanopedia, artículo «Mita»
+  url: https://es.hispanopedia.com/wiki/Mita
+  retrieved: '2026-11-15'
+- file: nebrija.txt
+  title: Hispanopedia, artículo «Antonio de Nebrija»
+  url: https://es.hispanopedia.com/wiki/Antonio_de_Nebrija
+  retrieved: '2026-11-15'
+- file: oro-y-plata-de-america.txt
+  title: Hispanopedia, artículo «Quinto del Rey» y otros 2 que el tema nombra
+  url: https://es.hispanopedia.com/wiki/Quinto_del_Rey
+  retrieved: '2026-11-15'
+- file: primera-vuelta-al-mundo.txt
+  title: Hispanopedia, artículo «Expedición de Magallanes-Elcano» y otro que el tema nombra
+  url: https://es.hispanopedia.com/wiki/Expedición_de_Magallanes-Elcano
+  retrieved: '2026-11-15'
+- file: que-es-la-leyenda-negra.txt
+  title: Hispanopedia, artículo «Leyenda Negra española»
+  url: https://es.hispanopedia.com/wiki/Leyenda_Negra_española
+  retrieved: '2026-11-15'
+- file: quien-defendia-a-los-indios.txt
+  title: Hispanopedia, artículo «Protectoría de indios» y otro que el tema nombra
+  url: https://es.hispanopedia.com/wiki/Protectoría_de_indios
+  retrieved: '2026-11-15'
+- file: real-de-a-ocho.txt
+  title: Hispanopedia, artículo «Real de a Ocho»
+  url: https://es.hispanopedia.com/wiki/Real_de_a_Ocho
+  retrieved: '2026-11-15'
+- file: reconquista.txt
+  title: Hispanopedia, artículo «Reconquista»
+  url: https://es.hispanopedia.com/wiki/Reconquista
+  retrieved: '2026-11-15'
+- file: sacrificios-humanos.txt
+  title: Hispanopedia, artículo «Sacrificios humanos en la América prehispánica»
+  url: https://es.hispanopedia.com/wiki/Sacrificios_humanos_en_la_América_prehispánica
+  retrieved: '2026-11-15'
+- file: sobre-este-knowledge-pack.txt
+  title: Hispanopedia, la enciclopedia de la Asociación Hispanopedia
+  url: https://es.hispanopedia.com/
+  retrieved: '2026-11-15'
+- file: tornaviaje-y-galeon-de-manila.txt
+  title: Hispanopedia, artículo «Tornaviaje» y otros 2 que el tema nombra
+  url: https://es.hispanopedia.com/wiki/Tornaviaje
+  retrieved: '2026-11-15'
+- file: traductores-de-toledo.txt
+  title: Hispanopedia, artículo «Escuela de Traductores de Toledo»
+  url: https://es.hispanopedia.com/wiki/Escuela_de_Traductores_de_Toledo
+  retrieved: '2026-11-15'
+- file: universidades-en-america.txt
+  title: Hispanopedia, artículo «Real y Pontificia Universidad de México» y otro que el tema nombra
+  url: https://es.hispanopedia.com/wiki/Real_y_Pontificia_Universidad_de_México
+  retrieved: '2026-11-15'
