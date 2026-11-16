@@ -1,0 +1,47 @@
+Sobre el Knowledge Pack Mitos y hechos de la historia hispánica
+
+Escrito a partir de los artículos de Hispanopedia. No revisado por un historiador independiente.
+
+De dónde salen los temas
+
+Todos los temas salen de artículos de Hispanopedia, la enciclopedia en español de la Asociación Hispanopedia, en https://es.hispanopedia.com/ . Cada tema nombra sus artículos al principio y da sus direcciones al final. Las palabras de los temas son nuestras, más sencillas y más cortas que las de los artículos.
+
+Este Knowledge Pack lo ha preparado Hispanopedia a partir de sus propios artículos. Ningún historiador ajeno a Hispanopedia lo ha revisado. En su lugar, cada hecho lleva entre corchetes el artículo y el apartado del que sale, para que cualquiera pueda comprobarlo.
+
+Cómo se comprobaron
+
+Cada tema se escribió solo con lo que dicen sus artículos. Después, en una lectura aparte, se comparó cada afirmación con el texto del artículo, y lo que no tenía apoyo se quitó o se corrigió. Esa lectura comprueba que el tema dice lo mismo que el artículo. No comprueba que el artículo acierte.
+
+Un tema no vale más que su artículo
+
+Los artículos de Hispanopedia tienen errores, como los de cualquier enciclopedia, y algunos no dan la fuente de lo que afirman. Cuando un artículo se contradecía, o daba dos cifras distintas para lo mismo, el tema no usa ese dato. Los errores encontrados se han apuntado para corregir los artículos.
+
+Los libros de la parte «Para saber más» son los que cada artículo da en su bibliografía o en sus referencias. Los temas no se han comprobado con esos libros.
+
+Mitos y hechos
+
+La parte «Mitos» de cada tema recoge creencias extendidas que el artículo desmiente o matiza. El hecho que va al lado es lo que dice el artículo. Estos temas también cuentan los hechos que no favorecen a España cuando el artículo los cuenta.
+
+Las fuentes no lo cubren todo
+
+Muchas preguntas no tienen respuesta en los artículos. Cuando pasa, el tema lo dice en la parte «Donde la fuente no dice nada». No llenamos ese hueco con lo que sabemos por otro lado.
+
+Las palabras que usamos
+
+Hispanopedia escribe con mayúscula los cargos y las instituciones, como Rey, Virrey o Cabildo. Llama virreinatos, reinos y provincias a los territorios españoles de América y de Filipinas, y época virreinal a su tiempo. A la guerra de 1808 a 1814 la llama Invasión Napoleónica de España. Estos temas hacen lo mismo.
+
+Sin política
+
+Estos temas son de historia. No hablan de partidos ni de políticos de hoy.
+
+Mira la fecha
+
+Este Knowledge Pack funciona sin conexión y no se actualiza solo. Los artículos se leyeron el 15 de noviembre de 2026. Los artículos de Hispanopedia cambian, y lo que dicen puede ser distinto ahora.
+
+Licencia
+
+Los artículos de Hispanopedia se publican con licencia Creative Commons Atribución-CompartirIgual. Estos temas se publican con la misma licencia. Se pueden copiar y cambiar si se nombra a Hispanopedia y se comparte el resultado con la misma licencia.
+
+¿Has encontrado un error o falta algo?
+
+Cuéntanoslo en https://github.com/ProWoos-Devs/ai2-knowledge/issues , o cambia tú el tema y propón el cambio en GitHub, con lo que allí se llama una pull request. Los temas son archivos de texto en la carpeta recipes/historia-hispanica-mitos-es/topics/ del mismo repositorio. Di qué tema y qué hecho, y qué fuente apoya el cambio. Si el error está en el artículo de Hispanopedia, también se puede corregir allí. Una corrección llega a este Knowledge Pack en su siguiente revisión.
