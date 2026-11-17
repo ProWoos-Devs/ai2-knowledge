@@ -1,0 +1,21 @@
+Reading what a form sent, $_GET and $_POST
+
+A form with method="post" sends its fields in $_POST, and a link or a form with method="get" sends them in $_GET, where they also appear in the address bar. Each field is found under the name attribute of its input, so <input name="email"> arrives as $_POST['email'].
+
+Use post for anything that changes something or carries a password. Addresses from get requests are kept in browser history and server logs.
+
+Everything a visitor sends is chosen by the visitor, including hidden fields, select options and values set by JavaScript, and even its shape. A field name ending in [] makes PHP give an array instead of text, so check is_string before using a string function. Never trust it. Check every field on the server, even if the browser already checked it.
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $raw = $_POST['email'] ?? '';
+    $email = is_string($raw) ? trim($raw) : '';
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        $errors[] = 'Please enter a valid email address.';
+    }
+}
+
+filter_var with FILTER_VALIDATE_INT, FILTER_VALIDATE_FLOAT or FILTER_VALIDATE_EMAIL returns the value when it is valid and false when it is not. For numbers, compare with === false, because a valid 0 counts as false in a plain if. $qty = filter_var($_POST['qty'] ?? '', FILTER_VALIDATE_INT); if ($qty === false) { ... } For a choice from a list, check it with in_array against the allowed values. For a number with limits, check the limits too.
+
+Checking input is one layer. The value must still be escaped where it goes, with htmlspecialchars when it is printed in a page and with a prepared statement when it goes into a database query. Each has its own topic.
+
+A form that changes data also needs a CSRF token, which has its own topic too.

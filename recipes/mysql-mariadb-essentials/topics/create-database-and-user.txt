@@ -1,0 +1,19 @@
+Creating a database and a user for it
+
+Do this once for each application, as root, from sudo mariadb on AI-2 or mysql -u root -p on MySQL.
+
+CREATE DATABASE shop CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci;
+CREATE USER 'shop_app'@'localhost' IDENTIFIED BY 'a long random password';
+GRANT SELECT, INSERT, UPDATE, DELETE ON shop.* TO 'shop_app'@'localhost';
+
+The first line makes the database with a character set that keeps every alphabet and emoji intact. The second makes an account that may connect only from this machine. The third lets it read and change data in that one database and nothing else.
+
+GRANT takes effect at once for new connections. A program that is already connected may need to reconnect. FLUSH PRIVILEGES is only needed after editing the system tables by hand, which you should not do.
+
+Give an application only the rights it needs. An account that also needs to create or change tables, for example while installing a web application, can be given CREATE, ALTER, DROP, INDEX and REFERENCES on shop.* as well. Never use GRANT ALL ON *.*, and never let an application connect as root. If the application is broken into, its database account is all the intruder gets.
+
+A good password for an account used by a program is long and random, since no person has to type it. Keep it in the program's configuration file, outside the web folder.
+
+To change a password later, ALTER USER 'shop_app'@'localhost' IDENTIFIED BY 'new password';. To take a right back, REVOKE DELETE ON shop.* FROM 'shop_app'@'localhost';. To remove the account, DROP USER 'shop_app'@'localhost';.
+
+SHOW GRANTS FOR 'shop_app'@'localhost'; shows what the account may do.

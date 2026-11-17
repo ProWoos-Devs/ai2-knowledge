@@ -1,0 +1,19 @@
+Accents and symbols turn into question marks, utf8mb4
+
+When ñ, é, Chinese characters or emoji come back as ?, as Ã±, or are refused with Incorrect string value, the text went through a character set that could not hold it.
+
+Use utf8mb4 everywhere. In both servers, the character set called utf8 is an old three-byte form, now named utf8mb3, which cannot store emoji and some rarer characters. utf8mb4 holds all of Unicode.
+
+Three places must agree.
+
+The database and its tables. Create them with CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci. SHOW CREATE TABLE customers; shows what a table uses.
+The connection. A program must say it sends utf8mb4. In PHP with PDO that is charset=utf8mb4 in the connection string. At the prompt, SET NAMES utf8mb4; does it for that session.
+The program's own text. Save source files as UTF-8 and send web pages with <meta charset="utf-8">.
+
+Question marks stored in the table are lost for good, since the original characters were replaced. Garbled text such as Ã± sometimes means the stored bytes are right and only the connection is wrong. Set the connection to utf8mb4 and look again before converting anything.
+
+To convert an old table, take a backup and run ALTER TABLE customers CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci;. It changes only that table, so also run ALTER DATABASE shop CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci; for tables made later.
+
+LENGTH counts bytes and CHAR_LENGTH counts characters, so LENGTH('Zoë') is 4 and CHAR_LENGTH('Zoë') is 3. A VARCHAR(100) holds 100 characters, whatever their size.
+
+The collation decides how text is compared and sorted. Names ending in _ci ignore case, and most also ignore accents, so 'Ana', 'ana' and 'Aña' count as equal, and a UNIQUE column accepts only one of them. The older utf8mb4_unicode_ci also treats every emoji as equal to every other, which utf8mb4_unicode_520_ci does not. Both names work on MariaDB and MySQL.

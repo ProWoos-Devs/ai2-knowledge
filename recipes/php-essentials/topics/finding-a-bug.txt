@@ -1,0 +1,17 @@
+Finding a bug in PHP code
+
+When the code runs but gives the wrong result, find out what the values really are instead of guessing.
+
+var_dump($x) prints a value with its type and length, string(3) "abc" or int(3), which shows mistakes such as the text "3" where a number was expected, or false where you hoped for a row. print_r($array) prints arrays and objects in a shorter readable form. In a web page, wrap the output in <pre> so the lines stay apart.
+
+Printing breaks redirects and JSON responses, so in those places write to the log instead. error_log(print_r($data, true)); sends the value to the same place PHP writes its errors, the terminal of php -S or the web server's error log. In a terminal, watch a log file as it grows with tail -f followed by its path.
+
+Work in small steps. Print a value at the start of the code you suspect and again at the end, then move the two prints closer until the bad step is between them.
+
+Check the first error in the log, not the last. One early warning about a missing value often causes the later failures.
+
+php -l file.php checks a file for syntax errors without running it, which is quick after an edit.
+
+For stepping through code line by line, the Xdebug extension works with many editors, but on a small machine print debugging is usually faster to set up.
+
+Remove the debugging output when done. var_dump on a public page can show visitors data they should not see.

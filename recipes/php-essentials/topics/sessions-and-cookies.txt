@@ -1,0 +1,16 @@
+Remembering a visitor, sessions and cookies
+
+A session keeps data on the server between page loads, and the browser holds only a random session id in a cookie. Call session_start() at the top of every page that uses it, before anything is printed. Then $_SESSION['user_id'] = 42; on one page can be read as $_SESSION['user_id'] on the next.
+
+Keep sessions safe.
+
+Set session.use_strict_mode = 1 in /etc/php/php.ini, then restart php-fpm. It makes PHP refuse session ids it did not create. AI-2's php.ini ships it set to 0.
+Set the cookie options before session_start(), because AI-2's php.ini leaves httponly and samesite empty. session_set_cookie_params(['httponly' => true, 'secure' => true, 'samesite' => 'Lax']); httponly keeps JavaScript from reading the cookie, secure sends it only over HTTPS, and samesite limits when other sites can send it. Leave secure out only on a local test without HTTPS, or the cookie is never sent back.
+Call session_regenerate_id(true) right after a login and whenever the user's rights change, so an id someone saw before the login becomes useless.
+To log out, empty the session with $_SESSION = [];, remove the cookie with setcookie(session_name(), '', ['expires' => 1, 'path' => '/']);, then call session_destroy().
+
+A cookie of your own, set with setcookie, is stored in the visitor's browser, so the visitor can read and change it. Never keep a user id, a role or a price in a cookie and trust it. Keep those in the session and the database.
+
+setcookie('lang', 'es', ['expires' => time() + 86400 * 365, 'path' => '/', 'httponly' => true, 'samesite' => 'Lax']);
+
+The cookie is read as $_COOKIE['lang'] from the next request on.

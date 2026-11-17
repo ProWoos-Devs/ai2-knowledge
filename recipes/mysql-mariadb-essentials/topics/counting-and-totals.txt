@@ -1,0 +1,26 @@
+Counting and totals, COUNT, SUM, GROUP BY and HAVING
+
+COUNT(*) counts rows. COUNT(phone) counts only rows where phone is not NULL, so the two can differ. SUM and AVG work on numbers. MIN and MAX also work on dates and text, for example MAX(created_at) for the latest order. SUM of a date column gives a meaningless number, without an error.
+
+SELECT COUNT(*) AS orders, SUM(total) AS revenue FROM orders WHERE status = 'paid';
+
+GROUP BY gives one result row per group instead of one for the whole table.
+
+SELECT customer_id, COUNT(*) AS orders, SUM(total) AS spent
+FROM orders
+GROUP BY customer_id
+ORDER BY spent DESC;
+
+WHERE filters rows before they are grouped. HAVING filters the groups after, so a condition on a total goes in HAVING.
+
+SELECT customer_id, SUM(total) AS spent FROM orders GROUP BY customer_id HAVING SUM(total) > 100;
+
+Every column in the SELECT must either be in the GROUP BY or be inside a function such as SUM or MAX. MySQL enforces this by default and stops the query with an error naming ONLY_FULL_GROUP_BY. It also accepts a column the grouped column decides, such as a customer's name when grouping by the customer's primary key. MariaDB, by default, runs the query and picks a value from any one row of the group, which can be wrong without any warning. Write the query the strict way on both.
+
+To count per day, group by the date part, GROUP BY DATE(created_at).
+
+To count distinct values, COUNT(DISTINCT customer_id) gives the number of different customers who ordered.
+
+SUM of no rows is NULL, not 0. COALESCE(SUM(total), 0) gives 0 instead.
+
+For totals of money, keep the column DECIMAL. SUM of a FLOAT column can be off by small amounts.

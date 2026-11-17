@@ -1,0 +1,20 @@
+Changing or deleting rows without hitting the whole table
+
+UPDATE customers SET city = 'Quito' WHERE id = 42;
+DELETE FROM orders WHERE id = 1001;
+
+The WHERE is what limits the change. An UPDATE or DELETE without it changes or removes every row in the table, and there is no undo unless you are inside a transaction or have a backup.
+
+Work safely.
+
+Run the same WHERE as a SELECT first. SELECT COUNT(*) FROM orders WHERE status = 'cancelled'; tells you how many rows the DELETE will touch.
+Prefer WHERE on the primary key when you mean one row.
+For a risky change, use a transaction. START TRANSACTION;, then the UPDATE, check the result with a SELECT, then COMMIT; to keep it or ROLLBACK; to undo it. This works on InnoDB tables, the default.
+Start the client with --safe-updates when working by hand on important data. It then refuses an UPDATE or DELETE whose WHERE does not use a key column, with error 1175, unless the statement has a LIMIT. It is a guard, not a proof, so still check the WHERE.
+Take a backup with mariadb-dump before any large change.
+
+After each statement the client reports how many rows were affected, for example Query OK, 3 rows affected. Read it. Rows matched: 1 Changed: 0 means the row was found but already held the values you set.
+
+To delete all rows of a table on purpose, TRUNCATE TABLE logs; is faster than DELETE and resets AUTO_INCREMENT, but it cannot be rolled back and fails when other tables point at this one with foreign keys.
+
+Deleting a row that other rows depend on fails with a foreign key error by default. If the key was declared ON DELETE CASCADE, the dependent rows are deleted with it, without a warning. SHOW CREATE TABLE orders; shows which rule each foreign key uses.

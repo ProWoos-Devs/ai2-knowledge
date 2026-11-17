@@ -1,0 +1,16 @@
+Reading a PHP error message
+
+A PHP message names its kind, what went wrong, the file and the line. A warning reads like PHP Warning: Undefined variable $total in /home/ana/site/index.php on line 12. An uncaught error puts the line after a colon instead, PHP Fatal error: Uncaught Error: Call to undefined function shwo() in /home/ana/site/index.php:12, followed by a stack trace listing the calls that led there.
+
+Go to that file and line first. If nothing is wrong there, look at the line before it, because a missing semicolon or bracket is often noticed only on the next line.
+
+The kinds, from worst to mildest.
+
+Parse error. The file is not valid PHP, so nothing in it ran. Usually a missing ; or ), an extra }, or a quote that was never closed.
+Fatal error. PHP stopped at that line. Common causes are calling a function or class that does not exist (a typo, or a file that was never included) and running out of the memory or time limit.
+Warning. Something failed but the script went on, such as a file that could not be opened. What follows may be working with missing data.
+Deprecated. The code works today but uses something a later PHP version will remove. Fix it before upgrading PHP.
+
+Uncaught means an exception was thrown and nothing caught it. Wrapping the risky call in try { ... } catch (Throwable $e) { ... } lets the script deal with it, for example by writing $e->getMessage() to the log and showing the visitor a plain apology.
+
+In PHP 8 many messages that used to be notices, such as an undefined variable, became warnings, so older guides may call them notices.

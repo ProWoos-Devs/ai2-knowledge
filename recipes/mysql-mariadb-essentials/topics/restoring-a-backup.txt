@@ -1,0 +1,32 @@
+Restoring a backup
+
+A dump is SQL, so restoring it means feeding it to the client.
+
+If the database does not exist yet, create it first, sudo mariadb -e "CREATE DATABASE shop CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci;". Then load the dump into it.
+
+sudo mariadb shop < shop-2026-11-17.sql
+
+A compressed dump is unpacked on the way in.
+
+gunzip < shop.sql.gz | sudo mariadb shop
+
+On MySQL the same commands use mysql -u root -p in place of sudo mariadb.
+
+A dump made with --databases or --all-databases contains CREATE DATABASE and USE lines, so it loads into the databases it names, whatever name you type. grep -n '^USE' shop.sql shows them.
+
+Restoring replaces tables of the same name. The dump starts each table with DROP TABLE IF EXISTS, so the current contents of those tables are gone once it runs. If you may need them, dump the current database first.
+
+To test a backup, load it into a throwaway server, never into a second database on the live one. Triggers, events and procedures in the dump can name the live database, as in shop.orders, and would then change it. A throwaway server runs as you, with its own folder and socket and no network. After the mariadbd line, wait until it prints ready for connections, then go on.
+
+mkdir ~/restore-test
+mariadb-install-db --no-defaults --datadir=$HOME/restore-test/data
+mariadbd --no-defaults --datadir=$HOME/restore-test/data --socket=$HOME/restore-test/s.sock --skip-networking --event-scheduler=OFF &
+mariadb --socket=$HOME/restore-test/s.sock -e "CREATE DATABASE shop;"
+mariadb --socket=$HOME/restore-test/s.sock shop < shop-2026-11-17.sql
+mariadb --socket=$HOME/restore-test/s.sock -e "SELECT COUNT(*) FROM shop.orders;"
+
+Compare the counts with the live database. Then stop it with mariadb-admin --socket=$HOME/restore-test/s.sock shutdown and remove the folder with rm -r ~/restore-test. On MySQL, test on another machine.
+
+A large dump can take a long time to load, and nothing is printed until it finishes or fails. If it fails, the error names the line of the file, and tables before that line are already loaded.
+
+A dump you did not make yourself needs more care, as the next topic explains.

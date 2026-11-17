@@ -1,0 +1,13 @@
+Working with text in PHP
+
+Join pieces of text with a dot, $greeting = 'Hello, ' . $name . '!'; and add to the end of a string with the .= operator.
+
+Single and double quotes are not the same. Inside double quotes PHP replaces variables and escape sequences, so "Hello $name\n" prints the name and a new line. Inside single quotes everything is printed as written, so 'Hello $name\n' prints exactly those characters. For an array item inside double quotes, use braces, "Total: {$order['total']}".
+
+For a long block of text, heredoc keeps the double-quote behavior over many lines. It starts with <<<EOT and ends with EOT on a line of its own. Nowdoc, written <<<'EOT', is the single-quote version.
+
+strlen counts bytes, not letters. "año" is 3 letters but 4 bytes. Use mb_strlen, mb_substr and mb_strtoupper for text with accents or other alphabets, or words get cut in the middle of a letter.
+
+Other everyday functions. str_contains, str_starts_with and str_ends_with answer yes or no. str_replace('old', 'new', $text) replaces every match. trim removes spaces and line breaks at both ends. explode(',', $line) splits a line into an array, and implode(', ', $list) joins an array back into text. sprintf('%.2f', $price) formats a number with two decimals.
+
+Text that came from a visitor is never safe to print into a page as it is. The topic on showing user input says why.

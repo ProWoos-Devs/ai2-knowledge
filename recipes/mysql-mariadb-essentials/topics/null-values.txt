@@ -1,0 +1,20 @@
+Empty values, why = NULL finds nothing
+
+NULL means no value, unknown. It is not zero and it is not empty text. A phone column can be NULL (never given) or '' (given as empty), and those are different.
+
+Any comparison with NULL gives NULL, not true or false, and WHERE keeps only rows where the condition is true. So WHERE phone = NULL and WHERE phone <> NULL both find nothing, every time. Use the operators made for it.
+
+SELECT * FROM customers WHERE phone IS NULL;
+SELECT * FROM customers WHERE phone IS NOT NULL;
+
+The same trap in other places.
+
+WHERE city <> 'Lima' leaves out rows where city is NULL, because NULL <> 'Lima' is not true. Add OR city IS NULL if those rows belong in the result.
+NOT IN with a list or subquery that contains a NULL returns no rows at all. Use NOT EXISTS instead, or make sure the subquery cannot return NULL.
+Arithmetic with NULL gives NULL, so price + NULL is NULL. COALESCE(discount, 0) uses 0 when discount is NULL.
+COUNT(column) skips NULL values, COUNT(*) does not.
+In ORDER BY, NULL values come first in ascending order on both servers.
+
+<=> is the NULL-safe equal. NULL <=> NULL is 1, while NULL = NULL is NULL.
+
+Declare a column NOT NULL whenever a missing value makes no sense, such as an order's total. It prevents a whole class of mistakes, and the server refuses an insert that leaves it out without a default.

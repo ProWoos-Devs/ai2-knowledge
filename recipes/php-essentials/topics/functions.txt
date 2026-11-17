@@ -1,0 +1,20 @@
+Writing a PHP function
+
+A function gives a name to a piece of code so it can be used many times.
+
+function total(float $price, int $quantity = 1): float
+{
+    return $price * $quantity;
+}
+
+echo total(2.5, 4); prints 10. Because $quantity has a default, total(2.5) also works and uses 1.
+
+The words before the arguments and after the colon are type declarations. float $price says what the function accepts, and : float says what it returns. Without declare(strict_types=1); at the top of the file, PHP converts where it can, so total('2.5') still works. With it, in the file that makes the call, a wrong type stops the script with a TypeError, which catches mistakes early. An int is still accepted where a float is asked for. A ? in front of a type, ?string, also allows null, and : void means the function returns nothing.
+
+Variables from outside are not visible inside a function. Pass what it needs as arguments and give back results with return. Avoid global, which makes code hard to follow and to test.
+
+Arguments are copies, so changing $price inside the function does not change the caller's variable. Objects are the exception, because the function receives the same object.
+
+Since PHP 8 an argument can be passed by name, total(price: 2.5, quantity: 4), which keeps long calls readable.
+
+A short function can be written as an arrow function, $double = fn($x) => $x * 2;. It can read, but not change, variables from where it was written, with the values they had at that moment.

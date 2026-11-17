@@ -1,0 +1,11 @@
+Cannot connect to the local server through socket
+
+ERROR 2002 (HY000): Can't connect to local server through socket '/run/mysqld/mysqld.sock' (2) means the client looked for the server's socket file and found nothing. MySQL words it Can't connect to local MySQL server. A socket is the file local programs use to talk to the server, and on AI-2 it is /run/mysqld/mysqld.sock.
+
+The usual cause is that the server is not running. Check with sudo sv status mariadb and start it with sudo sv up mariadb. If it will not stay up, start it by hand to see the reason, as the topic on starting the server shows. Common reasons are a full disk, a data folder never created with mariadb-install-db, and a mistake in a settings file in /etc/my.cnf.d.
+
+The number at the end helps. (2) means the file does not exist. (13) means it exists but you may not open it. (111) means nothing is listening. With error 2002 that is a socket file left behind by a server that stopped, and with error 2003 it is the network port.
+
+If the server is running and the error remains, the client and the server disagree about where the socket is. ls -l /run/mysqld/ shows the socket the server made. my_print_defaults mysqld client shows any socket= lines in the settings files. A program can be pointed at the right file with --socket=/run/mysqld/mysqld.sock, or with a socket= line under [client] in /etc/my.cnf.d/client.cnf.
+
+PHP on AI-2 is built to look in /run/mysqld/mysqld.sock already. A PHP connection with host=localhost uses the socket, and host=127.0.0.1 uses the network port 3306 instead, which fails if the server has networking turned off.

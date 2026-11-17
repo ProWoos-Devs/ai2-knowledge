@@ -1,0 +1,13 @@
+Undefined variable and undefined array key
+
+Warning: Undefined variable $name means the code reads $name before anything was put in it. Look for a typo ($Name and $name are different variables) or a value that is set only inside an if that did not run. Give the variable a starting value first, $name = '';
+
+Warning: Undefined array key "email" means the array has no entry called email. It happens most often with form data, when the page is opened directly and nothing was sent, or when the name of a field in the HTML does not match the one in the code.
+
+Check before reading. isset($_POST['email']) is true when the key exists and its value is not null. The null coalescing operator gives a default in one step, $email = $_POST['email'] ?? '';
+
+array_key_exists('email', $data) is true even when the value is null, which matters when null is a real value in your data.
+
+Do not hide these warnings by putting @ in front of the expression. The warning points at a real gap, and the next problem is harder to find without it.
+
+After this warning PHP goes on with null in place of the missing value, so a later line can fail in a way that looks unrelated. Fix the first warning in the log before chasing the later errors.

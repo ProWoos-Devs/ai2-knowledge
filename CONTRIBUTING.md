@@ -48,7 +48,7 @@ This is the step that gets packs rejected, so settle it first, and read the next
 
 Indexing counts as modification, so your manifest says so. Attribution goes in the manifest, which is where AI-2 reads it from when it prints an answer, and it is shown with every result from your pack.
 
-The AI-2 project's own packs avoid anything that goes stale: no prices, no populations, no security advice, no "who currently holds this office". A pack can sit on a machine for two years. Nobody holds your pack to that, but the same logic applies to your readers.
+The AI-2 project's own packs avoid anything that goes stale: no prices, no populations, no "who currently holds this office". A pack can sit on a machine for two years. Advice that could put someone's health or life at risk is written only from a named source, and says who has not reviewed it. Secure-coding practice in a programming pack is not that kind of advice, and the project's own programming packs include it. Nobody holds your pack to that, but the same logic applies to your readers.
 
 ## 2. Write or collect the text
 

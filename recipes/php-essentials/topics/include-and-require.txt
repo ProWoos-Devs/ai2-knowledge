@@ -1,0 +1,15 @@
+Using code from another file, require and include
+
+To use functions or settings kept in another file, load it with require. require __DIR__ . '/config.php'; reads that file as if its code were written at that point.
+
+require stops the script with a fatal error if the file is missing. include only gives a warning and goes on, which is rarely what you want for code the page depends on. require_once and include_once skip a file that was already loaded, which prevents errors such as Cannot redeclare function when two files load the same helper.
+
+Always build the path from __DIR__, the folder of the file in which __DIR__ is written. In an included file it is that file's own folder, not the folder of the page that loaded it. A relative path such as require 'config.php'; is searched in the include_path and the current working directory before the script's own folder, so it can load the wrong file, or none, when the script is started from another folder or from a cron job.
+
+Never put a visitor's input into an include. require $_GET['page'] . '.php'; lets anyone choose which file runs, and that is one of the oldest ways sites are broken into. If pages are chosen by name, check the name against a fixed list first.
+
+$pages = ['home', 'contact'];
+$page = in_array($_GET['page'] ?? '', $pages, true) ? $_GET['page'] : 'home';
+require __DIR__ . "/pages/$page.php";
+
+Files that hold passwords or settings belong outside the web folder, so a web server cannot hand them to a browser even if PHP stops working. The topic on keeping secrets out of the code says how.

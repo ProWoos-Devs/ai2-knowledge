@@ -1,0 +1,23 @@
+Loading a dump you did not make yourself
+
+A dump is a list of commands for the client, not only data. A file from someone else, or one that was edited, can contain anything, anywhere in it, not just in the first lines. It can create database accounts, grant rights, drop other databases, and with the client's system command, also written \!, run programs on this computer.
+
+So never load such a file as root, and never with sudo mariadb.
+
+Make an empty database and an account that may use only that database. Give the database a name without _ or %, because in a GRANT those two characters are wildcards. GRANT ALL ON import_test.* would also cover a database called importXtest.
+
+sudo mariadb -e "CREATE DATABASE importtest;"
+sudo mariadb -e "CREATE USER 'restore_user'@'localhost' IDENTIFIED BY 'a long random password';"
+sudo mariadb -e "GRANT ALL ON importtest.* TO 'restore_user'@'localhost';"
+
+Load the file with that account. --sandbox refuses the client commands that run programs or read other files, and --local-infile=0 refuses LOAD DATA LOCAL, which would let the file read files on this computer.
+
+mariadb --sandbox --local-infile=0 -u restore_user -p importtest < file.sql
+
+Anything in the file that reaches beyond importtest fails, because the account has no rights there. If the file has USE lines for other databases, it stops at the first one, which is what you want.
+
+Look at the result before copying anything into the live database, for example SHOW TABLES; and a few SELECT ... LIMIT 10 queries. When finished, remove both.
+
+sudo mariadb -e "DROP DATABASE importtest; DROP USER 'restore_user'@'localhost';"
+
+Dumps made by mariadb-dump start with a line that turns the sandbox on, which is one reason a MariaDB dump does not load into MySQL as it is.
