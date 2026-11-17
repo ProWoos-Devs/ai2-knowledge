@@ -16,13 +16,16 @@ A dump made with --databases or --all-databases contains CREATE DATABASE and USE
 
 Restoring replaces tables of the same name. The dump starts each table with DROP TABLE IF EXISTS, so the current contents of those tables are gone once it runs. If you may need them, dump the current database first.
 
-To test a backup without touching the live data, restore it into a scratch database. This works only for a dump without USE lines. If grep finds one, the dump would load into the live database instead, so make a separate dump without --databases for the test.
+To test a backup, load it into a throwaway server, never into a second database on the live one. Triggers, events and procedures in the dump can name the live database, as in shop.orders, and would then change it. A throwaway server runs as you, with its own folder and socket and no network. After the mariadbd line, wait until it prints ready for connections, then go on.
 
-sudo mariadb -e "CREATE DATABASE shop_test;"
-sudo mariadb shop_test < shop-2026-11-17.sql
-sudo mariadb -e "SELECT COUNT(*) FROM shop_test.orders;"
+mkdir ~/restore-test
+mariadb-install-db --no-defaults --datadir=$HOME/restore-test/data
+mariadbd --no-defaults --datadir=$HOME/restore-test/data --socket=$HOME/restore-test/s.sock --skip-networking --event-scheduler=OFF &
+mariadb --socket=$HOME/restore-test/s.sock -e "CREATE DATABASE shop;"
+mariadb --socket=$HOME/restore-test/s.sock shop < shop-2026-11-17.sql
+mariadb --socket=$HOME/restore-test/s.sock -e "SELECT COUNT(*) FROM shop.orders;"
 
-Compare the counts with the live database, then remove the copy with DROP DATABASE shop_test;. Check twice that the name is shop_test before pressing Enter.
+Compare the counts with the live database. Then stop it with mariadb-admin --socket=$HOME/restore-test/s.sock shutdown and remove the folder with rm -r ~/restore-test. On MySQL, test on another machine.
 
 A large dump can take a long time to load, and nothing is printed until it finishes or fails. If it fails, the error names the line of the file, and tables before that line are already loaded.
 

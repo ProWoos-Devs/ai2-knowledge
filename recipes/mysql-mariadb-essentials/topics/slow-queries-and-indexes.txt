@@ -16,7 +16,7 @@ Run EXPLAIN again. Usually key now names the index and type is ref, so the serve
 
 Index what the queries use. Columns in WHERE, in JOIN conditions and in ORDER BY are the candidates. For a query that filters on two columns, one index on both in that order, (customer_id, created_at), serves WHERE customer_id = ? ORDER BY created_at and also queries on customer_id alone, but not on created_at alone.
 
-What defeats an index. A function around the column, WHERE YEAR(created_at) = 2026, cannot use an index on created_at. Write a range instead, WHERE created_at >= '2026-01-01' AND created_at < '2027-01-01'. LIKE '%word' cannot use one either.
+What defeats an index. A function around the column usually does. MariaDB 11.1 and later turn WHERE YEAR(created_at) = 2026 into a range by themselves, but older servers and most other functions do not, so write the range yourself, WHERE created_at >= '2026-01-01' AND created_at < '2027-01-01'. LIKE '%word' cannot use one either.
 
 Indexes are not free. Each one takes disk space and slows every insert and update a little, so do not index every column. SHOW INDEX FROM orders; lists the ones a table has.
 

@@ -4,10 +4,11 @@ A form with method="post" sends its fields in $_POST, and a link or a form with 
 
 Use post for anything that changes something or carries a password. Addresses from get requests are kept in browser history and server logs.
 
-Everything a visitor sends is text chosen by the visitor, including hidden fields, select options and values set by JavaScript. Never trust it. Check every field on the server, even if the browser already checked it.
+Everything a visitor sends is chosen by the visitor, including hidden fields, select options and values set by JavaScript, and even its shape. A field name ending in [] makes PHP give an array instead of text, so check is_string before using a string function. Never trust it. Check every field on the server, even if the browser already checked it.
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $email = trim($_POST['email'] ?? '');
+    $raw = $_POST['email'] ?? '';
+    $email = is_string($raw) ? trim($raw) : '';
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
         $errors[] = 'Please enter a valid email address.';
     }

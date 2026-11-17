@@ -2,7 +2,7 @@ Cannot modify header information, headers already sent
 
 The full warning names two places, for example Cannot modify header information - headers already sent by (output started at /home/ana/site/config.php:9) in /home/ana/site/login.php on line 20.
 
-Headers are sent before the page itself. Once PHP has printed anything, even one space, the headers are gone and header(), setcookie(), session_start() and redirects can no longer change them. The second place in the message is the call that failed. The first, after output started at, is the real cause, so go there.
+Headers are sent before the page itself. Once PHP has sent output to the browser, even one space, the headers are gone and header(), setcookie(), session_start() and redirects can no longer change them. AI-2's php.ini sets output_buffering = 4096, so a web page holds back its first 4 KB of output and the warning may appear only later, while php on the command line has no buffer and warns at once. The second place in the message is the call that failed. The first, after output started at, is the real cause, so go there.
 
 What you usually find there.
 

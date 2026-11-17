@@ -2,7 +2,7 @@ Forms that cannot be sent from another site, CSRF tokens
 
 A logged-in visitor's browser sends their session cookie with every request to your site, even a request started by a page on another site. A hostile page can therefore submit a hidden form to your change-email or delete-account page, and it runs as that visitor. This is cross-site request forgery, CSRF.
 
-The defense is a secret token that only your pages know. Make one per session.
+The defense is a secret token that only your pages know. Make one per session. The session must be running first, so both the page with the form and the page that receives it call session_start() before any output, as the sessions topic shows.
 
 if (empty($_SESSION['csrf'])) {
     $_SESSION['csrf'] = bin2hex(random_bytes(32));

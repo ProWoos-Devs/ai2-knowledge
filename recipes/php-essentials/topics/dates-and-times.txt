@@ -12,7 +12,7 @@ $days = $start->diff(new DateTimeImmutable('2026-12-25'))->days;
 
 Adding months has a trap. From 31 January, +1 month gives 3 March, or 2 March in a leap year, because February has no 31st and the extra days roll over. When the end of the month is what you mean, use modify('last day of next month').
 
-To read a date in a known format, DateTimeImmutable::createFromFormat('!d/m/Y', '17/11/2026') returns the date at midnight, or false if the text does not have that shape. The ! sets the missing time to zero, otherwise the current time of day is filled in. A date that does not exist, such as 31/02/2026, is not refused but rolled over to 3 March, so to check a date a visitor typed, also compare $d->format('d/m/Y') with the text.
+To read a date in a known format, DateTimeImmutable::createFromFormat('!d/m/Y', '17/11/2026') returns the date at midnight, or false if the text does not have that shape. The ! sets the missing time to zero, otherwise the current time of day is filled in. A date that does not exist, such as 31/02/2026, is not refused but rolled over to 3 March. So to check a date a visitor typed, keep the result and compare it with the text, $d = DateTimeImmutable::createFromFormat('!d/m/Y', $text); if ($d === false || $d->format('d/m/Y') !== $text) { refuse it }. Check is_string($text) first, and note that text containing a NUL byte throws a ValueError.
 
 Store times in the database as UTC, in a DATETIME column or as a Unix timestamp from time(), and convert to the visitor's time zone only when showing them. That avoids hours lost or doubled when the clocks change.
 
