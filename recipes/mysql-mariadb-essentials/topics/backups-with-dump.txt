@@ -1,25 +1,24 @@
 Making a backup, mariadb-dump and mysqldump
 
-A dump is a text file of SQL that recreates the tables and their rows. On AI-2 the program is mariadb-dump, and mysqldump starts the same one. On MySQL it is mysqldump.
+A dump is a text file of SQL that recreates the tables and their rows. On AI-2 the program is mariadb-dump, and mysqldump starts the same one. On MySQL it is mysqldump -u root -p in place of sudo mariadb-dump.
 
-One database.
+The dump holds all your data, including customers' details and password hashes, so make the file private as it is written. Run umask 077 first in the same terminal, then the dump.
 
-sudo mariadb-dump --single-transaction --routines --triggers shop > shop-2026-11-17.sql
+umask 077
+sudo mariadb-dump --single-transaction --routines --events shop > shop-2026-11-17.sql
 
---single-transaction gives a consistent copy of InnoDB tables while the site keeps running, without locking them. --routines and --triggers include stored procedures and triggers, which are left out otherwise.
+--single-transaction gives a consistent copy of InnoDB tables while the site keeps running, without locking them. --routines adds stored procedures and functions and --events adds scheduled events, both left out otherwise. Triggers are included already.
 
-A dump made this way has no CREATE DATABASE line, so it can be loaded into a database of any name. Add --databases shop to include the database itself, or use --all-databases for every database on the server.
+A dump made this way has no CREATE DATABASE or USE line, so it can be loaded into a database of any name. --databases shop adds them, and --all-databases dumps every database. Such a dump always loads into the databases it names.
 
 Compress it as it is written, since SQL text shrinks a lot.
 
-sudo mariadb-dump --single-transaction --routines --triggers shop | gzip > shop.sql.gz
+sudo mariadb-dump --single-transaction --routines --events shop | gzip > shop.sql.gz
 
-A backup only counts when it can be restored. Now and then, load it into a scratch database and check the row counts, as the topic on restoring shows.
+A failed dump still leaves a file. A finished one ends with a line starting -- Dump completed, so check with zcat shop.sql.gz | tail -n 1.
 
-Keep backups on another disk or machine. A dump on the same disk as the database is lost with it.
+The dump does not hold the database accounts. Keep the CREATE USER and GRANT lines with the backup, or save the output of SHOW GRANTS FOR 'shop_app'@'localhost';.
 
-The dump holds all your data, including customers' details and password hashes. Keep the files where only you can read them, chmod 600 shop.sql.
+Keep backups on another disk or machine, and now and then load one into a scratch database, as the topic on restoring shows. Copying /var/lib/mysql while the server runs does not make a usable backup.
 
-Copying the files in /var/lib/mysql while the server runs does not make a usable backup. Use the dump, or stop the server first.
-
-For a regular backup, a cron job can run the dump each night. Without a password in the command, it works when run as root, through the same unix_socket login as sudo mariadb.
+For a nightly backup, put these commands in a small script and let cron run the script as root, which logs in through the same unix_socket as sudo mariadb. A % in a crontab line itself has to be written \%.

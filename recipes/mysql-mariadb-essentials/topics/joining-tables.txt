@@ -19,7 +19,7 @@ WHERE o.id IS NULL;
 Common mistakes.
 
 Forgetting the ON condition, or getting it wrong, pairs every row with every other row. A result far larger than expected is the sign.
-A condition on the second table of a LEFT JOIN placed in WHERE turns it back into an inner join. Put it in the ON instead, LEFT JOIN orders o ON o.customer_id = c.id AND o.status = 'paid'.
+A condition on the second table of a LEFT JOIN placed in WHERE, other than IS NULL, turns it back into an inner join. Put it in the ON instead, LEFT JOIN orders o ON o.customer_id = c.id AND o.status = 'paid'.
 Columns with the same name in both tables, such as id, must be written with the table name, c.id or o.id.
 
 Joins are fast when the columns in ON have indexes. A primary key always has one, and InnoDB creates one for a foreign key. For other join columns, add an index, as the topic on slow queries shows.

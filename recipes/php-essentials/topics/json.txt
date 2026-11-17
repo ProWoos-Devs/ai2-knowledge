@@ -2,7 +2,7 @@ Reading and writing JSON in PHP
 
 JSON is the text format most programs and web services use to exchange data.
 
-To turn PHP data into JSON, json_encode($data). Arrays with keys become objects, lists become arrays. Add JSON_PRETTY_PRINT for indented output a person can read, and JSON_UNESCAPED_UNICODE to keep accents as they are instead of \u00f1 codes.
+To turn PHP data into JSON, json_encode($data). Arrays with keys become objects, lists become arrays. Only a list numbered 0, 1, 2 without gaps becomes a JSON array, so use array_values() after removing entries. json_encode returns false for text that is not valid UTF-8, so add JSON_THROW_ON_ERROR here too. Add JSON_PRETTY_PRINT for indented output a person can read, and JSON_UNESCAPED_UNICODE to keep accents as they are instead of \u00f1 codes.
 
 To read JSON, json_decode($text, true). The true returns arrays, which are usually easier to work with than the objects you get without it.
 

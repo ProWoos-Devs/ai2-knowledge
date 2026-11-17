@@ -11,4 +11,4 @@ error_reporting(E_ALL);
 
 They do not help with a parse error, a mistake that stops PHP before any line runs, such as a missing semicolon or bracket. For those, run php -l page.php in a terminal. It checks the file without running it and names the line.
 
-Take the two lines out again before the code goes anywhere other people can reach it.
+Take the two lines out again before the code goes anywhere other people can reach it. On a live site, also set expose_php = Off in php.ini, so responses do not announce the exact PHP version.

@@ -6,17 +6,21 @@ Before the first start the data folder must be created. Run this once, and never
 
 sudo mariadb-install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
 
+It also creates an account mysql@localhost for the system's mysql user. That is normal.
+
+A new MariaDB listens on port 3306 on every network address. If only programs on this machine use it, the usual case, add the line bind-address = 127.0.0.1 under [mysqld] in /etc/my.cnf.d/server.cnf before starting it.
+
 Then make the service start at every boot and start it now.
 
 sudo artix-service enable mariadb
 sudo sv up mariadb
 
-sudo sv status mariadb says whether it is running. run followed by a number of seconds means it is up. down, or a run time that keeps resetting to a few seconds, means it is stopping or crashing, and the reason is in the server's error log.
+sudo sv status mariadb says whether it is running. run followed by a number of seconds means it is up. down, or a run time that keeps resetting to a few seconds, means it is stopping or crashing.
 
-Stop it with sudo sv down mariadb and restart it after changing its settings with sudo sv restart mariadb. Its settings are in /etc/my.cnf and the files in /etc/my.cnf.d, with server options under [mysqld] or [mariadb] in /etc/my.cnf.d/server.cnf.
+On AI-2 the server writes no error log file. To see why it will not start, stop the service with sudo sv down mariadb and start the server by hand, sudo -u mysql mariadbd. It prints the reason in the terminal and stops. If it does start, press Ctrl+C and go back to sudo sv up mariadb. If it says /run/mysqld is missing, create it with sudo install -d -o mysql -g mysql /run/mysqld.
 
-AI-2 runs runit, so commands from other guides such as systemctl start mariadb do not exist here.
+Restart after changing settings with sudo sv restart mariadb. AI-2 runs runit, so systemctl commands from other guides do not exist here.
 
-After the first start, run sudo mariadb-secure-installation, which removes the test database and the anonymous accounts. The topic on keeping the database safe goes through it.
+After the first start, run sudo mariadb-secure-installation. The topic on keeping the database safe goes through it.
 
-After an upgrade to a new MariaDB release, pacman prints a reminder to run mariadb-upgrade, which brings the system tables up to date. Run it as root with sudo mariadb-upgrade.
+After an upgrade to a new MariaDB release, pacman prints a reminder that reads mariadb-upgrade -u root -p. On AI-2 run sudo mariadb-upgrade instead, since root logs in without a password.

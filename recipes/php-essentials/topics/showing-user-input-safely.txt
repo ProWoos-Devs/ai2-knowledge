@@ -6,14 +6,14 @@ Escape at the moment of printing.
 
 echo htmlspecialchars($name, ENT_QUOTES, 'UTF-8');
 
-It turns < > & " and ' into harmless entities, so the browser shows the characters instead of obeying them. ENT_QUOTES and UTF-8 are already the defaults in PHP 8.1 and later, but writing them keeps the code safe on older versions too. A short helper saves typing.
+It turns < > & " and ' into harmless entities, so the browser shows the characters instead of obeying them. ENT_QUOTES and UTF-8 are already the defaults in PHP 8.1 and later, but writing them keeps the code safe on older versions too. A short helper saves typing, and accepts a NULL column without stopping the page.
 
-function e(string $s): string { return htmlspecialchars($s, ENT_QUOTES, 'UTF-8'); }
+function e(?string $s): string { return htmlspecialchars($s ?? '', ENT_QUOTES, 'UTF-8'); }
 
-The same escaping protects attribute values, <input value="<?= e($email) ?>">, as long as the value is inside quotes.
+The same escaping protects ordinary attribute values inside quotes, such as value, title and alt, <input value="<?= e($email) ?>">. Never print visitor data into an attribute that runs code, such as onclick, or into style, where escaping does not protect.
 
-It is not enough in other places. Inside JavaScript, use json_encode($value, JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT). Inside a URL, use urlencode for each part. A link address typed by a visitor must also be checked to start with http:// or https://, because javascript: addresses run code when clicked.
+To hand a value to JavaScript, put json_encode($value, JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT | JSON_THROW_ON_ERROR) inside a script block, or put e($value) in a data- attribute and read it from the script.
 
-strip_tags is not a security function. Use htmlspecialchars.
+In a URL, use rawurlencode for each part of the path and urlencode or http_build_query for query values, then print the whole address with e(). A link typed by a visitor must start with http:// or https:// after trimming, compared without regard to case, because javascript: addresses run code when clicked.
 
-Escape for HTML only when printing. Store the original text in the database, so it can still be used correctly elsewhere.
+strip_tags is not a security function. Store the original text in the database and escape only when printing.

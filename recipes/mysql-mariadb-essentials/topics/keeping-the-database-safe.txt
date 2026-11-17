@@ -10,7 +10,7 @@ bind-address = 127.0.0.1
 
 or turn networking off completely with skip-networking, which leaves only the socket. Programs must then connect with host=localhost.
 
-If another machine must connect, create an account for that machine's address only, 'report'@'192.168.1.20', never for '%', which means any host. Let the firewall allow port 3306 only from that address, and use TLS for the connection.
+If another machine must connect, create an account for that machine's address only, 'report'@'192.168.1.20', never for '%', which means any host. On a network you do not trust, the connection also needs a firewall rule and TLS, which this Knowledge Pack does not cover.
 
 Never put a value typed by a user into SQL text. Use prepared statements. Store passwords with a proper hash such as PHP's password_hash, never in plain text or with MD5.
 

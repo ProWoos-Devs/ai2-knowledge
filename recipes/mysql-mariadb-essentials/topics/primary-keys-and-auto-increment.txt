@@ -15,6 +15,6 @@ When one table refers to another, for example orders belonging to a customer, gi
 customer_id INT UNSIGNED NOT NULL,
 FOREIGN KEY (customer_id) REFERENCES customers(id)
 
-The server then refuses an order for a customer that does not exist, and refuses to delete a customer who still has orders. Foreign keys need InnoDB tables, the default.
+The server then refuses an order for a customer that does not exist, and refuses to delete a customer who still has orders. A key declared ON DELETE CASCADE deletes the orders with the customer instead. Foreign keys need InnoDB tables, the default.
 
-If a table grows past about four billion rows, INT UNSIGNED runs out. Use BIGINT UNSIGNED from the start for tables that log events.
+When the counter reaches about four billion, INT UNSIGNED runs out, even if many rows were deleted or never kept. Use BIGINT UNSIGNED from the start for tables that log events.

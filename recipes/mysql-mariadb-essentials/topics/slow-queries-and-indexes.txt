@@ -12,7 +12,7 @@ Add an index on the column being searched.
 
 CREATE INDEX idx_orders_status ON orders (status);
 
-Run EXPLAIN again. key now names the index and type is ref, so the server goes straight to the matching rows.
+Run EXPLAIN again. Usually key now names the index and type is ref, so the server goes straight to the matching rows. If most rows have the value searched for, it may still read the whole table, because that is faster.
 
 Index what the queries use. Columns in WHERE, in JOIN conditions and in ORDER BY are the candidates. For a query that filters on two columns, one index on both in that order, (customer_id, created_at), serves WHERE customer_id = ? ORDER BY created_at and also queries on customer_id alone, but not on created_at alone.
 

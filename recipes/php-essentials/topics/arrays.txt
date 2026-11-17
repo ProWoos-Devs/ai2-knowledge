@@ -10,6 +10,6 @@ Go through every entry with foreach. foreach ($fruits as $fruit) { echo $fruit; 
 
 Sorting changes the array itself and returns true, not a sorted copy. sort and rsort sort a list and renumber it. asort and arsort sort by value and keep the keys. ksort sorts by key. usort($people, fn($a, $b) => $a['age'] <=> $b['age']); sorts with your own rule.
 
-array_map applies a function to every entry and array_filter keeps the entries a function accepts. Both return a new array.
+array_map applies a function to every entry and array_filter keeps the entries a function accepts. Both return a new array. array_filter keeps the old keys, so the result can have gaps, and array_values() numbers it from 0 again.
 
 To see what an array holds while debugging, print_r($user) shows it in a readable form.

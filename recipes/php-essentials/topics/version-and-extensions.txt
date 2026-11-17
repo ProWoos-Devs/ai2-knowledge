@@ -6,7 +6,7 @@ php -m lists the loaded extensions, the parts that add features such as database
 
 php --ini names the configuration file in use. On AI-2 it is /etc/php/php.ini, and extra files are read from /etc/php/conf.d.
 
-On AI-2 several extensions come with the php package but are switched off. In php.ini their lines start with a semicolon, for example ;extension=pdo_mysql. To switch one on, open the file with sudo, remove the semicolon so the line reads extension=pdo_mysql, save, and check with php -m. A web server running PHP through php-fpm must be restarted before it sees the change, with sudo sv restart php-fpm.
+On AI-2 several extensions come with the php package but are switched off. In php.ini their lines start with a semicolon, for example ;extension=pdo_mysql. To switch one on, open the file with sudo, remove the semicolon so the line reads extension=pdo_mysql, save, and check with php -m. For a web server, PHP runs as php-fpm, installed with sudo pacman -S php-fpm php-fpm-runit and started like any service, sudo artix-service enable php-fpm and sudo sv up php-fpm. The web server talks to it at /run/php-fpm/php-fpm.sock. After a change to php.ini, restart it with sudo sv restart php-fpm.
 
 Some extensions are separate packages. If php -m still does not list gd or sqlite after you edit php.ini, search with pacman -Ss php- and install the one you need, for example sudo pacman -S php-gd, then switch it on in php.ini the same way.
 

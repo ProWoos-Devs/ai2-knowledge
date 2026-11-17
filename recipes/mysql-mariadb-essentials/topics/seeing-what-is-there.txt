@@ -1,6 +1,6 @@
 Seeing what is in the database
 
-At the mariadb or mysql prompt, every statement ends with a semicolon. If you press Enter and the prompt changes to ->, the server is waiting for the rest, so type ; and Enter.
+At the mariadb or mysql prompt, every statement ends with a semicolon. If you press Enter and the prompt changes to ->, the client is waiting for the rest, so type ; and Enter. If it shows '> or ">, a quote is open, so type the closing quote first. \c cancels the statement.
 
 SHOW DATABASES; lists the databases your account can see. Pick one with USE shop;, or start the client with the database name at the end, mariadb -u shop_app -p shop.
 

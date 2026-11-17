@@ -12,7 +12,7 @@ LIMIT caps the number of rows. LIMIT 20 OFFSET 40 gives rows 41 to 60, for pages
 
 Useful conditions. BETWEEN 10 AND 20 includes both ends. IN ('new', 'paid') matches any value in the list. LIKE 'Ana%' matches text starting with Ana, % standing for any characters and _ for exactly one. A LIKE that starts with % cannot use an index and reads the whole table.
 
-With the usual utf8mb4_unicode_ci collation, text comparisons ignore upper and lower case, so WHERE email = 'ANA@EXAMPLE.COM' finds ana@example.com.
+With the usual _ci collations, text comparisons ignore upper and lower case, and most also ignore accents, so WHERE email = 'ANA@EXAMPLE.COM' finds ana@example.com and WHERE name = 'Jose' finds José.
 
 Empty values need IS NULL, never = NULL. The topic on NULL explains why.
 

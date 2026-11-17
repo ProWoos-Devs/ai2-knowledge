@@ -1,6 +1,6 @@
 Reading and writing files in PHP
 
-To read a whole file into a string, $text = file_get_contents(__DIR__ . '/notes.txt');. It returns false if the file cannot be read, so check for that. file('list.txt', FILE_IGNORE_NEW_LINES) returns the lines as an array.
+To read a whole file into a string, $text = file_get_contents(__DIR__ . '/notes.txt');. It returns false if the file cannot be read, so check for that. file(__DIR__ . '/list.txt', FILE_IGNORE_NEW_LINES) returns the lines as an array.
 
 To write, file_put_contents($path, $text); replaces the file, and file_put_contents($path, $line . PHP_EOL, FILE_APPEND | LOCK_EX); adds to the end and stops two requests from writing at the same moment. For very large files, read line by line with fopen and fgets instead of loading everything into memory.
 

@@ -1,6 +1,6 @@
 Changing a table that already has data, ALTER TABLE
 
-Take a backup of the table first, mariadb-dump shop customers > customers-before.sql. A mistaken ALTER cannot be rolled back with a transaction.
+Take a backup of the table first, sudo mariadb-dump shop customers > customers-before.sql. A mistaken ALTER cannot be rolled back with a transaction.
 
 Common changes.
 
@@ -12,7 +12,7 @@ ALTER TABLE customers ADD INDEX idx_customers_email (email);
 
 MODIFY replaces the whole column definition. Repeat NOT NULL, DEFAULT and the rest, or they are lost. Check with DESCRIBE customers; after each change.
 
-Adding a NOT NULL column to a table with rows needs a DEFAULT, so the existing rows get a value.
+Give a NOT NULL column a DEFAULT when adding it to a table with rows. Without one, the existing rows are filled with an empty value such as '' or 0, without a warning.
 
 ALTER TABLE orders ADD COLUMN currency CHAR(3) NOT NULL DEFAULT 'EUR';
 

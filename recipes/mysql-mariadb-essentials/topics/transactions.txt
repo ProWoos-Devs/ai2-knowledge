@@ -3,28 +3,31 @@ Several changes that must all happen or none, transactions
 Moving money from one account to another is two updates. If the second fails after the first succeeded, the money is gone. A transaction makes the two one unit.
 
 START TRANSACTION;
-UPDATE accounts SET balance = balance - 50 WHERE id = 1;
+UPDATE accounts SET balance = balance - 50 WHERE id = 1 AND balance >= 50;
 UPDATE accounts SET balance = balance + 50 WHERE id = 2;
 COMMIT;
 
 Until COMMIT, other connections do not see the changes. ROLLBACK; instead of COMMIT; undoes everything since START TRANSACTION. If the connection drops or the server stops before COMMIT, the changes are rolled back on their own.
 
-Transactions work on InnoDB tables, the default on both servers. A MyISAM table ignores them, so check old tables with SHOW TABLE STATUS, whose Engine column says which.
-
-Some statements end a transaction by themselves with an automatic commit, among them CREATE TABLE, ALTER TABLE, DROP TABLE and TRUNCATE. A schema change cannot be undone with ROLLBACK.
-
-In PHP with PDO.
+A transaction undoes the work only when something stops it. An UPDATE that matches no row, a wrong id or a balance too low, is not an error, so check that each one changed exactly one row and roll back if not.
 
 try {
     $pdo->beginTransaction();
-    $pdo->prepare('UPDATE accounts SET balance = balance - ? WHERE id = ?')->execute([50, 1]);
-    $pdo->prepare('UPDATE accounts SET balance = balance + ? WHERE id = ?')->execute([50, 2]);
+    $out = $pdo->prepare('UPDATE accounts SET balance = balance - ? WHERE id = ? AND balance >= ?');
+    $out->execute([50, 1, 50]);
+    $in = $pdo->prepare('UPDATE accounts SET balance = balance + ? WHERE id = ?');
+    $in->execute([50, 2]);
+    if ($out->rowCount() !== 1 || $in->rowCount() !== 1) {
+        throw new RuntimeException('Transfer refused');
+    }
     $pdo->commit();
 } catch (Throwable $e) {
     $pdo->rollBack();
     throw $e;
 }
 
-Keep transactions short. While one is open, the rows it changed stay locked, and other connections that want them wait. Never wait for a person to click something in the middle of one.
+Transactions work on InnoDB tables, the default on both servers. A MyISAM table ignores them. SHOW TABLE STATUS shows the engine of each table.
 
-Deadlock found when trying to get lock means two transactions each waited for the other. The server cancels one of them. Run that transaction again from the start.
+CREATE TABLE, ALTER TABLE, DROP TABLE and TRUNCATE commit on their own, so a schema change cannot be undone with ROLLBACK.
+
+Keep transactions short. The rows changed stay locked until COMMIT. Deadlock found when trying to get lock means two transactions waited for each other and the server cancelled one. Run that one again from the start.

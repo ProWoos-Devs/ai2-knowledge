@@ -4,7 +4,7 @@ Name the columns, then give the values in the same order.
 
 INSERT INTO customers (name, email) VALUES ('Ana', 'ana@example.com');
 
-Columns left out get their default, and the AUTO_INCREMENT id gets the next number. Text and dates go in single quotes, numbers do not. A quote inside a text value is written twice, 'O''Brien'. Always name the columns, because an INSERT without them breaks as soon as the table gains a column.
+Columns left out get their default, and the AUTO_INCREMENT id gets the next number. Text and dates go in single quotes, numbers do not. A quote inside a text value is written twice, 'O''Brien'. A backslash is special too and is written twice, 'C:\\new'. Always name the columns, because an INSERT without them breaks as soon as the table gains a column.
 
 Several rows in one statement are much faster than one statement each.
 

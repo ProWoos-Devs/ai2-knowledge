@@ -6,8 +6,8 @@ To log in as another account, mariadb -u shop_app -p shop. -u names the user, -p
 
 ERROR 1698 (28000): Access denied for user 'root'@'localhost' means you ran mariadb -u root without sudo. Use sudo mariadb.
 
-ERROR 1045 (28000): Access denied for user 'shop_app'@'localhost' (using password: YES) means the password is wrong for that user at that host, or the account does not exist. using password: NO means no password was sent, so you probably forgot -p.
+ERROR 1045 (28000): Access denied for user 'shop_app'@'localhost' (using password: YES) means the password is wrong for that user at that host, or the account does not exist. using password: NO means no password was sent, so you probably forgot -p. If mariadb-secure-installation was never run, an account made for '%' is refused locally even with the right password, because the anonymous account ''@'localhost' is chosen first.
 
 An account in MySQL and MariaDB is a user name and a host together. 'shop_app'@'localhost' and 'shop_app'@'%' are two different accounts with their own passwords and rights. A program connecting over the network with host=127.0.0.1 may need its own account, because 127.0.0.1 is not the same host as localhost to the server.
 
-As root, SELECT user, host, plugin FROM mysql.user; lists the accounts, and SHOW GRANTS FOR 'shop_app'@'localhost'; shows what one may do.
+As root, SELECT user, host, plugin FROM mysql.user; lists the accounts, including mysql@localhost, which mariadb-install-db makes for the system's mysql user, and SHOW GRANTS FOR 'shop_app'@'localhost'; shows what one may do.

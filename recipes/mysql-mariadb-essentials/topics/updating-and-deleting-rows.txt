@@ -17,4 +17,4 @@ After each statement the client reports how many rows were affected, for example
 
 To delete all rows of a table on purpose, TRUNCATE TABLE logs; is faster than DELETE and resets AUTO_INCREMENT, but it cannot be rolled back and fails when other tables point at this one with foreign keys.
 
-Deleting a row that other rows depend on fails with a foreign key error. Delete or move the dependent rows first.
+Deleting a row that other rows depend on fails with a foreign key error by default. If the key was declared ON DELETE CASCADE, the dependent rows are deleted with it, without a warning. SHOW CREATE TABLE orders; shows which rule each foreign key uses.

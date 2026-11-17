@@ -2,13 +2,13 @@ Creating a database and a user for it
 
 Do this once for each application, as root, from sudo mariadb on AI-2 or mysql -u root -p on MySQL.
 
-CREATE DATABASE shop CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+CREATE DATABASE shop CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci;
 CREATE USER 'shop_app'@'localhost' IDENTIFIED BY 'a long random password';
 GRANT SELECT, INSERT, UPDATE, DELETE ON shop.* TO 'shop_app'@'localhost';
 
 The first line makes the database with a character set that keeps every alphabet and emoji intact. The second makes an account that may connect only from this machine. The third lets it read and change data in that one database and nothing else.
 
-GRANT takes effect at once. FLUSH PRIVILEGES is only needed after editing the system tables by hand, which you should not do.
+GRANT takes effect at once for new connections. A program that is already connected may need to reconnect. FLUSH PRIVILEGES is only needed after editing the system tables by hand, which you should not do.
 
 Give an application only the rights it needs. An account that also needs to create or change tables, for example while installing a web application, can be given CREATE, ALTER, DROP, INDEX and REFERENCES on shop.* as well. Never use GRANT ALL ON *.*, and never let an application connect as root. If the application is broken into, its database account is all the intruder gets.
 

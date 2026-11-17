@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 
-filter_var with FILTER_VALIDATE_INT, FILTER_VALIDATE_FLOAT or FILTER_VALIDATE_EMAIL returns the value when it is valid and false when it is not. For a choice from a list, check it with in_array against the allowed values. For a number with limits, check the limits too.
+filter_var with FILTER_VALIDATE_INT, FILTER_VALIDATE_FLOAT or FILTER_VALIDATE_EMAIL returns the value when it is valid and false when it is not. For numbers, compare with === false, because a valid 0 counts as false in a plain if. $qty = filter_var($_POST['qty'] ?? '', FILTER_VALIDATE_INT); if ($qty === false) { ... } For a choice from a list, check it with in_array against the allowed values. For a number with limits, check the limits too.
 
 Checking input is one layer. The value must still be escaped where it goes, with htmlspecialchars when it is printed in a page and with a prepared statement when it goes into a database query. Each has its own topic.
 
