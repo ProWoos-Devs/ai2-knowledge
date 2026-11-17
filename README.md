@@ -16,6 +16,8 @@ Anyone can build a Knowledge Pack from their own documents, so a community can p
 
 ## Get a pack
 
+The packs are also listed on the [catalog page](https://prowoos-devs.github.io/ai2-knowledge/), with a search box and filters by language and audience. It is made from the same catalog as the table below.
+
 <!-- catalog:start -->
 | Pack | Subject | What is in it | Made by | Language | Size | License | File |
 |---|---|---|---|---|---|---|---|
