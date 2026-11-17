@@ -1,0 +1,8 @@
+id: php-essentials
+title: PHP Essentials
+version: "2026-11-17"
+revision: 1       # raise this for every rebuild you publish, and mirror it in the catalog entry
+languages: [en]
+license: MIT
+attribution: "Written for AI-2 by Rafael Minuesa, in its own wording, with the PHP Manual by the PHP Documentation Group as reference. The PHP Documentation Group did not write or endorse it. MIT licensed, like the rest of the project."
+modified: "Written as tasks, cut into parts and embedded for search by AI-2."

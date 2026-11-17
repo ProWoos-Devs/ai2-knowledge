@@ -1,0 +1,22 @@
+Starting the database server on AI-2
+
+Install the server and its runit service with sudo pacman -S mariadb mariadb-runit. The client, mariadb, comes with it.
+
+Before the first start the data folder must be created. Run this once, and never again on a machine that already has data.
+
+sudo mariadb-install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+
+Then make the service start at every boot and start it now.
+
+sudo artix-service enable mariadb
+sudo sv up mariadb
+
+sudo sv status mariadb says whether it is running. run followed by a number of seconds means it is up. down, or a run time that keeps resetting to a few seconds, means it is stopping or crashing, and the reason is in the server's error log.
+
+Stop it with sudo sv down mariadb and restart it after changing its settings with sudo sv restart mariadb. Its settings are in /etc/my.cnf and the files in /etc/my.cnf.d, with server options under [mysqld] or [mariadb] in /etc/my.cnf.d/server.cnf.
+
+AI-2 runs runit, so commands from other guides such as systemctl start mariadb do not exist here.
+
+After the first start, run sudo mariadb-secure-installation, which removes the test database and the anonymous accounts. The topic on keeping the database safe goes through it.
+
+After an upgrade to a new MariaDB release, pacman prints a reminder to run mariadb-upgrade, which brings the system tables up to date. Run it as root with sudo mariadb-upgrade.

@@ -1,0 +1,20 @@
+Cannot modify header information, headers already sent
+
+The full warning names two places, for example Cannot modify header information - headers already sent by (output started at /home/ana/site/config.php:9) in /home/ana/site/login.php on line 20.
+
+Headers are sent before the page itself. Once PHP has printed anything, even one space, the headers are gone and header(), setcookie(), session_start() and redirects can no longer change them. The second place in the message is the call that failed. The first, after output started at, is the real cause, so go there.
+
+What you usually find there.
+
+A blank line or space before <?php at the top of a file.
+A blank line after a closing ?> at the end of an included file. Leave out the closing ?> in files that contain only PHP, which the PHP manual recommends for exactly this reason.
+An echo, print or HTML block that runs before the redirect.
+An invisible byte order mark at the very start of a file saved as UTF-8 with BOM. Save the file again as UTF-8 without BOM.
+A warning that was printed on the page, which is output too. Fix the warning.
+
+Do the work that sets headers first, before any HTML. A redirect looks like this, and exit stops the rest of the page from running.
+
+header('Location: /thanks.php');
+exit;
+
+ob_start() at the top can hide the problem, but it only delays output. Finding the stray output is the real fix.

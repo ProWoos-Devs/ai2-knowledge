@@ -1,0 +1,17 @@
+Accepting file uploads safely
+
+An uploaded file is the most dangerous input a site takes. If someone can upload shell.php into a folder the web server runs, they control the site.
+
+The form needs method="post" and enctype="multipart/form-data". The file arrives in $_FILES['photo'], with the temporary path in tmp_name, the error code in error and the size in size.
+
+Check everything before keeping it.
+
+The error must be UPLOAD_ERR_OK. UPLOAD_ERR_INI_SIZE means the file was larger than upload_max_filesize, which is 2M in AI-2's php.ini, and post_max_size (8M) caps the whole form.
+Check the size yourself as well, with a limit that suits your site.
+Decide the type from the file's content, never from its name or from the type the browser sent, which the visitor controls. (new finfo(FILEINFO_MIME_TYPE))->file($tmp) reads the content. Accept only a fixed list, such as image/jpeg and image/png.
+Never keep the visitor's file name. Make your own, $name = bin2hex(random_bytes(16)) . '.jpg';, with the extension taken from your list for that type.
+Move it with move_uploaded_file($tmp, $dir . '/' . $name);, which also refuses files that did not come from an upload.
+
+Store uploads outside the web folder and send them through a PHP script that sets the right Content-Type. If they must sit inside the web folder, set the web server so that folder never runs PHP.
+
+For images, getimagesize returns false for a file that is not an image. Saving a new copy of the image with the gd extension also drops extra data stored inside the original file.

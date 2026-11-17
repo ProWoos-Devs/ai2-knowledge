@@ -1,0 +1,19 @@
+Keeping the database safe
+
+Run the hardening script once after installing, sudo mariadb-secure-installation, or mysql_secure_installation on MySQL. It asks a few questions. Keep root's sudo login, remove the anonymous users, refuse root logins from other machines, and remove the test database. A fresh MariaDB has anonymous accounts that let anyone on the machine log in without a name.
+
+One account per application, with only the rights it needs, as in the topic on creating a database and user. If one application is broken into, the intruder gets that database and nothing more. Never let an application connect as root.
+
+Keep the server off the network unless another machine needs it. MariaDB listens on port 3306 on every network address unless told otherwise. If only programs on this machine use it, add a line under [mysqld] in /etc/my.cnf.d/server.cnf and restart with sudo sv restart mariadb.
+
+bind-address = 127.0.0.1
+
+or turn networking off completely with skip-networking, which leaves only the socket. Programs must then connect with host=localhost.
+
+If another machine must connect, create an account for that machine's address only, 'report'@'192.168.1.20', never for '%', which means any host. Let the firewall allow port 3306 only from that address, and use TLS for the connection.
+
+Never put a value typed by a user into SQL text. Use prepared statements. Store passwords with a proper hash such as PHP's password_hash, never in plain text or with MD5.
+
+Keep the server updated with the rest of the system, and run sudo mariadb-upgrade when pacman says the release changed.
+
+Back up regularly, keep the dumps where only you can read them, and test that they restore.

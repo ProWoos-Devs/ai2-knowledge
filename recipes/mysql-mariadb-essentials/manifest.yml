@@ -1,0 +1,8 @@
+id: mysql-mariadb-essentials
+title: MySQL & MariaDB Essentials
+version: "2026-11-17"
+revision: 1       # raise this for every rebuild you publish, and mirror it in the catalog entry
+languages: [en]
+license: MIT
+attribution: "Written for AI-2 by Rafael Minuesa, in its own wording, with the MariaDB documentation and the MySQL 8.4 Reference Manual as reference. Neither the MariaDB Foundation, MariaDB plc nor Oracle wrote or endorsed it. MIT licensed, like the rest of the project."
+modified: "Written as tasks, cut into parts and embedded for search by AI-2."

@@ -1,0 +1,13 @@
+Which PHP version and which extensions are installed
+
+php -v prints the version, for example PHP 8.5.12. Code written for a newer PHP can fail on an older one, so check this first when a script from somewhere else will not run.
+
+php -m lists the loaded extensions, the parts that add features such as database access (pdo_mysql, mysqli), images (gd) or international text (intl).
+
+php --ini names the configuration file in use. On AI-2 it is /etc/php/php.ini, and extra files are read from /etc/php/conf.d.
+
+On AI-2 several extensions come with the php package but are switched off. In php.ini their lines start with a semicolon, for example ;extension=pdo_mysql. To switch one on, open the file with sudo, remove the semicolon so the line reads extension=pdo_mysql, save, and check with php -m. A web server running PHP through php-fpm must be restarted before it sees the change, with sudo sv restart php-fpm.
+
+Some extensions are separate packages. If php -m still does not list gd or sqlite after you edit php.ini, search with pacman -Ss php- and install the one you need, for example sudo pacman -S php-gd, then switch it on in php.ini the same way.
+
+php.ini is read when PHP starts. A change never reaches a server that is already running until it is restarted.

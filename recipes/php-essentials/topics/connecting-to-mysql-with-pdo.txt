@@ -1,0 +1,22 @@
+Connecting to MySQL or MariaDB with PDO
+
+PDO is PHP's common way to talk to databases. On AI-2 its MySQL driver is switched off until the line extension=pdo_mysql in /etc/php/php.ini has its semicolon removed. The topic on extensions says how. MariaDB uses the same driver.
+
+$pdo = new PDO(
+    'mysql:host=localhost;dbname=shop;charset=utf8mb4',
+    $dbUser,
+    $dbPass,
+    [
+        PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+        PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+        PDO::ATTR_EMULATE_PREPARES => false,
+    ]
+);
+
+charset=utf8mb4 keeps accents and every other alphabet intact. ERRMODE_EXCEPTION makes a failed query throw an exception instead of failing quietly. FETCH_ASSOC returns each row as an array keyed by column name. Turning off emulated prepares makes the server itself handle the prepared statements.
+
+Read the user name and password from a configuration file kept outside the web folder, never write them into the page. Connect with a database user made for this application, not root. The database topics explain how to create one.
+
+If the connection fails, PHP throws a PDOException. Catch it, write $e->getMessage() to the log, and show the visitor a plain message. The exception text can contain the host and user name, so it must never be printed on a public page.
+
+could not find driver means pdo_mysql is not switched on. Connection refused or No such file or directory means the database server is not running, or PHP is looking for it in the wrong place.

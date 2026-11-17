@@ -1,0 +1,26 @@
+Forms that cannot be sent from another site, CSRF tokens
+
+A logged-in visitor's browser sends their session cookie with every request to your site, even a request started by a page on another site. A hostile page can therefore submit a hidden form to your change-email or delete-account page, and it runs as that visitor. This is cross-site request forgery, CSRF.
+
+The defense is a secret token that only your pages know. Make one per session.
+
+if (empty($_SESSION['csrf'])) {
+    $_SESSION['csrf'] = bin2hex(random_bytes(32));
+}
+
+Put it in every form that changes something.
+
+<input type="hidden" name="csrf" value="<?= htmlspecialchars($_SESSION['csrf']) ?>">
+
+Check it before doing anything with the request.
+
+if (!hash_equals($_SESSION['csrf'] ?? '', $_POST['csrf'] ?? '')) {
+    http_response_code(403);
+    exit('This form has expired. Please reload the page and try again.');
+}
+
+hash_equals compares in constant time, so the comparison does not leak the token one character at a time.
+
+Rules that go with it. Never change data in answer to a GET request, so a link or an image cannot trigger a change. Set the session cookie with samesite Lax or Strict, which stops most cross-site requests in current browsers but is a second layer, not a replacement for the token. For JavaScript requests, send the same token in a header and check it the same way.
+
+Frameworks such as Laravel and Symfony, and WordPress with its nonces, already do this. Use theirs rather than writing your own when you work inside one.

@@ -1,0 +1,25 @@
+Changing a table that already has data, ALTER TABLE
+
+Take a backup of the table first, mariadb-dump shop customers > customers-before.sql. A mistaken ALTER cannot be rolled back with a transaction.
+
+Common changes.
+
+ALTER TABLE customers ADD COLUMN city VARCHAR(100) NULL AFTER email;
+ALTER TABLE customers MODIFY COLUMN city VARCHAR(150) NULL;
+ALTER TABLE customers RENAME COLUMN city TO town;
+ALTER TABLE customers DROP COLUMN town;
+ALTER TABLE customers ADD INDEX idx_customers_email (email);
+
+MODIFY replaces the whole column definition. Repeat NOT NULL, DEFAULT and the rest, or they are lost. Check with DESCRIBE customers; after each change.
+
+Adding a NOT NULL column to a table with rows needs a DEFAULT, so the existing rows get a value.
+
+ALTER TABLE orders ADD COLUMN currency CHAR(3) NOT NULL DEFAULT 'EUR';
+
+Shortening a column or changing its type can fail, or cut data, when existing values do not fit. Look first, for example SELECT MAX(CHAR_LENGTH(city)) FROM customers;. In strict mode, the default on both servers, the ALTER stops with an error instead of cutting silently.
+
+On a large table some changes rebuild the whole table, which can take a long time and needs free disk space about the size of the table. Many simple changes, such as adding a column at the end, are done quickly in place on current versions. Do large changes when the site is quiet.
+
+Dropping a column that a program still reads breaks that program at once. Change the program first, then the table.
+
+To rename a table, RENAME TABLE customers TO clients;.

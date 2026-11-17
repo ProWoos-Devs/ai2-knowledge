@@ -1,0 +1,27 @@
+Running a query with values safely, prepared statements
+
+Never build an SQL query by pasting a visitor's input into it. A query such as "SELECT * FROM users WHERE email = '$email'" lets someone type ' OR '1'='1 and read every row, or worse. This is SQL injection, and it is still one of the commonest ways websites are broken into.
+
+Use a prepared statement. The query and the values travel separately, so a value can never be read as SQL.
+
+$stmt = $pdo->prepare('SELECT id, name FROM users WHERE email = ?');
+$stmt->execute([$email]);
+$user = $stmt->fetch();
+
+fetch returns one row, or false when nothing matched. fetchAll returns every row as an array.
+
+Named placeholders read more easily when there are many values.
+
+$stmt = $pdo->prepare('INSERT INTO orders (user_id, total) VALUES (:user, :total)');
+$stmt->execute(['user' => $userId, 'total' => $total]);
+$newId = $pdo->lastInsertId();
+
+Placeholders work for values only. A table name, a column name or the direction of ORDER BY cannot be a placeholder. When those depend on input, choose them from a fixed list in your code.
+
+$allowed = ['name', 'created_at'];
+$sort = in_array($_GET['sort'] ?? '', $allowed, true) ? $_GET['sort'] : 'name';
+$rows = $pdo->query("SELECT id, name FROM users ORDER BY $sort")->fetchAll();
+
+For a list of values, as in WHERE id IN (...), make one ? for each value with implode(',', array_fill(0, count($ids), '?')) and pass the values to execute.
+
+Escaping functions and addslashes are not a replacement. Use placeholders for every value, including ones you think are safe.

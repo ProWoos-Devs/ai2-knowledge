@@ -1,0 +1,15 @@
+Running a PHP script
+
+If the terminal says php: command not found, install PHP with sudo pacman -S php.
+
+To run a script, open a terminal in its folder and type php hello.php. Whatever the script prints appears in the terminal.
+
+To try one line without making a file, php -r 'echo 2 + 2, PHP_EOL;' runs the code between the quotes. php -a opens an interactive prompt where each line runs when you press Enter. Leave it with exit.
+
+To see a page in the browser without installing a web server, go to the folder that holds index.php and run php -S localhost:8000, then open http://localhost:8000 in the browser. Every request and every error is printed in the terminal where the server runs. Stop it with Ctrl+C.
+
+The built-in server is for testing on your own machine. It runs one request at a time and the PHP manual says it should not be used on a public network. A real site needs a web server such as nginx or Apache, with PHP running through php-fpm.
+
+Using localhost in that command keeps the test server reachable only from this computer. 0.0.0.0 would open it to every machine on the network.
+
+Before running a script someone sent you, read it. A PHP script can do anything your account can do, including deleting your files.

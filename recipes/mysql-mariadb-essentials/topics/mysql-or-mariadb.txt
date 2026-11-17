@@ -1,0 +1,15 @@
+MySQL or MariaDB, which one is running and how they differ
+
+MariaDB began as a copy of MySQL and still answers to most of the same commands, so a program written for MySQL usually works with MariaDB unchanged. AI-2's repositories carry MariaDB, in the package mariadb. Oracle's MySQL is not in them. Percona Server, package percona-server, is a MySQL-compatible server that is.
+
+To see which one you are talking to, log in and run SELECT VERSION();. MariaDB answers with something like 13.0.2-MariaDB, MySQL with a plain number such as 8.4.3.
+
+Where the two differ in everyday work.
+
+Command names. MariaDB's programs are mariadb, mariadb-dump and mariadb-admin. On AI-2 the old names mysql, mysqldump and mysqladmin still work and start the same programs. MySQL has only the mysql names.
+Logging in as root. MariaDB on AI-2 lets the system's root user in with no password, through sudo mariadb. MySQL asks for the root password set when it was installed.
+Passwords for applications. MySQL 8.4 stores new accounts with caching_sha2_password. Old client libraries that only know the older method cannot log in to it.
+JSON columns. In MySQL, JSON is its own binary type. In MariaDB, JSON is a long text column with a check that the text is valid JSON. Both have the JSON functions.
+GROUP BY. MySQL refuses a query that selects a column not grouped or summarized. MariaDB allows it unless ONLY_FULL_GROUP_BY is added to sql_mode.
+
+A dump from one usually loads into the other for simple tables, but test it before relying on it.

@@ -1,0 +1,24 @@
+Reading and writing JSON in PHP
+
+JSON is the text format most programs and web services use to exchange data.
+
+To turn PHP data into JSON, json_encode($data). Arrays with keys become objects, lists become arrays. Add JSON_PRETTY_PRINT for indented output a person can read, and JSON_UNESCAPED_UNICODE to keep accents as they are instead of \u00f1 codes.
+
+To read JSON, json_decode($text, true). The true returns arrays, which are usually easier to work with than the objects you get without it.
+
+json_decode returns null when the text is not valid JSON, and null is also the correct result for the JSON text null, so a null result does not say which happened. Ask PHP to throw an exception instead.
+
+try {
+    $data = json_decode($text, true, 512, JSON_THROW_ON_ERROR);
+} catch (JsonException $e) {
+    error_log('Bad JSON: ' . $e->getMessage());
+}
+
+JSON that came from a visitor or another site is as untrusted as form input. Check that the keys you need exist and that the values have the type you expect before using them.
+
+To answer a JavaScript request with JSON, send the right header before any output, then print it.
+
+header('Content-Type: application/json');
+echo json_encode(['ok' => true, 'items' => $items]);
+
+To read JSON a page sent to your script, $data = json_decode(file_get_contents('php://input'), true);, because JSON bodies do not appear in $_POST.

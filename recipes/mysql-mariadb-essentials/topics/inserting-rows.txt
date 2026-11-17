@@ -1,0 +1,23 @@
+Adding rows, INSERT
+
+Name the columns, then give the values in the same order.
+
+INSERT INTO customers (name, email) VALUES ('Ana', 'ana@example.com');
+
+Columns left out get their default, and the AUTO_INCREMENT id gets the next number. Text and dates go in single quotes, numbers do not. A quote inside a text value is written twice, 'O''Brien'. Always name the columns, because an INSERT without them breaks as soon as the table gains a column.
+
+Several rows in one statement are much faster than one statement each.
+
+INSERT INTO customers (name, email) VALUES ('Luis', 'luis@example.com'), ('Mia', 'mia@example.com');
+
+From a program, never paste values into the SQL text. Use placeholders, as in the PHP topic on prepared statements, so a value typed by a visitor can never be read as SQL.
+
+When the row may already exist. ERROR 1062 Duplicate entry means a UNIQUE column or the primary key already has that value. To update the existing row instead, add an ON DUPLICATE KEY UPDATE clause.
+
+INSERT INTO stock (product_id, quantity) VALUES (7, 5) ON DUPLICATE KEY UPDATE quantity = quantity + 5;
+
+INSERT IGNORE skips rows that would clash, but it also turns other errors into warnings and silently stores adjusted values, so prefer the clause above.
+
+To copy rows from another table, INSERT INTO archive (id, total) SELECT id, total FROM orders WHERE created_at < '2026-01-01';.
+
+To load a large CSV file, LOAD DATA INFILE is much faster than many inserts, but the server must be allowed to read the file.

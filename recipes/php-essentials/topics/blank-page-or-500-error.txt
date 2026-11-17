@@ -1,0 +1,14 @@
+A blank page or a 500 error
+
+When a PHP page shows nothing, or the browser says 500 Internal Server Error, PHP has almost always stopped at an error and is not showing it. AI-2's php.ini ships with display_errors = Off. That is right for a live site, because an error message can show visitors file paths, database names and sometimes passwords.
+
+To see the error, look where it was written. With the built-in server (php -S) it is printed in the terminal that runs the server. A script run in a terminal prints it there too. Under nginx or Apache with php-fpm it goes to the web server's error log, or to the file named by error_log in php.ini if one is set.
+
+On your own test machine you can show errors on the page. Put these two lines at the top of the script, just after <?php.
+
+ini_set('display_errors', '1');
+error_reporting(E_ALL);
+
+They do not help with a parse error, a mistake that stops PHP before any line runs, such as a missing semicolon or bracket. For those, run php -l page.php in a terminal. It checks the file without running it and names the line.
+
+Take the two lines out again before the code goes anywhere other people can reach it.

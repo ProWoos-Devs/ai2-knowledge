@@ -1,0 +1,25 @@
+Combining two tables, JOIN
+
+Data is split into tables so nothing is stored twice. A JOIN puts it back together for a query.
+
+SELECT c.name, o.id, o.total
+FROM orders o
+JOIN customers c ON c.id = o.customer_id
+WHERE o.status = 'paid';
+
+o and c are short names for the tables, and ON says which rows belong together. This JOIN, also written INNER JOIN, returns only pairs that match, so orders without a customer and customers without orders are left out.
+
+LEFT JOIN keeps every row of the first table even when the second has no match, and fills the missing columns with NULL. It answers questions such as which customers have never ordered.
+
+SELECT c.name
+FROM customers c
+LEFT JOIN orders o ON o.customer_id = c.id
+WHERE o.id IS NULL;
+
+Common mistakes.
+
+Forgetting the ON condition, or getting it wrong, pairs every row with every other row. A result far larger than expected is the sign.
+A condition on the second table of a LEFT JOIN placed in WHERE turns it back into an inner join. Put it in the ON instead, LEFT JOIN orders o ON o.customer_id = c.id AND o.status = 'paid'.
+Columns with the same name in both tables, such as id, must be written with the table name, c.id or o.id.
+
+Joins are fast when the columns in ON have indexes. A primary key always has one, and InnoDB creates one for a foreign key. For other join columns, add an index, as the topic on slow queries shows.

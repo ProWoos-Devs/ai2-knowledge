@@ -1,0 +1,21 @@
+Finding rows, SELECT
+
+SELECT name, email FROM customers WHERE city = 'Lima' ORDER BY name LIMIT 20;
+
+The parts, in the order they must be written.
+
+SELECT names the columns to show. * shows them all, which is fine at the prompt, but programs should name the columns they use.
+FROM names the table.
+WHERE keeps only matching rows. Join conditions with AND and OR, and use brackets when mixing them, WHERE city = 'Lima' AND (status = 'new' OR status = 'paid').
+ORDER BY sorts, ascending unless followed by DESC. Without ORDER BY the order of rows is not guaranteed, even if it looks stable.
+LIMIT caps the number of rows. LIMIT 20 OFFSET 40 gives rows 41 to 60, for pages of results.
+
+Useful conditions. BETWEEN 10 AND 20 includes both ends. IN ('new', 'paid') matches any value in the list. LIKE 'Ana%' matches text starting with Ana, % standing for any characters and _ for exactly one. A LIKE that starts with % cannot use an index and reads the whole table.
+
+With the usual utf8mb4_unicode_ci collation, text comparisons ignore upper and lower case, so WHERE email = 'ANA@EXAMPLE.COM' finds ana@example.com.
+
+Empty values need IS NULL, never = NULL. The topic on NULL explains why.
+
+To compute in the results, SELECT name, total * 1.21 AS with_tax FROM orders;. AS gives the result column a name.
+
+DISTINCT removes repeated rows, SELECT DISTINCT city FROM customers;.

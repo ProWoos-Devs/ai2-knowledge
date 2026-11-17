@@ -1,0 +1,20 @@
+Giving each row a number, primary keys and AUTO_INCREMENT
+
+Every table should have a primary key, a column whose value is different in every row and never empty, so each row can be found and changed on its own. The usual choice is a number the server hands out.
+
+id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY
+
+Leave id out when inserting, and the server gives the next number. Right after the insert, SELECT LAST_INSERT_ID(); returns the number it used on your connection, even if other programs are inserting at the same time. In PHP with PDO the same number comes from $pdo->lastInsertId().
+
+Numbers are not reused when rows are deleted, and a failed or rolled-back insert can also use one up, so gaps are normal. Never rely on ids having no gaps, and never use them as invoice numbers if the law requires numbers without gaps. Keep a separate counter for those.
+
+Do not change or reuse a primary key value. Other tables point at it.
+
+When one table refers to another, for example orders belonging to a customer, give it a column of the same type and declare a foreign key.
+
+customer_id INT UNSIGNED NOT NULL,
+FOREIGN KEY (customer_id) REFERENCES customers(id)
+
+The server then refuses an order for a customer that does not exist, and refuses to delete a customer who still has orders. Foreign keys need InnoDB tables, the default.
+
+If a table grows past about four billion rows, INT UNSIGNED runs out. Use BIGINT UNSIGNED from the start for tables that log events.

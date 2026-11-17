@@ -1,0 +1,27 @@
+Restoring a backup
+
+A dump is SQL, so restoring it means feeding it to the client.
+
+If the database does not exist yet, create it first, sudo mariadb -e "CREATE DATABASE shop CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;". Then load the dump into it.
+
+sudo mariadb shop < shop-2026-11-17.sql
+
+A compressed dump is unpacked on the way in.
+
+gunzip < shop.sql.gz | sudo mariadb shop
+
+On MySQL the same commands use mysql -u root -p in place of sudo mariadb.
+
+A dump made with --databases or --all-databases already contains CREATE DATABASE and USE lines, so load it with no database name, sudo mariadb < all.sql. Read the first lines with head before loading a file you did not make, to see which databases it will create or overwrite.
+
+Restoring replaces tables of the same name. The dump starts each table with DROP TABLE IF EXISTS, so the current contents of those tables are gone once it runs. If you may need them, dump the current database first.
+
+To test a backup without touching the live data, restore it into a scratch database.
+
+sudo mariadb -e "CREATE DATABASE shop_test;"
+sudo mariadb shop_test < shop-2026-11-17.sql
+sudo mariadb -e "SELECT COUNT(*) FROM shop_test.orders;"
+
+Compare the counts with the live database, then remove the copy with DROP DATABASE shop_test;. Check twice that the name is shop_test before pressing Enter.
+
+A large dump can take a long time to load. Nothing is printed until it finishes or fails. If it fails, the error names the line of the file, and tables before that line are already loaded.

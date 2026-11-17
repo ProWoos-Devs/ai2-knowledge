@@ -1,0 +1,11 @@
+Reading and writing files in PHP
+
+To read a whole file into a string, $text = file_get_contents(__DIR__ . '/notes.txt');. It returns false if the file cannot be read, so check for that. file('list.txt', FILE_IGNORE_NEW_LINES) returns the lines as an array.
+
+To write, file_put_contents($path, $text); replaces the file, and file_put_contents($path, $line . PHP_EOL, FILE_APPEND | LOCK_EX); adds to the end and stops two requests from writing at the same moment. For very large files, read line by line with fopen and fgets instead of loading everything into memory.
+
+Failed to open stream: No such file or directory means the path is wrong. Build paths from __DIR__ rather than relying on the current folder, and remember that names on Linux are case-sensitive, so Notes.txt and notes.txt are different files.
+
+Failed to open stream: Permission denied means the user PHP runs as cannot read or write there. A script in a terminal runs as you, but PHP under a web server runs as the server's own user, http on AI-2. Give that user a folder to write in, for example sudo chown http /srv/site/data, and keep that folder outside the web folder. Never fix it with chmod 777, which lets every user and program on the machine change the files.
+
+Never use a visitor's input as a file name or path. A name such as ../../etc/passwd climbs out of the folder you meant. If a visitor chooses a file, use basename() on the name and check it against the files you expect.

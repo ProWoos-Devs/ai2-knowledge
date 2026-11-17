@@ -1,0 +1,25 @@
+Making a backup, mariadb-dump and mysqldump
+
+A dump is a text file of SQL that recreates the tables and their rows. On AI-2 the program is mariadb-dump, and mysqldump starts the same one. On MySQL it is mysqldump.
+
+One database.
+
+sudo mariadb-dump --single-transaction --routines --triggers shop > shop-2026-11-17.sql
+
+--single-transaction gives a consistent copy of InnoDB tables while the site keeps running, without locking them. --routines and --triggers include stored procedures and triggers, which are left out otherwise.
+
+A dump made this way has no CREATE DATABASE line, so it can be loaded into a database of any name. Add --databases shop to include the database itself, or use --all-databases for every database on the server.
+
+Compress it as it is written, since SQL text shrinks a lot.
+
+sudo mariadb-dump --single-transaction --routines --triggers shop | gzip > shop.sql.gz
+
+A backup only counts when it can be restored. Now and then, load it into a scratch database and check the row counts, as the topic on restoring shows.
+
+Keep backups on another disk or machine. A dump on the same disk as the database is lost with it.
+
+The dump holds all your data, including customers' details and password hashes. Keep the files where only you can read them, chmod 600 shop.sql.
+
+Copying the files in /var/lib/mysql while the server runs does not make a usable backup. Use the dump, or stop the server first.
+
+For a regular backup, a cron job can run the dump each night. Without a password in the command, it works when run as root, through the same unix_socket login as sudo mariadb.

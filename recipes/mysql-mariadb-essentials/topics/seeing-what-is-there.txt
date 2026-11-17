@@ -1,0 +1,19 @@
+Seeing what is in the database
+
+At the mariadb or mysql prompt, every statement ends with a semicolon. If you press Enter and the prompt changes to ->, the server is waiting for the rest, so type ; and Enter.
+
+SHOW DATABASES; lists the databases your account can see. Pick one with USE shop;, or start the client with the database name at the end, mariadb -u shop_app -p shop.
+
+SHOW TABLES; lists the tables in the current database.
+
+DESCRIBE customers; shows each column, its type, whether it may be empty (NULL), whether it is a key, and its default.
+
+SHOW CREATE TABLE customers\G prints the full statement that would make the table again, with its indexes, character set and foreign keys. Ending a statement with \G instead of ; prints each row as a list of name and value lines, which is easier to read when a row is wide.
+
+SELECT COUNT(*) FROM customers; says how many rows a table has. SELECT * FROM customers LIMIT 10; shows the first ten. Always add LIMIT when looking at a table you do not know, because a table can hold millions of rows.
+
+To see how much room each table takes, run this query.
+
+SELECT table_name, ROUND((data_length + index_length) / 1024 / 1024, 1) AS mb FROM information_schema.tables WHERE table_schema = 'shop' ORDER BY mb DESC;
+
+SELECT DATABASE(), CURRENT_USER(); reminds you which database you are in and which account you logged in as, which is worth checking before you change anything.
