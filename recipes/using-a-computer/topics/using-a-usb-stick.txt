@@ -1,0 +1,44 @@
+Using a USB stick
+
+Search terms: USB stick, pen drive, flash drive, memory stick, thumb drive, memory card, put in a USB stick, open a USB stick, copy to a USB stick, copy from a USB stick, take out a USB stick, remove a USB stick safely, unmount, eject, safely remove, the USB stick does not appear.
+
+Written for AI-2. Directed to children, parents and teachers.
+
+WHAT IT IS
+
+A USB stick is a small thing that holds files, like a pocket-sized folder. You can put your work on it, carry it to another computer and open it there. A memory card from a camera works the same way when the computer has a slot for it.
+
+PUTTING IT IN
+
+Find a USB port on the side or back of the computer. The stick fits only one way up. If it does not slide in easily, turn it over and try again, and never push hard. After a few seconds the stick appears with its name in the list on the left of the File Manager. On AI-2 it also appears as a picture on the desktop.
+
+OPENING IT
+
+Double-click the stick's name or picture. A window shows the files on it. If nothing is on it yet, the window is empty.
+
+COPYING A FILE ONTO IT
+
+1. In the File Manager, go to the folder that has your file.
+2. Right-click the file and choose Copy.
+3. Click the stick's name in the list on the left.
+4. Right-click an empty part of the window and choose Paste.
+
+Your file is now in two places, on the computer and on the stick.
+
+COPYING A FILE FROM IT
+
+Do the same the other way: copy the file on the stick, then paste it into one of your own folders, for example Documents. Work on the copy in your folder, because a stick can be lost or forgotten in another computer.
+
+TAKING IT OUT SAFELY
+
+The computer may still be writing to the stick after a copy seems finished. If you pull the stick out too early, the file on it can be lost or damaged. So always tell the computer first:
+
+1. Wait until any copying window has closed.
+2. Right-click the stick's name or picture.
+3. On AI-2, choose Unmount, or Unmount Volume on the desktop picture. Other computers may call it Eject or Safely Remove.
+4. Wait for the message that says the stick has been safely removed.
+5. Now pull it straight out.
+
+IF IT DOES NOT APPEAR
+
+Take it out, wait a moment and put it in again, or try another port. If it still does not appear, ask a grown-up. The stick may be broken, or it may need to be prepared on another computer.
