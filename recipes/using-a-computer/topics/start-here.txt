@@ -1,0 +1,44 @@
+Start here with Using a Computer
+
+Search terms: using a computer, computer for kids, first computer, how to use a laptop, computer basics, beginner, learn the computer, help with the computer, computer lessons for children.
+
+Written for AI-2. Directed to children, parents and teachers.
+
+WHAT THIS PACK IS
+
+This Knowledge Pack is for children of about 6 to 12 who are using a computer for the first time, and for the parents and teachers helping them. It explains the things that work the same way on almost every laptop and desktop computer: the mouse and the keyboard, windows on the screen, files and folders, saving your work, and looking after the machine. It was written for a computer running AI-2, and a few topics show the parts that belong to AI-2.
+
+Computers change quickly, but the basics in these topics have stayed the same for many years. If something on your screen looks a little different from what a topic says, look for the same idea: a button with a similar name, a menu in a corner, a picture with the same meaning.
+
+HOW TO SEARCH THIS PACK
+
+Ask your question in your own words, the way you would ask a person. For example "how do I save my drawing", "the mouse does not move the arrow", "how do I make a capital letter" or "how do I close a window". The search finds the topic and the passage that answer it best.
+
+TOPICS IN THIS PACK
+
+Getting started:
+- The parts of a computer (screen, keyboard, touchpad, mouse, charger)
+- Turning it on, logging in and turning it off
+- Using a mouse or a touchpad (click, double-click, right-click, drag, scroll)
+- The keys on a keyboard (letters, Shift, Enter, Backspace, arrows)
+- Learning to type (both hands, the home row, practice)
+
+Working on the screen:
+- Windows on the screen (open, move, resize, hide, close, switch)
+- Finding and starting a program (the Applications menu)
+- Keyboard shortcuts (copy, paste, undo, save)
+
+Your work:
+- Files and folders (what they are, your home folder, good names)
+- Saving your work and finding it again (Save and Save As)
+- Using a USB stick
+
+Staying safe and asking for help:
+- When something goes wrong (a stuck program, a strange message)
+- Looking after the computer (food, drinks, carrying, heat, the charger)
+- Passwords and staying safe
+- Asking AI-2 a question (Search Knowledge and AI-2 Chat)
+
+LEARNING TOGETHER
+
+The best way to learn a computer is to use it, a little at a time, with someone nearby to ask. Almost every mistake can be put right, so it is fine to try things. Two things are worth asking a grown-up about first: deleting files, and anything that asks for a password.

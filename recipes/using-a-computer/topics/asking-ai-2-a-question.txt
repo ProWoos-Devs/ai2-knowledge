@@ -1,0 +1,37 @@
+Asking AI-2 a question
+
+Search terms: ask AI-2, ask a question, Search Knowledge, Knowledge Packs, AI-2 Chat, chat with the AI, how to search, find an answer, is the AI right, the AI made a mistake, homework help, offline answers.
+
+Written for AI-2. Directed to children, parents and teachers.
+
+TWO WAYS TO ASK
+
+AI-2 can answer questions with no Internet in two ways. Search Knowledge finds the answer in the Knowledge Packs on the computer, which are documents written by people. AI-2 Chat lets you talk with an AI, a program that writes its own answers. Both are in the AI-2 group of the Applications menu.
+
+SEARCH KNOWLEDGE
+
+1. Open the Applications menu, then the AI-2 group, and choose Search Knowledge.
+2. A window opens and asks for your question. Type it in your own words, for example "how do I save my work", and press Enter.
+3. After some seconds it shows the passages that answer it best, each with a number and the name of the document it came from.
+4. Type a passage's number and press Enter to read the whole document. Press q to close it and go back.
+5. Ask another question. When you have finished, press Enter on an empty line, or close the window.
+
+Search Knowledge does not invent anything. What you read is exactly what the authors of the Knowledge Pack wrote, and it tells you where it came from. If the answer is not in any Knowledge Pack on the computer, the passages it shows will not fit your question. Try other words, or ask a grown-up.
+
+KNOWLEDGE PACKS
+
+A Knowledge Pack is a set of documents on one subject, like this one about using a computer. The Knowledge Packs entry in the AI-2 group shows the ones that exist, with what is in each, and installs new ones when the computer is connected to the Internet. A grown-up can do that.
+
+AI-2 CHAT
+
+1. Open the Applications menu, then the AI-2 group, and choose AI-2 Chat (Gopher).
+2. Type your question in the box at the bottom and press Enter.
+3. The answer appears line by line. On an older computer the first answer can take more than a minute, so wait.
+
+THE AI CAN BE WRONG
+
+The AI on this computer is small, so it fits an ordinary laptop. It writes answers that sound sure even when they are wrong, and it can make up facts and numbers. Use it for ideas, practice and fun, not for facts you need to be right. For health, safety and anything important, use Search Knowledge, a book, or a grown-up.
+
+A GOOD QUESTION
+
+Short and clear questions work best. "Why does ice float" is better than "I have a question about ice". If the first answer is not what you wanted, ask again with different words.

@@ -1,0 +1,41 @@
+Finding and starting a program
+
+Search terms: open a program, start a program, find a program, applications menu, start menu, where are the programs, open an app, run a program, AI-2 menu, cannot find a program, application finder, open the file manager.
+
+Written for AI-2. Directed to children, parents and teachers.
+
+WHAT A PROGRAM IS
+
+A program, also called an application or an app, is a set of instructions that does one kind of job: writing, drawing, playing music, searching a Knowledge Pack. To use one, you start it, it opens in a window, and when you have finished you close it.
+
+THE APPLICATIONS MENU
+
+On AI-2 every program is listed in the Applications menu. Open it with the first button on the bar at the top of the screen, or press Alt and F1 together. The menu shows groups, such as Accessories, Internet or System. Point at a group to see the programs in it, and click a program to start it.
+
+The first group in the menu is AI-2. It holds the programs that belong to AI-2:
+
+- About AI-2 says which version of AI-2 is on the computer.
+- Search Knowledge finds the answer to a question in the Knowledge Packs.
+- Knowledge Packs shows which Knowledge Packs there are and installs new ones.
+- AI-2 Chat (Gopher) opens a chat with the AI that runs on this computer.
+- Software Updates installs updates when the computer is online.
+
+The topic "Asking AI-2 a question" explains Search Knowledge, Knowledge Packs and the chat.
+
+THE BUTTONS ON THE BAR
+
+Some programs also have a small picture on a bar of the screen, so you can start them with one click without opening the menu. On AI-2 there are pictures for the File Manager, the web browser and a terminal. Hold the pointer still over a picture for a moment and its name appears.
+
+WHEN YOU CANNOT FIND A PROGRAM
+
+1. Look through the groups of the Applications menu. A drawing program is usually in Graphics, a writing program in Office or Accessories.
+2. Use the Application Finder: press Alt and F2 together, type part of the program's name, and press Enter when it appears.
+3. If it is not there, it may not be installed on this computer. Ask a grown-up. Installing a program needs the computer's password and usually an Internet connection.
+
+STARTING A PROGRAM ONCE
+
+Click once on a program in the menu, then wait. An older computer can take several seconds to open a program, and clicking again only opens a second copy of it. If you are not sure it started, look for its button in the bar.
+
+CLOSING IT
+
+Save your work, then click the cross in the corner of the window. The topic "Windows on the screen" explains the buttons on a window.

@@ -1,0 +1,35 @@
+Turning the computer on, logging in and turning it off
+
+Search terms: turn on the computer, switch on, start the laptop, power button, log in, login, password screen, user name, shut down, turn off, switch off, log out, restart, the computer will not turn off, sleep.
+
+Written for AI-2. Directed to children, parents and teachers.
+
+TURNING IT ON
+
+Find the power button. On a laptop it is usually above the keyboard or on one side, and it often shows a circle with a short line at the top. Press it once and let go. The computer needs some time to start, sometimes a minute or more on an older machine. Words and pictures appear and change on the screen while it gets ready. Wait, and do not press the button again.
+
+LOGGING IN
+
+When it is ready, the computer shows the login screen. Logging in tells the computer who is using it, so it can open your own files and settings. On AI-2 the login screen shows a name, or a box for a name, and a box for the password.
+
+1. If there is more than one name, choose yours.
+2. Click in the password box and type your password. The letters show as dots, so nobody can read them over your shoulder.
+3. Press Enter.
+
+If the computer says the password is wrong, check that the Caps Lock key is not on, and type it again slowly. A password must be typed with exactly the same capital and small letters every time.
+
+After you log in you see the desktop: a picture across the screen, with a bar at the top or the bottom holding the menu, the clock and buttons for the programs that are open.
+
+TURNING IT OFF THE RIGHT WAY
+
+Save your work first and close your programs. Then turn the computer off from its menu, not with the power button. On AI-2:
+
+1. Open the Applications menu and choose Log Out. On many computers the button with your name or a power sign, in a corner of the bar, does the same.
+2. A window opens with several choices. Choose Shut Down.
+3. Wait until the screen is dark and the computer is quiet before you close the lid or move it. A small light may stay on while the charger is connected.
+
+Shut Down lets the computer finish writing everything to its disk. Log Out only closes your session, so someone else can log in. Restart turns the computer off and on again.
+
+WHEN IT WILL NOT TURN OFF
+
+If the computer is completely stuck and nothing on the screen answers for several minutes, hold the power button down for several seconds until it turns off. This is the last thing to try, not the first, because any work that was not saved is lost. Tell a grown-up that it happened.

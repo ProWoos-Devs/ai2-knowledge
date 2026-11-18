@@ -1,0 +1,39 @@
+When something goes wrong
+
+Search terms: the computer is stuck, frozen, not responding, program does not answer, error message, the screen is black, nothing happens when I click, made a mistake, deleted by mistake, the computer is slow, help, something went wrong.
+
+Written for AI-2. Directed to children, parents and teachers.
+
+STAY CALM
+
+Every computer user meets problems. Most are small and can be fixed, and almost nothing you do with the mouse and the keyboard can break the computer itself. Stop, look at the screen and try the steps below, one at a time. If you are not sure, ask a grown-up before you press anything.
+
+YOU MADE A MISTAKE
+
+If you deleted words, moved something or drew a wrong line, hold Ctrl and press Z. That undoes the last thing you did, and pressing it again goes further back. If you closed a window without saving, the work since the last save is usually gone, which is why it is good to save often.
+
+NOTHING HAPPENS WHEN YOU CLICK
+
+1. Wait. An older computer may need some seconds, and clicking again only gives it more to do. A spinning sign or an hourglass means it is busy.
+2. Look for a small window that may be hidden behind the others, waiting for an answer. Its button in the bar brings it to the front.
+3. Check that the pointer moves. If not, see the topic "Using a mouse or a touchpad".
+
+A PROGRAM STOPS ANSWERING
+
+If one window does not answer for a minute or more, try to close it with the cross. The computer may say the program is not responding and ask whether to end it. Ending it closes the program, and work in it that was not saved is lost. Other programs keep working.
+
+A MESSAGE YOU DO NOT UNDERSTAND
+
+Read it slowly. Many messages say what happened and give a choice, such as OK or Cancel. If you do not understand it, do not click just to make it go away. Ask a grown-up, or write the message down exactly, so someone can help.
+
+THE COMPUTER IS VERY SLOW
+
+Close the programs you are not using. Each open program uses memory, and an older computer slows down when too many are open. If that does not help, save your work and restart the computer from the menu.
+
+THE SCREEN IS BLACK
+
+Move the mouse or press a key: the computer may only be resting to save power. On a laptop the battery may be empty, so connect the charger and wait a few minutes. Only a grown-up should plug the charger into a wall socket.
+
+THE COMPUTER IS COMPLETELY STUCK
+
+If nothing answers for several minutes, holding the power button down for several seconds turns it off. Use this only when nothing else works, because unsaved work is lost. Then tell a grown-up what happened.

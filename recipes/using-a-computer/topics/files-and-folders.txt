@@ -1,0 +1,40 @@
+Files and folders
+
+Search terms: file, folder, what is a file, what is a folder, directory, home folder, Documents folder, file manager, file name, rename a file, new folder, move a file, copy a file, delete a file, organize my files, where are my files.
+
+Written for AI-2. Directed to children, parents and teachers.
+
+WHAT A FILE IS
+
+Everything you keep on a computer is kept in a file: a story you wrote, a drawing, a photo, a song. Each file has a name, so you and the computer can find it again. The end of the name, after a dot, often tells what kind of file it is. For example "my-story.txt" is text and "cat.png" is a picture.
+
+WHAT A FOLDER IS
+
+A folder holds files, the way a drawer holds papers. A folder can also hold other folders, like a drawer with boxes inside. Folders keep your work in order, so you do not have to look through everything to find one file.
+
+YOUR HOME FOLDER
+
+Each person who logs in has a home folder, with their own name. Inside it are folders made for you, such as Documents for writing, Pictures for images, Music, Videos, Downloads for things that come from the Internet, and Desktop for what shows on the desktop. Other people who log in with their own name cannot change the files in your home folder.
+
+THE FILE MANAGER
+
+The File Manager is the program that shows your folders and files. On AI-2 you can open it with its picture on the bar, or from the Applications menu. It opens in your home folder. Double-click a folder to go inside it. The back arrow at the top goes back to where you were.
+
+MAKING A NEW FOLDER
+
+Go to the place where you want it, for example Documents. Right-click on an empty part of the window and choose to create a folder. Type its name and press Enter.
+
+GOOD NAMES
+
+A good name says what is inside: "volcano-project" is better than "new folder 3". Some tips:
+- Use letters, numbers and a dash or underline. Avoid signs such as / or ?.
+- Put a date or a number in names when there are many versions, like "story-1" and "story-2".
+- To rename, right-click the file or folder and choose Rename.
+
+MOVING AND COPYING
+
+Drag a file onto a folder to move it there. To copy it, right-click it and choose Copy, go to the other folder, right-click an empty space and choose Paste. After a copy there are two files, and changing one does not change the other.
+
+DELETING
+
+Deleting a file may remove it for good. Before you delete anything, check that it is really the right file, and ask a grown-up if it is not your own work. Never delete files or folders outside your home folder.
