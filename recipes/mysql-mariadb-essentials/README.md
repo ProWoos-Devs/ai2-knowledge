@@ -13,6 +13,12 @@ ai-2 doc index --in mysql-mariadb-essentials --embedder nomic-embed-text-v1.5 to
 ai-2 knowledge export mysql-mariadb-essentials --manifest manifest.yml -o mysql-mariadb-essentials.ai2pack
 ```
 
+## Measured
+
+Built on 2026-11-17 with ai-2 0.29.2: 23 documents, 80 parts. An outside question set, written by someone who had seen only the list of topic titles, searched with `ai-2 doc search` on the built Knowledge Pack. All 20 questions were kept and none was changed: top-1 13/20, top-3 19/20.
+
+The seven that did not come first: "how many orders per customer, only show ones with more than 5" found the counting topic second, after seeing what is there; "should price be float or decimal" found the creating-a-table topic second, after counting; "lost admin pasword mariadb cant get in" found the forgotten root password topic second, after access denied; "get customer name next to each order from other table" found the joining topic second, after finding rows; "list all tables and what columns they have" found the seeing-what-is-there topic second, after slow queries; "query takes forever on big table how to speed up" found the slow queries topic third; and "id column that goes up by itself 1 2 3" did not find the primary keys topic in the top three.
+
 ## House style
 
 - One subject per file, roughly 150 to 250 words, first line the title.

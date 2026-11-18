@@ -11,6 +11,12 @@ ai-2 doc index --in php-essentials --embedder nomic-embed-text-v1.5 topics/*.txt
 ai-2 knowledge export php-essentials --manifest manifest.yml -o php-essentials.ai2pack
 ```
 
+## Measured
+
+Built on 2026-11-17 with ai-2 0.29.2: 23 documents, 75 parts. An outside question set, written by someone who had seen only the list of topic titles, searched with `ai-2 doc search` on the built Knowledge Pack. All 20 questions were kept and none was changed: top-1 17/20, top-3 19/20.
+
+The three that did not come first: "safe way to save user pasword in database" found the passwords topic second, after keeping secrets out of code; "failed to open stream no such file or directory include header.php" found the include topic third; and "check if mbstring is enabled" did not find the version and extensions topic in the top three.
+
 ## House style
 
 - One subject per file, roughly 150 to 250 words, first line the title.
