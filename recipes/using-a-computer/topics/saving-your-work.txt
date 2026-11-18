@@ -1,0 +1,40 @@
+Saving your work and finding it again
+
+Search terms: save, save my work, save as, how to save, where did my file go, lost my work, find a saved file, save a drawing, save a story, open a file, unsaved changes, save often, Ctrl S.
+
+Written for AI-2. Directed to children, parents and teachers.
+
+WHY YOU SAVE
+
+While you work, what you write or draw is kept only in the computer's memory. Memory forgets everything when the program closes or the computer turns off. Saving writes your work into a file on the computer's disk, where it stays until you delete it. If the battery runs out or a program stops working, everything since the last save is lost. That is why you save, and save often.
+
+SAVE THE FIRST TIME
+
+Most programs have a File menu at the top of the window. Choose File, then Save. The first time, a window opens to ask two things:
+
+1. The name. Type a name that says what it is, like "rain-poem" or "map-of-my-village".
+2. The place. Choose a folder, for example Documents for writing or Pictures for drawings. If you do not choose, the program picks one, and you may not find the file again easily.
+
+Then press the Save button. The name you chose now appears in the title bar of the window.
+
+SAVE AGAIN AND AGAIN
+
+After the first time, File and Save keeps the same name and place and saves the newest version without asking. Holding Ctrl and pressing S does the same in almost every program. Save every few minutes, and always before you stop.
+
+SAVE AS
+
+File and Save As saves a copy with a new name or in a new place. Use it to keep an old version and go on changing a new one, for example "story-1" and then "story-2".
+
+WHEN THE PROGRAM ASKS
+
+Many programs ask whether to save when you close a window with work that is not saved, but do not count on it: save before you close. If a program asks, read the buttons. One saves, one cancels and takes you back, and one closes without saving and throws away your changes. If a message says the file could not be saved, leave the window open and ask a grown-up.
+
+FINDING IT AGAIN
+
+1. Open the program you used, choose File and Open, and look in the folder where you saved it. Many programs also list the files you used recently.
+2. Or open the File Manager, go to that folder, and double-click the file.
+3. If you do not remember where it is, ask a grown-up to help you search for its name.
+
+A GOOD HABIT
+
+Before you start, think of the name and the folder. Save at the very beginning, then save often. A file saved at the start has a name and a place from the first minute, and saving often means that if something goes wrong, you lose only a little work.

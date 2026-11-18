@@ -1,0 +1,40 @@
+Keyboard shortcuts
+
+Search terms: keyboard shortcuts, copy and paste, cut and paste, undo, redo, select all, Ctrl C, Ctrl V, Ctrl X, Ctrl Z, Ctrl S, Alt Tab, how to copy text, how to undo a mistake, shortcut keys.
+
+Written for AI-2. Directed to children, parents and teachers.
+
+WHAT A SHORTCUT IS
+
+A keyboard shortcut is two or three keys pressed together that give a command, without looking for it in a menu. You hold down the first key, usually Ctrl, then press the second key once, then let go of both. The ones in this topic have worked the same way for many years, in almost every program.
+
+SELECTING FIRST
+
+Many shortcuts work on what is selected. To select words, point just before the first one, press the left mouse button, drag to the end and let go. The words become highlighted. Ctrl and A selects everything in the page or the box.
+
+COPY, CUT AND PASTE
+
+- Ctrl and C copies what is selected. Nothing seems to happen, but the computer keeps a copy.
+- Ctrl and X cuts it: the words disappear from the page, and the computer keeps them.
+- Ctrl and V pastes: what was copied or cut appears where the typing line is.
+
+To move a sentence, select it, cut it with Ctrl and X, click where it should go, and paste it with Ctrl and V. Copy and paste also work for files in the File Manager.
+
+UNDO AND REDO
+
+Ctrl and Z undoes the last thing you did: a word you deleted comes back, a line you drew goes away. Press it again to go further back. Ctrl and Y, or in some programs Ctrl and Shift and Z, does it again if you undid too much. Undo is the most useful shortcut of all, because it means most mistakes can be taken back.
+
+SAVE
+
+Ctrl and S saves your work. The first time, the program asks for a name and a place. After that it saves at once, so you can press it every few minutes without stopping your work.
+
+OTHER USEFUL ONES
+
+- Ctrl and F opens a search box to find a word in the page you are reading.
+- Ctrl and P prints, when there is a printer.
+- Alt and Tab switches between open windows. Hold Alt, press Tab to move along the list, and let go of Alt on the one you want.
+- Alt and F4 closes the window in front, like clicking the cross. Save your work before you use it.
+
+FINDING MORE
+
+Menus often show the shortcut beside a command, for example "Copy Ctrl+C". When you use a command often, look for its shortcut there and try it next time.

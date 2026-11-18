@@ -1,0 +1,41 @@
+Windows on the screen
+
+Search terms: window, open a window, close a window, move a window, make a window bigger, maximize, minimize, hide a window, resize, switch between windows, the window disappeared, title bar, close button, two programs at once.
+
+Written for AI-2. Directed to children, parents and teachers.
+
+WHAT A WINDOW IS
+
+Each program you open shows itself in a window: a box on the screen with its own name at the top. You can have several windows open at the same time, for example a drawing program and the File Manager, and move between them.
+
+THE TITLE BAR
+
+The strip across the top of a window is the title bar. It shows the name of the program or of the file you are working on. In one corner of the title bar there are small buttons. Three of them matter most:
+
+- A line or a small dash hides the window. It is still open, just out of the way.
+- A square makes the window fill the whole screen. Press it again to make it smaller.
+- A cross closes the window.
+
+On AI-2 most windows have one more, an arrow pointing up, that rolls the window up so that only its title bar shows. Click it again to roll the window back down.
+
+MOVING A WINDOW
+
+Point at the title bar, press the left mouse button and keep it down, move the mouse, then let go. The window moves with the pointer. Use this to see something that a window is covering.
+
+CHANGING ITS SIZE
+
+Move the pointer slowly to an edge or a corner of the window. When the pointer changes into a double arrow, press and drag to make the window bigger or smaller. Double-clicking the title bar also makes most windows fill the screen and back.
+
+FINDING A HIDDEN WINDOW
+
+Each open window has a button with its name on the bar that lists open windows. Click the button to bring that window to the front. Clicking it again hides it. When a program has several windows open, they may share one button: click it and choose the window you want from the list. A window that seems to have disappeared is usually just hidden or behind another one, and its button brings it back.
+
+SWITCHING BETWEEN WINDOWS
+
+Click on any part of a window you can see, and it comes to the front. With the keyboard, hold down Alt and press Tab: a list of windows appears, each Tab moves to the next, and letting go of Alt opens the one chosen.
+
+CLOSING A WINDOW
+
+Click the cross in the title bar. If you have work that is not saved, the program usually asks whether to save it first. Read the question before you answer, because one of the buttons throws your changes away. Choose Save if you want to keep them, or Cancel to go back to the window.
+
+Closing the window of a program ends that program. Close the programs you are not using, because every open window uses some of the computer's memory and an older computer gets slow with many open.

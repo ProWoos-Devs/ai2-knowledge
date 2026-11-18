@@ -1,0 +1,40 @@
+The keys on a keyboard
+
+Search terms: keyboard, keys, capital letter, uppercase, lowercase, Shift key, Caps Lock, Space bar, Enter key, Return, Backspace, Delete, arrow keys, Tab, Escape, Ctrl, Alt, how to type a question mark, how to make a big letter, delete a letter.
+
+Written for AI-2. Directed to children, parents and teachers.
+
+LETTERS AND NUMBERS
+
+Most keys print a letter, a number or a sign when you press them. The letters are not in the order of the alphabet. They are arranged so that common letters are easy to reach. When you press a letter key, the letter appears where the typing line is blinking. If nothing appears, click inside the box or the page where you want to write first.
+
+Keyboards made for different languages put some letters and signs in different places, and may print other words on some keys. The names here are the ones printed on an English keyboard.
+
+CAPITAL LETTERS AND SIGNS: SHIFT
+
+Hold down a Shift key, there is one on each side, and press a letter to make a capital letter. Let go of Shift for small letters again. Many keys show two signs, one above the other. Pressing the key alone types the lower sign. Holding Shift types the upper one. That is how you type a question mark, an exclamation mark or brackets on most keyboards.
+
+CAPS LOCK
+
+Caps Lock makes every letter a capital until you press it again. Many keyboards have a small light that shows when it is on. If all your letters come out as capitals, or a password is refused, check Caps Lock first.
+
+SPACE AND ENTER
+
+The long key at the bottom is the Space bar. It puts a space between words. Enter, sometimes called Return, starts a new line when you are writing, and sends or confirms in many other places, such as a login screen or a search box.
+
+FIXING MISTAKES: BACKSPACE AND DELETE
+
+Backspace deletes the letter to the left of the typing line. Delete, sometimes written Del, deletes the letter to the right. Holding either key down deletes letter after letter, so press and let go.
+
+THE ARROW KEYS
+
+The four keys with arrows move the typing line left, right, up and down without deleting anything. They also move through lists and menus.
+
+OTHER KEYS YOU WILL MEET
+
+- Tab jumps to the next box in a form, and makes a wide space in a text.
+- Escape, often written Esc, closes a menu or cancels what you started.
+- Ctrl and Alt do nothing alone. Held down together with another key they give commands, called keyboard shortcuts. The topic "Keyboard shortcuts" explains the most useful ones.
+- The keys marked F1 to F12 do different things in different programs, and some shortcuts use them. On some laptops the same keys also have pictures for the sound or the brightness. If a shortcut uses an F key and the sound or brightness changes instead, try the shortcut again while also holding the key marked Fn.
+
+Press keys gently. A key works with a light tap, and hitting hard only wears it out.

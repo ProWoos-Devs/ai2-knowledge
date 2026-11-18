@@ -1,0 +1,21 @@
+About the Using a Computer Knowledge Pack
+
+Written for AI-2. Directed to children, parents and teachers.
+
+Where the topics come from
+
+The topics were written for AI-2, in its own wording, for children of about 6 to 12 using a computer for the first time. They cover what works the same way on almost every laptop and desktop computer. They do not follow the school program of any one country, and they were not copied from a textbook or a manual.
+
+The parts about AI-2 itself (the Applications menu, Search Knowledge, AI-2 Chat, logging in) were checked against the AI-2 manual and a computer running AI-2 in November 2026. The advice on passwords follows the "Use strong passwords" page of the Cybersecurity and Infrastructure Security Agency of the United States (CISA, Secure Our World), the warning about found USB sticks follows its paper "The Risks of Using Portable Devices", and the advice on strangers and personal details follows the consumer advice of the United States Federal Trade Commission (FTC), in our own words and made simpler for children. Neither agency wrote or endorsed this Knowledge Pack.
+
+No teacher has reviewed it.
+
+Written so it does not go out of date
+
+This Knowledge Pack will be read on computers that may never connect to the Internet, so it cannot be corrected once it is there. That is why it names no brands, no models and no program versions, and why it describes buttons and menus by what they do rather than by where they are. Keys are named as they are printed on an English keyboard. Keyboards made for other languages put some letters in other places and may print other words on some keys.
+
+It is written for a laptop or a desktop computer with a keyboard and a mouse or touchpad. On a touch screen, a tap with a finger does what a click does.
+
+Found a mistake, or something missing?
+
+Tell us at https://github.com/ProWoos-Devs/ai2-knowledge/issues , or change the topic yourself and open a pull request; the topics are plain text files in the folder recipes/using-a-computer/topics/ of the same repository. Say which topic and what is wrong. This Knowledge Pack works offline and cannot update itself, so a correction reaches it in its next revision.
