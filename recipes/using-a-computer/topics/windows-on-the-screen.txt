@@ -16,7 +16,7 @@ The strip across the top of a window is the title bar. It shows the name of the 
 - A square makes the window fill the whole screen. Press it again to make it smaller.
 - A cross closes the window.
 
-On AI-2 there is one more, an arrow pointing up, that rolls the window up so that only its title bar shows. Click it again to roll the window back down.
+On AI-2 most windows have one more, an arrow pointing up, that rolls the window up so that only its title bar shows. Click it again to roll the window back down.
 
 MOVING A WINDOW
 
@@ -28,7 +28,7 @@ Move the pointer slowly to an edge or a corner of the window. When the pointer c
 
 FINDING A HIDDEN WINDOW
 
-Every open window has a button in the bar at the top or the bottom of the screen, with its name. Click the button to bring that window to the front. Clicking it again hides it. When a program has several windows open, they may share one button: click it and choose the window you want from the list. A window that seems to have disappeared is usually just hidden or behind another one, and its button brings it back.
+Each open window has a button with its name on the bar that lists open windows. Click the button to bring that window to the front. Clicking it again hides it. When a program has several windows open, they may share one button: click it and choose the window you want from the list. A window that seems to have disappeared is usually just hidden or behind another one, and its button brings it back.
 
 SWITCHING BETWEEN WINDOWS
 

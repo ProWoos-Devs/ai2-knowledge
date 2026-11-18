@@ -33,7 +33,7 @@ OTHER USEFUL ONES
 - Ctrl and F opens a search box to find a word in the page you are reading.
 - Ctrl and P prints, when there is a printer.
 - Alt and Tab switches between open windows. Hold Alt, press Tab to move along the list, and let go of Alt on the one you want.
-- Alt and F4 closes the window in front. Like the cross, it asks first if there is work to save.
+- Alt and F4 closes the window in front, like clicking the cross. Save your work before you use it.
 
 FINDING MORE
 

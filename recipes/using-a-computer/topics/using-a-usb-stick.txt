@@ -10,7 +10,7 @@ A USB stick is a small thing that holds files, like a pocket-sized folder. You c
 
 PUTTING IT IN
 
-Find a USB port on the side or back of the computer. Many sticks fit only one way up. If it does not slide in easily, turn it over and try again, and never push hard. After a few seconds the stick appears with its name in the File Manager, in the list of places and devices. On AI-2 it also appears as a picture on the desktop.
+Use your own stick, or one a grown-up you trust says you can use. Never plug in a stick you found: give it to a grown-up. Find a USB port on the computer. Many sticks fit only one way up. If it does not slide in easily, turn it over and try again, and never push hard. After a few seconds the stick appears with its name in the File Manager, in the list of places and devices. On AI-2 it also appears as a picture on the desktop.
 
 OPENING IT
 
@@ -23,7 +23,7 @@ COPYING A FILE ONTO IT
 3. Click the stick's name in the list of places and devices.
 4. Right-click an empty part of the window and choose Paste.
 
-Your file is now in two places, on the computer and on the stick.
+Wait until the copying has finished and check that the file is on the stick. If you see an error, or a question about replacing a file, stop and ask a grown-up. Keep the original on the computer too.
 
 COPYING A FILE FROM IT
 
@@ -36,7 +36,7 @@ The computer may still be writing to the stick after a copy seems finished. If y
 1. Wait until any copying window has closed.
 2. Right-click the stick's name or picture.
 3. On AI-2, choose Unmount, or Unmount Volume on the desktop picture. Other computers may call it Eject or Safely Remove.
-4. Wait for the message that says the stick has been safely removed. On a computer that shows no message, wait until the stick's name has gone from the list.
+4. Wait for the message that says the stick has been safely removed. If the computer says the stick is busy, close the files and windows that use it, then try again. If you see no message and cannot tell whether it worked, ask a grown-up before you pull it out.
 5. Now pull it straight out.
 
 IF IT DOES NOT APPEAR

@@ -32,7 +32,7 @@ Close the programs you are not using. Each open program uses memory, and an olde
 
 THE SCREEN IS BLACK
 
-Move the mouse or press a key: the computer may only be resting to save power. On a laptop the battery may be empty, so connect the charger and wait a few minutes. On a desktop computer, check that the screen's own button is on. Only a grown-up should plug the charger into a wall socket.
+Move the mouse, touch the touchpad or press a key: the computer may only be resting to save power. If it then asks for a password, it is the one you log in with. If you are not sure what it is asking, ask a grown-up. On a laptop the battery may be empty, so connect the charger and wait a few minutes. On a desktop computer, check that the screen's own button is on. Only a grown-up should plug the charger into a wall socket.
 
 THE COMPUTER IS COMPLETELY STUCK
 

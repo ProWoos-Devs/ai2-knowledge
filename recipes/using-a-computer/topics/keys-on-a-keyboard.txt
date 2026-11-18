@@ -35,6 +35,6 @@ OTHER KEYS YOU WILL MEET
 - Tab jumps to the next box in a form, and makes a wide space in a text.
 - Escape, often written Esc, closes a menu or cancels what you started.
 - Ctrl and Alt do nothing alone. Held down together with another key they give commands, called keyboard shortcuts. The topic "Keyboard shortcuts" explains the most useful ones.
-- The keys marked F1 to F12 at the top do different things in different programs, and some shortcuts use them. On many laptops they also change the sound or the brightness, and you may need to hold the Fn key as well for the shortcut to work.
+- The keys marked F1 to F12 do different things in different programs, and some shortcuts use them. On some laptops the same keys also have pictures for the sound or the brightness. If a shortcut uses an F key and the sound or brightness changes instead, try the shortcut again while also holding the key marked Fn.
 
 Press keys gently. A key works with a light tap, and hitting hard only wears it out.

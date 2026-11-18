@@ -27,7 +27,7 @@ File and Save As saves a copy with a new name or in a new place. Use it to keep 
 
 WHEN THE PROGRAM ASKS
 
-If you close a window with work that is not saved, the program asks whether to save. Read the buttons. One saves, one cancels and takes you back, and one closes without saving and throws away your changes.
+Many programs ask whether to save when you close a window with work that is not saved, but do not count on it: save before you close. If a program asks, read the buttons. One saves, one cancels and takes you back, and one closes without saving and throws away your changes. If a message says the file could not be saved, leave the window open and ask a grown-up.
 
 FINDING IT AGAIN
 
@@ -37,4 +37,4 @@ FINDING IT AGAIN
 
 A GOOD HABIT
 
-Before you start, think of the name and the folder. Save at the very beginning, then save often. A file saved at the start has a name and a place from the first minute, and you never lose more than a few minutes of work.
+Before you start, think of the name and the folder. Save at the very beginning, then save often. A file saved at the start has a name and a place from the first minute, and saving often means that if something goes wrong, you lose only a little work.

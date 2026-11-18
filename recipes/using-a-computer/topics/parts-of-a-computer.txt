@@ -20,7 +20,7 @@ The keyboard has keys for letters, numbers and signs, and some special keys like
 
 THE TOUCHPAD AND THE MOUSE
 
-On a laptop, the flat square below the keyboard is the touchpad. Sliding a finger on it moves the arrow on the screen. A mouse is a small object you move on the table to do the same thing. Both have buttons for clicking. The topic "Using a mouse or a touchpad" explains how.
+On a laptop, the flat square below the keyboard is the touchpad. Sliding a finger on it moves the arrow on the screen. A mouse is a small object you move on the table to do the same thing. A mouse has buttons for clicking. A touchpad may have its own buttons, or you click by pressing the pad itself. The topic "Using a mouse or a touchpad" explains how.
 
 THE CHARGER AND THE BATTERY
 

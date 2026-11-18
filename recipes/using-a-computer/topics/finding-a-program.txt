@@ -10,9 +10,9 @@ A program, also called an application or an app, is a set of instructions that d
 
 THE APPLICATIONS MENU
 
-On AI-2 every program is listed in the Applications menu. Open it with the button named Applications on the bar, or press Alt and F1 together. The menu shows groups, such as Accessories, Internet or System. Point at a group to see the programs in it, and click a program to start it.
+On AI-2 the Applications menu lists the programs you can start. Open it with the button named Applications on the bar, or press Alt and F1 together. The menu shows groups, such as Accessories, Internet or System. Point at a group to see the programs in it, and click a program to start it.
 
-The first group in the menu is AI-2. It holds the programs that belong to AI-2:
+The group named AI-2 holds the programs that belong to AI-2:
 
 - About AI-2 says which version of AI-2 is on the computer.
 - Search Knowledge finds the answer to a question in the Knowledge Packs.
@@ -27,12 +27,12 @@ The topic "Asking AI-2 a question" explains Search Knowledge, Knowledge Packs an
 
 THE BUTTONS ON THE BAR
 
-Some programs also have a small picture on a bar of the screen, so you can start them with one click without opening the menu. On AI-2 a second bar holds pictures for the Terminal, the File Manager, the Web Browser and the Application Finder. It hides itself when a window covers it, and comes back when you move the pointer to the edge of the screen where it was. Hold the pointer still over a picture for a moment and its name appears.
+Some programs also have a small picture on a bar of the screen, so you can start them with one click without opening the menu. On AI-2 a second bar holds pictures for Terminal Emulator, File Manager, Web Browser and Application Finder. It hides itself when a window covers it. If you cannot see it, move the pointer to the edge of the screen where it usually is and wait a moment. File Manager and Web Browser are also in the Applications menu. Hold the pointer still over a picture for a moment and its name appears.
 
 WHEN YOU CANNOT FIND A PROGRAM
 
 1. Look through the groups of the Applications menu. A writing program is usually in Accessories or Office, a drawing program in Graphics. If a group is not in the menu, nothing of that kind is installed yet.
-2. Use the Application Finder: press Alt and F2 together, type part of the program's name, and press Enter when it appears.
+2. Use the Application Finder: press Alt and F3 together, or click its picture on the bar of program pictures. If you see a list of groups, choose All Applications. Type part of the program's name, then double-click the program you want in the results.
 3. If it is not there, it may not be installed on this computer. Ask a grown-up. Installing a program needs the computer's password and usually an Internet connection.
 
 STARTING A PROGRAM ONCE

@@ -22,7 +22,7 @@ A double-click is two clicks very quickly, without moving the mouse between them
 
 RIGHT-CLICK
 
-Pressing the right button once opens a small menu of things you can do with what is under the pointer, such as Copy, Rename or Delete. On a touchpad, press its right button, or press down on the lower right corner of the pad. Where tapping is turned on, a tap with two fingers at the same time does it too. To close the menu without choosing, press the Escape key or click somewhere else.
+Pressing the right button once opens a small menu of things you can do with what is under the pointer, such as Copy, Rename or Delete. On a touchpad with a right button, press it. If the pad has no buttons, press down in its lower right corner, or press down with two fingers together. Where tapping is turned on, a light tap with two fingers does it too. To close the menu without choosing, press the Escape key or click somewhere else.
 
 DRAG
 
