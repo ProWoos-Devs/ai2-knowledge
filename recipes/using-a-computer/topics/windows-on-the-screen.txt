@@ -10,11 +10,13 @@ Each program you open shows itself in a window: a box on the screen with its own
 
 THE TITLE BAR
 
-The strip across the top of a window is the title bar. It shows the name of the program or of the file you are working on. In one corner of the title bar there are usually three small buttons:
+The strip across the top of a window is the title bar. It shows the name of the program or of the file you are working on. In one corner of the title bar there are small buttons. Three of them matter most:
 
 - A line or a small dash hides the window. It is still open, just out of the way.
 - A square makes the window fill the whole screen. Press it again to make it smaller.
 - A cross closes the window.
+
+On AI-2 there is one more, an arrow pointing up, that rolls the window up so that only its title bar shows. Click it again to roll the window back down.
 
 MOVING A WINDOW
 
@@ -26,7 +28,7 @@ Move the pointer slowly to an edge or a corner of the window. When the pointer c
 
 FINDING A HIDDEN WINDOW
 
-Every open window has a button in the bar at the top or the bottom of the screen, with its name. Click the button to bring that window to the front. Clicking it again hides it. A window that seems to have disappeared is usually just hidden or behind another one, and its button brings it back.
+Every open window has a button in the bar at the top or the bottom of the screen, with its name. Click the button to bring that window to the front. Clicking it again hides it. When a program has several windows open, they may share one button: click it and choose the window you want from the list. A window that seems to have disappeared is usually just hidden or behind another one, and its button brings it back.
 
 SWITCHING BETWEEN WINDOWS
 

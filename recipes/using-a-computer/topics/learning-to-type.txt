@@ -16,7 +16,7 @@ THE HOME ROW
 
 The home row is the middle row of letters, where your fingers rest and come back to after each key. On an English keyboard:
 
-- Left hand: little finger on A, then S, D, and the first finger on F.
+- Left hand: little finger on A, then S, D, and the first finger (the one next to your thumb) on F.
 - Right hand: first finger on J, then K, L, and the little finger on the key with the semicolon.
 - Both thumbs rest on the Space bar.
 

@@ -8,7 +8,7 @@ WHAT A COMPUTER IS
 
 A computer is a machine that follows instructions very fast. The instructions are called programs. One program lets you write, another lets you draw, another lets you search a Knowledge Pack. You tell the computer what you want with the keyboard and the mouse, and it shows you the result on the screen.
 
-A laptop has all its parts in one case that folds shut. A desktop computer has a box, a separate screen, a separate keyboard and a mouse, joined by cables. They work the same way.
+A laptop has all its parts in one case that folds shut. A desktop computer usually has a box, a separate screen, a keyboard and a mouse, often joined by cables. They work the same way.
 
 THE SCREEN
 
@@ -28,7 +28,7 @@ A laptop has a battery inside, so it can work without a cable for a while. The c
 
 THE HOLES AT THE SIDES
 
-The small holes and slots on the sides or back are called ports. Each one takes a certain kind of plug: the charger, a mouse, a USB stick, headphones or a cable to a bigger screen. A plug only fits the port it was made for. If it does not go in easily, it is the wrong port or it is upside down, so never push hard.
+The small holes and slots on the sides or back are called ports. Each one takes a certain kind of plug: the charger, a mouse, a USB stick, headphones or a cable to a bigger screen. Each plug is made for a certain kind of port. If it does not go in easily, it is the wrong port or it is upside down, so never push hard.
 
 OTHER PARTS
 

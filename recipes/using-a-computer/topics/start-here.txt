@@ -41,4 +41,4 @@ Staying safe and asking for help:
 
 LEARNING TOGETHER
 
-The best way to learn a computer is to use it, a little at a time, with someone nearby to ask. Almost every mistake can be put right, so it is fine to try things. Two things are worth asking a grown-up about first: deleting files, and anything that asks for a password.
+The best way to learn a computer is to use it, a little at a time, with someone nearby to ask. Almost every mistake can be put right, so it is fine to try things. Two things are worth asking a grown-up about first: deleting files, and anything other than the login screen that asks for a password.

@@ -6,7 +6,7 @@ Written for AI-2. Directed to children, parents and teachers.
 
 WHAT A SHORTCUT IS
 
-A keyboard shortcut is two keys pressed together that give a command, without looking for it in a menu. You hold down the first key, usually Ctrl, then press the second key once, then let go of both. The ones in this topic have worked the same way for many years, in almost every program.
+A keyboard shortcut is two or three keys pressed together that give a command, without looking for it in a menu. You hold down the first key, usually Ctrl, then press the second key once, then let go of both. The ones in this topic have worked the same way for many years, in almost every program.
 
 SELECTING FIRST
 

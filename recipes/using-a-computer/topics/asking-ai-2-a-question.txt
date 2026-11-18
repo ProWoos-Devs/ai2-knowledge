@@ -25,7 +25,7 @@ A Knowledge Pack is a set of documents on one subject, like this one about using
 AI-2 CHAT
 
 1. Open the Applications menu, then the AI-2 group, and choose AI-2 Chat (Gopher).
-2. Type your question in the box at the bottom and press Enter.
+2. Type your question in the box where you write, and press Enter.
 3. The answer appears line by line. On an older computer the first answer can take more than a minute, so wait.
 
 THE AI CAN BE WRONG

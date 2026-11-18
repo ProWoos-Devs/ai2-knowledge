@@ -15,7 +15,7 @@ If you deleted words, moved something or drew a wrong line, hold Ctrl and press 
 NOTHING HAPPENS WHEN YOU CLICK
 
 1. Wait. An older computer may need some seconds, and clicking again only gives it more to do. A spinning sign or an hourglass means it is busy.
-2. Look for a small window that may be hidden behind the others, waiting for an answer. Its button in the bar brings it to the front.
+2. Look for a small window that may be hidden behind the others, waiting for an answer. Its button in the bar, or the button of the program it belongs to, brings it to the front.
 3. Check that the pointer moves. If not, see the topic "Using a mouse or a touchpad".
 
 A PROGRAM STOPS ANSWERING
@@ -28,11 +28,11 @@ Read it slowly. Many messages say what happened and give a choice, such as OK or
 
 THE COMPUTER IS VERY SLOW
 
-Close the programs you are not using. Each open program uses memory, and an older computer slows down when too many are open. If that does not help, save your work and restart the computer from the menu.
+Close the programs you are not using. Each open program uses memory, and an older computer slows down when too many are open. If that does not help, save your work, open the Applications menu, choose Log Out, then choose Restart.
 
 THE SCREEN IS BLACK
 
-Move the mouse or press a key: the computer may only be resting to save power. On a laptop the battery may be empty, so connect the charger and wait a few minutes. Only a grown-up should plug the charger into a wall socket.
+Move the mouse or press a key: the computer may only be resting to save power. On a laptop the battery may be empty, so connect the charger and wait a few minutes. On a desktop computer, check that the screen's own button is on. Only a grown-up should plug the charger into a wall socket.
 
 THE COMPUTER IS COMPLETELY STUCK
 
