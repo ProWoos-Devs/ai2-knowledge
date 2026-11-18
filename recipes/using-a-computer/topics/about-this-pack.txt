@@ -6,7 +6,7 @@ Where the topics come from
 
 The topics were written for AI-2, in its own wording, for children of about 6 to 12 using a computer for the first time. They cover what works the same way on almost every laptop and desktop computer. They do not follow the school program of any one country, and they were not copied from a textbook or a manual.
 
-The parts about AI-2 itself (the Applications menu, Search Knowledge, AI-2 Chat, logging in) were checked against the AI-2 manual and a computer running AI-2 in November 2026. The advice on passwords follows the "Use strong passwords" page of the Cybersecurity and Infrastructure Security Agency of the United States (CISA, Secure Our World), and the advice on strangers and personal details follows the consumer advice of the United States Federal Trade Commission (FTC), in our own words and made simpler for children. Neither agency wrote or endorsed this Knowledge Pack.
+The parts about AI-2 itself (the Applications menu, Search Knowledge, AI-2 Chat, logging in) were checked against the AI-2 manual and a computer running AI-2 in November 2026. The advice on passwords follows the "Use strong passwords" page of the Cybersecurity and Infrastructure Security Agency of the United States (CISA, Secure Our World), the warning about found USB sticks follows its paper "The Risks of Using Portable Devices", and the advice on strangers and personal details follows the consumer advice of the United States Federal Trade Commission (FTC), in our own words and made simpler for children. Neither agency wrote or endorsed this Knowledge Pack.
 
 No teacher has reviewed it.
 

@@ -4,5 +4,5 @@ version: "2026-11-18"
 revision: 1       # raise this for every rebuild you publish, and mirror it in the catalog entry
 languages: [en]
 license: MIT
-attribution: "Written for AI-2 by Rafael Minuesa for children using a computer for the first time. The password advice follows the Cybersecurity and Infrastructure Security Agency (CISA, Secure Our World) and the advice on strangers and personal details follows the U.S. Federal Trade Commission, in its own words; neither agency wrote or endorsed it. MIT licensed, like the rest of the project."
+attribution: "Written for AI-2 by Rafael Minuesa for children using a computer for the first time. The password advice and the warning about found USB sticks follow the Cybersecurity and Infrastructure Security Agency (CISA, Secure Our World and The Risks of Using Portable Devices) and the advice on strangers and personal details follows the U.S. Federal Trade Commission, in its own words; neither agency wrote or endorsed it. MIT licensed, like the rest of the project."
 modified: "Written as topics for children, cut into parts and embedded for search by AI-2."
