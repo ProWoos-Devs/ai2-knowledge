@@ -13,6 +13,12 @@ ai-2 doc index --in using-a-computer --embedder nomic-embed-text-v1.5 topics/*.t
 ai-2 knowledge export using-a-computer --manifest manifest.yml -o using-a-computer.ai2pack
 ```
 
+## Measured
+
+Built on 2026-11-18 with ai-2 0.29.3: 17 documents, 99 parts. An outside question set, written by someone who had seen only the list of topic titles, searched with `ai-2 doc search` on the built Knowledge Pack. All 20 questions were kept and none was changed: top-1 15/20, top-3 17/20.
+
+The five that did not come first: "how do i make the arrow move" found the mouse and touchpad topic second, after windows on the screen; "can i ask the computer a question like talking to a robot" found the asking topic second, after Start here; and "where are the games", "what should we read first" and "what is this help for and what age is it for" did not find the topic wanted (finding a program, Start here, About) in the top three.
+
 ## House style
 
 - One subject per file, first line the title, then the search terms people would type.

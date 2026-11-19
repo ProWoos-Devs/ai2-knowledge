@@ -21,6 +21,7 @@ The packs are also listed on the [catalog page](https://prowoos-devs.github.io/a
 <!-- catalog:start -->
 | Pack | Subject | What is in it | Made by | Language | Size | License | File |
 |---|---|---|---|---|---|---|---|
+| `using-a-computer` | Computing, for children (6 to 9, 10 to 12) | Seventeen topics for children of 6 to 12 using a computer for the first time, from the mouse, the keyboard and windows to files, saving, USB sticks, passwords and staying safe online, written for AI-2, not reviewed by a teacher | [ProWoos-Devs](https://github.com/ProWoos-Devs) | en | 308 KB | MIT | [download](https://raw.githubusercontent.com/ProWoos-Devs/ai2-knowledge/main/packs/using-a-computer/using-a-computer-r1.ai2pack) |
 | `php-essentials` | Programming | Everyday PHP tasks, errors and secure coding, written for AI-2, not reviewed by an outside PHP developer | [ProWoos-Devs](https://github.com/ProWoos-Devs) | en | 237 KB | MIT | [download](https://raw.githubusercontent.com/ProWoos-Devs/ai2-knowledge/main/packs/php-essentials/php-essentials-r1.ai2pack) |
 | `ai2-help` | Operating systems | AI-2's own documentation, the wiki pages plus topics written for the questions people ask | [ProWoos-Devs](https://github.com/ProWoos-Devs) | en | 337 KB | MIT | [download](https://raw.githubusercontent.com/ProWoos-Devs/ai2-knowledge/main/packs/ai2-help/ai2-help-r2.ai2pack) |
 | `linux-essentials` | Operating systems | Twenty everyday tasks on a Linux machine, written for AI-2 (runit, not systemd) | [ProWoos-Devs](https://github.com/ProWoos-Devs) | en | 125 KB | MIT | [download](https://raw.githubusercontent.com/ProWoos-Devs/ai2-knowledge/main/packs/linux-essentials/linux-essentials-r2.ai2pack) |
@@ -157,7 +158,7 @@ Only content that may be redistributed, and **a license being on the list is not
 
 ## The packs made by the AI-2 project
 
-Eleven, kept in [`packs/`](packs/) and listed in the catalog like any other pack.
+Twelve, kept in [`packs/`](packs/) and listed in the catalog like any other pack.
 
 | Pack | Recipe | License |
 |---|---|---|
@@ -172,8 +173,9 @@ Eleven, kept in [`packs/`](packs/) and listed in the catalog like any other pack
 | `living-things` | `recipes/living-things` | MIT, written from United States agency sources (National Park Service, Fish & Wildlife Service, USDA, NOAA, NIH, NASA, Department of Energy) |
 | `php-essentials` | `recipes/php-essentials` | MIT |
 | `mysql-mariadb-essentials` | `recipes/mysql-mariadb-essentials` | MIT |
+| `using-a-computer` | `recipes/using-a-computer` | MIT, the password, USB stick and online-safety advice written from CISA and FTC sources |
 
-Each recipe holds what built it (a query or a topic set), the renderer where there is one, the rules and the manifest, so anyone can rebuild a pack and compare it with what was published. Measured with question sets written by someone who had not read the packs, 20 questions each, right answer first: everyday 20/20 (on revision 2, before telephone codes were removed), linux-essentials 19/20, ai2-help 18/20, first-aid 14/20, water-sanitation 17/22 on a set of 22, basic-math 18/20, basic-physics 19/20 (18/19 leaving out one question its text was later changed for), health-hygiene 19/20, living-things 16/21 on a set of 21, php-essentials 17/20, and mysql-mariadb-essentials 13/20.
+Each recipe holds what built it (a query or a topic set), the renderer where there is one, the rules and the manifest, so anyone can rebuild a pack and compare it with what was published. Measured with question sets written by someone who had not read the packs, 20 questions each, right answer first: everyday 20/20 (on revision 2, before telephone codes were removed), linux-essentials 19/20, ai2-help 18/20, first-aid 14/20, water-sanitation 17/22 on a set of 22, basic-math 18/20, basic-physics 19/20 (18/19 leaving out one question its text was later changed for), health-hygiene 19/20, living-things 16/21 on a set of 21, php-essentials 17/20, mysql-mariadb-essentials 13/20, and using-a-computer 15/20.
 
 Wikidata is collaboratively edited, so a rebuild of `everyday` is never published without reading the diff. Its renderer writes everything a person should check to `flags.txt`: 22 entries of 196 on the 2026-09-16 snapshot, all of them real (seven countries with several currencies in circulation, six with more than one capital, two labels Wikidata has no English word for, two part-qualified overrides, two entities that are not countries for this purpose, the United States with no federal official language, and the Kingdom of the Netherlands with no currency of its own in the data). The statement rules behind those numbers are in `recipes/everyday/README.md` and were settled in #1.
 
