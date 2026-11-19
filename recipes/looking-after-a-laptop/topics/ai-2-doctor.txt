@@ -1,0 +1,33 @@
+Checking a laptop's health with ai-2 doctor
+
+Search terms: ai-2 doctor, check the laptop, laptop health, is the disk OK, battery health, temperature check, WARN, FAIL, what does ai-2 doctor mean.
+
+Written for AI-2, for the person who looks after the laptops. Not reviewed by a repair technician.
+
+RUNNING IT
+
+Open a terminal (Terminal Emulator in the Applications menu), type ai-2 doctor and press Enter. It checks AI-2 itself and three things about the computer: each built-in disk, the battery and the processor's temperature. Each line starts with ok, WARN or FAIL, or with nothing when it only gives information. At the end it says "Everything looks fine.", "Some warnings, see above." or "Something is broken, see the FAIL lines."
+
+Some lines can be missing. A disk of the memory-card kind gets no health line, though the free-space line still shows. The Battery line can be missing when no battery is found and the computer is not seen as a laptop. The Temperature line is missing when no sensor can be read.
+
+THE DISK
+
+The disk keeps its own record of damage, which AI-2 reads every time the computer starts. "sudo ai-2 doctor" reads it at that moment, as administrator.
+- "no damage recorded" is good.
+- A WARN line that counts damaged places on the disk, such as sectors moved away from damaged places or read errors, ends with "The disk still works, but this is how a failing disk starts: keep a copy of what matters on another disk".
+- A FAIL line ends with "Copy your files to another disk now; this one can stop working at any time".
+The topic "A disk that is failing" says what to do.
+
+A separate Disk line gives the free space in megabytes (MB). It is marked WARN at 2000 MB or less and FAIL at 500 MB or less; the Linux Essentials topic on a full disk says how to make room.
+
+THE BATTERY
+
+The Battery line says how much of its original charge the battery still holds, marked WARN under half. The topic "The battery" explains it.
+
+THE TEMPERATURE
+
+The Temperature line gives the processor's temperature now and, when the computer names one, the point at which it slows itself down or switches itself off. When AI-2 is already running the processor slower to keep it cool, the line says that first. Otherwise, within 5 °C of the computer's own point or above it, it is marked WARN and says to check that the fan turns and the air vents are clean. The topic "Heat, the fan and the air vents" explains it.
+
+WHEN TO RUN IT
+
+When a laptop seems wrong, after it has been stored or carried far, and regularly on every laptop you look after.

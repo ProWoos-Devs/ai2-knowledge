@@ -1,0 +1,25 @@
+A disk that is failing
+
+Search terms: disk failing, hard disk going bad, disk errors, read errors, sectors moved, damaged disk, save my files, copy files before the disk dies, ai-2 doctor disk warning.
+
+Written for AI-2, for the person who looks after the laptops. Not reviewed by a repair technician.
+
+WHAT THE WARNING MEANS
+
+A disk that has started to lose sectors, the small parts it stores data in, can lose somebody's files, and it often gives a warning first. ai-2 doctor reads the disk's own record of damage. A line such as "8 sectors moved away from damaged places; 1900 read errors it could not correct" is that warning. The disk may go on working for a long time, or it may stop without more warning; nobody can tell which.
+
+COPY WHAT MATTERS NOW
+
+1. Decide what cannot be lost: pupils' work, documents, photos. The home folder holds almost all of it.
+2. Connect another disk or a USB stick that works and has room. Open the File Manager, select the files, choose Copy, open the other disk and choose Paste. The Linux Essentials topics on backups and on USB sticks say more.
+3. Open one or two of the copied files on another computer to check that the copy works.
+
+With a FAIL line from ai-2 doctor ("Copy your files to another disk now; this one can stop working at any time"), do this before anything else, and keep using the laptop as little as possible until it is done.
+
+AFTERWARDS
+
+After a FAIL line, set the laptop aside once you have saved what you can. After a WARN line, keep using it only for work that has a copy somewhere else, and run ai-2 doctor again from time to time to see whether the numbers grow. Replacing the disk means opening the laptop, which this Knowledge Pack does not cover; after a new disk is fitted, AI-2 is installed again from the AI-2 installer stick, and the copied files are put back.
+
+A DISK WITH NO RECORD
+
+Some disks keep no health record, and ai-2 doctor then says "it keeps no health record", or shows no line for that disk at all. For those, regular copies of what matters are the only protection.

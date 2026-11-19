@@ -1,0 +1,25 @@
+A laptop that will not turn on
+
+Search terms: laptop will not turn on, laptop does not start, nothing happens when I press the power button, dead laptop, no lights, black screen, charger light off.
+
+Written for AI-2, for the person who looks after the laptops. Not reviewed by a repair technician.
+
+FIRST, LOOK FOR DANGER
+
+If you see smoke or fire, get everyone outside and call the fire service from a safe place. If the battery or the case has swollen, follow the topic "A battery that swells, smokes or hisses". If the charger or the outlet smells of burning or is very hot, stop using it and follow the topic "Charging safely".
+
+STEP BY STEP
+
+1. The cord. Before you touch the plug, look along the charger's cord for cracks, cuts or a loose plug. The U.S. Fire Administration says to replace an appliance whose cord is cracked, damaged or loose, so a damaged charger is replaced, not taped.
+2. The charger. Check that it is pushed fully into the wall outlet and into the laptop. Many chargers and laptops have a small light that shows they are getting power.
+3. The outlet. If it is dry and not damaged, plug in something you know works, such as a lamp, to see whether it has power. Stop if the plug fits loosely.
+4. Wait. A battery that has run completely empty may need some time on the charger before the laptop will start.
+5. The power button. Press it once and let go. If nothing happens, hold it down for several seconds, let go, and press it once more.
+
+THE FAN OR LIGHTS COME ON, BUT THE SCREEN STAYS BLACK
+
+Then the laptop is not dead. Wait a few minutes, because an old laptop can be slow to start, and see the topic "A laptop that starts but does not reach the desktop".
+
+WHEN TO STOP
+
+If none of this helps, the fault is probably in the charger or inside the laptop. Try another charger made for that laptop if you have one. Do not open the laptop. Write down what you tried and keep it aside, marked, for someone who repairs laptops.

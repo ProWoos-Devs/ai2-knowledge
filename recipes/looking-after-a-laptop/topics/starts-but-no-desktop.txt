@@ -1,0 +1,29 @@
+A laptop that starts but does not reach the desktop
+
+Search terms: laptop starts but screen stays black, stuck at boot, boot menu, AI-2 does not start, stuck on a screen of text, cannot get to the desktop, login screen does not come, memory test.
+
+Written for AI-2, for the person who looks after the laptops. Not reviewed by a repair technician.
+
+THE BOOT MENU
+
+When a computer with AI-2 starts, the menu normally waits about 8 seconds and then starts the last choice saved, usually AI-2 Linux. The menu also has "Advanced options for AI-2 Linux", often an entry for another operating system if the computer has one, and, on computers that start the older way (BIOS), "Memory Tester (memtest86+)", which tests the computer's memory. Use the arrow keys to choose AI-2 Linux and Enter to start it. If the next start still goes to something else, choose AI-2 Linux again and ask someone who knows Linux to check the start-up settings.
+
+WAIT FIRST
+
+An old laptop with a slow disk can take several minutes to reach the login screen. Lines of text or a dark screen on the way are normal. Wait at least five minutes before deciding it is stuck.
+
+IF IT STOPS ON A SCREEN OF TEXT
+
+Write down the last lines exactly, as they are what someone who knows Linux will need. Then hold the power button down until the laptop turns off, wait a moment and start it again. If it stops in the same place every time, keep the laptop aside with your note.
+
+IF THE SCREEN STAYS BLACK
+
+If the boot menu shows and the screen goes black after it, AI-2 may have a graphics problem, or it may have stopped for another reason. If you have the AI-2 installer stick, try its entry "Start AI-2 (safe graphics, if the screen stays black)". If its desktop opens, write that down for someone who can check the installed AI-2, and do not start the installer. Whether the laptop starts from the stick depends on its own start-up settings.
+
+THE LOGIN SCREEN COMES BUT THE PASSWORD IS REFUSED
+
+Check that Caps Lock is not on, and type the password again slowly. If another administrator account can log in, that administrator can open a terminal and set a new password for the account with "sudo passwd" followed by its login name. This is typed in a terminal, never in the password box. If nobody who administers the laptop can log in, keep it aside and ask the person who set it up.
+
+ONCE IT REACHES THE DESKTOP
+
+Run ai-2 doctor, which may say what went wrong, and ai-2 report, which writes the file ai2-report.txt in the home folder to send with a request for help.

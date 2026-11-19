@@ -1,0 +1,25 @@
+Heat, the fan and the air vents
+
+Search terms: laptop very hot, overheating, fan loud, fan not turning, fan noise, laptop slow when hot, air vents, the AI got slower, temperature, cooling.
+
+Written for AI-2, for the person who looks after the laptops. Not reviewed by a repair technician.
+
+WHY A LAPTOP GETS HOT
+
+The processor makes heat while it works, and a small fan pushes that heat out through the air vents. On an old laptop, dust in the vents and a tired fan mean the cooling often no longer keeps up. The AI-2 manual says that AI work uses the whole processor, so a laptop answering in AI-2 Chat gets hotter than one used for writing.
+
+WHAT AI-2 DOES ABOUT IT
+
+On laptops where it can read the temperature and set the speed, AI-2 checks the processor every 5 seconds. At its ceiling, normally 85 °C and lower on a computer whose own slow-down point is close, it turns off the extra boost speed where there is one, then lowers the top speed a step at a time, waiting 30 seconds after each change. It never sets the top speed below half of what it was. Once the processor has cooled 6 °C below the ceiling, it raises the speed again the same way. The AI then answers more slowly. The guard reduces heat but cannot promise that the laptop stays cool. Where the temperature or the speed cannot be read or set, it does nothing. Most computers also have their own limit, at which they slow themselves down or switch themselves off. ai-2 doctor shows the temperature, that limit when the computer names one, and when AI-2 is running the processor slower. The topic "Checking a laptop's health with ai-2 doctor" explains its lines.
+
+SIGNS THAT THE COOLING IS NOT KEEPING UP
+
+- The AI gets slower after a few minutes of work.
+- ai-2 doctor warns that the processor is close to its limit, or says AI-2 is running it slower.
+- The laptop turns itself off while it is working hard.
+
+WHAT TO DO
+
+The AI-2 manual gives three things: check that the fan turns, clean the air vents, and keep the laptop on a hard surface. If the laptop often gets too hot or turns itself off, stop the work and let it cool. On a laptop with a fan, listen for it during normal use, but a quiet fan alone does not show a fault, because some fans stop when there is little work and some laptops have none. If the overheating goes on after the vents are clean, keep the laptop out of use until someone who repairs laptops can check it. The topic "Cleaning dust, the keyboard and the screen" says how to clean the vents from outside. Let a hot laptop rest, shut down, until it is cool.
+
+An administrator can set another ceiling by creating the file /etc/ai2/cpu-guard.conf with a line such as "ceiling = 80" (from 50 to 100) and restarting the computer. When the computer reports the point where it slows itself down, the guard keeps its ceiling at least 5 °C below that point. The setting decides when the guard acts; it does not hold the temperature there. "ceiling = off" switches the guard off. Keep it on while a laptop has a heat problem.
