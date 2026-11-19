@@ -26,8 +26,8 @@ The EPA advises contacting the maker of the battery or the laptop for how to han
 
 WHERE THERE IS NO COLLECTION POINT
 
-Neither source says what to do where no collection exists. Until the battery can be taken away, keep it taped and bagged, apart from other batteries, away from anything that can burn and out of the reach of children, and ask the local authorities.
+Neither the EPA nor the U.S. Fire Administration says what to do where no collection exists, so the following is ordinary care. Until the battery can be taken away, keep it taped and bagged, in a dry place, apart from other batteries, away from anything that can burn and from the building's exits, out of the reach of children, and ask the local authorities.
 
 THE REST OF THE LAPTOP
 
-A laptop that no longer works may still have a good charger, screen or disk for another laptop. Take the battery out first if it comes out, and keep the parts dry.
+A laptop that no longer works may still have a good charger for another laptop of the same kind. Its other parts are inside the case and are for someone who repairs laptops. If its battery comes out without tools, take it out, tape its metal contacts and bag it as above.

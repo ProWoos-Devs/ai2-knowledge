@@ -23,8 +23,8 @@ Makers give different advice about how full to keep a battery and when to unplug
 
 A LAPTOP WITH A WORN-OUT BATTERY
 
-A laptop whose battery holds very little usually still works on its charger. That is often the best use of it: keep it plugged in where it is used, following the topic "Charging safely".
+A laptop whose battery holds very little usually still works on its charger. That is often the best use of it: keep it on its charger while it is being used, and unplug it at the wall when nobody is in the room, as the topic "Charging safely" says.
 
 REPLACING A BATTERY
 
-The U.S. Fire Administration advises that repairs to lithium-ion battery packs be done only by a certified repair facility. Never open, cut or press on a battery. If a new battery is fitted, it must be made for that laptop.
+The U.S. Fire Administration advises that repairs to lithium-ion battery packs be done only by a certified repair facility. Never open, cut or press on a battery. A battery that comes out without tools can be changed by hand for a new one made for that laptop. A battery inside the case is changed by someone who repairs laptops; do not open the laptop yourself.

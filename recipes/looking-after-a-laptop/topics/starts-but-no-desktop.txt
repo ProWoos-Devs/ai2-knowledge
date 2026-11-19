@@ -6,7 +6,7 @@ Written for AI-2, for the person who looks after the laptops. Not reviewed by a 
 
 THE BOOT MENU
 
-When a computer with AI-2 starts, it shows a menu for 8 seconds and then starts AI-2 Linux by itself. The menu also has "Advanced options for AI-2 Linux", a Windows entry on a computer that also has Windows, and on some computers "Memory Tester", which tests the computer's memory. Use the arrow keys to choose and Enter to start. Nothing needs to be chosen for a normal start.
+When a computer with AI-2 starts, it shows a menu for 8 seconds and then starts by itself the entry chosen the last time, which is AI-2 Linux unless someone chose another. The menu also has "Advanced options for AI-2 Linux", an entry for the other system on a computer that also has another operating system, and, on computers that start the older way (BIOS), "Memory Tester (memtest86+)", which tests the computer's memory. Use the arrow keys to choose and Enter to start. Choose AI-2 Linux once and it is the one that starts by itself from then on.
 
 WAIT FIRST
 
@@ -18,7 +18,7 @@ Write down the last lines exactly, as they are what someone who knows Linux will
 
 IF THE SCREEN STAYS BLACK
 
-The AI-2 installer stick has a start entry for this case, "Start AI-2 (safe graphics, if the screen stays black)". Starting the laptop from that stick shows whether the screen itself works. Whether the laptop starts from the stick depends on its own start-up settings.
+If the boot menu shows and the screen goes black after it, the screen works and the trouble is the graphics. The AI-2 installer stick has a start entry for this case, "Start AI-2 (safe graphics, if the screen stays black)". If the desktop comes with that entry, write it down for someone who knows Linux, because the installed AI-2 may need the same start-up option, nomodeset. Whether the laptop starts from the stick depends on its own start-up settings.
 
 THE LOGIN SCREEN COMES BUT THE PASSWORD IS REFUSED
 

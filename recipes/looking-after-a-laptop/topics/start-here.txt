@@ -10,7 +10,7 @@ This Knowledge Pack is for the teacher, volunteer or parent who keeps a few lapt
 
 SAFETY FIRST
 
-The battery and the charger are the parts of a laptop that can start a fire. The topics on charging, on a battery that swells or smokes, on spills and on old batteries follow the U.S. Fire Administration and the U.S. Environmental Protection Agency (EPA), and each one says which advice comes from where.
+The battery, the charger and what it is plugged into are where a laptop fire usually starts. The topics on charging, on a battery that swells or smokes, on spills and on old batteries follow the U.S. Fire Administration and the U.S. Environmental Protection Agency (EPA), and each one says which advice comes from where.
 
 WHAT IS IN IT
 
@@ -24,7 +24,7 @@ WHAT IS IN IT
 
 HOW TO ASK
 
-Open the Applications menu, then the AI-2 group, and choose Search Knowledge. Type the problem in your own words, for example "laptop very hot" or "battery swollen", and press Enter. Type a passage's number to read the whole topic.
+Open the Applications menu, then the AI-2 group, and choose Search Knowledge. Type the problem in your own words, for example "laptop very hot" or "battery swollen", and press Enter. Type a passage's number to read more of its topic, and the same number again for the rest.
 
 WHAT IT DOES NOT COVER
 

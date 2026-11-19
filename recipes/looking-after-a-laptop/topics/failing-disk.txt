@@ -22,4 +22,4 @@ Keep using the laptop only for work that has a copy somewhere else, and run ai-2
 
 A DISK WITH NO RECORD
 
-Some disks keep no health record, and ai-2 doctor then says "it keeps no health record". For those, regular copies of what matters are the only protection.
+Some disks keep no health record, and ai-2 doctor then says "it keeps no health record", or shows no line for that disk at all. For those, regular copies of what matters are the only protection.

@@ -6,17 +6,19 @@ Written for AI-2, for the person who looks after the laptops. Not reviewed by a 
 
 RUNNING IT
 
-Open a terminal (Terminal Emulator in the Applications menu), type ai-2 doctor and press Enter. It checks AI-2 itself and three things about the computer: each built-in disk, the battery and the processor's temperature. Each line starts with ok, WARN or FAIL, or with nothing when it only gives information. At the end it says whether there were warnings.
+Open a terminal (Terminal Emulator in the Applications menu), type ai-2 doctor and press Enter. It checks AI-2 itself and three things about the computer: each built-in disk, the battery and the processor's temperature. Each line starts with ok, WARN or FAIL, or with nothing when it only gives information. At the end it says "Everything looks fine.", "Some warnings, see above." or "Something is broken, see the FAIL lines."
+
+On some computers a line is missing: a disk of the memory-card kind gets no Disk line, a computer that is not a laptop gets no Battery line, and a processor whose temperature cannot be read gets no Temperature line.
 
 THE DISK
 
 The disk keeps its own record of damage, which AI-2 reads every time the computer starts. "sudo ai-2 doctor" reads it at that moment, as administrator.
 - "no damage recorded" is good.
-- A WARN line saying that sectors were moved away from damaged places, or that there were read errors, ends with "The disk still works, but this is how a failing disk starts: keep a copy of what matters on another disk".
+- A WARN line that counts damaged places on the disk, such as sectors moved away from damaged places or read errors, ends with "The disk still works, but this is how a failing disk starts: keep a copy of what matters on another disk".
 - A FAIL line ends with "Copy your files to another disk now; this one can stop working at any time".
 The topic "A disk that is failing" says what to do.
 
-A separate Disk line gives the free space in megabytes (MB). It is marked WARN under 2000 MB and FAIL under 500 MB; the Linux Essentials topic on a full disk says how to make room.
+A separate Disk line gives the free space in megabytes (MB). It is marked WARN at 2000 MB or less and FAIL at 500 MB or less; the Linux Essentials topic on a full disk says how to make room.
 
 THE BATTERY
 
@@ -24,7 +26,7 @@ The Battery line says how much of its original charge the battery still holds, m
 
 THE TEMPERATURE
 
-The Temperature line gives the processor's temperature now and the point at which this computer slows itself down or switches itself off. Close to that point it is marked WARN and says to check that the fan turns and the air vents are clean. When AI-2 is already running the processor slower to keep it cool, the line says so. The topic "Heat, the fan and the air vents" explains it.
+The Temperature line gives the processor's temperature now and, when the computer names one, the point at which it slows itself down or switches itself off. Within 5 °C of that point it is marked WARN and says to check that the fan turns and the air vents are clean. When AI-2 is already running the processor slower to keep it cool, the line says so. The topic "Heat, the fan and the air vents" explains it.
 
 WHEN TO RUN IT
 

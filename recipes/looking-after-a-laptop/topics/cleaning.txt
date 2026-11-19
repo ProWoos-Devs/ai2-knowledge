@@ -8,7 +8,7 @@ No agency publishes advice on cleaning a laptop, so this topic is ordinary care.
 
 BEFORE YOU START
 
-Save the work, shut the laptop down from the menu and unplug the charger. Clean only a laptop that is off and cool.
+Save the work, shut the laptop down (Applications menu, Log Out, then Shut Down) and unplug the charger. Clean only a laptop that is off and cool.
 
 THE AIR VENTS
 
@@ -16,7 +16,7 @@ The air vents are the slots or small holes where the fan blows air in or out, us
 
 THE KEYBOARD
 
-Turn the closed laptop over a table, hold it at an angle and tap it gently so that crumbs and sand fall out. Then open it and brush between the keys with a soft, dry brush. A key that sticks after a spill belongs to the topic "Spills and water".
+Open the lid wide, turn the laptop so that the keyboard faces down over a table, hold it at an angle and tap the base gently so that crumbs and sand fall out. Then turn it back and brush between the keys with a soft, dry brush. A key that sticks after a spill belongs to the topic "Spills and water".
 
 THE SCREEN
 

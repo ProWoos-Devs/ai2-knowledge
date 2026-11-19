@@ -10,7 +10,7 @@ The U.S. Fire Administration advises always using the charger provided by the ma
 
 STRAIGHT INTO A WALL OUTLET
 
-The U.S. Fire Administration advises plugging a charging device directly into an outlet, not into an extension cord or a multiplug adapter, and not overloading outlets: multiplug adapters or power strips on one outlet may overheat and start a fire. Push the plug fully into the socket. Never force a plug with three pins into an outlet made for two, and have an outlet replaced if plugs do not fit snugly. When in doubt, the flyer advises having a licensed electrician test the wiring.
+The U.S. Fire Administration advises plugging a charging device directly into an outlet, not into an extension cord or a multiplug adapter, and not overloading outlets: multiplug adapters or power strips on one outlet can overheat and become a fire hazard. When in doubt, its flyer on lithium-ion batteries advises having a licensed electrician test the wiring. Its page "Appliance and Electrical Fire Safety" adds: push plugs fully into sockets, never force a plug with three pins into an outlet made for two, and have an outlet replaced if plugs do not fit snugly.
 
 WHILE IT CHARGES
 
@@ -23,6 +23,10 @@ CORDS AND CHARGERS
 - If an appliance has a cracked, damaged or loose cord, the U.S. Fire Administration says to replace the appliance; for a laptop, that means replacing the charger.
 
 These three points come from the U.S. Fire Administration's "Appliance and Electrical Fire Safety".
+
+A HOT CHARGER
+
+This part is ordinary care, not from a source. A charger is often warm while it works. If it is too hot to hold, smells of burning, has marks of melting or makes a crackling sound, unplug it at the wall if you can do it safely, stop using it and replace it.
 
 MANY LAPTOPS
 
