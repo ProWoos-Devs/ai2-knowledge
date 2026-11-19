@@ -25,6 +25,12 @@ ai-2 doc index --in looking-after-a-laptop --embedder nomic-embed-text-v1.5 topi
 ai-2 knowledge export looking-after-a-laptop --manifest manifest.yml -o looking-after-a-laptop.ai2pack
 ```
 
+## Measured
+
+Built on 2026-11-19 with ai-2 0.29.3: 16 documents, 76 parts. An outside question set, written by someone who had seen only the list of topic titles, searched with `ai-2 doc search` on the built Knowledge Pack. All 20 questions were kept and none was changed: top-1 17/20, top-3 19/20.
+
+The three that did not come first: "lost the original charger can i use a different one" found the charging topic second, after old batteries and broken laptops; "is there a program that tells me whats wrong with the computer" found the `ai-2 doctor` topic second, after Start here; and "clicking noise inside and files take forever to open" did not find the failing disk topic in the top three.
+
 ## House style
 
 - One subject per file, first line the title, then the search terms people would type.
