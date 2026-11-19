@@ -1,0 +1,25 @@
+Heat, the fan and the air vents
+
+Search terms: laptop very hot, overheating, fan loud, fan not turning, fan noise, laptop slow when hot, air vents, the AI got slower, temperature, cooling.
+
+Written for AI-2, for the person who looks after the laptops. Not reviewed by a repair technician.
+
+WHY A LAPTOP GETS HOT
+
+The processor makes heat while it works, and a small fan pushes that heat out through the air vents. On an old laptop, dust in the vents and a tired fan mean the cooling often no longer keeps up. The AI-2 manual says that AI work uses the whole processor, so a laptop answering in AI-2 Chat gets hotter than one used for writing.
+
+WHAT AI-2 DOES ABOUT IT
+
+AI-2 reads the processor's temperature every 5 seconds. When it reaches 85 °C, AI-2 lowers the top speed one step, and it raises it again once the processor is under 79 °C. The AI then answers more slowly, but the computer stays away from the point where it protects itself. Every computer also has its own limit, at which it slows itself down or switches itself off. ai-2 doctor shows the temperature, that limit, and when AI-2 is running the processor slower. The topic "Checking a laptop's health with ai-2 doctor" explains its lines.
+
+SIGNS THAT THE COOLING IS NOT KEEPING UP
+
+- The AI gets slower after a few minutes of work.
+- ai-2 doctor warns that the processor is close to its limit, or says AI-2 is running it slower.
+- The laptop turns itself off while it is working hard.
+
+WHAT TO DO
+
+The AI-2 manual gives three things: check that the fan turns, clean the air vents, and keep the laptop on a hard surface. The topic "Cleaning dust, the keyboard and the screen" says how to clean the vents from outside. Let a hot laptop rest, shut down, until it is cool.
+
+A different temperature can be set by an administrator: write "ceiling = 80" (any value from 50 to 100) in the file /etc/ai2/cpu-guard.conf and restart the computer. "ceiling = off" switches AI-2's guard off.

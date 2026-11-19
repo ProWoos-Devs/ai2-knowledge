@@ -1,0 +1,23 @@
+Spills and water
+
+Search terms: spilled water on the laptop, spilled tea, juice on the keyboard, laptop got wet, rain, flood, wet laptop, laptop fell in water, keys sticky after a spill.
+
+Written for AI-2, for the person who looks after the laptops. Not reviewed by a repair technician.
+
+AT ONCE, AFTER A SPILL
+
+1. Disconnect the laptop from its charger. The U.S. Fire Administration gives this as the first step for any battery-powered device that has been in water. If the charger, its cord or the wall outlet is wet, do not touch them: switch the power off at the switch or the fuse box first if you can, or ask someone who knows electricity.
+2. Shut the laptop down. If it does not answer, hold the power button down until it turns off.
+3. Wipe the outside dry with a soft cloth.
+
+LET IT DRY
+
+Leave the laptop off, open, in a dry, airy place out of strong sun, and do not hurry it. Do not turn it on or charge it while it may still be wet inside. A laptop that works after drying may still have sticky keys from a sweet drink; that is a nuisance, not a danger.
+
+WATCH THE BATTERY
+
+Water can damage a battery even when the laptop looks fine. If the battery smokes, makes a popping or hissing sound, or swells, follow the topic "A battery that swells, smokes or hisses".
+
+AFTER A FLOOD
+
+For devices whose lithium-ion batteries have been in a flood, the U.S. Fire Administration advises disconnecting them from chargers, and moving to a safe distance and calling the fire department if a battery gives off smoke or gas, pops or hisses. It advises putting flood-damaged battery-powered products in a metal or other non-combustible tub, at least 6 feet (about 2 meters) away from debris and buildings, and never putting them in garbage or recycling bins or with storm debris. The topic "Old batteries and broken laptops" says how to get rid of one.

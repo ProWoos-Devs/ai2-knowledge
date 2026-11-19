@@ -1,0 +1,30 @@
+The battery
+
+Search terms: battery runs out fast, battery health, how long does the battery last, old battery, replace the battery, laptop only works plugged in, battery percent, charge cycles.
+
+Written for AI-2, for the person who looks after the laptops. Not reviewed by a repair technician.
+
+AN OLD BATTERY HOLDS LESS
+
+A laptop battery holds less every year it is used, so an old laptop runs for a shorter time away from its charger. That is normal and is not a danger by itself. A battery that swells, smokes or hisses is different; see the topic "A battery that swells, smokes or hisses".
+
+HOW MUCH IT STILL HOLDS
+
+ai-2 doctor reads it. Open a terminal, type ai-2 doctor and press Enter, then look for the line that starts with Battery:
+
+- "holds 82% of what it held when new" gives the number, and often the charge cycles it has been through.
+- Under half, the line is marked WARN and adds "expect a short time away from the charger".
+- "none found, so this computer works only on its charger" means the laptop has no battery, or none it can see.
+- "does not say how much it still holds" means the battery keeps no such record.
+
+HOW FULL TO KEEP IT
+
+Makers give different advice about how full to keep a battery and when to unplug the charger, and no agency source settles it, so this Knowledge Pack gives no rule. If the laptop came with its own instructions, follow those.
+
+A LAPTOP WITH A WORN-OUT BATTERY
+
+A laptop whose battery holds very little usually still works on its charger. That is often the best use of it: keep it plugged in where it is used, following the topic "Charging safely".
+
+REPLACING A BATTERY
+
+The U.S. Fire Administration advises that repairs to lithium-ion battery packs be done only by a certified repair facility. Never open, cut or press on a battery. If a new battery is fitted, it must be made for that laptop.

@@ -1,0 +1,28 @@
+About the Looking After a Laptop Knowledge Pack
+
+Search terms: about this Knowledge Pack, who wrote it, sources, is this reviewed, report a mistake.
+
+Written for AI-2, for the person who looks after the laptops. Not reviewed by a repair technician.
+
+WHERE THE TOPICS COME FROM
+
+The topics were written for AI-2, in its own wording, for people who look after laptops without a technician. The safety advice follows United States Government sources, named in each topic and read in November 2026:
+
+- U.S. Fire Administration, "Lithium-Ion Battery Safety for Electronic Devices" (a flyer).
+- U.S. Fire Administration, "Lithium-Ion Batteries: Everyday Convenience, Hidden Fire Risks" (a blog post of 13 October 2026).
+- U.S. Fire Administration, "Appliance and Electrical Fire Safety".
+- U.S. Fire Administration, "Lithium-Ion Battery Safety After Flooding" (a handout).
+- U.S. Fire Administration, "Risks and response strategies for lithium-ion battery fires".
+- U.S. Environmental Protection Agency (EPA), "Used Lithium-Ion Batteries".
+
+Neither agency wrote or endorsed this Knowledge Pack. The parts about AI-2 (ai-2 doctor, the temperature guard, the boot menu) come from the AI-2 manual and program and were checked on a computer running AI-2 in November 2026. The rest, such as how to clean a keyboard or carry a laptop, is ordinary care that no agency publishes, and it is written as such.
+
+No repair technician or electrician has reviewed it.
+
+WRITTEN SO IT DOES NOT GO OUT OF DATE
+
+This Knowledge Pack will be read on computers that may never connect to the Internet, so it cannot be corrected once it is there. It names no brands, models or program versions, and it covers laptops whose battery comes out and laptops whose battery is inside.
+
+FOUND A MISTAKE, OR SOMETHING MISSING?
+
+Tell us at https://github.com/ProWoos-Devs/ai2-knowledge/issues , or change the topic yourself and open a pull request; the topics are plain text files in the folder recipes/looking-after-a-laptop/topics/ of the same repository. Say which topic and what is wrong. A correction reaches this Knowledge Pack in its next revision.

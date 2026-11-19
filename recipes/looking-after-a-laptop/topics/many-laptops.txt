@@ -1,0 +1,33 @@
+Looking after many laptops
+
+Search terms: school laptops, classroom set of laptops, many laptops, laptop routine, check the laptops, laptop log, charging a classroom, number the laptops.
+
+Written for AI-2, for the person who looks after the laptops. Not reviewed by a repair technician.
+
+Most of this topic is ordinary organization. The charging and cord advice follows the U.S. Fire Administration.
+
+NUMBER EVERYTHING
+
+Give each laptop a number, and put the same number on its charger, so each charger stays with the laptop it was made for. The U.S. Fire Administration advises using the charger provided by the manufacturer for the device being charged.
+
+KEEP A NOTEBOOK
+
+One page per laptop: its number, and each time something is done, the date, what was wrong and what was done. Copy in the ai-2 doctor lines for the disk, the battery and the temperature each time you run it. A disk whose numbers grow, or a battery that falls under half, shows up here first.
+
+CHARGING
+
+Charge a few laptops at a time, each charger straight into a wall outlet, on a hard surface, while someone is in the room. The U.S. Fire Administration advises against overloading outlets and power strips, against charging through extension cords and multiplug adapters, and against leaving devices charging unattended when possible.
+
+EVERY WEEK
+
+- Look along every charger cord for cracks, cuts and loose plugs, and replace a damaged charger.
+- Look at the air vents for dust where the air is dusty.
+- Look at each laptop for a bulging base, a lifting touchpad or a lid that no longer closes flat.
+
+EVERY MONTH
+
+Run ai-2 doctor on every laptop and copy its lines into the notebook. When the laptops can reach the Internet, install updates as the Linux Essentials topic on updates says.
+
+A LAPTOP THAT IS NOT SAFE
+
+Take it out of use at once, mark it clearly, and keep it apart, following the topic "A battery that swells, smokes or hisses". Write in the notebook why.

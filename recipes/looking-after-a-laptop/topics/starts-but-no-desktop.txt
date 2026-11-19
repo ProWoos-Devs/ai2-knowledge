@@ -1,0 +1,29 @@
+A laptop that starts but does not reach the desktop
+
+Search terms: laptop starts but screen stays black, stuck at boot, boot menu, AI-2 does not start, stuck on a screen of text, cannot get to the desktop, login screen does not come, memory test.
+
+Written for AI-2, for the person who looks after the laptops. Not reviewed by a repair technician.
+
+THE BOOT MENU
+
+When a computer with AI-2 starts, it shows a menu for 8 seconds and then starts AI-2 Linux by itself. The menu also has "Advanced options for AI-2 Linux", a Windows entry on a computer that also has Windows, and on some computers "Memory Tester", which tests the computer's memory. Use the arrow keys to choose and Enter to start. Nothing needs to be chosen for a normal start.
+
+WAIT FIRST
+
+An old laptop with a slow disk can take several minutes to reach the login screen. Lines of text or a dark screen on the way are normal. Wait at least five minutes before deciding it is stuck.
+
+IF IT STOPS ON A SCREEN OF TEXT
+
+Write down the last lines exactly, as they are what someone who knows Linux will need. Then hold the power button down until the laptop turns off, wait a moment and start it again. If it stops in the same place every time, keep the laptop aside with your note.
+
+IF THE SCREEN STAYS BLACK
+
+The AI-2 installer stick has a start entry for this case, "Start AI-2 (safe graphics, if the screen stays black)". Starting the laptop from that stick shows whether the screen itself works. Whether the laptop starts from the stick depends on its own start-up settings.
+
+THE LOGIN SCREEN COMES BUT THE PASSWORD IS REFUSED
+
+Check that Caps Lock is not on, and type the password again slowly. On AI-2 an administrator can set a new password for another account from a terminal with "sudo passwd" followed by that account's login name.
+
+ONCE IT REACHES THE DESKTOP
+
+Run ai-2 doctor, which may say what went wrong, and ai-2 report, which writes the file ai2-report.txt in the home folder to send with a request for help.
