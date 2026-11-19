@@ -1,31 +1,29 @@
 A battery that swells, smokes or hisses
 
-Search terms: swollen battery, battery bulging, battery puffed up, laptop does not close, touchpad lifting, battery smoking, battery hissing, popping sound, battery fire, burning smell, punctured battery.
+Search terms: swollen battery, battery bulging, battery puffed up, laptop does not close, touchpad lifting, battery smoking, battery hissing, popping sound, battery fire, burning smell, punctured battery, battery leaking, battery very hot.
 
 Written for AI-2, for the person who looks after the laptops. Not reviewed by a repair technician.
 
-STOP USING IT
+IF IT SMOKES, POPS, HISSES OR BURNS
 
-The U.S. Fire Administration says: if a battery is smoking, hissing, punctured or swollen, stop using it immediately. A lithium-ion battery can bulge, leak or catch fire when it fails.
+Leave it where it is. Get everyone outside the building and away from the smoke, and call the fire service from a safe place outside. Do not go back in for the laptop. The U.S. Fire Administration's handout on batteries after flooding advises moving to a safe distance and notifying the local fire department when a battery gives off smoke or gas, pops or hisses, and the same holds for any battery. Its home fire escape advice is to get outside, stay at the meeting place and call the fire department.
+
+If no fire service can come, keep everyone outside and away. Do not decide it is safe to touch because it has been quiet or cool for a while, because the U.S. Fire Administration warns that a lithium-ion battery fire can start again after it seems to be out.
+
+SIGNS TO STOP USING A BATTERY
+
+The U.S. Fire Administration says to stop using a lithium-ion battery that is smoking, hissing, punctured or swollen, or that gives off an odor, changes color, gets too hot, changes shape, leaks or makes odd noises.
 
 HOW A SWOLLEN BATTERY SHOWS
 
-A battery inside a laptop that swells pushes on whatever is next to it. The base may bulge or rock on the table, the touchpad or the keyboard may lift, the lid may not close flat, or the case may split at the seams. A battery that comes out may look puffed up and no longer fit. Any of these is a swollen battery.
+A battery inside a laptop that swells pushes on whatever is next to it. The base may bulge or rock on the table, the touchpad or the keyboard may lift, the lid may not close flat, or the case may split at the seams. A battery that comes out may look puffed up and no longer fit.
 
-IF IT SMOKES, POPS, HISSES OR BURNS
+IF IT IS SWOLLEN, PUNCTURED OR DAMAGED, BUT NOT SMOKING
 
-Do not touch it or try to move it. Get everyone out of the room and away from it, and call the fire service. The U.S. Fire Administration's handout on batteries after flooding advises moving to a safe distance and notifying the local fire department when a battery gives off smoke or gas, pops or hisses, and the same holds for any battery. Its page on lithium-ion battery fires warns that even after such a fire has been put out, there is a risk that it starts again.
+1. Stop using it and do not charge it again.
+2. Disconnect the charger only if you can do it at the wall without handling the damaged laptop.
+3. Do not press on it, bend it, puncture it or try to take the battery out.
+4. Keep people away from it, and tell everyone it is not to be used.
+5. The EPA advises asking the maker of the battery or the laptop for how to handle a damaged one. Ask them, or the local authorities, before moving it.
 
-Where no fire service can come, no source in this Knowledge Pack says what to do, so this is ordinary care: keep everyone away, do not go back for the laptop, and do not touch it until it has been cold for a long time. Keep watching it, because it can start burning again.
-
-IF IT HAS SWOLLEN BUT IS NOT SMOKING OR HISSING
-
-1. Unplug the charger, and do not charge the laptop again.
-2. Shut it down if it is on.
-3. Move it away from anything that can burn, onto a hard surface such as stone, tile or bare earth, where people can see it.
-4. Do not press on it, bend it, puncture it or try to take a battery that is stuck out of the case.
-5. Tell everyone that this laptop is not to be used, and mark it.
-
-AFTERWARDS
-
-A damaged battery must not go in the trash. The EPA advises contacting the maker of the battery or the laptop for how to handle a damaged one, and the topic "Old batteries and broken laptops" says how to keep it until it can be taken away.
+If it starts to smoke, pop or hiss, go back to the first section.

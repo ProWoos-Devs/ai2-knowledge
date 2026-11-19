@@ -11,14 +11,14 @@ A disk that has started to lose sectors, the small parts it stores data in, can 
 COPY WHAT MATTERS NOW
 
 1. Decide what cannot be lost: pupils' work, documents, photos. The home folder holds almost all of it.
-2. Copy those files to another disk or a USB stick. The Linux Essentials topics on backups and on USB sticks say how.
+2. Connect another disk or a USB stick that works and has room. Open the File Manager, select the files, choose Copy, open the other disk and choose Paste. The Linux Essentials topics on backups and on USB sticks say more.
 3. Open one or two of the copied files on another computer to check that the copy works.
 
 With a FAIL line from ai-2 doctor ("Copy your files to another disk now; this one can stop working at any time"), do this before anything else, and keep using the laptop as little as possible until it is done.
 
 AFTERWARDS
 
-Keep using the laptop only for work that has a copy somewhere else, and run ai-2 doctor again from time to time to see whether the numbers grow. Replacing the disk means opening the laptop, which this Knowledge Pack does not cover; after a new disk is fitted, AI-2 is installed again from the AI-2 installer stick, and the copied files are put back.
+After a FAIL line, set the laptop aside once you have saved what you can. After a WARN line, keep using it only for work that has a copy somewhere else, and run ai-2 doctor again from time to time to see whether the numbers grow. Replacing the disk means opening the laptop, which this Knowledge Pack does not cover; after a new disk is fitted, AI-2 is installed again from the AI-2 installer stick, and the copied files are put back.
 
 A DISK WITH NO RECORD
 

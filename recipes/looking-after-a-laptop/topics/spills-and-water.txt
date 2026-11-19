@@ -4,22 +4,32 @@ Search terms: spilled water on the laptop, spilled tea, juice on the keyboard, l
 
 Written for AI-2, for the person who looks after the laptops. Not reviewed by a repair technician.
 
-AT ONCE, AFTER A SPILL
+FIRST, LOOK FOR DANGER
 
-1. Disconnect the laptop from its charger. For battery-powered devices that may have been in a flood, the U.S. Fire Administration advises disconnecting them from chargers, and the same first step is right after a spill. If the charger, its cord or the wall outlet is wet, do not touch them. If you can reach the switch or the fuse box with dry hands and without standing in water, switch the power off there first; otherwise ask someone who knows electricity.
-2. Turn the laptop off at once: hold the power button down until it goes off. If its battery comes out without tools, take it out.
-3. Wipe the outside dry with a soft cloth, then open the lid and stand the laptop upside down like a tent, so that liquid can run out of the keyboard.
+If the laptop smokes, pops or hisses, leave it alone, get everyone outside and follow the topic "A battery that swells, smokes or hisses".
 
-The steps after the first are ordinary care, not from a source.
+IF THE CHARGER, CORD OR OUTLET IS WET
 
-LET IT DRY
+Do not touch them. The U.S. Centers for Disease Control and Prevention (CDC) advises turning off the power at the main breaker or fuse when electrical equipment has got wet, never while standing in water, and calling an electrician to do it if the main switch cannot be reached without entering water.
 
-Leave the laptop off, open, in a dry, airy place out of strong sun, for at least a few days. Do not turn it on or charge it while it may still be wet inside. A laptop that works after drying may still have sticky keys from a sweet drink; that is a nuisance, not a danger.
+AFTER A SMALL SPILL
 
-WATCH THE BATTERY
+1. If the wall outlet and the plug are dry and safe to reach, unplug the charger at the wall.
+2. If the power button is dry and safe to touch, turn the laptop off.
+3. Keep it off and unplugged. Leave the battery and the case alone.
 
-The U.S. Fire Administration warns that spills or flooding can make a battery fail even days later, even when the laptop looks fine. For the next days, charge it only while someone is in the room, and if the battery smokes, makes a popping or hissing sound, or swells, follow the topic "A battery that swells, smokes or hisses".
+These steps are ordinary care, written from the sources above.
+
+BEFORE USING IT AGAIN
+
+The U.S. Fire Administration warns that spills or flooding can make a battery fail even days later, and a laptop that turns on is no proof that its battery is safe. The CDC says electrical equipment must be completely dry before it is used again. If liquid may have reached the battery, or you cannot tell how far it went, keep the laptop out of use and ask the maker or someone who repairs laptops before turning it on or charging it.
 
 AFTER A FLOOD
 
-For devices whose lithium-ion batteries have been in a flood, the U.S. Fire Administration advises telling the local fire department, disconnecting them from chargers, taking them out of buildings, and moving to a safe distance and notifying the fire department if a battery gives off smoke or gas, pops or hisses. It advises putting flood-damaged battery-powered products in a metal or other non-combustible tub, at least 6 feet (about 2 meters) away from debris and buildings, and never putting them in garbage or recycling bins or with storm debris. The topic "Old batteries and broken laptops" says how to get rid of one.
+The U.S. Fire Administration's handout on batteries after flooding advises:
+- notifying the local fire department even if you only suspect that batteries were flooded;
+- if a battery gives off smoke or gas, pops or hisses, leaving it alone, moving to a safe distance and notifying the fire department;
+- disconnecting flooded devices from chargers and taking them out of buildings, when that is safe;
+- putting flood-damaged battery-powered products in a metal or other non-combustible tub, at least 6 feet (about 2 meters) from debris and buildings, and never in garbage or recycling bins or with storm debris.
+
+Keep a flooded laptop out of use and do not charge it.

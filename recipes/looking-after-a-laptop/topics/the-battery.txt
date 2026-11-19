@@ -27,4 +27,4 @@ A laptop whose battery holds very little usually still works on its charger. Tha
 
 REPLACING A BATTERY
 
-The U.S. Fire Administration advises that repairs to lithium-ion battery packs be done only by a certified repair facility. Never open, cut or press on a battery. A battery that comes out without tools can be changed by hand for a new one made for that laptop. A battery inside the case is changed by someone who repairs laptops; do not open the laptop yourself.
+The U.S. Fire Administration advises that repairs to lithium-ion battery packs be done only by a certified repair facility. Never open, cut or press on a battery. Change a battery yourself only if the laptop's instructions say the user can, the old battery is not damaged, and it comes out normally without opening the case or using force. Use the replacement made for that laptop. For a damaged or stuck battery, the EPA advises asking the maker how to handle it. A battery inside the case is changed by someone who repairs laptops; do not open the laptop yourself.

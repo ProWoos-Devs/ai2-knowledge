@@ -8,7 +8,7 @@ RUNNING IT
 
 Open a terminal (Terminal Emulator in the Applications menu), type ai-2 doctor and press Enter. It checks AI-2 itself and three things about the computer: each built-in disk, the battery and the processor's temperature. Each line starts with ok, WARN or FAIL, or with nothing when it only gives information. At the end it says "Everything looks fine.", "Some warnings, see above." or "Something is broken, see the FAIL lines."
 
-On some computers a line is missing: a disk of the memory-card kind gets no Disk line, a computer that is not a laptop gets no Battery line, and a processor whose temperature cannot be read gets no Temperature line.
+Some lines can be missing. A disk of the memory-card kind gets no health line, though the free-space line still shows. The Battery line can be missing when no battery is found and the computer is not seen as a laptop. The Temperature line is missing when no sensor can be read.
 
 THE DISK
 
@@ -26,7 +26,7 @@ The Battery line says how much of its original charge the battery still holds, m
 
 THE TEMPERATURE
 
-The Temperature line gives the processor's temperature now and, when the computer names one, the point at which it slows itself down or switches itself off. Within 5 °C of that point it is marked WARN and says to check that the fan turns and the air vents are clean. When AI-2 is already running the processor slower to keep it cool, the line says so. The topic "Heat, the fan and the air vents" explains it.
+The Temperature line gives the processor's temperature now and, when the computer names one, the point at which it slows itself down or switches itself off. When AI-2 is already running the processor slower to keep it cool, the line says that first. Otherwise, within 5 °C of the computer's own point or above it, it is marked WARN and says to check that the fan turns and the air vents are clean. The topic "Heat, the fan and the air vents" explains it.
 
 WHEN TO RUN IT
 

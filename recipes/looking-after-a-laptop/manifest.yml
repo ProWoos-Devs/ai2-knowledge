@@ -4,5 +4,5 @@ version: "2026-11-19"
 revision: 1       # raise this for every rebuild you publish, and mirror it in the catalog entry
 languages: [en]
 license: MIT
-attribution: "Written for AI-2 by Rafael Minuesa for people who look after laptops without a technician. The safety advice follows the U.S. Fire Administration and the U.S. Environmental Protection Agency, in its own words; neither agency wrote or endorsed it. MIT licensed, like the rest of the project."
+attribution: "Written for AI-2 by Rafael Minuesa for people who look after laptops without a technician. The safety advice follows the U.S. Fire Administration, the U.S. Environmental Protection Agency and the U.S. Centers for Disease Control and Prevention, in its own words; none of them wrote or endorsed it. MIT licensed, like the rest of the project."
 modified: "Written as tasks, cut into parts and embedded for search by AI-2."

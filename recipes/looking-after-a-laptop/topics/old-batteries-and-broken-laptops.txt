@@ -10,11 +10,9 @@ The U.S. Environmental Protection Agency (EPA) says that lithium-ion batteries, 
 
 GETTING IT READY
 
-The EPA advises, to prevent fires:
-- putting non-conductive tape, such as electrical tape, over the battery's terminals (the metal contacts);
-- putting each battery, or each device with a battery inside, in a separate plastic bag.
+These steps are only for batteries and laptops that are not damaged. A swollen, punctured, leaking or flooded battery is handled as the section on a damaged battery below says.
 
-A battery that is inside the laptop stays inside: put the whole laptop in the bag.
+To prevent fires, the EPA advises covering a loose battery's terminals (the metal contacts) with non-conductive tape, such as electrical tape, or putting the battery in its own plastic bag. A laptop whose battery is inside stays whole and goes in its own bag.
 
 WHERE TO TAKE IT
 
@@ -22,12 +20,12 @@ The EPA advises taking lithium-ion batteries to separate recycling or household 
 
 A DAMAGED BATTERY
 
-The EPA advises contacting the maker of the battery or the laptop for how to handle a damaged one. A swollen battery is damaged; see the topic "A battery that swells, smokes or hisses".
+The EPA advises contacting the maker of the battery or the laptop for how to handle a damaged one. Keep it out of use, do not tape or bag it yourself, and ask the maker or the local waste authority. For a flooded one, follow the topic "Spills and water"; for one that smokes, pops or hisses, follow "A battery that swells, smokes or hisses".
 
 WHERE THERE IS NO COLLECTION POINT
 
-Neither the EPA nor the U.S. Fire Administration says what to do where no collection exists, so the following is ordinary care. Until the battery can be taken away, keep it taped and bagged, in a dry place, apart from other batteries, away from anything that can burn and from the building's exits, out of the reach of children, and ask the local authorities.
+Neither the EPA nor the U.S. Fire Administration says what to do where no collection exists, so the following is ordinary care. Until an undamaged battery can be taken away, keep it taped or bagged, in a dry place, apart from other batteries, away from anything that can burn and from the building's exits, out of the reach of children, and ask the local authorities.
 
 THE REST OF THE LAPTOP
 
-A laptop that no longer works may still have a good charger for another laptop of the same kind. Its other parts are inside the case and are for someone who repairs laptops. If its battery comes out without tools, take it out, tape its metal contacts and bag it as above.
+A laptop that no longer works may still have a good charger. Reuse it only if it is undamaged and is the original or a certified replacement for the laptop that will use it, as the U.S. Fire Administration advises. The other parts are inside the case and are for someone who repairs laptops. Take the battery out only if it is made to be removed by the user, is not damaged and comes out normally; then tape or bag it as above.

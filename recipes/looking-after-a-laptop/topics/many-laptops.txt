@@ -30,4 +30,4 @@ Run ai-2 doctor on every laptop and copy its lines into the notebook. When the l
 
 A LAPTOP THAT IS NOT SAFE
 
-Take it out of use at once, mark it clearly, and keep it apart, following the topic "A battery that swells, smokes or hisses". Write in the notebook why.
+If it is smoking, popping or hissing, leave it where it is, get everyone outside and follow the topic "A battery that swells, smokes or hisses". Otherwise take it out of use and mark it, or its place, without handling a damaged battery, and write in the notebook why.

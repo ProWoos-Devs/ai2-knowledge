@@ -10,11 +10,11 @@ The U.S. Fire Administration advises always using the charger provided by the ma
 
 STRAIGHT INTO A WALL OUTLET
 
-The U.S. Fire Administration advises plugging a charging device directly into an outlet, not into an extension cord or a multiplug adapter, and not overloading outlets: multiplug adapters or power strips on one outlet can overheat and become a fire hazard. When in doubt, its flyer on lithium-ion batteries advises having a licensed electrician test the wiring. Its page "Appliance and Electrical Fire Safety" adds: push plugs fully into sockets, never force a plug with three pins into an outlet made for two, and have an outlet replaced if plugs do not fit snugly.
+The U.S. Fire Administration advises plugging a charging device directly into an outlet, not into an extension cord or a multiplug adapter, and not overloading outlets, because multiplug adapters or power strips on one outlet can overheat and become a fire hazard. When in doubt, its flyer on lithium-ion batteries advises having a licensed electrician test the wiring. Its page "Appliance and Electrical Fire Safety" adds: push plugs fully into sockets, never force a plug with three pins into an outlet made for two, and have an outlet replaced if plugs do not fit snugly.
 
 WHILE IT CHARGES
 
-The U.S. Fire Administration advises charging on a solid, flat surface, not on a bed or anything soft, not in direct sunlight, and not leaving devices charging unattended when possible. Charge when someone is in the room, not overnight in an empty classroom.
+The U.S. Fire Administration advises charging on a solid, flat surface, not on a bed or anything soft, not in direct sunlight, and not leaving devices charging unattended when possible. In a shared classroom, that means charging while someone is in the room and stopping before the room is left empty.
 
 CORDS AND CHARGERS
 
@@ -26,7 +26,7 @@ These three points come from the U.S. Fire Administration's "Appliance and Elect
 
 A HOT CHARGER
 
-This part is ordinary care, not from a source. A charger is often warm while it works. If it is too hot to hold, smells of burning, has marks of melting or makes a crackling sound, unplug it at the wall if you can do it safely, stop using it and replace it.
+A charger is often warm while it works. Stop using a charger that smells of burning, crackles or shows melting. Unplug it only if the wall plug and outlet are safe to reach and handle. If the outlet is damaged, scorched or the plug fits loosely, leave that outlet unused and have it checked. If there is smoke or fire, get everyone outside and call the fire service from a safe place. Replace a damaged charger with an original or certified replacement. This section is ordinary care built on the U.S. Fire Administration advice above.
 
 MANY LAPTOPS
 

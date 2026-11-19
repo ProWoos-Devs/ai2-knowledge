@@ -12,8 +12,8 @@ CARRYING ONE
 - Close the lid, and carry it with both hands under the base, never by the screen.
 - Use a bag with some padding if you have one, and do not put heavy or sharp things against the screen.
 - Unplug the charger before moving it, so nobody trips on the cord and the plug is not pulled sideways.
-- Do not leave laptops in a closed car or bus in the sun.
-- A laptop brought in from the cold should sit closed until it is at room temperature before it is turned on.
+- The U.S. Fire Administration advises not putting lithium-ion batteries in direct sunlight or keeping them in hot cars.
+- Let a laptop brought in from the cold warm to room temperature. If there may be water drops on it or in it, keep it off and unplugged until it is dry.
 
 MOVING MANY
 
@@ -25,4 +25,4 @@ For e-bikes, scooters and power tools, which use the same kind of battery as a l
 
 AFTER A LONG TIME STORED
 
-No agency source says how full to leave a battery for long storage. When laptops come back out after weeks or months, look at each one before charging it: if a battery or a case has swollen, follow the topic "A battery that swells, smokes or hisses". Then charge it as in "Charging safely" and check it with ai-2 doctor.
+No agency source says how full to leave a battery for long storage. When laptops come back out after weeks or months, look at each one for damage before charging it. If a battery or a case has swollen, keep that laptop out of use and follow the topic "A battery that swells, smokes or hisses". Charge only the laptops that pass the check, as in "Charging safely", and check them with ai-2 doctor.

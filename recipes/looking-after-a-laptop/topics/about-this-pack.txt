@@ -13,9 +13,12 @@ The topics were written for AI-2, in its own wording, for people who look after 
 - U.S. Fire Administration, "Appliance and Electrical Fire Safety".
 - U.S. Fire Administration, "Lithium-Ion Battery Safety After Flooding" (a handout).
 - U.S. Fire Administration, "Risks and response strategies for lithium-ion battery fires".
+- U.S. Fire Administration, "Battery Fire Safety".
+- U.S. Fire Administration, "Home Fire Escape Plans".
 - U.S. Environmental Protection Agency (EPA), "Used Lithium-Ion Batteries".
+- U.S. Centers for Disease Control and Prevention (CDC), "What to Do to Protect Yourself From Electrical Hazards".
 
-Neither agency wrote or endorsed this Knowledge Pack. The parts about AI-2 (ai-2 doctor, the temperature guard, the boot menu) come from the AI-2 manual and program and were checked on a computer running AI-2 in November 2026. The rest, such as how to clean a keyboard or carry a laptop, is ordinary care that no agency publishes, and it is written as such.
+None of these agencies wrote or endorsed this Knowledge Pack. The parts about AI-2 (ai-2 doctor, the temperature guard, the boot menu) come from the AI-2 manual and program and were checked on a computer running AI-2 in November 2026. Where a topic gives advice not taken from these sources, such as cleaning the outside of a laptop or carrying one, it is labeled as ordinary care. Some topics apply advice written for other equipment with the same kind of battery, and they say so.
 
 No repair technician or electrician has reviewed it.
 
