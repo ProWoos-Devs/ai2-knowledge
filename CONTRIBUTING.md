@@ -20,16 +20,16 @@ python -m pip install "ai2 @ git+https://github.com/ProWoos-Devs/ai-2@v0.18.3"
 ai-2 --version                        # 0.18.3 or newer: 0.18.1 added --embedder
 ```
 
-You also need [llama.cpp](https://github.com/ggml-org/llama.cpp), which is what actually computes the embeddings. **Build or download tag `b10398`**, the same one AI-2 pins.
+You also need [llama.cpp](https://github.com/ggml-org/llama.cpp), which is what actually computes the embeddings. **Build or download tag `b12359`** (llama.cpp v1.0.0), the same one AI-2 has pinned since 2026-11-25.
 
 ```bash
-mkdir -p ~/llama && cd ~/llama        # unpack b10398 here
+mkdir -p ~/llama && cd ~/llama        # unpack b12359 here
 ls ~/llama/llama-server ~/llama/llama-bench     # both must be there
 ```
 
 AI-2 looks for those two programs in `$AI2_RUNTIME_DIR`, then `/usr/lib/ai2/runtimes/llama.cpp`, then `/opt/ai2/llama`, then `~/llama`, and takes the first directory that has them.
 
-**Why a pinned version and not "whatever is current".** A pack stores vectors your llama.cpp produced; the question someone types later is turned into a vector by *their* AI-2's llama.cpp, and the two are compared. The manifest pins the embedding model's file by SHA-256, but nothing pins the implementation that runs it, and tokenisation or pooling changes between llama.cpp releases would degrade every answer quietly rather than failing loudly. Whether other versions are equivalent has not been measured. Until it has, build with AI-2's own runtime or with b10398, and if you deliberately use something else, say so in the manifest's `modified` line so a reviewer can weigh it.
+**Why a pinned version and not "whatever is current".** A pack stores vectors your llama.cpp produced; the question someone types later is turned into a vector by *their* AI-2's llama.cpp, and the two are compared. The manifest pins the embedding model's file by SHA-256, but nothing pins the implementation that runs it, and tokenisation or pooling changes between llama.cpp releases would degrade every answer quietly rather than failing loudly. The one change measured so far is AI-2's own move from b10398 to b12359. The vectors differ slightly, and on 538 test questions the chat's choice of Knowledge Pack changed for 9 or 10, each a question that already sat right at the cutoff, so packs built with b10398 keep working. Other versions have not been measured. Build with AI-2's own runtime or with b12359, and if you deliberately use something else, say so in the manifest's `modified` line so a reviewer can weigh it.
 
 The embedding model itself is downloaded for you the first time, with its checksum verified.
 
