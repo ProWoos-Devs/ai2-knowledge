@@ -1,0 +1,66 @@
+Generators
+
+Search terms: generator, portable generator, where to put the generator, how far from the house, generator exhaust, run a generator safely, generator in garage, extension cord, generator rain.
+
+Written from CDC, U.S. Fire Administration and CPSC sources. Not reviewed by a fire safety or health specialist.
+Last reviewed: 2026-11-27
+
+For: Running a portable generator during a power cut
+
+Not for: Wiring a generator into the home. Not in these sources.
+
+USE THIS TOPIC WHEN
+
+- You have a portable generator and the power is out
+
+WHAT TO DO
+
+1. Run it outside only, in the open air, more than 6.1 meters (20 feet) from any window, door or vent, your own or a neighbor's [CO, Storm], and at least that far from any home. [CPSC]
+
+2. Point the exhaust away from homes. [CPSC]
+
+3. Keep it where rain and snow will not reach it, but still in the open air and at the same distance. Do not bring it into an enclosed space to keep it dry. [Storm, CO, CPSC]
+
+4. Plug appliances into it with separate heavy-duty extension cords made for outdoor use. [Storm]
+
+5. Use a carbon monoxide alarm with a battery, or battery backup, in the home while it runs. [CO, Storm]
+
+DO NOT
+
+- Do not run it inside the home, the basement or the garage, even with doors and windows open. [CO, CPSC, Storm]
+
+- Do not use the generator or the appliances if they are wet. [Storm]
+
+- Do not keep petrol (gasoline) indoors. [Storm]
+
+IF THINGS CHANGE
+
+- If anyone feels ill while it runs, get everyone outside into fresh air at once, then get emergency help from outside. [CPSC] Then see If you think it is carbon monoxide.
+
+WITH NO SUPPLIES
+
+- CDC gives the distance and says to use separate heavy-duty, outdoor-rated extension cords. [CO, Storm] The sources give no exception to the distance; our reading is that a short cord is not a reason to move the generator closer.
+
+ALTERNATIVES USING WHAT IS AVAILABLE
+
+- None of the sources gives a shorter distance for any kind of generator. [CO, CPSC]
+
+IF HELP IS DELAYED OR CANNOT BE REACHED
+
+- One portable generator can make as much carbon monoxide as hundreds of cars, CPSC says. [CPSC]
+
+WHAT HAS NO EFFECTIVE SUBSTITUTE
+
+- Distance and open air. [CO, CPSC]
+
+WHERE SOURCES DIFFER OR ARE SILENT
+
+- CDC's carbon monoxide page says "more than 20 feet" from windows, doors and vents; CPSC and CDC's winter page say "at least 20 feet". 20 feet is 6.096 meters. "More than 6.1 meters" is our own rounding, a little farther than 20 feet.
+
+- Our reading is that a shed or other enclosed space is not open air, and the sources rule out garages. [CO, CPSC] No source read names carports or porches, or says how to build a cover against rain and snow.
+
+LEFT OFF THIS TOPIC
+
+- Refueling and fuel storage beyond keeping petrol out of the home. Not in these sources.
+
+Source: CDC, Carbon Monoxide (CO) Poisoning Basics, 2026 (CO); CDC, Safety Guidelines: During and After a Winter Storm, 2026 (Storm); CDC, Preparing for a Winter Storm, 2026 (Prepare); CDC, Preventing Hypothermia, 2026 (Hypo); CDC, Preventing Frostbite, 2026 (Frost); U.S. Fire Administration, Heating Fire Safety, 2023 (USFA); U.S. Consumer Product Safety Commission, Carbon Monoxide (CPSC).

@@ -1,0 +1,8 @@
+id: staying-warm-safely
+title: Staying Warm Safely
+version: "2026-11-27"
+revision: 1       # raise this for every rebuild you publish, and mirror it in the catalog entry
+languages: [en]
+license: MIT
+attribution: "Written for AI-2 by Rafael Minuesa, in its own wording, from pages of the U.S. Centers for Disease Control and Prevention on carbon monoxide, winter storms, hypothermia and frostbite (2026), the U.S. Fire Administration's Heating Fire Safety (2023) and the U.S. Consumer Product Safety Commission's Carbon Monoxide page. None of them wrote or endorsed it. MIT licensed, like the rest of the project."
+modified: "Written as topics, cut into parts and embedded for search by AI-2."
