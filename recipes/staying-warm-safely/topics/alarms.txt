@@ -19,7 +19,7 @@ WHAT TO DO
 
 1. Use carbon monoxide alarms that run on batteries or have battery backup, so they work in a power cut. [CO, CPSC, Prepare]
 
-2. Put one near every sleeping area, and one on every level of the home. [CO, CPSC]
+2. Put a carbon monoxide alarm on every level of the home and outside every sleeping area. [CPSC] CDC says near every sleeping area. [CO]
 
 3. If you heat with a fireplace, wood stove or kerosene heater, put a smoke alarm and a battery carbon monoxide alarm near the area being heated. [Prepare]
 
@@ -29,7 +29,7 @@ WHAT TO DO
 
 6. Alarms that are connected to each other are best: when one sounds, they all sound. [CPSC]
 
-7. Keep a multipurpose dry-chemical (ABC dry powder) fire extinguisher nearby. [Prepare]
+7. Keep a multipurpose dry-chemical fire extinguisher nearby. [Prepare]
 
 DO NOT
 
@@ -37,11 +37,11 @@ DO NOT
 
 IF THINGS CHANGE
 
-- An alarm that sounds is a reason to suspect carbon monoxide. CPSC says that if you suspect it, get outside to fresh air immediately. See If you think it is carbon monoxide. [CPSC]
+- If the carbon monoxide alarm sounds, get everyone outside into fresh air at once, then get emergency help from outside. [CPSC] CPSC gives these steps for suspected poisoning; applying them to an alarm is our reading. See If you think it is carbon monoxide.
 
 WITH NO SUPPLIES
 
-- Alarm or no alarm, anything that burns fuel should be vented to the outside. [Prepare] For the exceptions CDC's winter storm page makes, see Heaters, fireplaces and stoves. [Storm]
+- Alarm or no alarm, anything that burns fuel should be vented to the outside. [Prepare, Storm] CDC's winter storm page also says a kerosene heater needs proper ventilation and vent-less gas fireplaces need some ventilation, without saying how much. See Heaters, fireplaces and stoves. [Storm]
 
 ALTERNATIVES USING WHAT IS AVAILABLE
 

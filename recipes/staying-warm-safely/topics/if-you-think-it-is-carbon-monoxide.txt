@@ -12,13 +12,13 @@ Not for: Preventing it. See Carbon monoxide and Never use these indoors.
 USE THIS TOPIC WHEN
 
 - People have a headache, dizziness, weakness, sickness, vomiting, chest pain, sleepiness or confusion while something burns fuel indoors or nearby [CO, CPSC]
-- A carbon monoxide alarm sounds, which is a reason to suspect it
+- A carbon monoxide alarm sounds. Treating the alarm as a reason to suspect poisoning is our reading; the sources say to install alarms but not what to do when one sounds.
 
 WHAT TO DO
 
 1. Get everyone outside into fresh air at once. [CPSC]
 
-2. Then get emergency help. [CPSC]
+2. Then, from outside, get emergency help. [CPSC]
 
 3. Once they are in fresh air, if a person does not respond, see "Not responding and not breathing normally" or "Not responding, but breathing normally" in the First Aid Knowledge Pack.
 
@@ -36,11 +36,11 @@ WITH NO SUPPLIES
 
 ALTERNATIVES USING WHAT IS AVAILABLE
 
-- If you cannot get a person out, no source read gives another step.
+- If someone is still inside, do not go back into a space with bad air if you cannot make it safe; this is from First Aid's Start here in any emergency. CDC and CPSC give no other step for someone who cannot be got out.
 
 IF HELP IS DELAYED OR CANNOT BE REACHED
 
-- Keep the person in fresh air. No source read covers what to do when no help can come, or how to keep people warm once they are outside. Watch for the signs in Hypothermia and Frostbite.
+- CPSC gives only the two steps above, fresh air and then emergency help. [CPSC] No source read covers what to do when no help can come, or how to keep people warm once they are outside. Staying in fresh air is our reading. Watch for the signs in Hypothermia and Frostbite.
 
 WHAT HAS NO EFFECTIVE SUBSTITUTE
 

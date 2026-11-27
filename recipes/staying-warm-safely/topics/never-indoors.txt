@@ -39,15 +39,14 @@ Also:
 
 DO NOT
 
-- Do not use any of these near windows either. CDC says the fumes are deadly. [Storm]
+- Do not use generators, gas or charcoal grills, camping stoves or similar devices near windows either. CDC says the fumes are deadly. [Storm]
 
 - The sources say open doors and windows do not make a generator or a car in an attached garage safe. [CO, CPSC]
 
-- Sitting in a running car for warmth: make sure snow is not blocking the exhaust pipe and keep one window slightly open. CDC says to run the engine about 10 minutes per hour. [Storm]
 
 IF THINGS CHANGE
 
-- If someone feels ill while one of these is running, see If you think it is carbon monoxide. [CO, CPSC]
+- If someone feels ill while one of these is running, get everyone outside into fresh air at once, then get emergency help from outside. [CPSC] Then see If you think it is carbon monoxide.
 
 WITH NO SUPPLIES
 
@@ -55,7 +54,7 @@ WITH NO SUPPLIES
 
 ALTERNATIVES USING WHAT IS AVAILABLE
 
-- A fireplace or wood stove that is vented to the outside and in good order, or a heater made for indoor use. See Heaters, fireplaces and stoves. [Storm]
+- A fireplace or wood stove that is properly vented to the outside and does not leak fumes into the room, or a heater made for indoor use. See Heaters, fireplaces and stoves. [Storm]
 
 IF HELP IS DELAYED OR CANNOT BE REACHED
 
@@ -67,11 +66,11 @@ WHAT HAS NO EFFECTIVE SUBSTITUTE
 
 WHERE SOURCES DIFFER OR ARE SILENT
 
-- CDC does not say whether an ordinary gas cooker counts as "not vented". It says never to heat the home with a gas oven or by turning on the stove.
+- CDC does not say whether an ordinary gas cooker counts as "not vented". It says never to heat the home with a gas oven or by turning on the stove. [CO, Storm]
 
-- A brazier or other open fire in a container is not named by any source. CDC's line covers burning anything on a stove or in a fireplace that is not vented; that it also covers a brazier is our reading.
+- Never burn charcoal indoors, in a brazier or in anything else. [CO] For a brazier burning wood or other fuel, the sources give no separate rule. CDC's line covers burning anything on a stove or in a fireplace that is not vented; that it also covers such a brazier is our reading.
 
-- The sources do not say whether cooking indoors on a camping stove for a few minutes is ever acceptable. They say never.
+- Never use a portable gas camping stove indoors, even for a few minutes. CDC gives no exception for short use. [CO]
 
 LEFT OFF THIS TOPIC
 

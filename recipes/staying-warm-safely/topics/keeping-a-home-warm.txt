@@ -15,21 +15,23 @@ USE THIS TOPIC WHEN
 
 WHAT TO DO
 
-1. Close off rooms you do not need. [Storm]
+1. First, if a heater needs fresh air, such as a kerosene heater or a vent-less gas fireplace, keep that air coming in. The steps below are for keeping heat in when no extra fresh air is needed. [Storm]
 
-2. Stuff towels or rags into the gaps under doors. [Storm]
+2. Close off rooms you do not need. [Storm]
 
-3. Close curtains, or cover windows with blankets, at night. [Storm]
+3. Stuff towels or rags into the gaps under doors. [Storm]
 
-4. Do not open outside doors and windows when you do not need to. [Storm]
+4. Close curtains, or cover windows with blankets, at night. [Storm]
 
-5. Have blankets, sleeping bags and warm coats ready. CDC lists them as a heat source for a power cut. [Storm]
+5. Do not open outside doors and windows when you do not need to. [Storm]
 
-6. Eat well-balanced meals; they help you stay warmer. Drink warm, sweet drinks or broth. If you are on a special diet, CDC says to ask your doctor. [Storm]
+6. Have blankets, sleeping bags and warm coats ready. CDC lists them as a heat source for a power cut. [Storm]
 
-7. For light, use battery torches (flashlights) or lanterns rather than candles. If you use candles, never leave them burning alone. [Storm]
+7. Eat well-balanced meals; they help you stay warmer. Drink warm, sweet drinks or broth. If you are on a special diet, CDC says to ask your doctor. [Storm]
 
-8. To stop pipes freezing, let taps drip slightly and open the cupboard doors under sinks so warmer air reaches the pipes. [Storm]
+8. For light, use battery torches (flashlights) or lanterns rather than candles. If you use candles, never leave them burning alone. [Storm]
+
+9. To stop pipes freezing, let taps drip slightly and open the cupboard doors under sinks so warmer air reaches the pipes. [Storm]
 
 DO NOT
 
@@ -43,7 +45,7 @@ IF THINGS CHANGE
 
 - If you cannot keep the home warm and a baby is there, CDC says to make arrangements to stay somewhere warmer. See Babies and older people in the cold. [Storm]
 
-- If the pipes burst or stay frozen, see the Water and Sanitation Knowledge Pack for other water. [Storm]
+- If the pipes burst or you cannot thaw them, use bottled water or get water from a neighbor's home. [Storm] The Water and Sanitation Knowledge Pack covers other water and how to make it safe.
 
 WITH NO SUPPLIES
 
@@ -53,7 +55,7 @@ ALTERNATIVES USING WHAT IS AVAILABLE
 
 - Plastic over the windows, put on from the inside, is one of CDC's ways to keep heat in. [Prepare]
 
-- If there is no other water, snow can be melted for water. CDC says a rolling boil for one minute kills most germs but does not remove chemicals sometimes found in snow. See Boiling water in the Water and Sanitation Knowledge Pack. Do not eat snow; CDC says it lowers body temperature. [Storm]
+- Only if there is no other water, snow can be melted for water. CDC says a rolling boil for one minute kills most germs but does not remove chemicals sometimes found in snow. [Storm] Boiling water in the Water and Sanitation Knowledge Pack gives the WHO guidance, which differs, and what boiling cannot remove. Do not eat snow; CDC says it lowers body temperature. [Storm]
 
 IF HELP IS DELAYED OR CANNOT BE REACHED
 

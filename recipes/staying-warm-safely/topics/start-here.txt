@@ -17,13 +17,13 @@ USE THIS TOPIC WHEN
 
 WHAT TO DO
 
-1. Keep the heat you have. Close off rooms you do not need, stuff towels in the gaps under doors, cover windows at night and open outside doors as little as possible. See Keeping a home warm. [Storm]
+1. Keep the heat you have. If a heater needs fresh air, keep that air coming in. Otherwise close off rooms you do not need, stuff towels in the gaps under doors, cover windows at night and open outside doors as little as possible. See Keeping a home warm. [Storm]
 
 2. Dress in loose layers, stay dry and use blankets and sleeping bags. See Dressing to stay warm. [Storm]
 
 3. Before using anything that burns fuel, read Never use these indoors, Carbon monoxide, and Carbon monoxide and smoke alarms. If you have a generator, read Generators. Carbon monoxide has no color and no smell, and it can kill people in their sleep. [CO]
 
-4. Keep anything that can burn at least 1 meter (3 feet) from every heat source, and turn space heaters off when leaving the room or going to sleep. See Heaters, fireplaces and stoves. [USFA]
+4. Keep anything that can burn at least 1 meter from every heat source (USFA says 3 feet; we have rounded it up), and turn space heaters off when leaving the room or going to sleep. See Heaters, fireplaces and stoves. [USFA]
 
 5. Check on babies and older people often. Babies lose body heat more easily, and older people often make less of it. See Babies and older people in the cold. [Storm]
 
@@ -37,7 +37,7 @@ DO NOT
 
 IF THINGS CHANGE
 
-- If someone gets a headache, dizziness, sickness or confusion while a fuel-burning heater, stove or generator is running, see If you think it is carbon monoxide. [CO, CPSC]
+- If someone gets a headache, dizziness, sickness or confusion while a fuel-burning heater, stove or generator is running, or the carbon monoxide alarm sounds, get everyone outside into fresh air at once, then get emergency help from outside. [CPSC] Then see If you think it is carbon monoxide.
 
 WITH NO SUPPLIES
 
@@ -53,11 +53,11 @@ IF HELP IS DELAYED OR CANNOT BE REACHED
 
 WHAT HAS NO EFFECTIVE SUBSTITUTE
 
-- A vent to the outside for anything that burns fuel. [Prepare] CDC's winter storm page makes exceptions for kerosene heaters and vent-less gas fireplaces, which need fresh air; see Heaters, fireplaces and stoves. [Storm]
+- A vent to the outside for anything that burns fuel. [Prepare, Storm] CDC's winter storm page also says a kerosene heater needs proper ventilation and that vent-less gas fireplaces need some ventilation. It gives no amount of fresh air. See Heaters, fireplaces and stoves. [Storm]
 
 WHERE SOURCES DIFFER OR ARE SILENT
 
-- The sources are written for the United States and give distances in feet. The meters are our own rounding.
+- The sources are written for the United States and give distances in feet. The meters are our own rounding, always rounded to the safer side.
 
 LEFT OFF THIS TOPIC
 

@@ -25,7 +25,7 @@ Babies
 
 4. Try to keep the home warm. If you cannot, arrange to stay somewhere else for a while. [Storm]
 
-5. In an emergency, you can keep a baby warm with your own body heat. If you must sleep, take care not to roll onto or smother the baby. [Storm]
+5. In an emergency, you can keep a baby warm with your own body heat. If you must sleep, take care not to roll onto or smother the baby, and keep pillows and soft bedding out of the baby's sleeping place. [Storm]
 
 Older people
 
@@ -41,11 +41,11 @@ DO NOT
 
 IF THINGS CHANGE
 
-- A baby with bright red, cold skin and very low energy may have hypothermia. See Hypothermia. [Hypo]
+- A baby with bright red, cold skin and very low energy may have hypothermia, which is a medical emergency. Get medical help as soon as possible. [Hypo, Frost] See Hypothermia.
 
 WITH NO SUPPLIES
 
-- Your own body heat can keep a baby warm. If you must sleep, take care not to roll onto or smother the baby. [Storm]
+- If the home cannot be kept warm, arrange to stay somewhere warmer. In an emergency your own body heat can keep a baby warm. If you must sleep, take care not to roll onto or smother the baby, and keep pillows and soft bedding out of the baby's sleeping place. [Storm]
 
 ALTERNATIVES USING WHAT IS AVAILABLE
 
@@ -53,7 +53,7 @@ ALTERNATIVES USING WHAT IS AVAILABLE
 
 IF HELP IS DELAYED OR CANNOT BE REACHED
 
-- Older people with too little food, clothing or heating, and babies sleeping in cold bedrooms, are among those who most often get hypothermia. CDC also lists people who drink alcohol or use drugs, and people who stay outdoors for long periods. [Hypo]
+- Older people with too little food, clothing or heating, and babies sleeping in cold bedrooms, are among those who most often get hypothermia. CDC also lists people who drink alcohol or use illicit drugs, and people who stay outdoors for long periods. [Hypo]
 
 WHAT HAS NO EFFECTIVE SUBSTITUTE
 
@@ -62,6 +62,8 @@ WHAT HAS NO EFFECTIVE SUBSTITUTE
 WHERE SOURCES DIFFER OR ARE SILENT
 
 - No source read gives a room temperature that is warm enough for a baby.
+
+- CDC's winter storm page gives only the sleep points above. It gives no other way to set up a baby's sleeping place in a cold home.
 
 LEFT OFF THIS TOPIC
 

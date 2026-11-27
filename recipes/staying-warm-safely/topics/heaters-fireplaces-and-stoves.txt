@@ -17,21 +17,21 @@ WHAT TO DO
 
 1. Follow the maker's instructions for the heater. [Storm]
 
-2. Keep anything that can burn at least 1 meter (3 feet) from every heat source: fireplaces, wood stoves, radiators, space heaters and candles. That includes curtains, furniture and bedding. [USFA, Storm]
+2. Keep anything that can burn at least 1 meter from every heat source (USFA says 3 feet; we have rounded it up): fireplaces, wood stoves, radiators, space heaters and candles. That includes curtains, furniture and bedding. [USFA, Storm]
 
 3. Turn space heaters off when you leave the room or go to sleep. [USFA]
 
 4. Use fireplaces, wood stoves and other fuel-burning heaters only if they are vented to the outside and do not leak fumes into the room. [Storm, Prepare]
 
-5. If you must use a kerosene (paraffin) heater, make sure the room has enough fresh air. [Storm]
+5. If you must use a kerosene (paraffin) heater, make sure it has proper ventilation. CDC gives no amount. [Storm]
 
 6. Use only the fuel the heater was made for. Do not substitute another. [Storm]
 
 7. For electric space heaters: choose one with an automatic shut-off switch and no glowing parts; keep it off furniture and away from water; avoid plugging it into an extension cord; keep the cord from tripping anyone, but not under rugs; stop using it if the cord is damaged or it sparks. [Storm]
 
-8. Have heating equipment and chimneys cleaned and checked every year. A chimney blocked by debris can make carbon monoxide build up inside the home. [USFA, CO, Prepare]
+8. Have heating equipment and chimneys cleaned and inspected every year by a professional; CDC says a qualified technician. A chimney blocked by debris can make carbon monoxide build up inside the home. [USFA, CO, Prepare]
 
-9. Put a smoke alarm and a battery carbon monoxide alarm near the area being heated. See Carbon monoxide and smoke alarms. [Prepare]
+9. If you heat with a fireplace, wood stove or kerosene heater, put a smoke alarm and a battery carbon monoxide alarm near the area being heated. See Carbon monoxide and smoke alarms. [Prepare]
 
 DO NOT
 
@@ -45,7 +45,7 @@ DO NOT
 
 IF THINGS CHANGE
 
-- If anyone gets a headache, dizziness, sickness or confusion while a fuel-burning heater runs, see If you think it is carbon monoxide. [CO, CPSC]
+- If anyone gets a headache, dizziness, sickness or confusion while a fuel-burning heater runs, get everyone outside into fresh air at once, then get emergency help from outside. [CPSC] Then see If you think it is carbon monoxide.
 
 WITH NO SUPPLIES
 
@@ -53,11 +53,11 @@ WITH NO SUPPLIES
 
 ALTERNATIVES USING WHAT IS AVAILABLE
 
-- A fireplace kept in order with plenty of dry firewood, or a gas log fireplace (a gas fire made to look like logs), is one of the heat sources CDC lists for a power cut. [Storm]
+- A fireplace that is up to code (meets the local building rules) with plenty of dry firewood, or a gas log fireplace (a gas fire made to look like logs), is one of the heat sources CDC lists for a power cut. It still has to be vented to the outside. [Storm]
 
 IF HELP IS DELAYED OR CANNOT BE REACHED
 
-- Keep a multipurpose dry-chemical (ABC dry powder) fire extinguisher nearby, and keep the 1 meter (3 feet) around every heat source clear. [Prepare, USFA]
+- Keep a multipurpose dry-chemical fire extinguisher nearby [Prepare], and keep at least 1 meter around every heat source clear; USFA says 3 feet. [USFA]
 
 WHAT HAS NO EFFECTIVE SUBSTITUTE
 
@@ -67,9 +67,9 @@ WHERE SOURCES DIFFER OR ARE SILENT
 
 - CDC tells readers to check with the local fire service whether kerosene heaters are legal where they live. No source read gives how much fresh air a kerosene heater needs.
 
-- CDC's preparation page says all fuel-burning equipment should be vented to the outside. Its winter storm page also lists portable kerosene heaters as a heat source, with fresh air, and says vent-less gas fireplaces need some ventilation. No source says how much. [Prepare, Storm]
+- CDC's preparation page says all fuel-burning equipment should be vented to the outside. Its winter storm page says fireplaces, wood stoves and other combustion heaters must be properly vented to the outside, and also lists kerosene heaters as a heat source, saying they need proper ventilation, and says vent-less gas fireplaces need some ventilation. No source says how much. [Prepare, Storm]
 
-- The meters are our own rounding up of 3 feet.
+- The meters are our own rounding up of 3 feet, which is 0.91 meters.
 
 LEFT OFF THIS TOPIC
 

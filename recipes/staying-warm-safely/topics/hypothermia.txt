@@ -16,7 +16,7 @@ USE THIS TOPIC WHEN
 
 WHAT TO DO
 
-1. Hypothermia is a medical emergency. If you can, take the person's temperature. Below 35 °C (95 °F), get medical help at once. [Hypo]
+1. Hypothermia is a medical emergency. Get medical help as soon as possible. [Hypo, Frost] If you have a thermometer, take the person's temperature. Below 35 °C (95 °F), get medical help at once. [Hypo]
 
 2. Whether or not you have a thermometer, if the person shows these signs and you cannot get medical help right away, warm them: [Hypo]
 
@@ -26,7 +26,7 @@ WHAT TO DO
 
 5. Warm the center of the body: chest, neck, head and groin. Use skin-to-skin contact under loose, dry layers of blankets, clothing, towels or sheets, or an electric blanket if there is power. [Hypo]
 
-6. Give warm drinks if the person is awake. [Hypo]
+6. Warm drinks can help. Never give a drink to an unconscious person, and never give alcohol. [Hypo]
 
 7. Once their temperature has risen, keep them dry and wrap the body, head and neck included, in a warm blanket. [Hypo]
 
@@ -40,7 +40,7 @@ DO NOT
 
 IF THINGS CHANGE
 
-- A person with severe hypothermia may be unconscious and seem to have no pulse or breathing. Handle them gently and get emergency help at once. CDC says to give CPR even if the person appears dead, keep warming them during CPR, and continue until they respond or help arrives. Some who appear dead can be revived. For how to give CPR, see "Not responding and not breathing normally" (adult or teenager, child, or baby) in the First Aid Knowledge Pack. [Hypo]
+- A person with severe hypothermia may be unconscious and seem to have no pulse or breathing. Handle them gently and get emergency help at once. [Hypo] If the person does not respond and is not breathing normally, give CPR, as in "Not responding and not breathing normally" (adult or teenager, child, or baby) in the First Aid Knowledge Pack. CDC says to give CPR even if the person appears dead, keep warming them during CPR, and continue until they respond or medical help takes over. Some who appear dead can be revived. [Hypo]
 
 WITH NO SUPPLIES
 
