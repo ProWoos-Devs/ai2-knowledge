@@ -1,0 +1,26 @@
+About the Food Without Power Knowledge Pack
+
+Written from USDA, FoodSafety.gov and CDC sources. Not reviewed by a food safety specialist.
+Last reviewed: 2026-11-27
+
+Where the topics come from
+
+The topics are based on three pages from United States government food safety agencies: Keep Your Food Safe During Emergencies from the USDA Food Safety and Inspection Service, the Food Safety During Power Outage charts on FoodSafety.gov, and Keep Food Safe After a Disaster or Emergency from the Centers for Disease Control and Prevention (CDC). The wording is our own. None of these agencies wrote these topics or endorsed them.
+
+No food safety specialist has reviewed them. Instead, each instruction cites its source, our own suggestions are labeled as ours, and the topics were compared against the sources in a separate check.
+
+What the dates mean
+
+Each topic has a line "Last reviewed" with the date the topic was last checked against its sources. The sources have their own dates: the USDA page was last updated in 2013, the FoodSafety.gov charts were reviewed in 2024, and the CDC page is dated 2025. Guidance may have changed since then, and this Knowledge Pack works offline and cannot update itself.
+
+The sources do not always agree, and they do not cover everything
+
+Where the older USDA page and the newer FoodSafety.gov chart differ, the topics follow the chart and say so. Where the USDA and CDC bleach solutions differ, both are given. Some questions have no answer in the sources we read, for example how long a cool box stays cold, or how long unopened baby formula keeps without power. When that happens, the topic says so. We do not fill the gap with advice of our own.
+
+Units
+
+The sources give temperatures in Fahrenheit and amounts in US units. The topics give metric figures first. Where a source does not give the metric figure itself, the conversion is ours and the topic says so.
+
+Found a mistake, or something missing?
+
+Tell us at https://github.com/ProWoos-Devs/ai2-knowledge/issues , or change the topic yourself and open a pull request; the topics are plain text files in the folder recipes/food-without-power/topics/ of the same repository. Say which topic and which step, and which source supports the change. A correction reaches this Knowledge Pack in its next revision.

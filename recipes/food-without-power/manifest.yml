@@ -1,0 +1,8 @@
+id: food-without-power
+title: Food Without Power
+version: "2026-11-27"
+revision: 1       # raise this for every rebuild you publish, and mirror it in the catalog entry
+languages: [en]
+license: MIT
+attribution: "Written for AI-2 by Rafael Minuesa, in its own wording, from the USDA Food Safety and Inspection Service page Keep Your Food Safe During Emergencies (2013), the FoodSafety.gov Food Safety During Power Outage charts (reviewed 2024) and the CDC page Keep Food Safe After a Disaster or Emergency (2025). None of them wrote or endorsed it. MIT licensed, like the rest of the project."
+modified: "Written as topics, cut into parts and embedded for search by AI-2."
