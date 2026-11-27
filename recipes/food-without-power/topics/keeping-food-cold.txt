@@ -21,11 +21,11 @@ WHAT TO DO
 
 3. A full freezer holds its temperature for about 48 hours. A half-full one holds it for about 24 hours. [USDA, CDC]
 
-4. If the power will be off for a long time, get dry ice or block ice. USDA says 50 pounds (about 23 kg) of dry ice should hold an 18 cubic foot (about 510 liter) freezer for 2 days. [USDA]
+4. If the power will be off for a long time, get dry ice or block ice. USDA says about 23 kg (50 pounds) of dry ice should hold a freezer of about 510 liters (18 cubic feet) for 2 days. [USDA]
 
-5. In a freezer, food at the front, in the door or in small thin packages thaws faster than large thick items or food at the back or bottom. Check those first. [USDA]
+5. In a freezer, food at the front, in the door or in small thin packages thaws faster than large thick items or food at the back or bottom. [USDA] Keep the door closed while the power is off; when you come to judge the freezer food, check each item. See Freezer food: refreeze or throw out. [USDA, Chart]
 
-6. After 4 hours without power, move perishable refrigerator food to a cool box with ice. See Moving food to a cool box. [CDC]
+6. When the closed refrigerator reaches 4 hours without power, move perishable food to a cool box with enough ice or frozen gel packs to keep it at 4 °C (40 °F) or below. If the power has been off longer than 4 hours and no ice or other cold source kept the food cold, throw out the perishable food. See Moving food to a cool box. [CDC, USDA]
 
 DO NOT
 
@@ -57,11 +57,11 @@ WHERE SOURCES DIFFER OR ARE SILENT
 
 - The amount of dry ice is given only by USDA, in pounds and cubic feet. The metric figures are our own conversion.
 
-- No source read says how long a refrigerator stays safe with ice inside it. Check with a thermometer if you have one.
+- No source read says how long a refrigerator stays safe with ice inside it. For a refrigerator with added ice, CDC says to check the food's temperature. [CDC]
 
 - No source read gives a way to keep food cold without ice, dry ice or freezing weather.
 
-- The sources give no dry ice precautions beyond not touching it and not letting it touch food.
+- The sources give no dry ice precautions beyond not touching it and not letting it touch food. They say nothing about ventilation when dry ice is used indoors.
 
 LEFT OFF THIS TOPIC
 

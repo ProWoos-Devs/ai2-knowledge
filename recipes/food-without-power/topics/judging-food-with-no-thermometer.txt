@@ -17,9 +17,9 @@ WHAT TO DO
 
 1. Count the hours from when the power went off. Without power, the refrigerator keeps food safe for up to 4 hours, a full freezer about 48 hours and a half-full one about 24 hours, if the doors stayed closed. [CDC, USDA]
 
-2. After 4 hours without power or without a cold source like ice, throw out perishable refrigerator food: meat, fish, cut fruit and vegetables, eggs, milk and leftovers. [CDC]
+2. After 4 hours without power and with no cold source like ice, throw out perishable refrigerator food: meat, fish, cut fruit and vegetables, eggs, milk and leftovers. [CDC]
 
-3. For frozen food, the test with no thermometer is whether it "contains ice crystals and feels cold as if refrigerated". If so, it can be refrozen, except ice cream and frozen yogurt, which are thrown out. [Chart]
+3. For frozen food, the test with no thermometer is whether it "contains ice crystals and feels cold as if refrigerated". If so, it can be refrozen, except ice cream and frozen yogurt that has started to thaw, which the chart throws out. [Chart]
 
 4. Throw out any food with an unusual smell, color or texture. [CDC, USDA]
 
@@ -53,7 +53,7 @@ WHAT HAS NO EFFECTIVE SUBSTITUTE
 
 WHERE SOURCES DIFFER OR ARE SILENT
 
-- No source read gives a way to tell safe food from unsafe food by smell or look alone. Smell and look can only tell you to throw food out, never that it is safe. [CDC] The exception is the foods USDA lists as not needing a refrigerator, which may be used unless moldy or smelling unusual; see Food that keeps without a refrigerator. [USDA]
+- No source read gives a way to tell safe food from unsafe food by smell or look alone. Smell and look can only tell you to throw food out, never that it is safe. [CDC] USDA lists foods that do not need a refrigerator, which it says may be used unless moldy or smelling unusual; see Food that keeps without a refrigerator. [USDA] Even those can look and smell normal and still make you sick. [CDC]
 
 LEFT OFF THIS TOPIC
 

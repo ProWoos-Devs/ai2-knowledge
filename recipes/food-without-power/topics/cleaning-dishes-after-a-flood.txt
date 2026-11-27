@@ -15,15 +15,16 @@ USE THIS TOPIC WHEN
 
 WHAT TO DO
 
-1. Wash them with soap and water, hot if you have it. Include the can opener. [USDA, CDC]
+1. Wash them. CDC says hot, soapy water. USDA says soap and water, hot if available. Include the can opener. [CDC, USDA]
 
 2. Rinse with clean, safe water. [CDC, USDA]
 
 3. Sanitize them in one of these ways:
-   - Boil dishes, pans and utensils in clean water. [USDA]
-   - Or soak them in a bleach solution. USDA: 15 minutes in 1 tablespoon (about 15 mL) of unscented liquid chlorine bleach per US gallon (about 3.8 liters) of drinking water. CDC: 1 minute in 1 cup (240 mL) of unscented household chlorine bleach in 5 US gallons (about 19 liters) of clean water, with the items fully covered. [USDA, CDC]
+   - Boil metal pans, ceramic dishes and utensils in clean water. [USDA]
+   - Or, USDA's way: soak them for 15 minutes, fully under, in about 15 mL (1 US tablespoon) of unscented liquid chlorine bleach per about 3.8 liters (1 US gallon) of drinking water. [USDA]
+   - Or, CDC's way: soak them for 1 minute, fully covered, in 240 mL (1 US cup) of unscented household chlorine bleach in about 19 liters (5 US gallons) of clean water. [CDC]
 
-4. For counters and anything that cannot go into a bucket, wipe the bleach solution on with a cloth. [CDC, USDA]
+4. Counters and anything that cannot go into the solution are not soaked. Apply the bleach solution to them; CDC says with a cloth. [CDC, USDA]
 
 5. Let everything air-dry. [CDC, USDA]
 
@@ -43,11 +44,11 @@ WITH NO SUPPLIES
 
 ALTERNATIVES USING WHAT IS AVAILABLE
 
-- USDA says hot water if it is available, so washing with water that is not hot is still the first step. [USDA]
+- USDA says hot water if it is available, so washing with water that is not hot is still the first step. CDC's steps say hot, soapy water. [USDA, CDC]
 
 IF HELP IS DELAYED OR CANNOT BE REACHED
 
-- When bleach runs out, dishes, pans and utensils can still be sanitized by boiling them in clean water. [USDA]
+- When bleach runs out, metal pans, ceramic dishes and utensils can still be sanitized by boiling them in clean water. [USDA]
 
 WHAT HAS NO EFFECTIVE SUBSTITUTE
 
@@ -57,7 +58,7 @@ WHERE SOURCES DIFFER OR ARE SILENT
 
 - USDA gives no boiling time for dishes, pans and utensils. For cans and pouches both sources say 2 minutes at a boil.
 
-- The two bleach solutions differ, and so do the soaking times: the CDC solution is about three times as strong and soaks for 1 minute, the USDA one soaks for 15 minutes. Both are given as each source states them. The metric figures are partly our own conversion.
+- The two bleach solutions differ, and so do the soaking times: the CDC solution has about three times as much bleach per liter of water and soaks for 1 minute, the USDA one soaks for 15 minutes. Keep each solution with its own time. The 240 mL is CDC's own figure; the other metric figures are our own conversion.
 
 - Neither source says how strong the bleach is; both were written for United States household bleach. See the Water and Sanitation Knowledge Pack for reading the strength on a bleach label.
 

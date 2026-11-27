@@ -15,9 +15,9 @@ USE THIS TOPIC WHEN
 
 WHAT TO DO
 
-1. Food that still has ice crystals, or is at 4 °C (40 °F) or below, can be refrozen or cooked, except ice cream and frozen yogurt, which are thrown out. Its quality may suffer. [CDC, USDA, Chart]
+1. Judge each item that has started to thaw. Food that still has ice crystals, or is at 4 °C (40 °F) or below, can be refrozen or cooked. Its quality may suffer. [CDC, USDA, Chart] The chart throws out ice cream and frozen yogurt that has started to thaw, even if it still has ice crystals. [Chart]
 
-2. Food that has been at 4 °C (40 °F) or above for more than 2 hours: throw out meat, poultry and seafood; stews and soups; milk; eggs out of the shell and egg products; soft, semi-soft and shredded cheeses; cheesecake; cakes, pies and pastries with custard or cheese filling; pasta and rice casseroles; frozen meals and pizza. [Chart]
+2. If you know a food has been at 4 °C (40 °F) or above for more than 2 hours: throw out meat, poultry and seafood; stews and soups; milk; eggs out of the shell and egg products; soft, semi-soft and shredded cheeses; cheesecake; cakes, pies and pastries with custard or cheese filling; pasta and rice casseroles; frozen meals and pizza. [Chart]
 
 3. These can be refrozen even after 2 hours above 4 °C (40 °F): hard cheeses; bread, rolls, muffins and cakes without custard filling; pie crusts and bread dough, with a big loss of quality; flour, cornmeal and nuts; waffles, pancakes and bagels. [Chart]
 
@@ -31,7 +31,7 @@ DO NOT
 
 - Do not taste thawed food to decide. [USDA, Chart]
 
-- Do not refreeze ice cream or frozen yogurt. [Chart]
+- Do not refreeze ice cream or frozen yogurt that has started to thaw. [Chart]
 
 IF THINGS CHANGE
 
@@ -43,17 +43,19 @@ WITH NO SUPPLIES
 
 ALTERNATIVES USING WHAT IS AVAILABLE
 
-- Thawed food that still has ice crystals can be cooked instead of refrozen. [CDC]
+- Thawed food that still has ice crystals can be cooked instead of refrozen. [CDC] This does not cover ice cream and frozen yogurt that has started to thaw, which the chart throws out. [Chart]
 
 IF HELP IS DELAYED OR CANNOT BE REACHED
 
-- A full, closed freezer holds about 48 hours, a half-full one about 24. Check the thin packages and the door first, because they thaw first. [USDA, CDC]
+- A full, closed freezer holds about 48 hours, a half-full one about 24. [USDA, CDC] Small thin packages and food in the door or at the front thaw sooner, so judge each item by ice crystals or temperature, not by the clock. [USDA, Chart]
 
 WHAT HAS NO EFFECTIVE SUBSTITUTE
 
-- Ice crystals or a thermometer reading of 4 °C (40 °F) or below. [CDC, Chart]
+- For perishable frozen food, ice crystals or a thermometer reading of 4 °C (40 °F) or below. [CDC, Chart] The foods in steps 3 and 4 are the chart's exceptions.
 
 WHERE SOURCES DIFFER OR ARE SILENT
+
+- The chart's refreezing test (ice crystals, or 4 °C (40 °F) or below) and its throw-out column (4 °C (40 °F) or above for more than 2 hours) both include 4 °C. Our reading is that the throw-out column applies when you know how long the food was warm, and the refreezing test applies to what you find now. If you cannot tell that a perishable food is safe, throw it out. [Chart, USDA]
 
 - The USDA page lists foods that do not need freezing (dried fruit, baked goods without cream filling, hard cheeses, butter, fruit juices, nuts) as usable unless moldy or smelling unusual. The chart agrees for those it lists.
 

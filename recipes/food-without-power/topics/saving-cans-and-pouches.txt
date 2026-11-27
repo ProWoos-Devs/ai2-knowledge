@@ -11,25 +11,25 @@ Not for: Damaged cans, home-canned food, cardboard boxes or screw-top jars. Thos
 
 USE THIS TOPIC WHEN
 
-- Floodwater reached cans or pouches that are not damaged
+- Floodwater reached factory-made food in undamaged all-metal cans or sealed retort pouches. Cans with pull tops or other closures that are not waterproof are thrown out; see Food touched by floodwater. [USDA, CDC]
 
 WHAT TO DO
 
-1. Take off the labels if you can, and note the expiration date. Labels can hold dirt and bacteria. [USDA, CDC]
+1. Take off the labels if you can. Labels can hold dirt and bacteria. Note what is inside and the expiration date, if you can read it. [USDA, CDC]
 
 2. Brush or wipe away dirt and silt. [USDA, CDC]
 
-3. Wash the cans or pouches with soap and water, hot if you have it. [USDA, CDC]
+3. Wash the cans or pouches. CDC says hot, soapy water. USDA says soap and water, hot if available. [CDC, USDA]
 
-4. Rinse them with water that is safe to drink, if you have it. Dirt or soap left on them makes chlorine work less well. [USDA, CDC]
+4. Rinse them. CDC says clean, safe water. USDA says water that is safe for drinking, if available. Dirt or soap left on them makes chlorine work less well. [CDC, USDA]
 
-5. Then sanitize them in one of two ways:
-   - Put them in a pot of water, bring it to a boil and keep boiling for 2 minutes. [CDC, USDA]
-   - Or soak them for 15 minutes in a freshly made bleach solution. USDA: 1 tablespoon (about 15 mL) of unscented liquid chlorine bleach per US gallon (about 3.8 liters) of drinking water, or the cleanest, clearest water you have. CDC: 1 cup (240 mL) of unscented household bleach in 5 US gallons (about 19 liters) of water. [USDA, CDC]
+5. Then sanitize them in one of two ways, with the cans or pouches fully under the water or solution:
+   - Put them in a pot of water and bring it to a boil. Count 2 minutes once the water boils. [CDC, USDA]
+   - Or soak them for 15 minutes in a freshly made bleach solution. USDA: about 15 mL (1 US tablespoon) of unscented liquid chlorine bleach per about 3.8 liters (1 US gallon) of drinking water, or the cleanest, clearest water you have. CDC: 240 mL (1 US cup) of unscented household bleach in about 19 liters (5 US gallons) of water. [USDA, CDC]
 
 6. Let them air-dry for at least 1 hour before opening or storing. [USDA]
 
-7. Write on each can or pouch with a marker what is inside and the expiration date. [USDA, CDC]
+7. Once dry, write on each can or pouch with a marker what is inside and the expiration date, if you know it. [USDA, CDC]
 
 8. Use the food as soon as possible. [USDA, CDC]
 
@@ -41,7 +41,7 @@ DO NOT
 
 IF THINGS CHANGE
 
-- Concentrated baby formula in a cleaned all-metal can must be mixed with clean drinking water. [USDA]
+- Concentrated baby formula in an all-metal can saved this way must be mixed with clean drinking water. [USDA]
 
 WITH NO SUPPLIES
 
@@ -61,7 +61,7 @@ WHAT HAS NO EFFECTIVE SUBSTITUTE
 
 WHERE SOURCES DIFFER OR ARE SILENT
 
-- The two bleach solutions differ: the CDC one is about three times as strong as the USDA one. Both are given as each source states them. The metric figures for the USDA solution and the liters for the CDC one are our own conversion.
+- The two bleach solutions differ: the CDC one has about three times as much bleach per liter of water as the USDA one. Both are given as each source states them. The 240 mL is CDC's own figure; the other metric figures are our own conversion.
 
 - Neither source says how strong the bleach is; both were written for United States household bleach. See the Water and Sanitation Knowledge Pack for reading the strength on a bleach label.
 
