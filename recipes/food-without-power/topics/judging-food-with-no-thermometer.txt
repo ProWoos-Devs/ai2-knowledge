@@ -33,7 +33,7 @@ DO NOT
 
 IF THINGS CHANGE
 
-- If the door was opened often, the times above no longer hold. The sources give them only for closed doors. [CDC]
+- If the doors were opened, remember that the sources give these times only for doors kept closed. [CDC, USDA]
 
 WITH NO SUPPLIES
 
