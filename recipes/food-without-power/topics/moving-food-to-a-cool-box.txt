@@ -55,6 +55,8 @@ WHERE SOURCES DIFFER OR ARE SILENT
 
 - No source read says how much ice a cool box needs or how long it lasts.
 
+- CDC says to throw out cool-box food found above 4 °C (40 °F). The chart's lists are for food at 4 °C (40 °F) or above for more than 2 hours. Both rules are given as each source states them.
+
 LEFT OFF THIS TOPIC
 
 - Carrying food in a car or keeping it on a journey. Not in the sources read.

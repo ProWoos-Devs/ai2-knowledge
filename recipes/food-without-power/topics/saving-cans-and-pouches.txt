@@ -63,6 +63,10 @@ WHERE SOURCES DIFFER OR ARE SILENT
 
 - The two bleach solutions differ: the CDC one is about three times as strong as the USDA one. Both are given as each source states them. The metric figures for the USDA solution and the liters for the CDC one are our own conversion.
 
+- Neither source says how strong the bleach is; both were written for United States household bleach. See the Water and Sanitation Knowledge Pack for reading the strength on a bleach label.
+
+- CDC also includes food in plastic pouches; USDA names all-metal cans and retort pouches.
+
 LEFT OFF THIS TOPIC
 
 - Glass jars. Screw-top and crimped lids are not waterproof, so the food is thrown out. [USDA]

@@ -16,13 +16,19 @@ USE THIS TOPIC WHEN
 
 WHAT TO DO
 
+The sources list these foods as still safe after a power cut. None says how long they keep without a refrigerator, or in a hot place. Check each for mold and smell before every use. [USDA, Chart]
+
 1. These foods do not need a refrigerator and can be used unless they turn moldy or smell unusual: whole fresh fruit and vegetables; unopened fruit and vegetable juices; dried fruit; bread, rolls, muffins and cakes without cream cheese frosting or cream filling; fruit pies; hard and processed cheeses; butter and margarine; fresh herbs and spices; flour; nuts. [USDA]
 
-2. The chart also keeps peanut butter; jelly, relish, mustard, ketchup, olives and pickles; soy, Worcestershire and barbecue sauces; vinegar-based dressings; opened canned fruit; grated Parmesan in a can or jar; waffles, pancakes and bagels. [Chart]
+2. The chart also keeps peanut butter; jelly (fruit spread), relish, mustard, ketchup, olives and pickles; soy, Worcestershire and barbecue sauces; vinegar-based dressings; opened canned fruit; grated Parmesan in a can or jar; waffles, pancakes and bagels. [Chart]
 
 3. High-acid foods such as mustard, ketchup, relishes, pickles, non-creamy dressings, jams and jellies are safe, but may spoil sooner. [USDA]
 
 4. Check every can before opening it. The CDC's list, written for floods, says to throw out cans that are bulging, open or damaged, and any can that spurts liquid or foam when opened, or holds food that is discolored, moldy or smells bad. [CDC]
+
+5. Some canned food must be kept cold. The chart throws out canned hams labeled "Keep Refrigerated" after 2 hours at 4 °C (40 °F) or above. [Chart]
+
+6. Cooked food is not on these lists. The chart throws out leftover cooked meat, soups, stews, casseroles, cooked vegetables and cooked pasta, rice and potatoes after more than 2 hours at 4 °C (40 °F) or above. [Chart]
 
 DO NOT
 
@@ -36,7 +42,7 @@ IF THINGS CHANGE
 
 WITH NO SUPPLIES
 
-- Bread, dried fruit, nuts, hard cheese and whole fruit and vegetables need nothing to keep them. [USDA]
+- Bread, dried fruit, nuts, hard cheese and whole fruit and vegetables need no refrigerator, but check them for mold and smell. [USDA]
 
 ALTERNATIVES USING WHAT IS AVAILABLE
 
@@ -52,9 +58,11 @@ WHAT HAS NO EFFECTIVE SUBSTITUTE
 
 WHERE SOURCES DIFFER OR ARE SILENT
 
-- USDA lists dried coconut as safe; the chart says throw out sliced or shredded coconut from the refrigerator.
+- USDA lists "dried fruits and coconut" as safe; the chart says throw out sliced or shredded coconut from the refrigerator.
 
 - No source read says how long these foods last once the power is off for weeks. Check each for mold and smell before use.
+
+- The sources do not list unopened shelf-stable cans as safe in so many words; they cover damaged cans, opened cans and cans labeled "Keep Refrigerated".
 
 LEFT OFF THIS TOPIC
 

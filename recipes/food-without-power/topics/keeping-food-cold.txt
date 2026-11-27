@@ -47,17 +47,21 @@ ALTERNATIVES USING WHAT IS AVAILABLE
 
 IF HELP IS DELAYED OR CANNOT BE REACHED
 
-- Once the 4, 24 or 48 hours have passed with no ice, the food the charts say to throw out is no longer safe. Plan meals around food that keeps without a refrigerator. See that topic. [USDA, Chart]
+- Once the refrigerator's 4 hours have passed with no ice, throw out what the chart says to throw out. For the freezer, the 24 and 48 hours are how long it holds its temperature; after that, judge each food by ice crystals or temperature. See Freezer food: refreeze or throw out, and Food that keeps without a refrigerator. [USDA, CDC, Chart]
 
 WHAT HAS NO EFFECTIVE SUBSTITUTE
 
-- Closed doors. Every source puts this first. [USDA, CDC, Chart]
+- Closed doors. Every source tells you to keep them closed. [USDA, CDC, Chart]
 
 WHERE SOURCES DIFFER OR ARE SILENT
 
 - The amount of dry ice is given only by USDA, in pounds and cubic feet. The metric figures are our own conversion.
 
 - No source read says how long a refrigerator stays safe with ice inside it. Check with a thermometer if you have one.
+
+- No source read gives a way to keep food cold without ice, dry ice or freezing weather.
+
+- The sources give no dry ice precautions beyond not touching it and not letting it touch food.
 
 LEFT OFF THIS TOPIC
 

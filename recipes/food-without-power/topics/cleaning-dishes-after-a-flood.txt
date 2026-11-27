@@ -55,7 +55,11 @@ WHAT HAS NO EFFECTIVE SUBSTITUTE
 
 WHERE SOURCES DIFFER OR ARE SILENT
 
+- USDA gives no boiling time for dishes, pans and utensils. For cans and pouches both sources say 2 minutes at a boil.
+
 - The two bleach solutions differ, and so do the soaking times: the CDC solution is about three times as strong and soaks for 1 minute, the USDA one soaks for 15 minutes. Both are given as each source states them. The metric figures are partly our own conversion.
+
+- Neither source says how strong the bleach is; both were written for United States household bleach. See the Water and Sanitation Knowledge Pack for reading the strength on a bleach label.
 
 LEFT OFF THIS TOPIC
 

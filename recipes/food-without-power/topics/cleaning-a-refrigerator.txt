@@ -21,7 +21,7 @@ The steps may have to be repeated several times. [USDA]
 
 2. Take out the shelves, drawers and ice trays. Wash them well with hot water and detergent, then rinse with 1 tablespoon (about 15 mL) of unscented liquid chlorine bleach per US gallon (about 3.8 liters) of drinking water. [USDA]
 
-3. Wash the inside, including the door and its rubber seals, with hot water and baking soda. Rinse with the same bleach solution. [USDA]
+3. Wash the inside, including the door and its rubber seals, with hot water and baking soda (bicarbonate of soda). Rinse with the same bleach solution. [USDA]
 
 4. Leave the door open for about 15 minutes. [USDA]
 
@@ -45,7 +45,7 @@ ALTERNATIVES USING WHAT IS AVAILABLE
 
 IF HELP IS DELAYED OR CANNOT BE REACHED
 
-- A refrigerator with no power can still be emptied, cleaned and aired. [USDA]
+- Emptying, washing and airing need no power. [USDA]
 
 WHAT HAS NO EFFECTIVE SUBSTITUTE
 
@@ -54,6 +54,8 @@ WHAT HAS NO EFFECTIVE SUBSTITUTE
 WHERE SOURCES DIFFER OR ARE SILENT
 
 - Only USDA covers this. The metric figures are our own conversion.
+
+- Neither source says how strong the bleach is; both were written for United States household bleach. See the Water and Sanitation Knowledge Pack for reading the strength on a bleach label.
 
 LEFT OFF THIS TOPIC
 

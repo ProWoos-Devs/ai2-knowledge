@@ -33,7 +33,7 @@ DO NOT
 
 IF THINGS CHANGE
 
-- If floodwater from fire fighting also reached the kitchen, see Food touched by floodwater as well. [USDA, CDC]
+- If water from fire fighting also reached the kitchen, see Food touched by floodwater as well. The sources do not cover this case.
 
 WITH NO SUPPLIES
 
@@ -55,8 +55,10 @@ WHERE SOURCES DIFFER OR ARE SILENT
 
 - Only USDA covers fires. It does not say how near "near a fire" is. The metric figures for the bleach solution are our own conversion.
 
+- Neither source says how strong the bleach is; both were written for United States household bleach. See the Water and Sanitation Knowledge Pack for reading the strength on a bleach label.
+
 LEFT OFF THIS TOPIC
 
-- Smoke inhalation and burns. See the First Aid Knowledge Pack.
+- Burns. See the First Aid Knowledge Pack. Smoke inhalation is not covered in these sources.
 
 Source: USDA Food Safety and Inspection Service, Keep Your Food Safe During Emergencies, last updated 2013 (USDA); FoodSafety.gov, Food Safety During Power Outage charts, reviewed 2024 (Chart); CDC, Keep Food Safe After a Disaster or Emergency, 2025 (CDC).
