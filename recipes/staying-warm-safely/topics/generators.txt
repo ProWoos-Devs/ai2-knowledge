@@ -1,0 +1,64 @@
+Generators
+
+Search terms: generator, portable generator, where to put the generator, how far from the house, generator exhaust, run a generator safely, generator in garage, extension cord, generator rain.
+
+Written from CDC, U.S. Fire Administration and CPSC sources. Not reviewed by a fire safety or health specialist.
+Last reviewed: 2026-11-27
+
+For: Running a portable generator during a power cut
+
+Not for: Wiring a generator into the home. Not in these sources.
+
+USE THIS TOPIC WHEN
+
+- You have a portable generator and the power is out
+
+WHAT TO DO
+
+1. Run it outside only, more than 6 meters (20 feet) from any window, door or vent of the home. [CO, CPSC, Storm]
+
+2. Point the exhaust away from the home. [CPSC]
+
+3. Put it where rain and snow cannot reach it. [Storm]
+
+4. Plug appliances into it with separate heavy-duty extension cords made for outdoor use. [Storm]
+
+5. Use a carbon monoxide alarm with a battery, or battery backup, in the home while it runs. [CO, Storm]
+
+DO NOT
+
+- Do not run it inside the home, the basement or the garage, even with doors and windows open. [CO, CPSC, Storm]
+
+- Do not use the generator or the appliances if they are wet. [Storm]
+
+- Do not keep petrol (gasoline) indoors. [Storm]
+
+IF THINGS CHANGE
+
+- If anyone feels ill while it runs, see If you think it is carbon monoxide. [CO, CPSC]
+
+WITH NO SUPPLIES
+
+- With no outdoor-rated cord long enough to reach 6 meters, do not move the generator closer. The sources give no exception to the distance.
+
+ALTERNATIVES USING WHAT IS AVAILABLE
+
+- None of the sources gives a shorter distance for any kind of generator. [CO, CPSC]
+
+IF HELP IS DELAYED OR CANNOT BE REACHED
+
+- One portable generator can make as much carbon monoxide as hundreds of cars, CPSC says. [CPSC]
+
+WHAT HAS NO EFFECTIVE SUBSTITUTE
+
+- Distance and open air. [CO, CPSC]
+
+WHERE SOURCES DIFFER OR ARE SILENT
+
+- CDC's carbon monoxide page says "more than 20 feet" from windows, doors and vents; CPSC and CDC's winter page say "at least 20 feet". Both mean about 6 meters; the meters are our own rounding.
+
+LEFT OFF THIS TOPIC
+
+- Refueling and fuel storage beyond keeping petrol out of the home. Not in these sources.
+
+Source: CDC, Carbon Monoxide (CO) Poisoning Basics, 2026 (CO); CDC, Safety Guidelines: During and After a Winter Storm, 2026 (Storm); CDC, Preparing for a Winter Storm, 2026 (Prepare); CDC, Preventing Hypothermia, 2026 (Hypo); CDC, Preventing Frostbite, 2026 (Frost); U.S. Fire Administration, Heating Fire Safety, 2023 (USFA); U.S. Consumer Product Safety Commission, Carbon Monoxide (CPSC).

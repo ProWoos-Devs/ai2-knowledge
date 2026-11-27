@@ -1,0 +1,24 @@
+About the Staying Warm Safely Knowledge Pack
+
+Written from CDC, U.S. Fire Administration and CPSC sources. Not reviewed by a fire safety or health specialist.
+Last reviewed: 2026-11-27
+
+Where the topics come from
+
+The topics are based on pages from three United States government agencies: the Centers for Disease Control and Prevention (CDC) on carbon monoxide, winter storms, hypothermia and frostbite; the U.S. Fire Administration on heating fire safety; and the Consumer Product Safety Commission (CPSC) on carbon monoxide. The wording is our own. None of these agencies wrote these topics or endorsed them.
+
+No firefighter, doctor or other specialist has reviewed them. Instead, every instruction was traced to its source, and the topics were compared against the sources in a separate check.
+
+What the dates mean
+
+Each topic has a line "Last reviewed" with the date the topic was last checked against its sources. The sources have their own dates: the CDC pages are dated 2026, the U.S. Fire Administration page was last reviewed in 2023, and the CPSC page shows no date. Guidance may have changed since then, and this Knowledge Pack works offline and cannot update itself.
+
+The sources were written for one country, and they do not cover everything
+
+The sources are written for the United States, with distances in feet and temperatures in Fahrenheit. The topics give meters and degrees Celsius first, and say where the conversion is ours. Some questions have no answer in the sources we read, for example when a home is safe to enter again after carbon monoxide, or how cold a room is too cold for a baby. When that happens, the topic says so. We do not fill the gap with advice of our own.
+
+For first aid such as CPR, see the First Aid Knowledge Pack.
+
+Found a mistake, or something missing?
+
+Tell us at https://github.com/ProWoos-Devs/ai2-knowledge/issues , or change the topic yourself and open a pull request; the topics are plain text files in the folder recipes/staying-warm-safely/topics/ of the same repository. Say which topic and which step, and which source supports the change. A correction reaches this Knowledge Pack in its next revision.
