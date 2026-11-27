@@ -21,11 +21,11 @@ WHAT TO DO
 
 2. Dress in loose layers, stay dry and use blankets and sleeping bags. See Dressing to stay warm. [Storm]
 
-3. Before using anything that burns fuel, read Never use these indoors and Carbon monoxide. Carbon monoxide has no color and no smell, and it can kill people in their sleep. [CO]
+3. Before using anything that burns fuel, read Never use these indoors, Carbon monoxide, and Carbon monoxide and smoke alarms. If you have a generator, read Generators. Carbon monoxide has no color and no smell, and it can kill people in their sleep. [CO]
 
-4. Keep anything that can burn at least 1 meter (3 feet) from every heat source, and turn heaters off when leaving the room or going to sleep. See Heaters, fireplaces and stoves. [USFA]
+4. Keep anything that can burn at least 1 meter (3 feet) from every heat source, and turn space heaters off when leaving the room or going to sleep. See Heaters, fireplaces and stoves. [USFA]
 
-5. Check on babies and older people often. They lose heat faster. See Babies and older people in the cold. [Storm]
+5. Check on babies and older people often. Babies lose body heat more easily, and older people often make less of it. See Babies and older people in the cold. [Storm]
 
 6. Learn the signs of hypothermia and frostbite. See those topics. [Hypo, Frost]
 
@@ -53,7 +53,7 @@ IF HELP IS DELAYED OR CANNOT BE REACHED
 
 WHAT HAS NO EFFECTIVE SUBSTITUTE
 
-- Fresh air for anything that burns fuel indoors. A fireplace, wood stove or heater that burns fuel must be vented to the outside. [Storm, Prepare]
+- A vent to the outside for anything that burns fuel. [Prepare] CDC's winter storm page makes exceptions for kerosene heaters and vent-less gas fireplaces, which need fresh air; see Heaters, fireplaces and stoves. [Storm]
 
 WHERE SOURCES DIFFER OR ARE SILENT
 

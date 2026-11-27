@@ -27,11 +27,11 @@ Keep all of these out of the home, the basement and the garage:
 
 5. Portable flameless chemical heaters. [CO]
 
-6. Cars and trucks running in a garage attached to the home, even with the garage door open. In a detached garage, open the door first. [CO]
-
 Also:
 
-7. Never heat the home with a gas oven, or by turning on the cooking stove. [CO, USFA, Storm]
+6. Never run a car or truck in a garage attached to the home, even with the door open. In a detached garage, always open the door first. [CO]
+
+7. Never heat the home with an oven of any kind, or by turning on the cooking stove. [USFA, CO, Storm]
 
 8. Never cook or burn anything on a stove or in a fireplace that is not vented to the outside. [CO]
 
@@ -41,7 +41,9 @@ DO NOT
 
 - Do not use any of these near windows either. CDC says the fumes are deadly. [Storm]
 
-- Do not trust an open window or door to make them safe. [CO, CPSC]
+- The sources say open doors and windows do not make a generator or a car in an attached garage safe. [CO, CPSC]
+
+- Sitting in a running car for warmth: make sure snow is not blocking the exhaust pipe and keep one window slightly open. CDC says to run the engine about 10 minutes per hour. [Storm]
 
 IF THINGS CHANGE
 
@@ -64,6 +66,10 @@ WHAT HAS NO EFFECTIVE SUBSTITUTE
 - Keeping these outside. [CO, CPSC]
 
 WHERE SOURCES DIFFER OR ARE SILENT
+
+- CDC does not say whether an ordinary gas cooker counts as "not vented". It says never to heat the home with a gas oven or by turning on the stove.
+
+- A brazier or other open fire in a container is not named by any source. CDC's line covers burning anything on a stove or in a fireplace that is not vented; that it also covers a brazier is our reading.
 
 - The sources do not say whether cooking indoors on a camping stove for a few minutes is ever acceptable. They say never.
 

@@ -29,7 +29,7 @@ WHAT TO DO
 
 6. Alarms that are connected to each other are best: when one sounds, they all sound. [CPSC]
 
-7. Keep a multipurpose dry-chemical fire extinguisher nearby. [Prepare]
+7. Keep a multipurpose dry-chemical (ABC dry powder) fire extinguisher nearby. [Prepare]
 
 DO NOT
 
@@ -37,11 +37,11 @@ DO NOT
 
 IF THINGS CHANGE
 
-- If the carbon monoxide alarm sounds, get everyone outside into fresh air at once. See If you think it is carbon monoxide. [CPSC]
+- An alarm that sounds is a reason to suspect carbon monoxide. CPSC says that if you suspect it, get outside to fresh air immediately. See If you think it is carbon monoxide. [CPSC]
 
 WITH NO SUPPLIES
 
-- With no alarm, keep every fuel-burning device out of the home unless it is vented to the outside. See Never use these indoors. [CO, Storm]
+- Alarm or no alarm, anything that burns fuel should be vented to the outside. [Prepare] For the exceptions CDC's winter storm page makes, see Heaters, fireplaces and stoves. [Storm]
 
 ALTERNATIVES USING WHAT IS AVAILABLE
 
@@ -57,7 +57,9 @@ WHAT HAS NO EFFECTIVE SUBSTITUTE
 
 WHERE SOURCES DIFFER OR ARE SILENT
 
-- Battery checks: CDC's winter page says test monthly and change batteries twice a year; its carbon monoxide page says check them when the clocks change in spring and fall. This topic gives the monthly test.
+- No source read says what to do when alarm batteries can no longer be replaced.
+
+- Battery checks: CDC's winter page says test monthly and change batteries twice a year; its carbon monoxide page says to check them twice a year, when United States clocks change in spring and autumn. This topic gives the monthly test.
 
 LEFT OFF THIS TOPIC
 

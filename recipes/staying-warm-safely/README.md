@@ -18,7 +18,7 @@ The same as First Aid and Water and Sanitation.
 - One situation per file, first line the title, then the search terms people would type.
 - Every topic says "Written from CDC, U.S. Fire Administration and CPSC sources. Not reviewed by a fire safety or health specialist." and, on the next line, "Last reviewed:" with the date the topic was last checked against its sources. Each instruction cites its source in square brackets.
 - Where sources differ, the topic says so. If no source covers a case, the topic says so and nothing is added.
-- Meters and degrees Celsius come first. The sources give feet and Fahrenheit, so the conversions are ours: 20 feet is given as more than 6 meters, 3 feet as at least 1 meter, 95 °F as 35 °C.
+- Meters and degrees Celsius come first. The sources give feet and Fahrenheit, so the conversions are ours: 20 feet is given as more than 6.1 meters, 3 feet as at least 1 meter, 95 °F as 35 °C.
 - CPR is not taught here; the hypothermia topic points to the First Aid Knowledge Pack.
 - Every topic has a section for when help is delayed or cannot be reached.
 - Search shows passages of about 110 words, so a passage can lack a warning from elsewhere in its topic. A number opens the whole topic.

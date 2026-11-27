@@ -18,7 +18,7 @@ WHAT TO DO
 
 1. Know what it is. Carbon monoxide is a gas with no color and no smell. It can kill without warning. [CO, CPSC]
 
-2. Know where it comes from. It is in the fumes whenever fuel burns: cars and trucks, small engines, generators, stoves, lanterns, grills, fireplaces, gas cookers and furnaces. It can build up indoors and poison people and animals. [CO]
+2. Know where it comes from. It is in the fumes whenever fuel burns: cars and trucks, small engines, generators, stoves, lanterns, grills, fireplaces, gas cookers and furnaces (central-heating boilers that burn gas or oil). It can build up indoors and poison people and animals. [CO]
 
 3. Know the signs: headache, dizziness, weakness, upset stomach, vomiting, chest pain, sleepiness and confusion. They are often described as "flu-like". [CO, CPSC]
 
@@ -40,7 +40,7 @@ IF THINGS CHANGE
 
 WITH NO SUPPLIES
 
-- With no alarm, the only protection is to keep fuel-burning devices out of the home or vented to the outside. See Never use these indoors. [CO, Storm]
+- Alarm or no alarm, keep fuel-burning devices out of the home or vented to the outside. See Never use these indoors. [Prepare, CO]
 
 ALTERNATIVES USING WHAT IS AVAILABLE
 

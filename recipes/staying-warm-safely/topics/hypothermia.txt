@@ -18,13 +18,13 @@ WHAT TO DO
 
 1. Hypothermia is a medical emergency. If you can, take the person's temperature. Below 35 °C (95 °F), get medical help at once. [Hypo]
 
-2. If you cannot get medical help right away, warm the person: [Hypo]
+2. Whether or not you have a thermometer, if the person shows these signs and you cannot get medical help right away, warm them: [Hypo]
 
 3. Get them into a warm room or shelter. [Hypo]
 
 4. Take off any wet clothing. [Hypo]
 
-5. Warm the center of the body first: chest, neck, head and groin. Use skin-to-skin contact under loose, dry layers of blankets, clothing, towels or sheets, or an electric blanket if there is power. [Hypo]
+5. Warm the center of the body: chest, neck, head and groin. Use skin-to-skin contact under loose, dry layers of blankets, clothing, towels or sheets, or an electric blanket if there is power. [Hypo]
 
 6. Give warm drinks if the person is awake. [Hypo]
 
@@ -40,7 +40,7 @@ DO NOT
 
 IF THINGS CHANGE
 
-- A person with severe hypothermia may be unconscious and seem to have no pulse or breathing. Handle them gently and get emergency help at once. CDC says to give CPR even if the person appears dead, keep warming them during CPR, and continue until they respond or help arrives. Some who appear dead can be revived. For how to give CPR, see the First Aid Knowledge Pack. [Hypo]
+- A person with severe hypothermia may be unconscious and seem to have no pulse or breathing. Handle them gently and get emergency help at once. CDC says to give CPR even if the person appears dead, keep warming them during CPR, and continue until they respond or help arrives. Some who appear dead can be revived. For how to give CPR, see "Not responding and not breathing normally" (adult or teenager, child, or baby) in the First Aid Knowledge Pack. [Hypo]
 
 WITH NO SUPPLIES
 
@@ -62,10 +62,10 @@ WHERE SOURCES DIFFER OR ARE SILENT
 
 - Hypothermia can happen even in cool weather above 4 °C (40 °F) if a person gets chilled by rain, sweat or cold water. [Hypo]
 
-- The temperature limit is given in Fahrenheit by CDC; 35 °C is our own conversion.
+- The temperatures are given in Fahrenheit by CDC; 35 °C and 4 °C are our own conversions.
 
 LEFT OFF THIS TOPIC
 
-- Warming someone who fell into cold water. See Drowning in the First Aid Knowledge Pack.
+- Rescue from water and CPR after drowning. See Drowning in the First Aid Knowledge Pack. To warm someone taken out of cold water, use the steps above. [Hypo]
 
 Source: CDC, Carbon Monoxide (CO) Poisoning Basics, 2026 (CO); CDC, Safety Guidelines: During and After a Winter Storm, 2026 (Storm); CDC, Preparing for a Winter Storm, 2026 (Prepare); CDC, Preventing Hypothermia, 2026 (Hypo); CDC, Preventing Frostbite, 2026 (Frost); U.S. Fire Administration, Heating Fire Safety, 2023 (USFA); U.S. Consumer Product Safety Commission, Carbon Monoxide (CPSC).

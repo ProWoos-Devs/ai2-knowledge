@@ -15,11 +15,11 @@ USE THIS TOPIC WHEN
 
 WHAT TO DO
 
-1. Run it outside only, more than 6 meters (20 feet) from any window, door or vent of the home. [CO, CPSC, Storm]
+1. Run it outside only, more than 6.1 meters (20 feet) from any window, door or vent of the home. [CO, CPSC, Storm]
 
 2. Point the exhaust away from the home. [CPSC]
 
-3. Put it where rain and snow cannot reach it. [Storm]
+3. Keep it out of rain and snow, but still in the open air and more than 6.1 meters (20 feet) from the home. [Storm, CO, CPSC]
 
 4. Plug appliances into it with separate heavy-duty extension cords made for outdoor use. [Storm]
 
@@ -39,7 +39,7 @@ IF THINGS CHANGE
 
 WITH NO SUPPLIES
 
-- With no outdoor-rated cord long enough to reach 6 meters, do not move the generator closer. The sources give no exception to the distance.
+- The sources give no exception to the distance, so a short cord is not a reason to move the generator closer. This is our reading of them.
 
 ALTERNATIVES USING WHAT IS AVAILABLE
 
@@ -55,7 +55,9 @@ WHAT HAS NO EFFECTIVE SUBSTITUTE
 
 WHERE SOURCES DIFFER OR ARE SILENT
 
-- CDC's carbon monoxide page says "more than 20 feet" from windows, doors and vents; CPSC and CDC's winter page say "at least 20 feet". Both mean about 6 meters; the meters are our own rounding.
+- CDC's carbon monoxide page says "more than 20 feet" from windows, doors and vents; CPSC and CDC's winter page say "at least 20 feet". 20 feet is just over 6.1 meters; the meters are our own conversion.
+
+- No source read says whether a shed, carport or porch is safe for a generator, or how to cover one.
 
 LEFT OFF THIS TOPIC
 
